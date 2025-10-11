@@ -632,7 +632,7 @@
           "settings": {
             "title": "Can I get the card bundle for my entire team?",
             "icon": "none",
-            "text": "<p>Yes! We offer team discounts when buying both the Persuasive Patterns and Validation Patterns card deck.</p><p>Get in touch at <a href=\"mailto:info@ui-patterns.com\">info@ui-patterns.com</a></p>",
+            "text": "<p>Yes! We offer team discounts when buying in bulk.</p><p>Get in touch at <a href=\"mailto:info@ui-patterns.com\">info@ui-patterns.com</a></p>",
             "page": "",
             "image_width": 100
           }
@@ -642,7 +642,7 @@
           "settings": {
             "title": "Do you do discounts for educational institutions, students, or non profits?",
             "icon": "none",
-            "text": "<p>We do! Get in touch at <a href=\"mailto:info@ui-patterns.com\">info@ui-patterns.com</a>with your credentials (non-profit status or student ID) and we will arrange a discount for you.</p>",
+            "text": "<p>We do! Get in touch at <a href=\"mailto:info@ui-patterns.com\">info@ui-patterns.com </a>with your credentials (non-profit status or student ID) and we will arrange a discount for you.</p>",
             "page": "",
             "image_width": 100
           }
