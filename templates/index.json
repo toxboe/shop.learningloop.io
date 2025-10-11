@@ -464,7 +464,7 @@
         "section_spacing_bottom": 90,
         "desktop_layout": "grid",
         "mobile_layout": "two-column",
-        "title": "Popular bundles",
+        "title": "Card decks often bought together",
         "heading_size": "h4",
         "alignment": "center",
         "collection_list": [
