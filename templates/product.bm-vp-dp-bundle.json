@@ -247,10 +247,10 @@
         "autoplay_interval": 3
       }
     },
-    "e6a2dc3b-b6a3-43da-ac2e-7e6e68957a71": {
+    "logo_list_gFnG84": {
       "type": "logo-list",
       "blocks": {
-        "template--15386400456738__e6a2dc3b-b6a3-43da-ac2e-7e6e68957a71-logo-1": {
+        "logo_VdAKLg": {
           "type": "logo",
           "settings": {
             "image": "shopify://shop_images/logo_google.png",
@@ -258,7 +258,7 @@
             "link": ""
           }
         },
-        "template--15386400456738__e6a2dc3b-b6a3-43da-ac2e-7e6e68957a71-logo-2": {
+        "logo_HwTqQt": {
           "type": "logo",
           "settings": {
             "image": "shopify://shop_images/logo_shopify.png",
@@ -266,7 +266,7 @@
             "link": ""
           }
         },
-        "template--15386400456738__e6a2dc3b-b6a3-43da-ac2e-7e6e68957a71-logo-3": {
+        "logo_AEm3Qk": {
           "type": "logo",
           "settings": {
             "image": "shopify://shop_images/logo_facebook.png",
@@ -274,7 +274,7 @@
             "link": ""
           }
         },
-        "template--15386400456738__e6a2dc3b-b6a3-43da-ac2e-7e6e68957a71-logo-6": {
+        "logo_7E6DCa": {
           "type": "logo",
           "settings": {
             "image": "shopify://shop_images/logo_apple.png",
@@ -282,7 +282,7 @@
             "link": ""
           }
         },
-        "template--15386400456738__e6a2dc3b-b6a3-43da-ac2e-7e6e68957a71-logo-4": {
+        "logo_rwGfj7": {
           "type": "logo",
           "settings": {
             "image": "shopify://shop_images/logo_microsoft.png",
@@ -290,7 +290,15 @@
             "link": ""
           }
         },
-        "template--15386400456738__e6a2dc3b-b6a3-43da-ac2e-7e6e68957a71-logo-5": {
+        "logo_WerG3P": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/logo_amazon_ce0bc751-01a1-4459-8e3b-2805c836d43a.png",
+            "image_width": 100,
+            "link": ""
+          }
+        },
+        "logo_tXHxbq": {
           "type": "logo",
           "settings": {
             "image": "shopify://shop_images/logo_booking-com.png",
@@ -298,7 +306,15 @@
             "link": ""
           }
         },
-        "template--15386400456738__e6a2dc3b-b6a3-43da-ac2e-7e6e68957a71-logo-7": {
+        "logo_6j43DH": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/logo_dropbox.png",
+            "image_width": 100,
+            "link": ""
+          }
+        },
+        "logo_TC4Kz6": {
           "type": "logo",
           "settings": {
             "image": "shopify://shop_images/logo_harvard-business-school.png",
@@ -306,15 +322,7 @@
             "link": ""
           }
         },
-        "template--15386400456738__e6a2dc3b-b6a3-43da-ac2e-7e6e68957a71-logo-8": {
-          "type": "logo",
-          "settings": {
-            "image": "shopify://shop_images/logo_coca-cola.png",
-            "image_width": 100,
-            "link": ""
-          }
-        },
-        "4a5e5f7c-e933-4dbe-b1bf-01b4e791667f": {
+        "logo_HhDGKW": {
           "type": "logo",
           "settings": {
             "image": "shopify://shop_images/logo-mckinsey-and-company.png",
@@ -322,26 +330,144 @@
             "link": ""
           }
         },
-        "9b1e4372-ad3c-4d0d-a3f4-f5edc9b124bd": {
+        "logo_EB9WFj": {
           "type": "logo",
           "settings": {
-            "image": "shopify://shop_images/logo_dropbox.png",
+            "image": "shopify://shop_images/logo_deloitte.png",
+            "image_width": 100,
+            "link": ""
+          }
+        },
+        "logo_iDGzDQ": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/logo_accenture.png",
+            "image_width": 100,
+            "link": ""
+          }
+        },
+        "logo_fGfNV9": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/logo_intel.png",
+            "image_width": 100,
+            "link": ""
+          }
+        },
+        "logo_76dR9D": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/logo_coca-cola.png",
+            "image_width": 100,
+            "link": ""
+          }
+        },
+        "logo_EYqbH3": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/logo_ogilvy.png",
+            "image_width": 100,
+            "link": ""
+          }
+        },
+        "logo_Qf6Ffz": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/logo_autodesk_f201490c-e97a-426a-ac85-51fe195c7fa4.png",
+            "image_width": 100,
+            "link": ""
+          }
+        },
+        "logo_JhYTEi": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/King_logo_svg_ce28053d-f5dc-413f-a562-eef59d14688d.png",
+            "image_width": 100,
+            "link": ""
+          }
+        },
+        "logo_Xw6Rce": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/logo_ubisoft_7c26911f-0960-45d8-959f-ccbe8666d358.png",
+            "image_width": 100,
+            "link": ""
+          }
+        },
+        "logo_zbWDDY": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/logo_mcafee_b1f6cdf4-2ecb-4e46-bed3-279c1e8e539c.png",
+            "image_width": 100,
+            "link": ""
+          }
+        },
+        "logo_rH7gPK": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/logo_maersk.png",
+            "image_width": 100,
+            "link": ""
+          }
+        },
+        "logo_MnXJd9": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/logo_swisscom.png",
+            "image_width": 100,
+            "link": ""
+          }
+        },
+        "logo_3MmyBx": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/logo_verizon.png",
+            "image_width": 100,
+            "link": ""
+          }
+        },
+        "logo_DxD7km": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/logo_american-express.png",
+            "image_width": 100,
+            "link": ""
+          }
+        },
+        "logo_pCFGYJ": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/logo_growth-tribe.png",
             "image_width": 100,
             "link": ""
           }
         }
       },
       "block_order": [
-        "template--15386400456738__e6a2dc3b-b6a3-43da-ac2e-7e6e68957a71-logo-1",
-        "template--15386400456738__e6a2dc3b-b6a3-43da-ac2e-7e6e68957a71-logo-2",
-        "template--15386400456738__e6a2dc3b-b6a3-43da-ac2e-7e6e68957a71-logo-3",
-        "template--15386400456738__e6a2dc3b-b6a3-43da-ac2e-7e6e68957a71-logo-6",
-        "template--15386400456738__e6a2dc3b-b6a3-43da-ac2e-7e6e68957a71-logo-4",
-        "template--15386400456738__e6a2dc3b-b6a3-43da-ac2e-7e6e68957a71-logo-5",
-        "template--15386400456738__e6a2dc3b-b6a3-43da-ac2e-7e6e68957a71-logo-7",
-        "template--15386400456738__e6a2dc3b-b6a3-43da-ac2e-7e6e68957a71-logo-8",
-        "4a5e5f7c-e933-4dbe-b1bf-01b4e791667f",
-        "9b1e4372-ad3c-4d0d-a3f4-f5edc9b124bd"
+        "logo_VdAKLg",
+        "logo_HwTqQt",
+        "logo_AEm3Qk",
+        "logo_7E6DCa",
+        "logo_rwGfj7",
+        "logo_WerG3P",
+        "logo_tXHxbq",
+        "logo_6j43DH",
+        "logo_TC4Kz6",
+        "logo_HhDGKW",
+        "logo_EB9WFj",
+        "logo_iDGzDQ",
+        "logo_fGfNV9",
+        "logo_76dR9D",
+        "logo_EYqbH3",
+        "logo_Qf6Ffz",
+        "logo_JhYTEi",
+        "logo_Xw6Rce",
+        "logo_zbWDDY",
+        "logo_rH7gPK",
+        "logo_MnXJd9",
+        "logo_3MmyBx",
+        "logo_DxD7km",
+        "logo_pCFGYJ"
       ],
       "settings": {
         "color_scheme": "custom-3",
@@ -350,7 +476,7 @@
         "section_spacing_bottom": 90,
         "desktop_layout": "grid",
         "mobile_layout": "carousel",
-        "title": "Trusted by leading product designers at",
+        "title": "Trusted by leading innovators at",
         "heading_size": "h2",
         "alignment": "center",
         "desktop_columns": 6,
@@ -1036,7 +1162,7 @@
     "ff03a7f7-70a4-4aa2-8e65-56be8e7dbefc",
     "main",
     "multicolumn_8XDic7",
-    "e6a2dc3b-b6a3-43da-ac2e-7e6e68957a71",
+    "logo_list_gFnG84",
     "dde7c692-d8b4-4a40-9d3a-c048f605740f",
     "2ed17851-e2d9-4b4b-990c-3df8599c3b8e",
     "35a80c75-d4b0-4340-9552-75a9f11586de",
