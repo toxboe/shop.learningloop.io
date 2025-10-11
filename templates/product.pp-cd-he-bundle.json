@@ -551,6 +551,16 @@
             "rating": 5,
             "link": ""
           }
+        },
+        "quote_aKd9yc": {
+          "type": "quote",
+          "settings": {
+            "text": "\"The concepts are clearly communicated and the cards are nicely designed.\"",
+            "author_name": "Helen Bentley, Staff Product Designer @ Pinterest",
+            "author_image": "shopify://shop_images/Helen-Bentley.jpg",
+            "rating": 5,
+            "link": ""
+          }
         }
       },
       "block_order": [
@@ -567,7 +577,8 @@
         "quote_CLUkxM",
         "quote_eHjUw9",
         "quote_9bRgRJ",
-        "quote_pMCw3m"
+        "quote_pMCw3m",
+        "quote_aKd9yc"
       ],
       "name": "t:sections.testimonials_grid.preset_name",
       "settings": {
