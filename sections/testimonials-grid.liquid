@@ -1,0 +1,455 @@
+{%- liquid
+  assign options = section.settings
+  assign color_scheme = options.color_scheme
+  assign section_spacing_top = options.section_spacing_top
+  assign section_spacing_bottom = options.section_spacing_bottom
+  assign enable_background_around_container = options.enable_background_around_container
+  assign container_size = options.container_size
+  assign caption = options.caption
+  assign text = options.text
+  assign title = options.title
+  assign btn_url = options.btn_url
+  assign btn_text = options.btn_text
+  assign body_size = options.body_size
+  assign heading_size = options.heading_size
+  assign quote_alignment = options.quote_alignment
+  assign desktop_columns = options.desktop_columns
+  assign mobile_columns = options.mobile_columns
+  assign desktop_space_between_cards = options.desktop_space_between_cards | times: 0.1
+  assign mobile_space_between_cards = options.mobile_space_between_cards | times: 0.1
+
+  if desktop_columns >= 4
+    assign quote_text_variant = 'small'
+  elsif desktop_columns == 3
+    assign quote_text_variant = 'medium'
+  else
+    assign quote_text_variant = 'large'
+  endif
+-%}
+
+{% capture css %}
+  {% style %}
+    .section-{{ section.id }} {
+      --gsc-section-spacing-top: {{ section_spacing_top }}px;
+      --gsc-section-spacing-bottom: {{ section_spacing_bottom }}px;
+      --gsc-testimonials-grid-column-gap: {{ mobile_space_between_cards }}rem;
+      --gsc-testimonials-grid-columns: {{ mobile_columns }};
+    }
+
+    .section-{{ section.id }} .testimonials-grid__content {
+      display: flex;
+      flex-direction: column;
+      gap: 1.6rem;
+      margin-bottom: 3.2rem;
+    }
+
+    .section-{{ section.id }} .testimonials-grid__grid {
+      column-count: var(--gsc-testimonials-grid-columns);
+      column-gap: var(--gsc-testimonials-grid-column-gap);
+      width: 100%;
+    }
+
+    .section-{{ section.id }} .testimonials-grid__item {
+      break-inside: avoid;
+      display: inline-block;
+      margin-bottom: var(--gsc-testimonials-grid-column-gap);
+      width: 100%;
+    }
+
+    @media {% render 'media-queries', screen: 'md' %} {
+      .section-{{ section.id }} {
+        --gsc-testimonials-grid-column-gap: {{ desktop_space_between_cards }}rem;
+        --gsc-testimonials-grid-columns: {{ desktop_columns }};
+      }
+    }
+  {% endstyle %}
+{% endcapture %}
+
+{% render 'inline-css-minifier', css: css %}
+
+<div>
+  {%- if section.blocks.size > 0 -%}
+    {%- for block in section.blocks -%}
+      {%- if block.settings.link == blank -%}
+        <sidebar-component
+          class='sidebar quote-sidebar color-{{ color_scheme }}'
+          id='quote-sidebar-{{ block.id }}'
+          data-with-overlay
+          data-with-close-on-outside
+          data-with-close-on-escape
+          data-overlay-important
+          data-open-direction='left'
+          tabindex='-1'
+        >
+          <template data-sidebar-template='quote-sidebar-{{ block.id }}'>
+            <div class='sidebar__body quote-sidebar__body' data-sidebar-body>
+              <sidebar-button>
+                <button
+                  data-sidebar-button
+                  data-sidebar-id='quote-sidebar-{{ block.id }}'
+                  class='unstyled-button quote-sidebar__close-button-with-scale-hover close-button-with-scale-hover'
+                  aria-label='Close'
+                ></button>
+              </sidebar-button>
+              {%- render 'quote',
+                class: 'quote-sidebar__quote',
+                block: block,
+                text_variant: quote_text_variant,
+                is_inside_sidebar: true
+              -%}
+            </div>
+          </template>
+        </sidebar-component>
+      {%- endif -%}
+    {%- endfor -%}
+  {%- endif -%}
+</div>
+
+<div class='section-{{ section.id }} {% if enable_background_around_container %}section color-{{ color_scheme }}{% endif %}'>
+  <div class='section-spacing container container--{{ container_size }} testimonials-grid__outer-container {% if container_size == 'full-screen' %}testimonials-grid__outer-container--full-screen{% endif %}'>
+    <div class='testimonials-grid {% unless enable_background_around_container %}section color-{{ color_scheme }}{% endunless %}'>
+      <div class='testimonials-grid__container container container--large'>
+        {%- if caption != blank or title != blank or text != blank or btn_text != blank -%}
+          <div class='testimonials-grid__content'>
+            {%- if caption != blank -%}
+              <div class='caption testimonials-grid__caption'>{{ caption }}</div>
+            {%- endif -%}
+            {%- if title != blank -%}
+              <h3 class='{{ heading_size }}'>{{ title }}</h3>
+            {%- endif -%}
+            {%- if text != blank -%}
+              <div class='rte {{ body_size }} testimonials-grid__text body-font-weight-from-global-settings'>
+                {{ text }}
+              </div>
+            {%- endif -%}
+            {%- if btn_text != blank -%}
+              <a
+                class='link testimonials-grid__link'
+                {% if btn_url != blank %}
+                  href='{{ btn_url }}'
+                {% endif %}
+                aria-label='{{ btn_text }}'
+              >
+                <span class='link__text'>{{ btn_text }}</span>
+                {%- render 'icon', icon_name: 'link-chevron', class: 'link__chevron' -%}
+              </a>
+            {%- endif -%}
+          </div>
+        {%- endif -%}
+
+        {%- if section.blocks.size > 0 -%}
+          <div class='testimonials-grid__grid'>
+            {%- for block in section.blocks -%}
+              <div class='testimonials-grid__item block-{{ block.id }}' {{ block.shopify_attributes }}>
+                {%- render 'quote',
+                  class: 'testimonials-grid__quote',
+                  block: block,
+                  quote_alignment: quote_alignment,
+                  text_variant: quote_text_variant
+                -%}
+              </div>
+            {%- endfor -%}
+          </div>
+        {%- endif -%}
+      </div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "t:sections.testimonials_grid.name",
+  "tag": "section",
+  "class": "section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "caption",
+      "label": "t:sections.testimonials.label_for_caption_setting"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "t:sections.testimonials.label_for_title_setting"
+    },
+    {
+      "type": "richtext",
+      "id": "text",
+      "label": "t:sections.testimonials.label_for_text_setting"
+    },
+    {
+      "type": "text",
+      "id": "btn_text",
+      "label": "t:sections.testimonials.label_for_button_text_setting"
+    },
+    {
+      "type": "url",
+      "id": "btn_url",
+      "label": "t:sections.testimonials.label_for_button_url_setting"
+    },
+    {
+      "type": "select",
+      "id": "heading_size",
+      "options": [
+        {
+          "value": "mega-title",
+          "label": "t:sections.general.settings.heading_size.options__1.label"
+        },
+        {
+          "value": "title",
+          "label": "t:sections.general.settings.heading_size.options__2.label"
+        },
+        {
+          "value": "heading-lg",
+          "label": "t:sections.general.settings.heading_size.options__3.label"
+        },
+        {
+          "value": "heading-md",
+          "label": "t:sections.general.settings.heading_size.options__4.label"
+        },
+        {
+          "value": "heading-sm",
+          "label": "t:sections.general.settings.heading_size.options__5.label"
+        }
+      ],
+      "default": "title",
+      "label": "t:sections.general.settings.heading_size.label"
+    },
+    {
+      "type": "select",
+      "id": "body_size",
+      "options": [
+        {
+          "value": "body-lg",
+          "label": "t:sections.general.settings.body_size.options__1.label"
+        },
+        {
+          "value": "body-md",
+          "label": "t:sections.general.settings.body_size.options__2.label"
+        },
+        {
+          "value": "body-sm",
+          "label": "t:sections.general.settings.body_size.options__3.label"
+        }
+      ],
+      "default": "body-md",
+      "label": "t:sections.general.settings.body_size.label"
+    },
+    {
+      "type": "range",
+      "id": "desktop_columns",
+      "min": 1,
+      "max": 6,
+      "step": 1,
+      "default": 3,
+      "label": "t:sections.multicolumn.label_for_desktop_columns_setting"
+    },
+    {
+      "type": "range",
+      "id": "desktop_space_between_cards",
+      "min": 0,
+      "max": 32,
+      "step": 1,
+      "default": 24,
+      "unit": "t:sections.multicolumn.unit_for_desktop_space_between_cards_setting",
+      "label": "t:sections.multicolumn.label_for_desktop_space_between_cards_setting"
+    },
+    {
+      "type": "range",
+      "id": "mobile_columns",
+      "min": 1,
+      "max": 2,
+      "step": 1,
+      "default": 1,
+      "label": "t:sections.products.label_for_mobile_columns_setting"
+    },
+    {
+      "type": "range",
+      "id": "mobile_space_between_cards",
+      "min": 0,
+      "max": 32,
+      "step": 1,
+      "default": 16,
+      "unit": "t:sections.multicolumn.unit_for_mobile_space_between_cards_setting",
+      "label": "t:sections.multicolumn.label_for_mobile_space_between_cards_setting"
+    },
+    {
+      "type": "select",
+      "id": "quote_alignment",
+      "options": [
+        {
+          "value": "left",
+          "label": "t:sections.testimonials.label_for_quote_alignment_left_option"
+        },
+        {
+          "value": "center",
+          "label": "t:sections.testimonials.label_for_quote_alignment_center_option"
+        }
+      ],
+      "default": "left",
+      "label": "t:sections.testimonials.label_for_quote_alignment_setting"
+    },
+    {
+      "type": "select",
+      "id": "color_scheme",
+      "options": [
+        {
+          "value": "default",
+          "label": "t:sections.general_section_settings.color_scheme_option_default_label"
+        },
+        {
+          "value": "inverse",
+          "label": "t:sections.general_section_settings.color_scheme_option_inverse_label"
+        },
+        {
+          "value": "primary",
+          "label": "t:sections.general_section_settings.color_scheme_option_primary_label"
+        },
+        {
+          "value": "secondary",
+          "label": "t:sections.general_section_settings.color_scheme_option_secondary_label"
+        },
+        {
+          "value": "custom-1",
+          "label": "t:sections.general_section_settings.color_scheme_option_custom_1_label"
+        },
+        {
+          "value": "custom-2",
+          "label": "t:sections.general_section_settings.color_scheme_option_custom_2_label"
+        },
+        {
+          "value": "custom-3",
+          "label": "t:sections.general_section_settings.color_scheme_option_custom_3_label"
+        },
+        {
+          "value": "white",
+          "label": "t:sections.general_section_settings.color_scheme_option_white_text_label"
+        },
+        {
+          "value": "black",
+          "label": "t:sections.general_section_settings.color_scheme_option_black_text_label"
+        }
+      ],
+      "default": "default",
+      "label": "t:sections.general_section_settings.color_scheme_label",
+      "info": "t:sections.general_section_settings.color_scheme_tip"
+    },
+    {
+      "type": "checkbox",
+      "id": "enable_background_around_container",
+      "default": false,
+      "label": "t:sections.general_section_settings.enable_background_around_container_label"
+    },
+    {
+      "type": "select",
+      "id": "container_size",
+      "options": [
+        {
+          "value": "full-screen",
+          "label": "t:sections.general_section_settings.container_size.screen_width_option"
+        },
+        {
+          "value": "page-width",
+          "label": "t:sections.general_section_settings.container_size.page_width_option"
+        },
+        {
+          "value": "large",
+          "label": "t:sections.general_section_settings.container_size.large_width_option"
+        },
+        {
+          "value": "medium",
+          "label": "t:sections.general_section_settings.container_size.medium_width_option"
+        }
+      ],
+      "default": "page-width",
+      "label": "t:sections.general_section_settings.container_size.label"
+    },
+    {
+      "type": "range",
+      "id": "section_spacing_top",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "default": 96,
+      "unit": "t:sections.general_section_settings.section_spacing_top.unit",
+      "label": "t:sections.general_section_settings.section_spacing_top.label"
+    },
+    {
+      "type": "range",
+      "id": "section_spacing_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "default": 96,
+      "unit": "t:sections.general_section_settings.section_spacing_bottom.unit",
+      "label": "t:sections.general_section_settings.section_spacing_bottom.label"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "quote",
+      "name": "t:sections.testimonials.name_for_quote_block",
+      "settings": [
+        {
+          "type": "textarea",
+          "id": "text",
+          "label": "t:sections.testimonials.label_for_text_setting_in_quote_block"
+        },
+        {
+          "type": "text",
+          "id": "author_name",
+          "label": "t:sections.testimonials.label_for_author_name_setting_in_quote_block"
+        },
+        {
+          "type": "image_picker",
+          "id": "author_image",
+          "label": "t:sections.testimonials.label_for_author_image_setting_in_quote_block"
+        },
+        {
+          "type": "range",
+          "id": "rating",
+          "min": 0,
+          "max": 5,
+          "step": 1,
+          "default": 0,
+          "label": "t:sections.testimonials.label_for_rating_setting_in_quote_block"
+        },
+        {
+          "type": "page",
+          "id": "link",
+          "label": "t:sections.testimonials.label_for_link_setting_in_quote_block",
+          "info": "t:sections.testimonials.tip_for_link_setting_in_quote_block"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "t:sections.testimonials_grid.preset_name",
+      "blocks": [
+        {
+          "type": "quote",
+          "settings": {
+            "text": "\"This is a premium theme built for conversion without sacrificing brand.\"",
+            "author_name": "Janet Brown"
+          }
+        },
+        {
+          "type": "quote",
+          "settings": {
+            "text": "\"Our store has experienced more sales since switching.\"",
+            "author_name": "Amelia Craig"
+          }
+        },
+        {
+          "type": "quote",
+          "settings": {
+            "text": "\"The features we need with the aesthetic we want.\"",
+            "author_name": "Amy Pink"
+          }
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}
