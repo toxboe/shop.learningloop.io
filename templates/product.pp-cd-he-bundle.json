@@ -609,6 +609,44 @@
         "autoplay_interval": 3
       }
     },
+    "images_with_text_xDwfTw": {
+      "type": "images-with-text",
+      "blocks": {
+        "image_QwRNhW": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/persuasive-patterns-c_d-paper.png"
+          }
+        }
+      },
+      "block_order": [
+        "image_QwRNhW"
+      ],
+      "settings": {
+        "color_scheme": "default",
+        "container_size": "medium",
+        "section_spacing_top": 11,
+        "section_spacing_bottom": 90,
+        "content_layout": "right",
+        "image_layout": "collage",
+        "img_ratio": 0.8,
+        "rotate_images": false,
+        "icon": "none",
+        "subheading": "",
+        "heading": "Design",
+        "body": "<h6><strong>Clear language</strong></h6><p>The academic jargon of research papers have been transformed into understandable, concise, and digestible language making research quick and easy to undestand and share.</p><h6><strong>Supercharge your ideas</strong></h6><p>Expand ideas and navigate behavioral research by exploring connected design patterns.</p><h6><strong>Memorable illustrations</strong></h6><p>Custom hand-drawn illustrations by artist Annesofie Sandal provide visual metaphors to aid learning and recall.</p>",
+        "heading_size": "h2",
+        "body_size": "body3",
+        "content_alignment": "left",
+        "desktop_content_width": 440,
+        "first_button_text": "Buy now",
+        "first_button_link": "",
+        "first_button_style": "solid",
+        "second_button_text": "",
+        "second_button_link": "",
+        "second_button_style": "solid"
+      }
+    },
     "testimonials_grid_9E7p9B": {
       "type": "testimonials-grid",
       "blocks": {
@@ -1248,6 +1286,7 @@
     "multicolumn_iwzUWC",
     "slideshow_WDFPMf",
     "e6a2dc3b-b6a3-43da-ac2e-7e6e68957a71",
+    "images_with_text_xDwfTw",
     "multicolumn_nrbJBG",
     "testimonials_grid_9E7p9B",
     "0662d9b7-f318-474d-a1d7-73b91bd82677",
