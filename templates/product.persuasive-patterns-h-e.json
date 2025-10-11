@@ -514,10 +514,60 @@
             "link": ""
           }
         },
+        "quote_7egXa3": {
+          "type": "quote",
+          "settings": {
+            "text": "\"Human behavior and psychology have a major impact on web design and user experience. The Persuasive Patterns card deck is an excellent tool for learning how to apply these principles.\"",
+            "author_name": "Mathew Graham, Head of Product @ Gigamatic",
+            "author_image": "shopify://shop_images/Mathew-Graham.jpg",
+            "rating": 0,
+            "link": ""
+          }
+        },
+        "quote_9QXJXr": {
+          "type": "quote",
+          "settings": {
+            "text": "\"Persuasive Patterns has been very useful in getting around a number of UX related problems by helping to break down and distill the issues into their elemental form.\"",
+            "author_name": "Bradley Martin, Creative Director",
+            "author_image": "shopify://shop_images/Bradley-Martin.jpg",
+            "rating": 0,
+            "link": ""
+          }
+        },
+        "quote_i97wL6": {
+          "type": "quote",
+          "settings": {
+            "text": "\"It's useful to review the cards during a project to generate better ideas and sharpen your persuasive focus. The cards and the method canvas are the most practical parts to apply.\"",
+            "author_name": "Dany Cerone, Agency Director @ botte secrète",
+            "author_image": "shopify://shop_images/Dany-Cerone.jpg",
+            "rating": 0,
+            "link": ""
+          }
+        },
         "quote_NFbC4m": {
           "type": "quote",
           "settings": {
-            "text": "\"Loving my persuasive patterns cards. Really useful inspirational tool\"",
+            "text": "\"The Persuasive Patterns card deck is a great possibility to get psychologically founded ideas for a digital product strategy.\"",
+            "author_name": "Paul Boag, Boagworks",
+            "author_image": "shopify://shop_images/Bjorn-Rohles.jpg",
+            "rating": 0,
+            "link": ""
+          }
+        },
+        "quote_EXdthj": {
+          "type": "quote",
+          "settings": {
+            "text": "\"We've found the Persuasive Pattern Cards to be a great tool to gather early constructive feedback from users and clients on a variety of use cases. I'd highly recommend.\"",
+            "author_name": "Wes Herzik, CDO @ Ikonic Media",
+            "author_image": "shopify://shop_images/Wes-Herzik.jpg",
+            "rating": 0,
+            "link": ""
+          }
+        },
+        "quote_pMCw3m": {
+          "type": "quote",
+          "settings": {
+            "text": "\"Loving my persuasive patterns cards. Really useful inspirational tool.\"",
             "author_name": "Paul Boag, Boagworks",
             "author_image": "shopify://shop_images/paul-boag.png",
             "rating": 0,
@@ -529,7 +579,12 @@
         "quote_6TCbVa",
         "quote_CGdnDz",
         "quote_8mfmka",
-        "quote_NFbC4m"
+        "quote_7egXa3",
+        "quote_9QXJXr",
+        "quote_i97wL6",
+        "quote_NFbC4m",
+        "quote_EXdthj",
+        "quote_pMCw3m"
       ],
       "name": "t:sections.testimonials_grid.preset_name",
       "settings": {
