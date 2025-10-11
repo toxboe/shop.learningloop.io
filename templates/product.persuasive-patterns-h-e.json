@@ -564,12 +564,11 @@
             "link": ""
           }
         },
-        "quote_pMCw3m": {
+        "quote_CLUkxM": {
           "type": "quote",
           "settings": {
-            "text": "\"Loving my persuasive patterns cards. Really useful inspirational tool.\"",
-            "author_name": "Paul Boag, Boagworks",
-            "author_image": "shopify://shop_images/paul-boag.png",
+            "text": "\"Many of my colleagues still need training in this area. The cards offer a solid introduction to the basics and serve as a practical, hands-on resource during projects.\"",
+            "author_name": "Ralph Langer, Senior UX Designer @ Doyle Dane Bernbach",
             "rating": 0,
             "link": ""
           }
@@ -580,6 +579,25 @@
             "text": "\"Typically I look for cognitive biases and how to address them with a particular pattern.\"",
             "author_name": "Carina Marano, Design Strategist @ Visualade Inc.",
             "author_image": "shopify://shop_images/Carina-Marano.jpg",
+            "rating": 0,
+            "link": ""
+          }
+        },
+        "quote_9bRgRJ": {
+          "type": "quote",
+          "settings": {
+            "text": "“The cards gave me so many ideas that it was a bit overwhelming. But honestly, that’s the whole point.”",
+            "author_name": "Simon Mahony",
+            "rating": 0,
+            "link": ""
+          }
+        },
+        "quote_pMCw3m": {
+          "type": "quote",
+          "settings": {
+            "text": "\"Loving my persuasive patterns cards. Really useful inspirational tool.\"",
+            "author_name": "Paul Boag, Boagworks",
+            "author_image": "shopify://shop_images/paul-boag.png",
             "rating": 0,
             "link": ""
           }
@@ -594,8 +612,10 @@
         "quote_i97wL6",
         "quote_NFbC4m",
         "quote_EXdthj",
-        "quote_pMCw3m",
-        "quote_eHjUw9"
+        "quote_CLUkxM",
+        "quote_eHjUw9",
+        "quote_9bRgRJ",
+        "quote_pMCw3m"
       ],
       "name": "t:sections.testimonials_grid.preset_name",
       "settings": {
