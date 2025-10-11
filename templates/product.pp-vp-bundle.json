@@ -1,1 +1,982 @@
-{"sections":{"ff03a7f7-70a4-4aa2-8e65-56be8e7dbefc":{"type":"breadcrumbs","disabled":true,"settings":{"color_scheme":"default","container_size":"large","section_spacing_top":16,"section_spacing_bottom":0,"show_breadcrumbs_product_title":true}},"main":{"type":"product","blocks":{"title":{"type":"title","settings":{"heading_size":"h2"}},"price":{"type":"price","settings":{"price_size":"sm","show_tax_status":false,"show_sale_amount_badge":true,"highlight_sale_price":true}},"28586830-d855-4547-8946-94914bac9e85":{"type":"description","settings":{"title":"","block_style":"static","icon":"none"}},"d3d427d0-4e7d-4f81-9057-c64f65a4f183":{"type":"variant_picker","settings":{"option_type":"button-outline","primary_swatch_option_type":"button-outline","secondary_swatch_option_type":"swatches","option_name":"","information_drawer_button_label":"","text":"","page":"","image_width":60}},"quantity_selector":{"type":"quantity_selector","settings":{}},"buy_buttons":{"type":"buy_buttons","settings":{"show_dynamic_checkout":true,"enable_pickup_availability":false,"enable_gift_card":false}},"c9188b10-e29c-4c63-b385-a3faa860d64a":{"type":"information_tag","settings":{"tag_style":"solid","heading":"Digital Cards emailed after purchase","body":"","content_alignment":"left","icon":"email-outline","icon_position":"inline","tag_background_color":"#ffffff","tag_text_color":"#344454","enable_drawer":false,"drawer_text":"<p>Tell more about your product, add care instructions, country of origin, or manufacturer information.<\/p>","drawer_page":"","drawer_media_size":60}},"4eeca04a-4423-41c9-a374-7a9d970a3d59":{"type":"information_tag","disabled":true,"settings":{"tag_style":"solid","heading":"We ship to Denmark from Latvia, EU.","body":"","content_alignment":"left","icon":"fast-delivery","icon_position":"inline","tag_background_color":"#ffffff","tag_text_color":"#344454","enable_drawer":false,"drawer_text":"<p>Tell more about your product, add care instructions, country of origin, or manufacturer information.<\/p>","drawer_page":"","drawer_media_size":60}},"a1297489-7eee-44d2-9252-af8ab78ecef1":{"type":"information_tag","settings":{"tag_style":"solid","heading":"VAT number accepted at checkout","body":"","content_alignment":"left","icon":"pen-and-ruler","icon_position":"inline","tag_background_color":"#ffffff","tag_text_color":"#344454","enable_drawer":false,"drawer_text":"<p>Tell more about your product, add care instructions, country of origin, or manufacturer information.<\/p>","drawer_page":"","drawer_media_size":60}},"6d6606d5-ae7e-4306-b3d7-67030f2e4136":{"type":"related_products","settings":{"color_scheme":"primary","show_background":false,"show_in_quick_view":false,"block_layout":"carousel-with-vertical-cards","img_ratio":"inherited","title":"Goes well with","heading_size":"h7","alignment":"left","product_recommendations_type":"manually","featured_collection":"","featured_products":["persuasive-patterns-poster","validation-patterns-poster"],"products_to_show":3,"show_navigation_on_hover":true,"autoplay_mode":"disabled","autoplay_interval":3}}},"block_order":["title","price","28586830-d855-4547-8946-94914bac9e85","d3d427d0-4e7d-4f81-9057-c64f65a4f183","quantity_selector","buy_buttons","c9188b10-e29c-4c63-b385-a3faa860d64a","4eeca04a-4423-41c9-a374-7a9d970a3d59","a1297489-7eee-44d2-9252-af8ab78ecef1","6d6606d5-ae7e-4306-b3d7-67030f2e4136"],"settings":{"color_scheme":"default","container_size":"medium","section_spacing_top":32,"section_spacing_bottom":90,"layout":"thumbnails-bottom","desktop_space_between_media":4,"thumbnails_size":88,"mobile_layout":"thumbnails-right","img_ratio":"square","show_only_selected_variants":false,"enable_image_zoom":true,"enable_video_looping":true,"enable_video_autoplay":true,"scale_video":true}},"e6a2dc3b-b6a3-43da-ac2e-7e6e68957a71":{"type":"logo-list","blocks":{"template--15386400456738__e6a2dc3b-b6a3-43da-ac2e-7e6e68957a71-logo-1":{"type":"logo","settings":{"image":"shopify:\/\/shop_images\/logo_google.png","image_width":100,"link":""}},"template--15386400456738__e6a2dc3b-b6a3-43da-ac2e-7e6e68957a71-logo-2":{"type":"logo","settings":{"image":"shopify:\/\/shop_images\/logo_shopify.png","image_width":100,"link":""}},"template--15386400456738__e6a2dc3b-b6a3-43da-ac2e-7e6e68957a71-logo-3":{"type":"logo","settings":{"image":"shopify:\/\/shop_images\/logo_facebook.png","image_width":100,"link":""}},"template--15386400456738__e6a2dc3b-b6a3-43da-ac2e-7e6e68957a71-logo-6":{"type":"logo","settings":{"image":"shopify:\/\/shop_images\/logo_apple.png","image_width":100,"link":""}},"template--15386400456738__e6a2dc3b-b6a3-43da-ac2e-7e6e68957a71-logo-4":{"type":"logo","settings":{"image":"shopify:\/\/shop_images\/logo_microsoft.png","image_width":100,"link":""}},"template--15386400456738__e6a2dc3b-b6a3-43da-ac2e-7e6e68957a71-logo-5":{"type":"logo","settings":{"image":"shopify:\/\/shop_images\/logo_booking-com.png","image_width":100,"link":""}},"template--15386400456738__e6a2dc3b-b6a3-43da-ac2e-7e6e68957a71-logo-7":{"type":"logo","settings":{"image":"shopify:\/\/shop_images\/logo_harvard-business-school.png","image_width":100,"link":""}},"template--15386400456738__e6a2dc3b-b6a3-43da-ac2e-7e6e68957a71-logo-8":{"type":"logo","settings":{"image":"shopify:\/\/shop_images\/logo_coca-cola.png","image_width":100,"link":""}},"4a5e5f7c-e933-4dbe-b1bf-01b4e791667f":{"type":"logo","settings":{"image":"shopify:\/\/shop_images\/logo-mckinsey-and-company.png","image_width":100,"link":""}},"9b1e4372-ad3c-4d0d-a3f4-f5edc9b124bd":{"type":"logo","settings":{"image":"shopify:\/\/shop_images\/logo_dropbox.png","image_width":100,"link":""}}},"block_order":["template--15386400456738__e6a2dc3b-b6a3-43da-ac2e-7e6e68957a71-logo-1","template--15386400456738__e6a2dc3b-b6a3-43da-ac2e-7e6e68957a71-logo-2","template--15386400456738__e6a2dc3b-b6a3-43da-ac2e-7e6e68957a71-logo-3","template--15386400456738__e6a2dc3b-b6a3-43da-ac2e-7e6e68957a71-logo-6","template--15386400456738__e6a2dc3b-b6a3-43da-ac2e-7e6e68957a71-logo-4","template--15386400456738__e6a2dc3b-b6a3-43da-ac2e-7e6e68957a71-logo-5","template--15386400456738__e6a2dc3b-b6a3-43da-ac2e-7e6e68957a71-logo-7","template--15386400456738__e6a2dc3b-b6a3-43da-ac2e-7e6e68957a71-logo-8","4a5e5f7c-e933-4dbe-b1bf-01b4e791667f","9b1e4372-ad3c-4d0d-a3f4-f5edc9b124bd"],"settings":{"color_scheme":"custom-3","container_size":"medium","section_spacing_top":90,"section_spacing_bottom":90,"desktop_layout":"grid","mobile_layout":"carousel","title":"Trusted by leading product designers at","heading_size":"h2","alignment":"center","desktop_columns":6,"desktop_space_between_cards":32,"mobile_space_between_cards":12,"show_navigation_arrows":"always","autoplay_mode":"disabled","autoplay_interval":3}},"dde7c692-d8b4-4a40-9d3a-c048f605740f":{"type":"multicolumn","blocks":{"template--15386400456738__dde7c692-d8b4-4a40-9d3a-c048f605740f-column_with_icon-1":{"type":"column_with_icon","settings":{"icon":"none","icon_size":64,"title":"Experiment on steroids","text":"<p>Proven psychological insights provide a strong foundation for explosive experiments.<\/p>","link_text":"","link_url":""}},"13cba67f-e320-42ff-bd11-ee52a8bb0375":{"type":"column_with_icon","settings":{"icon":"none","icon_size":64,"title":"Eliminate guesswork","text":"<p>Add a behavioural lens to how you solve design problems.<\/p>","link_text":"","link_url":""}},"36ab52b2-e6a1-4d3a-94b7-1ff61cdc45ef":{"type":"column_with_icon","settings":{"icon":"none","icon_size":64,"title":"Collaborate better","text":"<p>Build a shared language and understanding and make collaboration more efficient.<\/p>","link_text":"","link_url":""}},"c30fcdde-404e-46b7-8b9d-e30e4ca416a9":{"type":"column_with_icon","settings":{"icon":"none","icon_size":64,"title":"Fact driven development","text":"<p>Start with proven facts from psychology and apply it to your context.<\/p>","link_text":"","link_url":""}}},"block_order":["template--15386400456738__dde7c692-d8b4-4a40-9d3a-c048f605740f-column_with_icon-1","13cba67f-e320-42ff-bd11-ee52a8bb0375","36ab52b2-e6a1-4d3a-94b7-1ff61cdc45ef","c30fcdde-404e-46b7-8b9d-e30e4ca416a9"],"settings":{"color_scheme":"default","container_size":"medium","section_spacing_top":90,"section_spacing_bottom":90,"desktop_layout":"grid","mobile_layout":"one-column-grid","title":"Enable your team to...","text":"","heading_size":"h2","body_size":"body2","content_alignment":"center","column_heading_size":"h5","column_body_size":"body2","column_alignment":"center","desktop_columns":2,"desktop_space_between_cards":0,"desktop_content_spacing":0,"mobile_space_between_cards":16,"mobile_content_spacing":24,"show_column_background":false,"show_navigation_on_hover":true,"btn_text":"","btn_url":"","btn_style":"outline","autoplay_mode":"disabled","autoplay_interval":3}},"2ed17851-e2d9-4b4b-990c-3df8599c3b8e":{"type":"testimonials","blocks":{"71628dc5-be30-438d-a4f3-da1da60e0eaf":{"type":"quote","settings":{"text":"\"We use the Persuasive Patterns deck of cards to get people thinking about how we can leverage different techniques to increase conversions on our websites. I LOVE the line art (#58 - Self-Expression is my fav) but do wish there was a resource to see real-world applications.\"","author_name":"Roeland Doherty - GrowthTribe","author_image":"shopify:\/\/shop_images\/roeland-doherty.png","rating":4.5,"link":""}},"template--15386400456738__2ed17851-e2d9-4b4b-990c-3df8599c3b8e-quote-1":{"type":"quote","settings":{"text":"\"Loving my persuasive patterns cards from UI-Patterns.com. Really useful inspirational tool\"","author_name":"Paul Boag - Boagworks","author_image":"shopify:\/\/shop_images\/paul-boag.png","rating":4.5,"link":""}},"526eb9a6-a7ba-402c-9365-3cde4d74d8af":{"type":"quote","settings":{"text":"\"Wanted to quickly shout out this Persuasive Patterns card deck I got from UI-Patterns and my favorite concept that's included - the Peak-End Rule. It's an excellent reference for keeping intended behaviors top-of-mind, and for explaining a complex concept simply to a stakeholder.\"","author_name":"Brett Sebbio - Lowe's","author_image":"shopify:\/\/shop_images\/brett-sebbio.png","rating":4.5,"link":""}}},"block_order":["71628dc5-be30-438d-a4f3-da1da60e0eaf","template--15386400456738__2ed17851-e2d9-4b4b-990c-3df8599c3b8e-quote-1","526eb9a6-a7ba-402c-9365-3cde4d74d8af"],"custom_css":[".quote__text--large {font-weight: 400; font-style: italic;}"],"settings":{"color_scheme":"custom-3","enable_background_around_container":false,"container_size":"large","section_spacing_top":60,"section_spacing_bottom":90,"section_layout":"bottom-quotes","cards_per_slide":1,"quote_alignment":"center","caption":"","title":"","text":"","heading_size":"h3","body_size":"body3","btn_text":"","btn_url":"","autoplay_mode":"one_at_time","autoplay_interval":3}},"35a80c75-d4b0-4340-9552-75a9f11586de":{"type":"images-with-text","blocks":{"template--16729789563121__35a80c75-d4b0-4340-9552-75a9f11586de-1681824353e40c4786-0":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/persuasive-patterns-card-deck-mockup.jpg"}}},"block_order":["template--16729789563121__35a80c75-d4b0-4340-9552-75a9f11586de-1681824353e40c4786-0"],"settings":{"color_scheme":"default","container_size":"medium","section_spacing_top":48,"section_spacing_bottom":90,"content_layout":"right","image_layout":"collage","img_ratio":0.8,"rotate_images":false,"icon":"none","subheading":"","heading":"Design","body":"<h6><strong>Clear language<\/strong><\/h6><p>The academic jargon of research papers have been transformed into understandable, concise, and digestible language making research quick and easy to undestand and share.<\/p><h6><strong>Supercharge your ideas<\/strong><\/h6><p>Expand ideas and navigate behavioral research by exploring connected design patterns.<\/p><h6><strong>Memorable illustrations<\/strong><\/h6><p>Custom hand-drawn illustrations by artist Annesofie Sandal provide visual metaphors to aid learning and recall.<\/p>","heading_size":"h2","body_size":"body3","content_alignment":"left","desktop_content_width":440,"first_button_text":"Buy now","first_button_link":"","first_button_style":"solid","second_button_text":"","second_button_link":"","second_button_style":"solid"}},"d7a5963e-c766-4f10-8cc1-5470486301a3":{"type":"multicolumn","blocks":{"6f3f5535-cb5f-45ac-b7d6-fabfd4ab3dcf":{"type":"column_with_icon","settings":{"icon":"none","icon_size":64,"title":"Step #1","text":"<h6>Take facts from research<\/h6><p>Start with a solid foundation of psychological insights and persuasive design techniques to influence user behaviour effectively.<\/p><p><\/p>","link_text":"","link_url":""}},"5ee60e82-a24a-4c02-9252-ef61ac14441f":{"type":"column_with_icon","settings":{"icon":"none","icon_size":64,"title":"Step #2","text":"<h6>Apply them to your product<\/h6><p>Ensure that your persuasive design choices are not based solely on intuition or assumptions but are backed by concrete evidence of their impact on user behaviour.<\/p>","link_text":"","link_url":""}},"c927e00e-659f-4e47-8e8b-4edeec7d601c":{"type":"column_with_icon","settings":{"icon":"none","icon_size":64,"title":"Step #3","text":"<h6>Get it right<\/h6><p>Fine-tune and optimize your product's persuasive strategies continuously. It's a cycle of learning, applying insights, testing, and refining, which leads to more effective and successful products.<\/p><p><\/p>","link_text":"","link_url":""}}},"block_order":["6f3f5535-cb5f-45ac-b7d6-fabfd4ab3dcf","5ee60e82-a24a-4c02-9252-ef61ac14441f","c927e00e-659f-4e47-8e8b-4edeec7d601c"],"settings":{"color_scheme":"secondary","container_size":"medium","section_spacing_top":90,"section_spacing_bottom":90,"desktop_layout":"grid","mobile_layout":"one-column-grid","title":"The persuasive development process","text":"Data-driven and evidence-based approach to creating and refining products, where the science of psychology meets the science of validation to drive success.","heading_size":"h2","body_size":"body2","content_alignment":"center","column_heading_size":"h5","column_body_size":"body4","column_alignment":"center","desktop_columns":3,"desktop_space_between_cards":24,"desktop_content_spacing":24,"mobile_space_between_cards":16,"mobile_content_spacing":24,"show_column_background":true,"show_navigation_on_hover":true,"btn_text":"","btn_url":"","btn_style":"outline","autoplay_mode":"disabled","autoplay_interval":3}},"22962715-c6b1-4c9f-876b-dee37b67a0ae":{"type":"images-with-text","blocks":{"template--15386400456738__22962715-c6b1-4c9f-876b-dee37b67a0ae-image-1":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/persuasive-patterns-badge-sizes_1.png"}}},"block_order":["template--15386400456738__22962715-c6b1-4c9f-876b-dee37b67a0ae-image-1"],"settings":{"color_scheme":"default","container_size":"medium","section_spacing_top":90,"section_spacing_bottom":48,"content_layout":"left","image_layout":"collage","img_ratio":0.8,"rotate_images":false,"icon":"none","subheading":"","heading":"Grow your business by only building what customers want","body":"<p>Persuasive Patterns will support you through the entire funnel. <\/p><p>The Validation Patterns will help you weed out what works and what doesn't. <\/p>","heading_size":"h2","body_size":"body2","content_alignment":"left","desktop_content_width":540,"first_button_text":"","first_button_link":"","first_button_style":"solid","second_button_text":"","second_button_link":"","second_button_style":"solid"}},"f7cd431c-fef7-4f0a-8969-24198638a725":{"type":"rich-text","blocks":{"template--15410758647842__f7cd431c-fef7-4f0a-8969-24198638a725-heading-1":{"type":"heading","settings":{"title":"Grow your business by only building what customers want","heading_size":"h3"}},"template--15410758647842__f7cd431c-fef7-4f0a-8969-24198638a725-text-1":{"type":"text","settings":{"text":"<p>Persuasive Patterns will support you through the entire funnel. <\/p><p>The Validation Patterns will help you weed out what works and what doesn't. <\/p><h6><\/h6><p><\/p>","text_2":"<h6>Awareness<\/h6><p>Catch the attention of your audience and stand out from the crowd.<\/p><h6>Acquisition & conversion<\/h6><p>Attract new customers and increase revenue.<\/p><h6>Activation & onboarding<\/h6><p>Help users discover value early and keep up their momentum.<\/p><h6>Retention & loyalty<\/h6><p>Keep users engaged as they progress and make leaving hard.<\/p><h6>Referral & social virality<\/h6><p>Use social psychology to make sharing a given.<\/p><h6>Pricing & revenue<\/h6><p>Find the right price, amount of options, and appropriate presentation at the right time.<\/p>","text_3":"","body_size":"body2"}}},"block_order":["template--15410758647842__f7cd431c-fef7-4f0a-8969-24198638a725-heading-1","template--15410758647842__f7cd431c-fef7-4f0a-8969-24198638a725-text-1"],"settings":{"color_scheme":"custom-2","enable_background_around_container":true,"container_size":"medium","section_spacing_top":90,"section_spacing_bottom":90,"content_align":"left"}},"a9b7acc2-f81e-4056-88b3-cdf6ae89c7a7":{"type":"rich-text","blocks":{"template--15412947091490__a9b7acc2-f81e-4056-88b3-cdf6ae89c7a7-icon-1":{"type":"icon","settings":{"icon":"none","icon_size":48}},"template--15412947091490__a9b7acc2-f81e-4056-88b3-cdf6ae89c7a7-heading-1":{"type":"heading","settings":{"title":"From theory to practise","heading_size":"h2"}},"template--15412947091490__a9b7acc2-f81e-4056-88b3-cdf6ae89c7a7-text-1":{"type":"text","settings":{"text":"<p>While the Persuasive Patterns card deck offers valuable insights into the psychological principles of persuasion, it primarily provides theoretical guidance.<\/p><p>The Validation Patterns card deck offers practical validation techniques that make experimenting with the persuasive strategies a breeze.<\/p><p><\/p>","text_2":"","text_3":"","body_size":"body2"}}},"block_order":["template--15412947091490__a9b7acc2-f81e-4056-88b3-cdf6ae89c7a7-icon-1","template--15412947091490__a9b7acc2-f81e-4056-88b3-cdf6ae89c7a7-heading-1","template--15412947091490__a9b7acc2-f81e-4056-88b3-cdf6ae89c7a7-text-1"],"settings":{"color_scheme":"default","enable_background_around_container":false,"container_size":"medium","section_spacing_top":90,"section_spacing_bottom":0,"content_align":"center"}},"0c2ed4d1-2136-4c5c-920e-482096df3899":{"type":"rich-text","blocks":{"7923795e-e6f4-40be-9137-4ea7f4094891":{"type":"icon","settings":{"icon":"none","icon_size":48}},"3a940796-2a71-479d-bd87-b84b85beffc3":{"type":"heading","settings":{"title":"Go implement something customers actually want","heading_size":"h2"}},"bea85430-bb02-42b5-8f78-9d1ed74eafd3":{"type":"text","settings":{"text":"<p>Identify which strategies are truly persuasive and worth further development.<\/p><p>Without validation, there's a risk of investing time and resources in persuasive design strategies that may not be as effective as expected.<\/p><p><\/p>","text_2":"","text_3":"","body_size":"body2"}}},"block_order":["7923795e-e6f4-40be-9137-4ea7f4094891","3a940796-2a71-479d-bd87-b84b85beffc3","bea85430-bb02-42b5-8f78-9d1ed74eafd3"],"settings":{"color_scheme":"default","enable_background_around_container":false,"container_size":"medium","section_spacing_top":0,"section_spacing_bottom":90,"content_align":"center"}},"f768b115-1f18-47e5-956e-b96e827df3ed":{"type":"images-with-text","blocks":{"91674a81-23eb-40b8-a782-230a65d5efd3":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/persuasive-patterns-in-customer-journey-mapping.jpg"}}},"block_order":["91674a81-23eb-40b8-a782-230a65d5efd3"],"settings":{"color_scheme":"secondary","container_size":"medium","section_spacing_top":90,"section_spacing_bottom":0,"content_layout":"right","image_layout":"collage","img_ratio":1,"rotate_images":false,"icon":"none","subheading":"","heading":"Evergreen content","body":"<p>The behavioral insights in the deck we true thousand years ago and will work thousand years from now. They stood the test of time because they are simple, yet effective.<\/p>","heading_size":"h2","body_size":"body2","content_alignment":"left","desktop_content_width":540,"first_button_text":"","first_button_link":"","first_button_style":"solid","second_button_text":"","second_button_link":"","second_button_style":"solid"}},"1e590e7c-d880-41a0-a758-93f6b3de66f5":{"type":"images-with-text","blocks":{"96d9468a-388a-4df3-860a-00a1419fd126":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/Rrumo_45.jpg"}}},"block_order":["96d9468a-388a-4df3-860a-00a1419fd126"],"settings":{"color_scheme":"secondary","container_size":"medium","section_spacing_top":48,"section_spacing_bottom":90,"content_layout":"right","image_layout":"collage","img_ratio":1,"rotate_images":false,"icon":"none","subheading":"","heading":"Tangibly big","body":"<p>The cards are designed intentionally big in your hands. It's heavy to hold, smooth to touch, and easy on the eyes.<\/p><p>In the age of remote, we believe in the power of physical.<\/p>","heading_size":"h2","body_size":"body2","content_alignment":"left","desktop_content_width":540,"first_button_text":"","first_button_link":"","first_button_style":"solid","second_button_text":"","second_button_link":"","second_button_style":"solid"}},"49c49a29-168e-4bf6-a3ed-38b07d0f1838":{"type":"images-with-text","blocks":{"805f2cb1-797a-4798-adc8-c77dee89eb53":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/vp_pp.png"}}},"block_order":["805f2cb1-797a-4798-adc8-c77dee89eb53"],"settings":{"color_scheme":"default","container_size":"medium","section_spacing_top":90,"section_spacing_bottom":60,"content_layout":"left","image_layout":"collage","img_ratio":1,"rotate_images":false,"icon":"none","subheading":"","heading":"Become a confident behavioral designer + get results","body":"<p>Build a vocabulary based in human psychology and start designing for the human mind. Stop winging it and bring hard facts about we behave, decide, and take action to the table.<\/p>","heading_size":"h2","body_size":"body2","content_alignment":"left","desktop_content_width":540,"first_button_text":"Shop now","first_button_link":"","first_button_style":"solid","second_button_text":"","second_button_link":"","second_button_style":"solid"}},"b211c279-71dd-44ae-b816-3d6f3d551fac":{"type":"faq","blocks":{"template--15386400456738__b211c279-71dd-44ae-b816-3d6f3d551fac-question-1":{"type":"question","settings":{"title":"Can I get the card bundle for my entire team?","icon":"none","text":"<p>Yes! We offer team discounts when buying both the Persuasive Patterns and Validation Patterns card deck.<\/p><p>Get in touch at <a href=\"mailto:info@ui-patterns.com\">info@ui-patterns.com<\/a><\/p>","page":"","image_width":100}},"template--15386400456738__b211c279-71dd-44ae-b816-3d6f3d551fac-question-2":{"type":"question","settings":{"title":"Do you do discounts for educational institutions, students, or non profits?","icon":"none","text":"<p>We do! Get in touch at <a href=\"mailto:info@ui-patterns.com\">info@ui-patterns.com<\/a>with your credentials (non-profit status or student ID) and we will arrange a discount for you.<\/p>","page":"","image_width":100}},"template--15386400456738__b211c279-71dd-44ae-b816-3d6f3d551fac-question-3":{"type":"question","settings":{"title":"When and how do I receive my digital cards?","icon":"none","text":"<p>The digital cards are emailed to you immediately after your checkout. If it does not show up, then please check your spam folder.<\/p><p>You can also download the cards by logging into your account. If you forgot your password, you can set a new one by using the email address you bought the card deck with.<\/p>","page":"","image_width":100}},"f8ac65b5-fb9d-403b-afe7-b5bb1d280a63":{"type":"question","settings":{"title":"Will the digital cards work with my software?","icon":"none","text":"<p>The digital cards are compatible with <em>Miro, Mural, FigJam, Powerpoint, Keynote, Jamboard, Whiteboard<\/em> – in theory any software that allows you to insert images. The digital cards come in both a lightweight PDF and JPEG images of each card.<\/p>","page":"","image_width":100}},"7b59e4cf-b4a8-4aec-917f-fd99776858d4":{"type":"question","settings":{"title":"Do you ship to my country?","icon":"none","text":"<p>We ship to most countries in the world. If you want to be sure, then our checkout flow will let you know if we ship to your country.<\/p>","page":"","image_width":100}},"b7f706fb-598a-48a3-aa33-b4be3eee3431":{"type":"question","settings":{"title":"How long does shipping take?","icon":"none","text":"<p>We have fulfilment centers in the US and in Europe (Latvia). North America and Europe ship within days. Countries within Asia, Africa, and South America can take a few weeks. We show the estimated time from the courier on the checkout page.<\/p>","page":"","image_width":100}},"cb93e254-36d4-446b-8233-9b8790259287":{"type":"question","settings":{"title":"Will there be customs charges on my order?","icon":"none","text":"<p>If you are ordering outside of Europe or North America, customs charges should be minimal, if non-existant as we declare the cost price of the physical deck, not the full retail price of everything (Digital Cards, etc).<\/p>","page":"","image_width":100}},"3a377a13-d071-41bf-aea2-689ec6378cf1":{"type":"question","settings":{"title":"Can you send an invoice?","icon":"none","text":"<p>Of course. We will automatically email you an invoice after making a purchase. Watch your spam folder as the PDF file attached have a tendency to get stuck there.<\/p>","page":"","image_width":100}},"8b7bf7ac-f2d4-4fbb-bdca-565ac4a5c1b8":{"type":"question","settings":{"title":"Can I track the package?","icon":"none","text":"<p>Yes. We will automatically email you a tracking link once your package has left the warehouse. Depending on the time and day, this can some times be the next business day in the local timezone of our fulfilment center.<\/p><p>If you do not receive the tracking link in your email inbox, then please check your spam folder.<\/p>","page":"","image_width":100}}},"block_order":["template--15386400456738__b211c279-71dd-44ae-b816-3d6f3d551fac-question-1","template--15386400456738__b211c279-71dd-44ae-b816-3d6f3d551fac-question-2","template--15386400456738__b211c279-71dd-44ae-b816-3d6f3d551fac-question-3","f8ac65b5-fb9d-403b-afe7-b5bb1d280a63","7b59e4cf-b4a8-4aec-917f-fd99776858d4","b7f706fb-598a-48a3-aa33-b4be3eee3431","cb93e254-36d4-446b-8233-9b8790259287","3a377a13-d071-41bf-aea2-689ec6378cf1","8b7bf7ac-f2d4-4fbb-bdca-565ac4a5c1b8"],"settings":{"color_scheme":"custom-3","enable_background_around_container":false,"color_tabs":"none","container_size":"medium","section_spacing_top":52,"section_spacing_bottom":80,"section_layout":"bottom-tabs","expand_first_tab":true,"title":"Frequently Asked Questions","text":"","heading_size":"h5","body_size":"body3","btn_text":"","btn_url":"","btn_style":"solid"}},"product-recommendations":{"type":"product-recommendations","settings":{"color_scheme":"default","container_size":"medium","section_spacing_top":48,"section_spacing_bottom":48,"desktop_layout":"carousel","mobile_layout":"carousel","title":"You may also like","heading_size":"h4","alignment":"center","product_recommendations_type":"auto","featured_collection":"","featured_products":[],"img_ratio":"square","product_card_align":"center","cards_to_show":18,"desktop_columns":3,"desktop_space_between_cards":20,"mobile_space_between_cards":20,"show_navigation_on_hover":true,"autoplay_mode":"disabled","autoplay_interval":3}}},"order":["ff03a7f7-70a4-4aa2-8e65-56be8e7dbefc","main","e6a2dc3b-b6a3-43da-ac2e-7e6e68957a71","dde7c692-d8b4-4a40-9d3a-c048f605740f","2ed17851-e2d9-4b4b-990c-3df8599c3b8e","35a80c75-d4b0-4340-9552-75a9f11586de","d7a5963e-c766-4f10-8cc1-5470486301a3","22962715-c6b1-4c9f-876b-dee37b67a0ae","f7cd431c-fef7-4f0a-8969-24198638a725","a9b7acc2-f81e-4056-88b3-cdf6ae89c7a7","0c2ed4d1-2136-4c5c-920e-482096df3899","f768b115-1f18-47e5-956e-b96e827df3ed","1e590e7c-d880-41a0-a758-93f6b3de66f5","49c49a29-168e-4bf6-a3ed-38b07d0f1838","b211c279-71dd-44ae-b816-3d6f3d551fac","product-recommendations"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "ff03a7f7-70a4-4aa2-8e65-56be8e7dbefc": {
+      "type": "breadcrumbs",
+      "disabled": true,
+      "settings": {
+        "color_scheme": "default",
+        "container_size": "large",
+        "section_spacing_top": 16,
+        "section_spacing_bottom": 0,
+        "show_breadcrumbs_product_title": true
+      }
+    },
+    "main": {
+      "type": "product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h2"
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "price_size": "sm",
+            "show_tax_status": false,
+            "show_sale_amount_badge": true,
+            "highlight_sale_price": true
+          }
+        },
+        "28586830-d855-4547-8946-94914bac9e85": {
+          "type": "description",
+          "settings": {
+            "title": "",
+            "block_style": "static",
+            "icon": "none"
+          }
+        },
+        "d3d427d0-4e7d-4f81-9057-c64f65a4f183": {
+          "type": "variant_picker",
+          "settings": {
+            "option_type": "button-outline",
+            "primary_swatch_option_type": "button-outline",
+            "secondary_swatch_option_type": "swatches",
+            "option_name": "",
+            "information_drawer_button_label": "",
+            "text": "",
+            "page": "",
+            "image_width": 60
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "enable_pickup_availability": false,
+            "enable_gift_card": false
+          }
+        },
+        "c9188b10-e29c-4c63-b385-a3faa860d64a": {
+          "type": "information_tag",
+          "settings": {
+            "tag_style": "solid",
+            "heading": "Digital Cards emailed after purchase",
+            "body": "",
+            "content_alignment": "left",
+            "icon": "email-outline",
+            "icon_position": "inline",
+            "tag_background_color": "#ffffff",
+            "tag_text_color": "#344454",
+            "enable_drawer": false,
+            "drawer_text": "<p>Tell more about your product, add care instructions, country of origin, or manufacturer information.</p>",
+            "drawer_page": "",
+            "drawer_media_size": 60
+          }
+        },
+        "4eeca04a-4423-41c9-a374-7a9d970a3d59": {
+          "type": "information_tag",
+          "disabled": true,
+          "settings": {
+            "tag_style": "solid",
+            "heading": "We ship to Denmark from Latvia, EU.",
+            "body": "",
+            "content_alignment": "left",
+            "icon": "fast-delivery",
+            "icon_position": "inline",
+            "tag_background_color": "#ffffff",
+            "tag_text_color": "#344454",
+            "enable_drawer": false,
+            "drawer_text": "<p>Tell more about your product, add care instructions, country of origin, or manufacturer information.</p>",
+            "drawer_page": "",
+            "drawer_media_size": 60
+          }
+        },
+        "a1297489-7eee-44d2-9252-af8ab78ecef1": {
+          "type": "information_tag",
+          "settings": {
+            "tag_style": "solid",
+            "heading": "VAT number accepted at checkout",
+            "body": "",
+            "content_alignment": "left",
+            "icon": "pen-and-ruler",
+            "icon_position": "inline",
+            "tag_background_color": "#ffffff",
+            "tag_text_color": "#344454",
+            "enable_drawer": false,
+            "drawer_text": "<p>Tell more about your product, add care instructions, country of origin, or manufacturer information.</p>",
+            "drawer_page": "",
+            "drawer_media_size": 60
+          }
+        },
+        "6d6606d5-ae7e-4306-b3d7-67030f2e4136": {
+          "type": "related_products",
+          "settings": {
+            "color_scheme": "primary",
+            "show_background": false,
+            "show_in_quick_view": false,
+            "block_layout": "carousel-with-vertical-cards",
+            "img_ratio": "inherited",
+            "title": "Goes well with",
+            "heading_size": "h7",
+            "alignment": "left",
+            "product_recommendations_type": "manually",
+            "featured_collection": "",
+            "featured_products": [
+              "persuasive-patterns-poster",
+              "validation-patterns-poster"
+            ],
+            "products_to_show": 3,
+            "show_navigation_on_hover": true,
+            "autoplay_mode": "disabled",
+            "autoplay_interval": 3
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "price",
+        "28586830-d855-4547-8946-94914bac9e85",
+        "d3d427d0-4e7d-4f81-9057-c64f65a4f183",
+        "quantity_selector",
+        "buy_buttons",
+        "c9188b10-e29c-4c63-b385-a3faa860d64a",
+        "4eeca04a-4423-41c9-a374-7a9d970a3d59",
+        "a1297489-7eee-44d2-9252-af8ab78ecef1",
+        "6d6606d5-ae7e-4306-b3d7-67030f2e4136"
+      ],
+      "settings": {
+        "color_scheme": "default",
+        "container_size": "medium",
+        "section_spacing_top": 32,
+        "section_spacing_bottom": 90,
+        "layout": "thumbnails-bottom",
+        "desktop_space_between_media": 4,
+        "thumbnails_size": 88,
+        "mobile_layout": "thumbnails-right",
+        "img_ratio": "square",
+        "show_only_selected_variants": false,
+        "enable_image_zoom": true,
+        "enable_video_looping": true,
+        "enable_video_autoplay": true,
+        "scale_video": true
+      }
+    },
+    "e6a2dc3b-b6a3-43da-ac2e-7e6e68957a71": {
+      "type": "logo-list",
+      "blocks": {
+        "template--15386400456738__e6a2dc3b-b6a3-43da-ac2e-7e6e68957a71-logo-1": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/logo_google.png",
+            "image_width": 100,
+            "link": ""
+          }
+        },
+        "template--15386400456738__e6a2dc3b-b6a3-43da-ac2e-7e6e68957a71-logo-2": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/logo_shopify.png",
+            "image_width": 100,
+            "link": ""
+          }
+        },
+        "template--15386400456738__e6a2dc3b-b6a3-43da-ac2e-7e6e68957a71-logo-3": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/logo_facebook.png",
+            "image_width": 100,
+            "link": ""
+          }
+        },
+        "template--15386400456738__e6a2dc3b-b6a3-43da-ac2e-7e6e68957a71-logo-6": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/logo_apple.png",
+            "image_width": 100,
+            "link": ""
+          }
+        },
+        "template--15386400456738__e6a2dc3b-b6a3-43da-ac2e-7e6e68957a71-logo-4": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/logo_microsoft.png",
+            "image_width": 100,
+            "link": ""
+          }
+        },
+        "template--15386400456738__e6a2dc3b-b6a3-43da-ac2e-7e6e68957a71-logo-5": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/logo_booking-com.png",
+            "image_width": 100,
+            "link": ""
+          }
+        },
+        "template--15386400456738__e6a2dc3b-b6a3-43da-ac2e-7e6e68957a71-logo-7": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/logo_harvard-business-school.png",
+            "image_width": 100,
+            "link": ""
+          }
+        },
+        "template--15386400456738__e6a2dc3b-b6a3-43da-ac2e-7e6e68957a71-logo-8": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/logo_coca-cola.png",
+            "image_width": 100,
+            "link": ""
+          }
+        },
+        "4a5e5f7c-e933-4dbe-b1bf-01b4e791667f": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/logo-mckinsey-and-company.png",
+            "image_width": 100,
+            "link": ""
+          }
+        },
+        "9b1e4372-ad3c-4d0d-a3f4-f5edc9b124bd": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/logo_dropbox.png",
+            "image_width": 100,
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15386400456738__e6a2dc3b-b6a3-43da-ac2e-7e6e68957a71-logo-1",
+        "template--15386400456738__e6a2dc3b-b6a3-43da-ac2e-7e6e68957a71-logo-2",
+        "template--15386400456738__e6a2dc3b-b6a3-43da-ac2e-7e6e68957a71-logo-3",
+        "template--15386400456738__e6a2dc3b-b6a3-43da-ac2e-7e6e68957a71-logo-6",
+        "template--15386400456738__e6a2dc3b-b6a3-43da-ac2e-7e6e68957a71-logo-4",
+        "template--15386400456738__e6a2dc3b-b6a3-43da-ac2e-7e6e68957a71-logo-5",
+        "template--15386400456738__e6a2dc3b-b6a3-43da-ac2e-7e6e68957a71-logo-7",
+        "template--15386400456738__e6a2dc3b-b6a3-43da-ac2e-7e6e68957a71-logo-8",
+        "4a5e5f7c-e933-4dbe-b1bf-01b4e791667f",
+        "9b1e4372-ad3c-4d0d-a3f4-f5edc9b124bd"
+      ],
+      "settings": {
+        "color_scheme": "custom-3",
+        "container_size": "medium",
+        "section_spacing_top": 90,
+        "section_spacing_bottom": 90,
+        "desktop_layout": "grid",
+        "mobile_layout": "carousel",
+        "title": "Trusted by leading product designers at",
+        "heading_size": "h2",
+        "alignment": "center",
+        "desktop_columns": 6,
+        "desktop_space_between_cards": 32,
+        "mobile_space_between_cards": 12,
+        "show_navigation_arrows": "always",
+        "autoplay_mode": "disabled",
+        "autoplay_interval": 3
+      }
+    },
+    "dde7c692-d8b4-4a40-9d3a-c048f605740f": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--15386400456738__dde7c692-d8b4-4a40-9d3a-c048f605740f-column_with_icon-1": {
+          "type": "column_with_icon",
+          "settings": {
+            "icon": "none",
+            "icon_size": 64,
+            "title": "Experiment on steroids",
+            "text": "<p>Proven psychological insights provide a strong foundation for explosive experiments.</p>",
+            "link_text": "",
+            "link_url": ""
+          }
+        },
+        "13cba67f-e320-42ff-bd11-ee52a8bb0375": {
+          "type": "column_with_icon",
+          "settings": {
+            "icon": "none",
+            "icon_size": 64,
+            "title": "Eliminate guesswork",
+            "text": "<p>Add a behavioural lens to how you solve design problems.</p>",
+            "link_text": "",
+            "link_url": ""
+          }
+        },
+        "36ab52b2-e6a1-4d3a-94b7-1ff61cdc45ef": {
+          "type": "column_with_icon",
+          "settings": {
+            "icon": "none",
+            "icon_size": 64,
+            "title": "Collaborate better",
+            "text": "<p>Build a shared language and understanding and make collaboration more efficient.</p>",
+            "link_text": "",
+            "link_url": ""
+          }
+        },
+        "c30fcdde-404e-46b7-8b9d-e30e4ca416a9": {
+          "type": "column_with_icon",
+          "settings": {
+            "icon": "none",
+            "icon_size": 64,
+            "title": "Fact driven development",
+            "text": "<p>Start with proven facts from psychology and apply it to your context.</p>",
+            "link_text": "",
+            "link_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15386400456738__dde7c692-d8b4-4a40-9d3a-c048f605740f-column_with_icon-1",
+        "13cba67f-e320-42ff-bd11-ee52a8bb0375",
+        "36ab52b2-e6a1-4d3a-94b7-1ff61cdc45ef",
+        "c30fcdde-404e-46b7-8b9d-e30e4ca416a9"
+      ],
+      "settings": {
+        "color_scheme": "default",
+        "container_size": "medium",
+        "section_spacing_top": 90,
+        "section_spacing_bottom": 90,
+        "desktop_layout": "grid",
+        "mobile_layout": "one-column-grid",
+        "title": "Enable your team to...",
+        "text": "",
+        "heading_size": "h2",
+        "body_size": "body2",
+        "content_alignment": "center",
+        "column_heading_size": "h5",
+        "column_body_size": "body2",
+        "column_alignment": "center",
+        "desktop_columns": 2,
+        "desktop_space_between_cards": 0,
+        "desktop_content_spacing": 0,
+        "mobile_space_between_cards": 16,
+        "mobile_content_spacing": 24,
+        "show_column_background": false,
+        "show_navigation_on_hover": true,
+        "btn_text": "",
+        "btn_url": "",
+        "btn_style": "outline",
+        "autoplay_mode": "disabled",
+        "autoplay_interval": 3
+      }
+    },
+    "2ed17851-e2d9-4b4b-990c-3df8599c3b8e": {
+      "type": "testimonials",
+      "blocks": {
+        "71628dc5-be30-438d-a4f3-da1da60e0eaf": {
+          "type": "quote",
+          "settings": {
+            "text": "\"We use the Persuasive Patterns deck of cards to get people thinking about how we can leverage different techniques to increase conversions on our websites. I LOVE the line art (#58 - Self-Expression is my fav) but do wish there was a resource to see real-world applications.\"",
+            "author_name": "Roeland Doherty - GrowthTribe",
+            "author_image": "shopify://shop_images/roeland-doherty.png",
+            "rating": 4.5,
+            "link": ""
+          }
+        },
+        "template--15386400456738__2ed17851-e2d9-4b4b-990c-3df8599c3b8e-quote-1": {
+          "type": "quote",
+          "settings": {
+            "text": "\"Loving my persuasive patterns cards from UI-Patterns.com. Really useful inspirational tool\"",
+            "author_name": "Paul Boag - Boagworks",
+            "author_image": "shopify://shop_images/paul-boag.png",
+            "rating": 4.5,
+            "link": ""
+          }
+        },
+        "526eb9a6-a7ba-402c-9365-3cde4d74d8af": {
+          "type": "quote",
+          "settings": {
+            "text": "\"Wanted to quickly shout out this Persuasive Patterns card deck I got from UI-Patterns and my favorite concept that's included - the Peak-End Rule. It's an excellent reference for keeping intended behaviors top-of-mind, and for explaining a complex concept simply to a stakeholder.\"",
+            "author_name": "Brett Sebbio - Lowe's",
+            "author_image": "shopify://shop_images/brett-sebbio.png",
+            "rating": 4.5,
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "71628dc5-be30-438d-a4f3-da1da60e0eaf",
+        "template--15386400456738__2ed17851-e2d9-4b4b-990c-3df8599c3b8e-quote-1",
+        "526eb9a6-a7ba-402c-9365-3cde4d74d8af"
+      ],
+      "custom_css": [
+        ".quote__text--large {font-weight: 400; font-style: italic;}"
+      ],
+      "settings": {
+        "color_scheme": "custom-3",
+        "enable_background_around_container": false,
+        "container_size": "large",
+        "section_spacing_top": 60,
+        "section_spacing_bottom": 90,
+        "section_layout": "bottom-quotes",
+        "cards_per_slide": 1,
+        "quote_alignment": "center",
+        "caption": "",
+        "title": "",
+        "text": "",
+        "heading_size": "h3",
+        "body_size": "body3",
+        "btn_text": "",
+        "btn_url": "",
+        "autoplay_mode": "one_at_time",
+        "autoplay_interval": 3
+      }
+    },
+    "35a80c75-d4b0-4340-9552-75a9f11586de": {
+      "type": "images-with-text",
+      "blocks": {
+        "template--16729789563121__35a80c75-d4b0-4340-9552-75a9f11586de-1681824353e40c4786-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/persuasive-patterns-card-deck-mockup.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "template--16729789563121__35a80c75-d4b0-4340-9552-75a9f11586de-1681824353e40c4786-0"
+      ],
+      "settings": {
+        "color_scheme": "default",
+        "container_size": "medium",
+        "section_spacing_top": 48,
+        "section_spacing_bottom": 90,
+        "content_layout": "right",
+        "image_layout": "collage",
+        "img_ratio": 0.8,
+        "rotate_images": false,
+        "icon": "none",
+        "subheading": "",
+        "heading": "Design",
+        "body": "<h6><strong>Clear language</strong></h6><p>The academic jargon of research papers have been transformed into understandable, concise, and digestible language making research quick and easy to undestand and share.</p><h6><strong>Supercharge your ideas</strong></h6><p>Expand ideas and navigate behavioral research by exploring connected design patterns.</p><h6><strong>Memorable illustrations</strong></h6><p>Custom hand-drawn illustrations by artist Annesofie Sandal provide visual metaphors to aid learning and recall.</p>",
+        "heading_size": "h2",
+        "body_size": "body3",
+        "content_alignment": "left",
+        "desktop_content_width": 440,
+        "first_button_text": "Buy now",
+        "first_button_link": "",
+        "first_button_style": "solid",
+        "second_button_text": "",
+        "second_button_link": "",
+        "second_button_style": "solid"
+      }
+    },
+    "d7a5963e-c766-4f10-8cc1-5470486301a3": {
+      "type": "multicolumn",
+      "blocks": {
+        "6f3f5535-cb5f-45ac-b7d6-fabfd4ab3dcf": {
+          "type": "column_with_icon",
+          "settings": {
+            "icon": "none",
+            "icon_size": 64,
+            "title": "Step #1",
+            "text": "<h6>Take facts from research</h6><p>Start with a solid foundation of psychological insights and persuasive design techniques to influence user behaviour effectively.</p><p></p>",
+            "link_text": "",
+            "link_url": ""
+          }
+        },
+        "5ee60e82-a24a-4c02-9252-ef61ac14441f": {
+          "type": "column_with_icon",
+          "settings": {
+            "icon": "none",
+            "icon_size": 64,
+            "title": "Step #2",
+            "text": "<h6>Apply them to your product</h6><p>Ensure that your persuasive design choices are not based solely on intuition or assumptions but are backed by concrete evidence of their impact on user behaviour.</p>",
+            "link_text": "",
+            "link_url": ""
+          }
+        },
+        "c927e00e-659f-4e47-8e8b-4edeec7d601c": {
+          "type": "column_with_icon",
+          "settings": {
+            "icon": "none",
+            "icon_size": 64,
+            "title": "Step #3",
+            "text": "<h6>Get it right</h6><p>Fine-tune and optimize your product's persuasive strategies continuously. It's a cycle of learning, applying insights, testing, and refining, which leads to more effective and successful products.</p><p></p>",
+            "link_text": "",
+            "link_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "6f3f5535-cb5f-45ac-b7d6-fabfd4ab3dcf",
+        "5ee60e82-a24a-4c02-9252-ef61ac14441f",
+        "c927e00e-659f-4e47-8e8b-4edeec7d601c"
+      ],
+      "settings": {
+        "color_scheme": "secondary",
+        "container_size": "medium",
+        "section_spacing_top": 90,
+        "section_spacing_bottom": 90,
+        "desktop_layout": "grid",
+        "mobile_layout": "one-column-grid",
+        "title": "The persuasive development process",
+        "text": "Data-driven and evidence-based approach to creating and refining products, where the science of psychology meets the science of validation to drive success.",
+        "heading_size": "h2",
+        "body_size": "body2",
+        "content_alignment": "center",
+        "column_heading_size": "h5",
+        "column_body_size": "body4",
+        "column_alignment": "center",
+        "desktop_columns": 3,
+        "desktop_space_between_cards": 24,
+        "desktop_content_spacing": 24,
+        "mobile_space_between_cards": 16,
+        "mobile_content_spacing": 24,
+        "show_column_background": true,
+        "show_navigation_on_hover": true,
+        "btn_text": "",
+        "btn_url": "",
+        "btn_style": "outline",
+        "autoplay_mode": "disabled",
+        "autoplay_interval": 3
+      }
+    },
+    "22962715-c6b1-4c9f-876b-dee37b67a0ae": {
+      "type": "images-with-text",
+      "blocks": {
+        "template--15386400456738__22962715-c6b1-4c9f-876b-dee37b67a0ae-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/persuasive-patterns-badge-sizes_1.png"
+          }
+        }
+      },
+      "block_order": [
+        "template--15386400456738__22962715-c6b1-4c9f-876b-dee37b67a0ae-image-1"
+      ],
+      "settings": {
+        "color_scheme": "default",
+        "container_size": "medium",
+        "section_spacing_top": 90,
+        "section_spacing_bottom": 48,
+        "content_layout": "left",
+        "image_layout": "collage",
+        "img_ratio": 0.8,
+        "rotate_images": false,
+        "icon": "none",
+        "subheading": "",
+        "heading": "Grow your business by only building what customers want",
+        "body": "<p>Persuasive Patterns will support you through the entire funnel. </p><p>The Validation Patterns will help you weed out what works and what doesn't. </p>",
+        "heading_size": "h2",
+        "body_size": "body2",
+        "content_alignment": "left",
+        "desktop_content_width": 540,
+        "first_button_text": "",
+        "first_button_link": "",
+        "first_button_style": "solid",
+        "second_button_text": "",
+        "second_button_link": "",
+        "second_button_style": "solid"
+      }
+    },
+    "f7cd431c-fef7-4f0a-8969-24198638a725": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15410758647842__f7cd431c-fef7-4f0a-8969-24198638a725-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "Grow your business by only building what customers want",
+            "heading_size": "h3"
+          }
+        },
+        "template--15410758647842__f7cd431c-fef7-4f0a-8969-24198638a725-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Persuasive Patterns</strong> will support you through the entire funnel. </p><p>The <strong>Validation Patterns</strong> will help you weed out what works and what doesn't. </p><h6></h6><p></p>",
+            "text_2": "<p><strong>Awareness<br/></strong>Catch the attention of your audience and stand out from the crowd.</p><p><strong>Acquisition & conversion</strong><br/>Attract new customers and increase revenue.</p><p><strong>Activation & onboarding</strong><br/>Help users discover value early and keep up their momentum.</p><p><strong>Retention & loyalty</strong><br/>Keep users engaged as they progress and make leaving hard.</p><p><strong>Referral & social virality<br/></strong>Use social psychology to make sharing a given.</p><p><strong>Pricing & revenue</strong><br/>Find the right price, amount of options, and appropriate presentation at the right time.</p>",
+            "text_3": "",
+            "body_size": "body2"
+          }
+        }
+      },
+      "block_order": [
+        "template--15410758647842__f7cd431c-fef7-4f0a-8969-24198638a725-heading-1",
+        "template--15410758647842__f7cd431c-fef7-4f0a-8969-24198638a725-text-1"
+      ],
+      "settings": {
+        "color_scheme": "custom-2",
+        "enable_background_around_container": true,
+        "container_size": "medium",
+        "section_spacing_top": 90,
+        "section_spacing_bottom": 90,
+        "content_align": "left"
+      }
+    },
+    "a9b7acc2-f81e-4056-88b3-cdf6ae89c7a7": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15412947091490__a9b7acc2-f81e-4056-88b3-cdf6ae89c7a7-icon-1": {
+          "type": "icon",
+          "settings": {
+            "icon": "none",
+            "icon_size": 48
+          }
+        },
+        "template--15412947091490__a9b7acc2-f81e-4056-88b3-cdf6ae89c7a7-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "From theory to practise",
+            "heading_size": "h2"
+          }
+        },
+        "template--15412947091490__a9b7acc2-f81e-4056-88b3-cdf6ae89c7a7-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>While the Persuasive Patterns card deck offers valuable insights into the psychological principles of persuasion, it primarily provides theoretical guidance.</p><p>The Validation Patterns card deck offers practical validation techniques that make experimenting with the persuasive strategies a breeze.</p><p></p>",
+            "text_2": "",
+            "text_3": "",
+            "body_size": "body2"
+          }
+        }
+      },
+      "block_order": [
+        "template--15412947091490__a9b7acc2-f81e-4056-88b3-cdf6ae89c7a7-icon-1",
+        "template--15412947091490__a9b7acc2-f81e-4056-88b3-cdf6ae89c7a7-heading-1",
+        "template--15412947091490__a9b7acc2-f81e-4056-88b3-cdf6ae89c7a7-text-1"
+      ],
+      "settings": {
+        "color_scheme": "default",
+        "enable_background_around_container": false,
+        "container_size": "medium",
+        "section_spacing_top": 90,
+        "section_spacing_bottom": 0,
+        "content_align": "center"
+      }
+    },
+    "0c2ed4d1-2136-4c5c-920e-482096df3899": {
+      "type": "rich-text",
+      "blocks": {
+        "7923795e-e6f4-40be-9137-4ea7f4094891": {
+          "type": "icon",
+          "settings": {
+            "icon": "none",
+            "icon_size": 48
+          }
+        },
+        "3a940796-2a71-479d-bd87-b84b85beffc3": {
+          "type": "heading",
+          "settings": {
+            "title": "Go implement something customers actually want",
+            "heading_size": "h2"
+          }
+        },
+        "bea85430-bb02-42b5-8f78-9d1ed74eafd3": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Identify which strategies are truly persuasive and worth further development.</p><p>Without validation, there's a risk of investing time and resources in persuasive design strategies that may not be as effective as expected.</p><p></p>",
+            "text_2": "",
+            "text_3": "",
+            "body_size": "body2"
+          }
+        }
+      },
+      "block_order": [
+        "7923795e-e6f4-40be-9137-4ea7f4094891",
+        "3a940796-2a71-479d-bd87-b84b85beffc3",
+        "bea85430-bb02-42b5-8f78-9d1ed74eafd3"
+      ],
+      "settings": {
+        "color_scheme": "default",
+        "enable_background_around_container": false,
+        "container_size": "medium",
+        "section_spacing_top": 0,
+        "section_spacing_bottom": 90,
+        "content_align": "center"
+      }
+    },
+    "f768b115-1f18-47e5-956e-b96e827df3ed": {
+      "type": "images-with-text",
+      "blocks": {
+        "91674a81-23eb-40b8-a782-230a65d5efd3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/persuasive-patterns-in-customer-journey-mapping.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "91674a81-23eb-40b8-a782-230a65d5efd3"
+      ],
+      "settings": {
+        "color_scheme": "secondary",
+        "container_size": "medium",
+        "section_spacing_top": 90,
+        "section_spacing_bottom": 0,
+        "content_layout": "right",
+        "image_layout": "collage",
+        "img_ratio": 1,
+        "rotate_images": false,
+        "icon": "none",
+        "subheading": "",
+        "heading": "Evergreen content",
+        "body": "<p>The behavioral insights in the deck we true thousand years ago and will work thousand years from now. They stood the test of time because they are simple, yet effective.</p>",
+        "heading_size": "h2",
+        "body_size": "body2",
+        "content_alignment": "left",
+        "desktop_content_width": 540,
+        "first_button_text": "",
+        "first_button_link": "",
+        "first_button_style": "solid",
+        "second_button_text": "",
+        "second_button_link": "",
+        "second_button_style": "solid"
+      }
+    },
+    "1e590e7c-d880-41a0-a758-93f6b3de66f5": {
+      "type": "images-with-text",
+      "blocks": {
+        "96d9468a-388a-4df3-860a-00a1419fd126": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Rrumo_45.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "96d9468a-388a-4df3-860a-00a1419fd126"
+      ],
+      "settings": {
+        "color_scheme": "secondary",
+        "container_size": "medium",
+        "section_spacing_top": 48,
+        "section_spacing_bottom": 90,
+        "content_layout": "right",
+        "image_layout": "collage",
+        "img_ratio": 1,
+        "rotate_images": false,
+        "icon": "none",
+        "subheading": "",
+        "heading": "Tangibly big",
+        "body": "<p>The cards are designed intentionally big in your hands. It's heavy to hold, smooth to touch, and easy on the eyes.</p><p>In the age of remote, we believe in the power of physical.</p>",
+        "heading_size": "h2",
+        "body_size": "body2",
+        "content_alignment": "left",
+        "desktop_content_width": 540,
+        "first_button_text": "",
+        "first_button_link": "",
+        "first_button_style": "solid",
+        "second_button_text": "",
+        "second_button_link": "",
+        "second_button_style": "solid"
+      }
+    },
+    "49c49a29-168e-4bf6-a3ed-38b07d0f1838": {
+      "type": "images-with-text",
+      "blocks": {
+        "805f2cb1-797a-4798-adc8-c77dee89eb53": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/vp_pp.png"
+          }
+        }
+      },
+      "block_order": [
+        "805f2cb1-797a-4798-adc8-c77dee89eb53"
+      ],
+      "settings": {
+        "color_scheme": "default",
+        "container_size": "medium",
+        "section_spacing_top": 90,
+        "section_spacing_bottom": 60,
+        "content_layout": "left",
+        "image_layout": "collage",
+        "img_ratio": 1,
+        "rotate_images": false,
+        "icon": "none",
+        "subheading": "",
+        "heading": "Become a confident behavioral designer + get results",
+        "body": "<p>Build a vocabulary based in human psychology and start designing for the human mind. Stop winging it and bring hard facts about we behave, decide, and take action to the table.</p>",
+        "heading_size": "h2",
+        "body_size": "body2",
+        "content_alignment": "left",
+        "desktop_content_width": 540,
+        "first_button_text": "Shop now",
+        "first_button_link": "",
+        "first_button_style": "solid",
+        "second_button_text": "",
+        "second_button_link": "",
+        "second_button_style": "solid"
+      }
+    },
+    "b211c279-71dd-44ae-b816-3d6f3d551fac": {
+      "type": "faq",
+      "blocks": {
+        "template--15386400456738__b211c279-71dd-44ae-b816-3d6f3d551fac-question-1": {
+          "type": "question",
+          "settings": {
+            "title": "Can I get the card bundle for my entire team?",
+            "icon": "none",
+            "text": "<p>Yes! We offer team discounts when buying both the Persuasive Patterns and Validation Patterns card deck.</p><p>Get in touch at <a href=\"mailto:info@ui-patterns.com\">info@ui-patterns.com</a></p>",
+            "page": "",
+            "image_width": 100
+          }
+        },
+        "template--15386400456738__b211c279-71dd-44ae-b816-3d6f3d551fac-question-2": {
+          "type": "question",
+          "settings": {
+            "title": "Do you do discounts for educational institutions, students, or non profits?",
+            "icon": "none",
+            "text": "<p>We do! Get in touch at <a href=\"mailto:info@ui-patterns.com\">info@ui-patterns.com</a>with your credentials (non-profit status or student ID) and we will arrange a discount for you.</p>",
+            "page": "",
+            "image_width": 100
+          }
+        },
+        "template--15386400456738__b211c279-71dd-44ae-b816-3d6f3d551fac-question-3": {
+          "type": "question",
+          "settings": {
+            "title": "When and how do I receive my digital cards?",
+            "icon": "none",
+            "text": "<p>The digital cards are emailed to you immediately after your checkout. If it does not show up, then please check your spam folder.</p><p>You can also download the cards by logging into your account. If you forgot your password, you can set a new one by using the email address you bought the card deck with.</p>",
+            "page": "",
+            "image_width": 100
+          }
+        },
+        "f8ac65b5-fb9d-403b-afe7-b5bb1d280a63": {
+          "type": "question",
+          "settings": {
+            "title": "Will the digital cards work with my software?",
+            "icon": "none",
+            "text": "<p>The digital cards are compatible with <em>Miro, Mural, FigJam, Powerpoint, Keynote, Jamboard, Whiteboard</em> – in theory any software that allows you to insert images. The digital cards come in both a lightweight PDF and JPEG images of each card.</p>",
+            "page": "",
+            "image_width": 100
+          }
+        },
+        "7b59e4cf-b4a8-4aec-917f-fd99776858d4": {
+          "type": "question",
+          "settings": {
+            "title": "Do you ship to my country?",
+            "icon": "none",
+            "text": "<p>We ship to most countries in the world. If you want to be sure, then our checkout flow will let you know if we ship to your country.</p>",
+            "page": "",
+            "image_width": 100
+          }
+        },
+        "b7f706fb-598a-48a3-aa33-b4be3eee3431": {
+          "type": "question",
+          "settings": {
+            "title": "How long does shipping take?",
+            "icon": "none",
+            "text": "<p>We have fulfilment centers in the US and in Europe (Latvia). North America and Europe ship within days. Countries within Asia, Africa, and South America can take a few weeks. We show the estimated time from the courier on the checkout page.</p>",
+            "page": "",
+            "image_width": 100
+          }
+        },
+        "cb93e254-36d4-446b-8233-9b8790259287": {
+          "type": "question",
+          "settings": {
+            "title": "Will there be customs charges on my order?",
+            "icon": "none",
+            "text": "<p>If you are ordering outside of Europe or North America, customs charges should be minimal, if non-existant as we declare the cost price of the physical deck, not the full retail price of everything (Digital Cards, etc).</p>",
+            "page": "",
+            "image_width": 100
+          }
+        },
+        "3a377a13-d071-41bf-aea2-689ec6378cf1": {
+          "type": "question",
+          "settings": {
+            "title": "Can you send an invoice?",
+            "icon": "none",
+            "text": "<p>Of course. We will automatically email you an invoice after making a purchase. Watch your spam folder as the PDF file attached have a tendency to get stuck there.</p>",
+            "page": "",
+            "image_width": 100
+          }
+        },
+        "8b7bf7ac-f2d4-4fbb-bdca-565ac4a5c1b8": {
+          "type": "question",
+          "settings": {
+            "title": "Can I track the package?",
+            "icon": "none",
+            "text": "<p>Yes. We will automatically email you a tracking link once your package has left the warehouse. Depending on the time and day, this can some times be the next business day in the local timezone of our fulfilment center.</p><p>If you do not receive the tracking link in your email inbox, then please check your spam folder.</p>",
+            "page": "",
+            "image_width": 100
+          }
+        }
+      },
+      "block_order": [
+        "template--15386400456738__b211c279-71dd-44ae-b816-3d6f3d551fac-question-1",
+        "template--15386400456738__b211c279-71dd-44ae-b816-3d6f3d551fac-question-2",
+        "template--15386400456738__b211c279-71dd-44ae-b816-3d6f3d551fac-question-3",
+        "f8ac65b5-fb9d-403b-afe7-b5bb1d280a63",
+        "7b59e4cf-b4a8-4aec-917f-fd99776858d4",
+        "b7f706fb-598a-48a3-aa33-b4be3eee3431",
+        "cb93e254-36d4-446b-8233-9b8790259287",
+        "3a377a13-d071-41bf-aea2-689ec6378cf1",
+        "8b7bf7ac-f2d4-4fbb-bdca-565ac4a5c1b8"
+      ],
+      "settings": {
+        "color_scheme": "custom-3",
+        "enable_background_around_container": false,
+        "color_tabs": "none",
+        "container_size": "medium",
+        "section_spacing_top": 52,
+        "section_spacing_bottom": 80,
+        "section_layout": "bottom-tabs",
+        "expand_first_tab": true,
+        "title": "Frequently Asked Questions",
+        "text": "",
+        "heading_size": "h5",
+        "body_size": "body3",
+        "btn_text": "",
+        "btn_url": "",
+        "btn_style": "solid"
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "color_scheme": "default",
+        "container_size": "medium",
+        "section_spacing_top": 48,
+        "section_spacing_bottom": 48,
+        "desktop_layout": "carousel",
+        "mobile_layout": "carousel",
+        "title": "You may also like",
+        "heading_size": "h4",
+        "alignment": "center",
+        "product_recommendations_type": "auto",
+        "featured_collection": "",
+        "featured_products": [],
+        "img_ratio": "square",
+        "product_card_align": "center",
+        "cards_to_show": 18,
+        "desktop_columns": 3,
+        "desktop_space_between_cards": 20,
+        "mobile_space_between_cards": 20,
+        "show_navigation_on_hover": true,
+        "autoplay_mode": "disabled",
+        "autoplay_interval": 3
+      }
+    }
+  },
+  "order": [
+    "ff03a7f7-70a4-4aa2-8e65-56be8e7dbefc",
+    "main",
+    "e6a2dc3b-b6a3-43da-ac2e-7e6e68957a71",
+    "dde7c692-d8b4-4a40-9d3a-c048f605740f",
+    "2ed17851-e2d9-4b4b-990c-3df8599c3b8e",
+    "35a80c75-d4b0-4340-9552-75a9f11586de",
+    "d7a5963e-c766-4f10-8cc1-5470486301a3",
+    "22962715-c6b1-4c9f-876b-dee37b67a0ae",
+    "f7cd431c-fef7-4f0a-8969-24198638a725",
+    "a9b7acc2-f81e-4056-88b3-cdf6ae89c7a7",
+    "0c2ed4d1-2136-4c5c-920e-482096df3899",
+    "f768b115-1f18-47e5-956e-b96e827df3ed",
+    "1e590e7c-d880-41a0-a758-93f6b3de66f5",
+    "49c49a29-168e-4bf6-a3ed-38b07d0f1838",
+    "b211c279-71dd-44ae-b816-3d6f3d551fac",
+    "product-recommendations"
+  ]
+}
