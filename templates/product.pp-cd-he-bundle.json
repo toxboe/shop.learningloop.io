@@ -234,44 +234,6 @@
         "content_align": "center"
       }
     },
-    "images_with_text_JNw6qi": {
-      "type": "images-with-text",
-      "blocks": {
-        "image_KPNaAB": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/persuasiveCD_HE_2.png"
-          }
-        }
-      },
-      "block_order": [
-        "image_KPNaAB"
-      ],
-      "settings": {
-        "color_scheme": "default",
-        "container_size": "medium",
-        "section_spacing_top": 67,
-        "section_spacing_bottom": 48,
-        "content_layout": "left",
-        "image_layout": "collage",
-        "img_ratio": 1,
-        "rotate_images": false,
-        "icon": "none",
-        "subheading": "Design better products",
-        "heading": "Become a confident behavioral designer",
-        "body": "<p>Build a vocabulary based in human psychology and start designing for the human mind. Stop winging it and bring hard facts about we behave, decide, and take action to the table.</p>",
-        "heading_size": "h2",
-        "body_size": "body3",
-        "content_alignment": "left",
-        "desktop_content_width": 360,
-        "first_button_text": "Shop both decks now",
-        "first_button_link": "",
-        "first_button_style": "solid",
-        "second_button_text": "",
-        "second_button_link": "",
-        "second_button_style": "solid"
-      }
-    },
     "e6a2dc3b-b6a3-43da-ac2e-7e6e68957a71": {
       "type": "logo-list",
       "blocks": {
@@ -1011,30 +973,42 @@
         "btn_style": "solid"
       }
     },
-    "product-recommendations": {
-      "type": "product-recommendations",
+    "images_with_text_JNw6qi": {
+      "type": "images-with-text",
+      "blocks": {
+        "image_KPNaAB": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/persuasiveCD_HE_2.png"
+          }
+        }
+      },
+      "block_order": [
+        "image_KPNaAB"
+      ],
       "settings": {
         "color_scheme": "default",
         "container_size": "medium",
-        "section_spacing_top": 48,
+        "section_spacing_top": 67,
         "section_spacing_bottom": 48,
-        "desktop_layout": "carousel",
-        "mobile_layout": "carousel",
-        "title": "You may also like",
-        "heading_size": "h4",
-        "alignment": "center",
-        "product_recommendations_type": "auto",
-        "featured_collection": "card-decks",
-        "featured_products": [],
-        "img_ratio": "square",
-        "product_card_align": "center",
-        "cards_to_show": 18,
-        "desktop_columns": 3,
-        "desktop_space_between_cards": 20,
-        "mobile_space_between_cards": 20,
-        "show_navigation_on_hover": true,
-        "autoplay_mode": "disabled",
-        "autoplay_interval": 3
+        "content_layout": "left",
+        "image_layout": "collage",
+        "img_ratio": 1,
+        "rotate_images": false,
+        "icon": "none",
+        "subheading": "Design better products",
+        "heading": "Become a confident behavioral designer",
+        "body": "<p>Build a vocabulary based in human psychology and start designing for the human mind. Stop winging it and bring hard facts about we behave, decide, and take action to the table.</p>",
+        "heading_size": "h2",
+        "body_size": "body3",
+        "content_alignment": "left",
+        "desktop_content_width": 360,
+        "first_button_text": "Shop both decks now",
+        "first_button_link": "",
+        "first_button_style": "solid",
+        "second_button_text": "",
+        "second_button_link": "",
+        "second_button_style": "solid"
       }
     }
   },
@@ -1043,7 +1017,6 @@
     "main",
     "multicolumn_iwzUWC",
     "rich_text_hCkiHr",
-    "images_with_text_JNw6qi",
     "e6a2dc3b-b6a3-43da-ac2e-7e6e68957a71",
     "testimonials_grid_9E7p9B",
     "0662d9b7-f318-474d-a1d7-73b91bd82677",
@@ -1052,6 +1025,6 @@
     "5b008df5-f049-4f41-953b-05c349f10d05",
     "featured_collection_bRdJmW",
     "b211c279-71dd-44ae-b816-3d6f3d551fac",
-    "product-recommendations"
+    "images_with_text_JNw6qi"
   ]
 }
