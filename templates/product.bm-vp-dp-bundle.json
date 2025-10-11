@@ -250,6 +250,54 @@
     "logo_list_gFnG84": {
       "type": "logo-list",
       "blocks": {
+        "logo_HhDGKW": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/logo-mckinsey-and-company.png",
+            "image_width": 100,
+            "link": ""
+          }
+        },
+        "logo_EB9WFj": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/logo_deloitte.png",
+            "image_width": 100,
+            "link": ""
+          }
+        },
+        "logo_iDGzDQ": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/logo_accenture.png",
+            "image_width": 100,
+            "link": ""
+          }
+        },
+        "logo_TC4Kz6": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/logo_harvard-business-school.png",
+            "image_width": 100,
+            "link": ""
+          }
+        },
+        "logo_fGfNV9": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/logo_intel.png",
+            "image_width": 100,
+            "link": ""
+          }
+        },
+        "logo_WerG3P": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/logo_amazon_ce0bc751-01a1-4459-8e3b-2805c836d43a.png",
+            "image_width": 100,
+            "link": ""
+          }
+        },
         "logo_VdAKLg": {
           "type": "logo",
           "settings": {
@@ -290,14 +338,6 @@
             "link": ""
           }
         },
-        "logo_WerG3P": {
-          "type": "logo",
-          "settings": {
-            "image": "shopify://shop_images/logo_amazon_ce0bc751-01a1-4459-8e3b-2805c836d43a.png",
-            "image_width": 100,
-            "link": ""
-          }
-        },
         "logo_tXHxbq": {
           "type": "logo",
           "settings": {
@@ -310,46 +350,6 @@
           "type": "logo",
           "settings": {
             "image": "shopify://shop_images/logo_dropbox.png",
-            "image_width": 100,
-            "link": ""
-          }
-        },
-        "logo_TC4Kz6": {
-          "type": "logo",
-          "settings": {
-            "image": "shopify://shop_images/logo_harvard-business-school.png",
-            "image_width": 100,
-            "link": ""
-          }
-        },
-        "logo_HhDGKW": {
-          "type": "logo",
-          "settings": {
-            "image": "shopify://shop_images/logo-mckinsey-and-company.png",
-            "image_width": 100,
-            "link": ""
-          }
-        },
-        "logo_EB9WFj": {
-          "type": "logo",
-          "settings": {
-            "image": "shopify://shop_images/logo_deloitte.png",
-            "image_width": 100,
-            "link": ""
-          }
-        },
-        "logo_iDGzDQ": {
-          "type": "logo",
-          "settings": {
-            "image": "shopify://shop_images/logo_accenture.png",
-            "image_width": 100,
-            "link": ""
-          }
-        },
-        "logo_fGfNV9": {
-          "type": "logo",
-          "settings": {
-            "image": "shopify://shop_images/logo_intel.png",
             "image_width": 100,
             "link": ""
           }
@@ -444,19 +444,19 @@
         }
       },
       "block_order": [
+        "logo_HhDGKW",
+        "logo_EB9WFj",
+        "logo_iDGzDQ",
+        "logo_TC4Kz6",
+        "logo_fGfNV9",
+        "logo_WerG3P",
         "logo_VdAKLg",
         "logo_HwTqQt",
         "logo_AEm3Qk",
         "logo_7E6DCa",
         "logo_rwGfj7",
-        "logo_WerG3P",
         "logo_tXHxbq",
         "logo_6j43DH",
-        "logo_TC4Kz6",
-        "logo_HhDGKW",
-        "logo_EB9WFj",
-        "logo_iDGzDQ",
-        "logo_fGfNV9",
         "logo_76dR9D",
         "logo_EYqbH3",
         "logo_Qf6Ffz",
