@@ -12,6 +12,9 @@
   assign btn_text = options.btn_text
   assign body_size = options.body_size
   assign heading_size = options.heading_size
+  assign caption_alignment = options.caption_alignment | default: 'left'
+  assign heading_alignment = options.heading_alignment | default: 'left'
+  assign body_alignment = options.body_alignment | default: 'left'
   assign quote_alignment = options.quote_alignment
   assign desktop_columns = options.desktop_columns
   assign mobile_columns = options.mobile_columns
@@ -34,6 +37,9 @@
       --gsc-section-spacing-bottom: {{ section_spacing_bottom }}px;
       --gsc-testimonials-grid-column-gap: {{ mobile_space_between_cards }}rem;
       --gsc-testimonials-grid-columns: {{ mobile_columns }};
+      --gsc-testimonials-grid-caption-text-align: {{ caption_alignment }};
+      --gsc-testimonials-grid-heading-text-align: {{ heading_alignment }};
+      --gsc-testimonials-grid-body-text-align: {{ body_alignment }};
     }
 
     .section-{{ section.id }} .testimonials-grid__content {
@@ -41,6 +47,18 @@
       flex-direction: column;
       gap: 1.6rem;
       margin-bottom: 3.2rem;
+    }
+
+    .section-{{ section.id }} .testimonials-grid__caption {
+      text-align: var(--gsc-testimonials-grid-caption-text-align);
+    }
+
+    .section-{{ section.id }} .testimonials-grid__title {
+      text-align: var(--gsc-testimonials-grid-heading-text-align);
+    }
+
+    .section-{{ section.id }} .testimonials-grid__text {
+      text-align: var(--gsc-testimonials-grid-body-text-align);
     }
 
     .section-{{ section.id }} .testimonials-grid__grid {
@@ -113,7 +131,7 @@
               <div class='caption testimonials-grid__caption'>{{ caption }}</div>
             {%- endif -%}
             {%- if title != blank -%}
-              <h3 class='{{ heading_size }}'>{{ title }}</h3>
+              <h3 class='testimonials-grid__title {{ heading_size }}'>{{ title }}</h3>
             {%- endif -%}
             {%- if text != blank -%}
               <div class='rte {{ body_size }} testimonials-grid__text body-font-weight-from-global-settings'>
@@ -203,27 +221,27 @@
       "options": [
         {
           "value": "mega-title",
-          "label": "t:sections.general.settings.heading_size.options__1.label"
+          "label": "t:sections.testimonials_grid.settings.heading_size.options__1.label"
         },
         {
           "value": "title",
-          "label": "t:sections.general.settings.heading_size.options__2.label"
+          "label": "t:sections.testimonials_grid.settings.heading_size.options__2.label"
         },
         {
           "value": "heading-lg",
-          "label": "t:sections.general.settings.heading_size.options__3.label"
+          "label": "t:sections.testimonials_grid.settings.heading_size.options__3.label"
         },
         {
           "value": "heading-md",
-          "label": "t:sections.general.settings.heading_size.options__4.label"
+          "label": "t:sections.testimonials_grid.settings.heading_size.options__4.label"
         },
         {
           "value": "heading-sm",
-          "label": "t:sections.general.settings.heading_size.options__5.label"
+          "label": "t:sections.testimonials_grid.settings.heading_size.options__5.label"
         }
       ],
       "default": "title",
-      "label": "t:sections.general.settings.heading_size.label"
+      "label": "t:sections.testimonials_grid.settings.heading_size.label"
     },
     {
       "type": "select",
@@ -231,19 +249,79 @@
       "options": [
         {
           "value": "body-lg",
-          "label": "t:sections.general.settings.body_size.options__1.label"
+          "label": "t:sections.testimonials_grid.settings.body_size.options__1.label"
         },
         {
           "value": "body-md",
-          "label": "t:sections.general.settings.body_size.options__2.label"
+          "label": "t:sections.testimonials_grid.settings.body_size.options__2.label"
         },
         {
           "value": "body-sm",
-          "label": "t:sections.general.settings.body_size.options__3.label"
+          "label": "t:sections.testimonials_grid.settings.body_size.options__3.label"
         }
       ],
       "default": "body-md",
-      "label": "t:sections.general.settings.body_size.label"
+      "label": "t:sections.testimonials_grid.settings.body_size.label"
+    },
+    {
+      "type": "select",
+      "id": "caption_alignment",
+      "options": [
+        {
+          "value": "left",
+          "label": "t:sections.general_section_settings.content_alignment.options.option_1"
+        },
+        {
+          "value": "center",
+          "label": "t:sections.general_section_settings.content_alignment.options.option_2"
+        },
+        {
+          "value": "right",
+          "label": "t:sections.general_section_settings.content_alignment.options.option_3"
+        }
+      ],
+      "default": "left",
+      "label": "t:sections.testimonials_grid.settings.caption_alignment.label"
+    },
+    {
+      "type": "select",
+      "id": "heading_alignment",
+      "options": [
+        {
+          "value": "left",
+          "label": "t:sections.general_section_settings.content_alignment.options.option_1"
+        },
+        {
+          "value": "center",
+          "label": "t:sections.general_section_settings.content_alignment.options.option_2"
+        },
+        {
+          "value": "right",
+          "label": "t:sections.general_section_settings.content_alignment.options.option_3"
+        }
+      ],
+      "default": "left",
+      "label": "t:sections.testimonials_grid.settings.heading_alignment.label"
+    },
+    {
+      "type": "select",
+      "id": "body_alignment",
+      "options": [
+        {
+          "value": "left",
+          "label": "t:sections.general_section_settings.content_alignment.options.option_1"
+        },
+        {
+          "value": "center",
+          "label": "t:sections.general_section_settings.content_alignment.options.option_2"
+        },
+        {
+          "value": "right",
+          "label": "t:sections.general_section_settings.content_alignment.options.option_3"
+        }
+      ],
+      "default": "left",
+      "label": "t:sections.testimonials_grid.settings.body_alignment.label"
     },
     {
       "type": "range",

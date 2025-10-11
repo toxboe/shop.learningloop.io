@@ -3724,7 +3724,48 @@
     },
     "testimonials_grid": {
       "name": "Testimonials grid",
-      "preset_name": "Testimonials grid"
+      "preset_name": "Testimonials grid",
+      "settings": {
+        "heading_size": {
+          "label": "Heading size",
+          "options__1": {
+            "label": "Extra large"
+          },
+          "options__2": {
+            "label": "Large"
+          },
+          "options__3": {
+            "label": "Medium"
+          },
+          "options__4": {
+            "label": "Small"
+          },
+          "options__5": {
+            "label": "Extra small"
+          }
+        },
+        "body_size": {
+          "label": "Body text size",
+          "options__1": {
+            "label": "Large"
+          },
+          "options__2": {
+            "label": "Medium"
+          },
+          "options__3": {
+            "label": "Small"
+          }
+        },
+        "caption_alignment": {
+          "label": "Subheading alignment"
+        },
+        "heading_alignment": {
+          "label": "Heading alignment"
+        },
+        "body_alignment": {
+          "label": "Body alignment"
+        }
+      }
     },
     "password_page_banner": {
       "name": "Email signup banner",
