@@ -1,0 +1,29 @@
+{% assign prepared_class = class | append: ' yall-video-lazy' %}
+
+{% capture prepared_video %}
+  {{ video | video_tag: class: prepared_class, autoplay: autoplay, loop: loop, muted: muted, controls: controls }}
+{% endcapture %}
+
+{%- liquid
+  assign image_alt = 'Image'
+
+  if video.alt != blank
+    assign image_alt = video.alt | escape
+  endif
+
+  assign image_tag = '<img' | append: ' alt="' | append: image_alt | append: '"'
+
+  assign result = ''
+-%}
+
+{% if loading == 'eager' %}
+  {% assign result = prepared_video | replace: '<img', image_tag %}
+{% else %}
+  {% assign result = prepared_video | replace: '<img', image_tag | replace: 'src', 'data-src' %}
+{% endif %}
+
+{% if autoplay %}
+  {% assign result = result | replace: '<video', '<video onload="play()"' %}
+{% endif %}
+
+{{ result }}

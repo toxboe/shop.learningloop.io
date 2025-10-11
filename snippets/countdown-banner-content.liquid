@@ -1,0 +1,88 @@
+{%- for block in blocks -%}
+  {% liquid
+    assign options = block.settings
+    assign heading = options.heading
+    assign heading_size = options.heading_size
+    assign subheading = options.subheading
+    assign body = options.body
+    assign body_size = options.body_size
+  %}
+  {%- case block.type -%}
+    {% when 'heading' %}
+      <h2 class='countdown-banner__heading {{ heading_size }}' {{ block.shopify_attributes }}>{{ heading }}</h2>
+    {% when 'subheading' %}
+      <div class='caption countdown-banner__caption' {{ block.shopify_attributes }}>{{ subheading }}</div>
+    {% when 'text' %}
+      <div class='rte countdown-banner__body {{body_size}} body-font-weight-from-global-settings'>
+        {{ body }}
+      </div>
+    {% when 'buttons' %}
+      {% liquid
+        assign btn_text = options.btn_text
+        assign btn_url = options.btn_url
+        assign btn_style = options.btn_style
+
+        assign extra_btn_text = options.extra_btn_text
+        assign extra_btn_url = options.extra_btn_url
+        assign extra_btn_style = options.extra_btn_style
+      %}
+      <div class='countdown-banner__btns' {{ block.shopify_attributes }}>
+        {%- if btn_text != blank -%}
+          {%- if btn_style == 'link' -%}
+            <a
+              class='link countdown-banner__btn-link'
+              {% if btn_url != blank %}
+                href='{{ btn_url }}'
+              {% endif %}
+              aria-label='{{ btn_text }}'
+              tabindex='-1'
+            >
+              <span class='link__text'>{{ btn_text }}</span>
+              {%- render 'icon', icon_name: 'link-chevron', class: 'link__chevron' -%}
+            </a>
+          {%- else -%}
+            <a
+              class='btn btn--{{ btn_style }} countdown-banner__btn'
+              {% if btn_url != blank %}
+                href='{{ btn_url }}'
+              {% endif %}
+              aria-label='{{- btn_text -}}'
+              tabindex='-1'
+            >
+              {{- btn_text -}}
+            </a>
+          {%- endif -%}
+        {%- endif -%}
+        {%- if extra_btn_text != blank -%}
+          {% if extra_btn_style == 'link' -%}
+            <a
+              class='link countdown-banner__btn-link'
+              {% if extra_btn_url != blank %}
+                href='{{ extra_btn_url }}'
+              {% endif %}
+              aria-label='{{ extra_btn_text }}'
+              tabindex='-1'
+            >
+              <span class='link__text'>{{ extra_btn_text }}</span>
+              {%- render 'icon', icon_name: 'link-chevron', class: 'link__chevron' -%}
+            </a>
+          {%- else -%}
+            <a
+              class='btn btn--{{ extra_btn_style }} countdown-banner__btn'
+              {% if extra_btn_url != blank %}
+                href='{{ extra_btn_url }}'
+              {% endif %}
+              aria-label='{{- extra_btn_text -}}'
+              tabindex='-1'
+            >
+              {{- extra_btn_text -}}
+            </a>
+          {%- endif -%}
+        {%- endif -%}
+      </div>
+    {% when 'countdown' %}
+      <div class='block-{{block.id}} countdown-banner__timer' {{ block.shopify_attributes }}>
+        {% render 'timer', block: block, section_id: section_id, ensure_width: ensure_width, %}
+      </div>
+  {%- endcase -%}
+{%- endfor -%}

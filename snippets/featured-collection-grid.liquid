@@ -1,0 +1,133 @@
+{% liquid
+  assign view_all_collection_link_text = 'cards.collection_card.store_front.view_all_collection_link_text' | t
+
+  assign collection_card_is_added = false
+  assign collection_card_target_item_index = blank
+
+  case collection_card_position
+    when 'after-item-1'
+      assign collection_card_target_item_index = 1
+    when 'after-item-2'
+      assign collection_card_target_item_index = 2
+    when 'after-item-3'
+      assign collection_card_target_item_index = 3
+    when 'after-item-4'
+      assign collection_card_target_item_index = 4
+    when 'after-item-5'
+      assign collection_card_target_item_index = 5
+  endcase
+%}
+
+<div class='card-grid collection__card-grid {% if section_layout == 'one-column' %}collection__card-grid--one-column{% endif %}'>
+  {% if featured_products != blank %}
+    {%- for product in featured_products limit: product_limit -%}
+      {%- comment %}<locksmith:bc11>{% endcomment -%}
+        {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: product, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% else %}{% continue %}{% endif -%}
+      {%- comment %}</locksmith:bc11>{% endcomment -%}
+      {% render 'product-card',
+        class: 'card-grid__item',
+        product: product,
+        with_bottom_spacing: true,
+        show_mobile_carousel: true,
+        img_ratio: img_ratio,
+        product_card_align: product_card_align
+      %}
+    {%- endfor -%}
+  {% elsif featured_collection != blank %}
+    {% if collection_card_position == 'before-all-items' %}
+      {%- render 'collection-card',
+        class: 'card-grid__item collection__collection-card',
+        title: featured_collection.title,
+        img: featured_collection.image,
+        img_ratio: img_ratio,
+        collection: featured_collection,
+        text_style: collection_card_content_position,
+        content_align: collection_card_content_align,
+        heading_size: collection_card_heading_size,
+        show_product_count: collection_card_show_product_count,
+        link_url: featured_collection.url,
+        with_bottom_spacing: true
+      -%}
+      {% assign collection_card_is_added = true %}
+    {% endif %}
+    {%- comment %}<locksmith:1390>{% endcomment -%}
+      {%- assign locksmith_9286_forloop__size = 0 %}{%- for product in featured_collection.products limit: product_limit -%}{% capture var %}{% render 'locksmith-variables', scope: 'subject', subject: product, subject_parent: featured_collection, variable: 'transparent' %}{% endcapture %}{% if var == 'true' %}{% assign locksmith_9286_forloop__size = locksmith_9286_forloop__size | plus: 1 %}{% endif %}{% endfor %}{% assign locksmith_9286_forloop__index = nil -%}
+    {%- comment %}</locksmith:1390>{% endcomment -%}
+    {%- for product in featured_collection.products limit: product_limit -%}
+      {%- comment %}<locksmith:2cb8>{% endcomment -%}
+        {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: product, subject_parent: featured_collection, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% if locksmith_9286_forloop__index == nil %}{% assign locksmith_9286_forloop__index = 1 %}{% assign locksmith_9286_forloop__index0 = 0 %}{% else %}{% assign locksmith_9286_forloop__index = locksmith_9286_forloop__index | plus: 1 %}{% assign locksmith_9286_forloop__index0 = locksmith_9286_forloop__index0 | plus: 1 %}{% endif %}{% if locksmith_9286_forloop__index == 1 %}{% assign locksmith_9286_forloop__first = true %}{% else %}{% assign locksmith_9286_forloop__first = false %}{% endif %}{% if locksmith_9286_forloop__index == locksmith_9286_forloop__size %}{% assign locksmith_9286_forloop__last = true %}{% else %}{% assign locksmith_9286_forloop__last = false %}{% endif %}{% assign locksmith_9286_forloop__rindex = locksmith_9286_forloop__size | minus: locksmith_9286_forloop__index | minus: 1 %}{% assign locksmith_9286_forloop__rindex0 = locksmith_9286_forloop__size | minus: locksmith_9286_forloop__index0 | minus: 1 %}{% else %}{% continue %}{% endif -%}
+      {%- comment %}</locksmith:2cb8>{% endcomment -%}
+      {% render 'product-card',
+        class: 'card-grid__item',
+        product: product,
+        with_bottom_spacing: true,
+        show_mobile_carousel: true,
+        img_ratio: img_ratio,
+        product_card_align: product_card_align
+      %}
+      {% if locksmith_9286_forloop__index == collection_card_target_item_index %}
+        {%- render 'collection-card',
+          class: 'card-grid__item collection__collection-card',
+          title: featured_collection.title,
+          img: featured_collection.image,
+          img_ratio: img_ratio,
+          collection: featured_collection,
+          text_style: collection_card_content_position,
+          content_align: collection_card_content_align,
+          heading_size: collection_card_heading_size,
+          show_product_count: collection_card_show_product_count,
+          link_url: featured_collection.url,
+          with_bottom_spacing: true
+        -%}
+        {% assign collection_card_is_added = true %}
+      {% endif %}
+    {%- endfor -%}
+    {% if collection_card_position != 'none' %}
+      {% if collection_card_is_added == false or collection_card_position == 'after-all-items' %}
+        {%- render 'collection-card',
+          class: 'card-grid__item collection__collection-card',
+          title: featured_collection.title,
+          img: featured_collection.image,
+          img_ratio: img_ratio,
+          collection: featured_collection,
+          text_style: collection_card_content_position,
+          content_align: collection_card_content_align,
+          heading_size: collection_card_heading_size,
+          show_product_count: collection_card_show_product_count,
+          link_url: featured_collection.url,
+          with_bottom_spacing: true
+        -%}
+      {% endif %}
+    {% endif %}
+  {% else %}
+    {%- for product in prepared_collection_placeholder limit: product_limit -%}
+      {% render 'product-card',
+        class: 'card-grid__item',
+        product: product,
+        with_bottom_spacing: true,
+        show_mobile_carousel: true,
+        img_ratio: img_ratio,
+        product_card_align: product_card_align
+      %}
+    {%- endfor -%}
+  {% endif %}
+</div>
+
+{% if enable_carousel_on_mobile %}
+  {% render 'featured-collection-carousel',
+    featured_products: featured_products,
+    featured_collection: featured_collection,
+    autoplay_mode: autoplay_mode,
+    autoplay_interval: autoplay_interval,
+    img_ratio: img_ratio,
+    section_layout: section_layout,
+    product_limit: product_limit,
+    product_card_align: product_card_align,
+    prepared_collection_placeholder: prepared_collection_placeholder,
+    show_navigation_on_hover: show_navigation_on_hover,
+    collection_card_content_position: collection_card_content_position,
+    collection_card_content_align: collection_card_content_align,
+    collection_card_heading_size: collection_card_heading_size,
+    collection_card_show_product_count: collection_card_show_product_count
+  %}
+{% endif %}

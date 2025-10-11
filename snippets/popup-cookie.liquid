@@ -1,0 +1,111 @@
+{% liquid
+  assign options = block.settings
+
+  assign color_scheme = options.color_scheme
+  assign vertical_spacing = options.vertical_spacing
+  assign horizontal_spacing = options.horizontal_spacing
+  assign desktop_width = options.desktop_width
+  assign heading = options.heading
+  assign heading_size = options.heading_size
+  assign body = options.body
+  assign body_size = options.body_size
+
+  assign desktop_position = options.desktop_position
+  assign content_alignment = options.content_alignment
+
+  assign accept_btn_label = options.accept_btn_label
+  assign accept_btn_style = options.accept_btn_style
+  assign decline_btn_label = options.decline_btn_label
+  assign decline_btn_style = options.decline_btn_style
+%}
+
+{% capture css %}
+    {% style %}
+      .block-{{block.id}} {
+        --gsc-content-align: {{content_alignment}};
+        --gsc-desktop-width: {{desktop_width}}px;
+        --gsc-horizontal-spacing: {{horizontal_spacing}}px;
+        --gsc-vertical-spacing: {{vertical_spacing}}px;
+      }
+    {% endstyle %}
+  {% endcapture %}
+
+{% render 'inline-css-minifier', css: css %}
+
+<popup-cookie
+  class='popup popup-cookie block-{{block.id}} color-{{color_scheme}}'
+  id='Popups-Cookie-{{ block.id }}'
+  data-block-id='{{block.id}}'
+  role='dialog'
+  aria-modal='true'
+  tabindex='-1'
+  data-ignore-esc-key
+  {{ block.shopify_attributes }}
+>
+  <template data-modal-template='Popups-Cookie-{{ block.id }}'>
+    <div class='popup__body {% if desktop_position == 'center' %}popup__body--desktop-center{% endif %} {% if desktop_position == 'right' %}popup__body--desktop-right{% endif %}'>
+      <button
+        data-close-btn
+        class='unstyled-button close-button-with-scale-hover-wrapper popup__close-button'
+        tabindex='0'
+        aria-label='{{- 'popups.screen_reader.close' | t -}}'
+      >
+        <span class='close-button-with-scale-hover'></span>
+      </button>
+      <div class='popup__content'>
+        {% if heading != blank %}
+          <h2 class='{{heading_size}} popup__heading'>{{ heading }}</h2>
+        {% endif %}
+        {% if body != blank %}
+          <div class='{{body_size}} popup__body-text body-font-weight-from-global-settings'>
+            {{ body }}
+          </div>
+        {% endif %}
+        <div class='popup__btns-wrapper'>
+          <div class='popup__btns'>
+            {% if accept_btn_label != blank %}
+              {% if accept_btn_style == 'link' %}
+                <a
+                  class='link popup__btn-link'
+                  aria-label='{{accept_btn_label}}'
+                  data-accept-btn
+                >
+                  <span class='link__text'>{{ accept_btn_label }}</span>
+                  {%- render 'icon', icon_name: 'link-chevron', class: 'link__chevron' -%}
+                </a>
+              {% else %}
+                <a
+                  class='btn btn--{{ accept_btn_style }} btn--lg popup__btn'
+                  aria-label='{{accept_btn_label}}'
+                  data-accept-btn
+                >
+                  {{ accept_btn_label }}
+                </a>
+              {% endif %}
+            {% endif %}
+            {% if decline_btn_label != blank %}
+              {% if decline_btn_style == 'link' %}
+                <a
+                  class='link popup__btn-link'
+                  aria-label='{{decline_btn_label}}'
+                  data-decline-btn
+                >
+                  <span class='link__text'>{{ decline_btn_label }}</span>
+                  {%- render 'icon', icon_name: 'link-chevron', class: 'link__chevron' -%}
+                </a>
+              {% else %}
+                <a
+                  class='btn btn--{{ decline_btn_style }} btn--lg popup__btn'
+                  aria-label='{{decline_btn_label}}'
+                  data-decline-btn
+                >
+                  {{ decline_btn_label }}
+                </a>
+              {% endif %}
+            {% endif %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </template>
+</popup-cookie>

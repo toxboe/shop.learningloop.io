@@ -1,0 +1,15 @@
+{% liquid
+  assign options = block.settings
+
+  assign rating_count = product.metafields.reviews.rating.value.rating | plus: 0
+  assign rating_reviews_count = product.metafields.reviews.rating_count | plus: 0
+  assign rating_style = options.rating_style
+%}
+
+<div class='block-{{ block.id }}' {{ block.shopify_attributes }}>
+  {% render 'rating',
+    rating_style: rating_style,
+    rating_count: rating_count,
+    rating_reviews_count: rating_reviews_count
+  %}
+</div>

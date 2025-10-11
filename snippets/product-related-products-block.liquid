@@ -1,0 +1,318 @@
+{% liquid
+  assign title = block.settings.title
+  assign show_background = block.settings.show_background
+  assign products_to_show = block.settings.products_to_show
+  assign block_layout = block.settings.block_layout
+  assign heading_size = block.settings.heading_size
+  assign alignment = block.settings.alignment
+  assign img_ratio = block.settings.img_ratio
+  assign color_scheme = block.settings.color_scheme
+  assign featured_products = block.settings.featured_products
+  assign featured_collection = block.settings.featured_collection
+  assign product_recommendations_type = block.settings.product_recommendations_type | default: 'auto'
+
+  if img_ratio == 'inherited'
+    assign img_ratio = section.settings.img_ratio
+  endif
+
+  assign show_navigation_on_hover = block.settings.show_navigation_on_hover
+  assign autoplay_mode = block.settings.autoplay_mode
+  assign autoplay_interval = block.settings.autoplay_interval
+%}
+
+{% if product_recommendations_type == 'auto' %}
+  <product-related-block
+    class='product-related-products-block color-{{ color_scheme }} {% if show_background %} product-related-products-block--with-background {% endif %}'
+    data-url='{{ routes.product_recommendations_url }}?section_id={{ section.id }}&product_id={{ product.id }}&limit={{ products_to_show }}&intent={% if is_complementary %}complementary{% else %}related{% endif %}'
+    id='product-related-blocks-{{ block.id }}-{{ sectionId }}'
+    {{ block.shopify_attributes }}
+    is-ready
+  >
+    {%- if recommendations.performed and recommendations.products_count > 0 -%}
+      {% if title != blank %}
+        <h6 class='product-related-products-block__title {{ heading_size }} {% if alignment == 'left' %} product-related-products-block__title--align-left {% elsif alignment == 'center' %} product-related-products-block__title--align-center {% endif %}'>
+          {{ title }}
+        </h6>
+      {% endif %}
+
+      {% if block_layout contains 'carousel' %}
+        <carousel-component
+          class='card-carousel product-related-products__card-carousel {% if show_navigation_on_hover %}card-carousel--navigation-on-hover{% endif %} {% if block_layout contains 'vertical' %} product-related-products__card-carousel--with-vertical-cards {% else %} product-related-products__card-carousel--with-horizontal-cards {% endif %}'
+          data-section-id='{{ section.id }}'
+          {% if mobile_layout == 'carousel' %}
+            data-breakpoints='
+              {
+                "(max-width: 768px)": { "dragFree": true },
+                "(min-width: 768px)": { "dragFree": false }
+              }
+            '
+          {% endif %}
+          {% if autoplay_mode == 'one_at_time' %}
+            data-animation-type='one_at_time'
+            data-autoplay-interval='{{autoplay_interval}}'
+          {% endif %}
+          {% if autoplay_mode == 'seamless' %}
+            data-loop
+            data-drag-free
+            data-animation-type='seamless'
+            data-autoplay-interval='{{autoplay_interval}}'
+          {% endif %}
+          data-contain-scroll='trimSnaps'
+          with-stop-on-hover
+          data-draggable
+          data-align='start'
+          data-axis='x'
+        >
+          {% if block_layout contains 'vertical' %}
+            <div class='card-carousel__position-btn-wrap card-carousel__position-btn-wrap--prev product-related-products__card-carousel-btn-wrap {% if img_ratio == 'nature' %} card-carousel__position-btn-wrap--nature-img-ratio {% endif %}'>
+              <div class='shape shape--{{ img_ratio }}'>
+                <carousel-btn
+                  class='carousel-btn card-carousel__carousel-btn card-carousel__carousel-btn--prev'
+                  data-scroll-direction='prev'
+                  tabindex='0'
+                >
+                  {% render 'icon', icon_name: 'chevron', class: 'carousel-btn__icon x-flip' %}
+                </carousel-btn>
+              </div>
+            </div>
+          {% else %}
+            <carousel-btn
+              class='carousel-btn card-carousel__carousel-btn card-carousel__carousel-btn--prev'
+              data-scroll-direction='prev'
+              tabindex='0'
+            >
+              {% render 'icon', icon_name: 'chevron', class: 'carousel-btn__icon x-flip' %}
+            </carousel-btn>
+          {% endif %}
+
+          <div
+            class='card-carousel__viewport embla'
+            data-carousel-viewport
+          >
+            <div class='card-carousel__container' data-carousel-container>
+              {%- for recommendation in recommendations.products -%}
+                {%- comment %}<locksmith:78af>{% endcomment -%}
+                  {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: recommendation, subject_parent: recommendations, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% else %}{% continue %}{% endif -%}
+                {%- comment %}</locksmith:78af>{% endcomment -%}
+                {% if block_layout contains 'vertical' %}
+                  <div class='card-carousel__slide product-related-products__slide-vertical-product'>
+                    {% render 'vertical-product-card',
+                      product: recommendation,
+                      img_ratio: img_ratio,
+                      with_bottom_spacing: true
+                    %}
+                  </div>
+                {% else %}
+                  <div class='card-carousel__slide product-related-products__slide-horizontal-product'>
+                    {% render 'horizontal-product-card',
+                      product: recommendation,
+                      img_ratio: img_ratio,
+                      is_inside_block_with_background: show_background
+                    %}
+                  </div>
+                {% endif %}
+              {%- endfor -%}
+            </div>
+          </div>
+
+          {% if block_layout contains 'vertical' %}
+            <div class='card-carousel__position-btn-wrap card-carousel__position-btn-wrap--next product-related-products__card-carousel-btn-wrap {% if img_ratio == 'nature' %} card-carousel__position-btn-wrap--nature-img-ratio {% endif %}'>
+              <div class='shape shape--{{ img_ratio }}'>
+                <carousel-btn
+                  class='carousel-btn card-carousel__carousel-btn card-carousel__carousel-btn--next'
+                  data-scroll-direction='next'
+                  tabindex='0'
+                >
+                  {% render 'icon', icon_name: 'chevron', class: 'carousel-btn__icon' %}
+                </carousel-btn>
+              </div>
+            </div>
+          {% else %}
+            <carousel-btn
+              class='carousel-btn card-carousel__carousel-btn card-carousel__carousel-btn--next'
+              data-scroll-direction='next'
+              tabindex='0'
+            >
+              {% render 'icon', icon_name: 'chevron', class: 'carousel-btn__icon' %}
+            </carousel-btn>
+          {% endif %}
+        </carousel-component>
+      {% else %}
+        {% if block_layout contains 'vertical' %}
+          <div class='product-related-products-block__grid  product-related-products-block__grid--vertical'>
+            {% for recommendation in recommendations.products %}
+              {%- comment %}<locksmith:e4f5>{% endcomment -%}
+                {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: recommendation, subject_parent: recommendations, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% else %}{% continue %}{% endif -%}
+              {%- comment %}</locksmith:e4f5>{% endcomment -%}
+              {% render 'vertical-product-card',
+                product: recommendation,
+                img_ratio: img_ratio,
+                with_bottom_spacing: true
+              %}
+            {% endfor %}
+          </div>
+        {% else %}
+          <div class='product-related-products-block__grid product-related-products-block__grid--horizontal'>
+            {% for recommendation in recommendations.products %}
+              {%- comment %}<locksmith:0052>{% endcomment -%}
+                {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: recommendation, subject_parent: recommendations, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% else %}{% continue %}{% endif -%}
+              {%- comment %}</locksmith:0052>{% endcomment -%}
+              {% render 'horizontal-product-card',
+                product: recommendation,
+                img_ratio: img_ratio,
+                is_inside_block_with_background: show_background
+              %}
+            {% endfor %}
+          </div>
+        {% endif %}
+      {% endif %}
+    {%- endif -%}
+  </product-related-block>
+
+{% else %}
+  {% liquid
+    if featured_products != blank
+      assign target_products = featured_products
+    elsif featured_collection != blank
+      assign target_products = featured_collection.products
+    else
+      assign target_products = (1..products_to_show)
+    endif
+  %}
+
+  <div
+    class='product-related-products-block color-{{ color_scheme }} {% if show_background %} product-related-products-block--with-background {% endif %}'
+    {{ block.shopify_attributes }}
+    is-ready
+  >
+    {% if title != blank %}
+      <h6 class='product-related-products-block__title {{ heading_size }} {% if alignment == 'left' %} product-related-products-block__title--align-left {% elsif alignment == 'center' %} product-related-products-block__title--align-center {% endif %}'>
+        {{ title }}
+      </h6>
+    {% endif %}
+
+    {% if block_layout contains 'carousel' %}
+      <carousel-component
+        class='card-carousel product-related-products__card-carousel {% if show_navigation_on_hover %}card-carousel--navigation-on-hover{% endif %} {% if block_layout contains 'vertical' %} product-related-products__card-carousel--with-vertical-cards {% else %} product-related-products__card-carousel--with-horizontal-cards {% endif %}'
+        data-section-id='{{ section.id }}'
+        {% if mobile_layout == 'carousel' %}
+          data-breakpoints='
+            {
+              "(max-width: 768px)": { "dragFree": true },
+              "(min-width: 768px)": { "dragFree": false }
+            }
+          '
+        {% endif %}
+        {% if autoplay_mode == 'one_at_time' %}
+          data-animation-type='one_at_time'
+          data-autoplay-interval='{{autoplay_interval}}'
+        {% endif %}
+        {% if autoplay_mode == 'seamless' %}
+          data-loop
+          data-drag-free
+          data-animation-type='seamless'
+          data-autoplay-interval='{{autoplay_interval}}'
+        {% endif %}
+        data-contain-scroll='trimSnaps'
+        with-stop-on-hover
+        data-draggable
+        data-align='start'
+        data-axis='x'
+      >
+        {% if block_layout contains 'vertical' %}
+          <div class='card-carousel__position-btn-wrap card-carousel__position-btn-wrap--prev product-related-products__card-carousel-btn-wrap {% if img_ratio == 'nature' %} card-carousel__position-btn-wrap--nature-img-ratio {% endif %}'>
+            <div class='shape shape--{{ img_ratio }}'>
+              <carousel-btn
+                class='carousel-btn card-carousel__carousel-btn card-carousel__carousel-btn--prev'
+                data-scroll-direction='prev'
+                tabindex='0'
+              >
+                {% render 'icon', icon_name: 'chevron', class: 'carousel-btn__icon x-flip' %}
+              </carousel-btn>
+            </div>
+          </div>
+        {% else %}
+          <carousel-btn
+            class='carousel-btn card-carousel__carousel-btn card-carousel__carousel-btn--prev'
+            data-scroll-direction='prev'
+            tabindex='0'
+          >
+            {% render 'icon', icon_name: 'chevron', class: 'carousel-btn__icon x-flip' %}
+          </carousel-btn>
+        {% endif %}
+
+        <div
+          class='card-carousel__viewport embla'
+          data-carousel-viewport
+        >
+          <div class='card-carousel__container' data-carousel-container>
+            {%- for recommendation in target_products limit: products_to_show -%}
+              {%- comment %}<locksmith:c0cc>{% endcomment -%}
+                {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: recommendation, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% else %}{% continue %}{% endif -%}
+              {%- comment %}</locksmith:c0cc>{% endcomment -%}
+              {% if block_layout contains 'vertical' %}
+                <div class='card-carousel__slide product-related-products__slide-vertical-product'>
+                  {% render 'vertical-product-card', product: recommendation, img_ratio: img_ratio %}
+                </div>
+              {% else %}
+                <div class='card-carousel__slide product-related-products__slide-horizontal-product'>
+                  {% render 'horizontal-product-card',
+                    product: recommendation,
+                    img_ratio: img_ratio,
+                    is_inside_block_with_background: show_background
+                  %}
+                </div>
+              {% endif %}
+            {%- endfor -%}
+          </div>
+        </div>
+
+        {% if block_layout contains 'vertical' %}
+          <div class='card-carousel__position-btn-wrap card-carousel__position-btn-wrap--next product-related-products__card-carousel-btn-wrap {% if img_ratio == 'nature' %} card-carousel__position-btn-wrap--nature-img-ratio {% endif %}'>
+            <div class='shape shape--{{ img_ratio }}'>
+              <carousel-btn
+                class='carousel-btn card-carousel__carousel-btn card-carousel__carousel-btn--next'
+                data-scroll-direction='next'
+                tabindex='0'
+              >
+                {% render 'icon', icon_name: 'chevron', class: 'carousel-btn__icon' %}
+              </carousel-btn>
+            </div>
+          </div>
+        {% else %}
+          <carousel-btn
+            class='carousel-btn card-carousel__carousel-btn card-carousel__carousel-btn--next'
+            data-scroll-direction='next'
+            tabindex='0'
+          >
+            {% render 'icon', icon_name: 'chevron', class: 'carousel-btn__icon' %}
+          </carousel-btn>
+        {% endif %}
+      </carousel-component>
+    {% else %}
+      {% if block_layout contains 'vertical' %}
+        <div class='product-related-products-block__grid  product-related-products-block__grid--vertical'>
+          {% for recommendation in target_products limit: products_to_show %}
+            {%- comment %}<locksmith:53d8>{% endcomment -%}
+              {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: recommendation, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% else %}{% continue %}{% endif -%}
+            {%- comment %}</locksmith:53d8>{% endcomment -%}
+            {% render 'vertical-product-card', product: recommendation, img_ratio: img_ratio %}
+          {% endfor %}
+        </div>
+      {% else %}
+        <div class='product-related-products-block__grid product-related-products-block__grid--horizontal'>
+          {% for recommendation in target_products limit: products_to_show %}
+            {%- comment %}<locksmith:747a>{% endcomment -%}
+              {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: recommendation, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% else %}{% continue %}{% endif -%}
+            {%- comment %}</locksmith:747a>{% endcomment -%}
+            {% render 'horizontal-product-card',
+              product: recommendation,
+              img_ratio: img_ratio,
+              is_inside_block_with_background: show_background
+            %}
+          {% endfor %}
+        </div>
+      {% endif %}
+    {% endif %}
+  </div>
+{% endif %}

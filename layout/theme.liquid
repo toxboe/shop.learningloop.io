@@ -1,0 +1,146 @@
+{%- comment %}<locksmith:66b3>{% endcomment -%}
+  {%- include 'locksmith' -%}
+{%- comment %}</locksmith:66b3>{% endcomment -%}
+
+<!doctype html>
+<html lang='{{ request.locale.iso_code }}'>
+  <head>
+    {{ locksmith_initializations }}
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width,initial-scale=1'>
+    <meta name='theme-color' content='{{ settings.default_color_scheme }}'>
+    {%- if page_description -%}
+      <meta name='description' content='{{ page_description | escape }}'>
+    {%- endif -%}
+    {%- if settings.favicon != blank -%}
+      <link rel='icon' type='image/png' href='{{ settings.favicon | image_url: width: 32, height: 32 }}'>
+    {%- endif -%}
+    {% render 'meta-tags' %}
+    <link rel='canonical' href='{{ canonical_url }}'>
+    <link rel='preconnect' href='https://cdn.shopify.com' crossorigin>
+    <link rel='preconnect' href='https://fonts.shopifycdn.com' crossorigin>
+
+    <title>
+      {{ page_title }}
+      {%- if current_tags %}
+        &ndash; tagged "{{ current_tags | join: ', ' }}"
+      {%- endif -%}
+      {%- if current_page != 1 %} &ndash; Page {{ current_page }}{% endif -%}
+      {%- unless page_title contains shop.name %}
+        &ndash; {{ shop.name -}}
+      {%- endunless -%}
+    </title>
+
+    {{ 'parcel_style.css' | asset_url | stylesheet_tag }}
+
+    {% render 'css-variables' %}
+    {{ 'index.js' | asset_url | preload_tag: as: 'script' }}
+    {{ 'index.css' | asset_url | stylesheet_tag: preload: true }}
+    {% render 'fonts' %}
+    {{ content_for_header }}
+  {% if content_for_header contains 'bss-b2b-cp' %}{% include 'bss-b2b-header' %}{% endif %}</head>
+  <body class='color-{{ settings.default_color_scheme }} round-level-{{ settings.round_level }} {% if settings.round_level != "1" %} round-style {% endif %}'>
+    {% if template.name == 'password' %}
+      {% sections 'password-header-group' %}
+    {% else %}
+      {% sections 'main-header-group' %}
+      {% sections 'main-aside-group' %}
+    {% endif %}
+
+    {% sections 'popup-group' %}
+
+    <main>
+      {{ content_for_layout }}
+    </main>
+
+    {%- if template.name == 'password' -%}
+      {% sections 'password-footer-group' %}
+    {%- else -%}
+      {% sections 'main-footer-group' %}
+    {%- endif -%}
+
+    {%- if settings.show_back_to_top_button -%}
+      {% render 'back-to-top-button' %}
+    {%- endif -%}
+
+    <div class='body-overlay' id='BodyOverlay'></div>
+
+    {%- render 'dialog-components' -%}
+
+    {%- render 'inject-routes' -%}
+
+    {%- render 'save-global-data-in-global-scope' -%}
+
+    <div id='Portal'></div>
+
+    <script>
+      if (Shopify.designMode) {
+        document.documentElement.className = `${document.documentElement.className} is-editor-mode`
+      }
+    </script>
+
+    <script src='{{ 'index.js' | asset_url }}' defer='defer'></script>
+  
+
+
+
+{% if content_for_header contains 'bss-b2b-cp' %}{% include 'bss-b2b-jquery-341-js' %}{% include 'bss-b2b-js' %}{% endif %}
+<script src="{{ 'parcel_scripts.js' | asset_url }}" defer></script>
+
+<!-- PF EDT START -->
+<script type='text/javascript'>
+{%- if content_for_header contains 'shopify-product-customizer' -%}
+    {%- if product -%}
+        {%- if product.first_available_variant -%}
+            var pfSyncProductIdentity = {{ product.id | json}};
+            var pfProductId = {{ product.metafields.printful.is_synced | json }};
+            var pfEdt = {{ shop.metafields.printful.is_edt_enabled | json }};
+            var pfEdtTextColor = {{ shop.metafields.printful.edt_text_color | json }};
+            var pfEdtBackgroundColor = {{ shop.metafields.printful.edt_background_color | json }};
+            var pfEdtBorderColor = {{ shop.metafields.printful.edt_border_color | json }};  
+            var pfEdtUseDefaultStyling = {{ shop.metafields.printful.edt_default_style | json }};
+            var pfEdtTextAlignment = {{ shop.metafields.printful.edt_text_alignment | json }};
+            var pfEdtFlags = {
+                US: "{{ 'US.svg' | asset_url }}",CA: "{{ 'CA.svg' | asset_url }}",ES: "{{ 'ES.svg' | asset_url }}",LV: "{{ 'LV.svg' | asset_url }}",GB: "{{ 'GB.svg' | asset_url }}",DE: "{{ 'DE.svg' | asset_url }}",FR: "{{ 'FR.svg' | asset_url }}",AU: "{{ 'AU.svg' | asset_url }}",JP: "{{ 'JP.svg' | asset_url }}",NZ: "{{ 'NZ.svg' | asset_url }}",IT: "{{ 'IT.svg' | asset_url }}",BR: "{{ 'BR.svg' | asset_url }}",KR: "{{ 'KR.svg' | asset_url }}",NL: "{{ 'NL.svg' | asset_url }}",GB: "{{ 'GB.svg' | asset_url }}",US: "{{ 'US.svg' | asset_url }}",
+            };
+        {%- else -%}
+            var pfEdt = 0;
+        {%- endif -%}
+    {%- endif -%}
+{%- endif -%}
+</script>
+<script async src="https://cdn.sufio.com/infoweb/scripts/vat.js" id="sufio-vat-script"></script>
+<script>
+    document.getElementById("sufio-vat-script").onload = function() {
+        SufioVAT.init({
+            customerEmail: {{ customer.email | json }},
+            customerMetafields: {{ customer.metafields.sufio | json }},
+            cartAttributes: {{ cart.attributes | json }}
+        });
+        SufioVAT.onCart();
+        const observer = new MutationObserver(() => {
+        const vatForm = document.querySelector('.sufio-vat-form');
+          
+          if (vatForm && !vatForm.querySelector('.vat-info-text')) {
+            const message = document.createElement('p');
+            message.className = 'vat-info-text';
+            message.textContent = 'VAT is deducted at final checkout once you fill in your country)';
+            message.style.fontSize = '12px';
+            message.style.color = '#000';
+            message.style.margin = '7px 0 20px 0';
+            vatForm.appendChild(message);
+          }
+        });
+        
+        // Start observing the entire body for changes
+        observer.observe(document.body, {
+          childList: true,
+          subtree: true,
+        });
+
+    };
+</script>
+
+</body>
+</html>

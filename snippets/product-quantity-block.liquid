@@ -1,0 +1,47 @@
+{%- liquid
+  assign available = product.selected_or_first_available_variant.available
+-%}
+{%- if product != blank -%}
+  <div
+    class='product-quantity__wrap'
+    id='product-quantity-{{ product.id }}-{{ sectionId }}'
+    {{ block.shopify_attributes }}
+  >
+    <label class='product-quantity__label' for='Quantity-{{ product.id }}-{{ sectionId }}'>
+      {{ 'product.store_front.quantity.label' | t }}
+    </label>
+    <quantity-component
+      class='quantity product-quantity__quantity'
+      data-stock='{% if product.selected_or_first_available_variant.inventory_policy == 'deny' %}{% if available == true %}{% if product.selected_or_first_available_variant.inventory_quantity > 0 %}{{ product.selected_or_first_available_variant.inventory_quantity }}{% else %}1{% endif %}{% else %}0{% endif %}{% else %}9999{% endif %}'
+    >
+      <quantity-btn class='quantity__btn' name='minus' data-action='minus' type='button' disabled tabindex='0'>
+        {%- render 'icon', icon_name: 'minus', class: 'quantity__btn-icon' -%}
+      </quantity-btn>
+      <input
+        class='quantity__input'
+        form='product-form-{{ product.id }}-{{ sectionId }}'
+        id='Quantity-{{ product.id }}-{{ sectionId }}'
+        min='{% if available %}1{% else %}0{% endif %}'
+        name='quantity'
+        type='number'
+        value='{% if available %}1{% else %}0{% endif %}'
+        data-quantity-input
+        {% if available == false %}
+          disabled
+        {% endif %}
+      >
+      <quantity-btn
+        class='quantity__btn'
+        name='plus'
+        type='button'
+        data-action='plus'
+        {% if available == false %}
+          disabled
+        {% endif %}
+        tabindex='0'
+      >
+        {%- render 'icon', icon_name: 'plus', class: 'quantity__btn-icon' -%}
+      </quantity-btn>
+    </quantity-component>
+  </div>
+{%- endif -%}

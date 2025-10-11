@@ -1,0 +1,22 @@
+{% assign image = article.image %}
+{% assign img_ratio = block.settings.img_ratio | times: 100 %}
+
+{% capture css %}
+  {% style %}
+    .block-{{ block.id }} {
+        --gsc-img-ratio: {{ img_ratio }}%;
+    }
+  {% endstyle %}
+{% endcapture %}
+
+{% render 'inline-css-minifier', css: css %}
+
+{% if article.image != blank %}
+  <div class='container container--medium block-{{ block.id }}' {{ block.shopify_attributes }}>
+    <div class='article__image-wrap shape shape--nature'>
+      <img
+        {% render 'image-attributes', image: image, class: 'article__image shape__target' %}
+      >
+    </div>
+  </div>
+{% endif %}

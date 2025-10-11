@@ -1,0 +1,158 @@
+{%- liquid
+  assign options = block.settings
+  assign enable_pickup_availability = options.enable_pickup_availability
+  assign show_pickup_availability = false
+  assign selected_variant = product.selected_or_first_available_variant
+  assign available = selected_variant.available
+  assign product_form_id = 'product-form-' | append: product.id | append: '-' | append: sectionId
+  assign pick_up_locations = product.selected_or_first_available_variant.store_availabilities | where: 'pick_up_enabled', true
+  assign pick_up_availabilities = false
+  assign add_to_cart_label = 'product.store_front.add_to_cart' | t
+  assign sold_out_label = 'product.store_front.sold_out' | t
+
+  for location in pick_up_locations
+    if location.available == true
+      assign pick_up_availabilities = true
+    endif
+  endfor
+
+  assign enable_gift_card = false
+  if options.enable_gift_card and product.gift_card?
+    assign enable_gift_card = true
+  endif
+
+  assign show_dynamic_checkout = false
+  if options.show_dynamic_checkout and enable_gift_card == false
+    assign show_dynamic_checkout = true
+  endif
+
+  if product.template_suffix contains 'pre-order'
+    assign show_dynamic_checkout = false
+    assign add_to_cart_label = 'product.store_front.pre_order' | t
+  endif
+
+  if enable_pickup_availability and pick_up_availabilities == true
+    unless product.template_suffix contains 'pre-order'
+      assign show_pickup_availability = true
+    endunless
+  endif
+-%}
+
+{%- if product != blank -%}
+  <div class='' {{ block.shopify_attributes }}>
+    <product-form data-product-id='{{ product.id }}' id='product-form-component-{{ product.id }}-{{ sectionId }}'>
+      {%- form 'product',
+        product,
+        id: product_form_id,
+        class: 'product-form',
+        novalidate: 'novalidate',
+        data-type: 'add-to-cart-form'
+      -%}
+        {% if enable_gift_card %}
+          {% render 'gift-card-recipient-form', product: product, form: form, section: section, block: block %}
+        {% endif %}
+
+        <input
+          type='hidden'
+          name='id'
+          value='{{ selected_variant.id }}'
+          data-product-form-variant
+          id='{{ product_form_id }}-IdInput-{{ form.id }}'
+        >
+        {{ form | payment_terms }}
+        <div class='product-form__btns'>
+          {% if template.name == 'product' and sectionId contains '---MainSection' %}
+            <div>
+              <div class='product-form__btn-wrapper'>
+                <button
+                  type='submit'
+                  name='add'
+                  id='product-buy-btn-{{ product.id }}-{{ sectionId }}'
+                  class='product-form__btn btn btn--lg {% if show_dynamic_checkout == true %}btn--outline{% else %}btn--solid{% endif %}'
+                  {% if available == false %}
+                    disabled
+                  {% endif %}
+                  aria-label='{%- if available -%}{{ add_to_cart_label }}{%- else -%}{{ sold_out_label }}{%- endif -%}'
+                >
+                  <span data-button-text>
+                    {%- if available -%}
+                      {{ add_to_cart_label }}
+                    {%- else -%}
+                      {{ sold_out_label }}
+                    {%- endif -%}
+                  </span>
+                  {% render 'icon', icon_name: 'spinner', class: 'loading-spinner btn__loading-spinner' %}
+                </button>
+              </div>
+            </div>
+
+            <product-form-button class='product-form__mobile-sticky-button'>
+              <div
+                class='product-form__btn-wrapper product-form__btn-wrapper--sticky-mobile-button'
+              >
+                <button
+                  type='submit'
+                  name='add'
+                  id='sticky-product-buy-btn-{{ product.id }}-{{ sectionId }}'
+                  class='product-form__btn btn btn--lg btn--solid'
+                  {% if available == false %}
+                    disabled
+                  {% endif %}
+                  data-product-form-button
+                  aria-label='{%- if available -%}{{ add_to_cart_label }}{%- else -%}{{ sold_out_label }}{%- endif -%}'
+                >
+                  <span data-button-text>
+                    {%- if available -%}
+                      {{ add_to_cart_label }}
+                    {%- else -%}
+                      {{ sold_out_label }}
+                    {%- endif -%}
+                  </span>
+                  {% render 'icon', icon_name: 'spinner', class: 'loading-spinner btn__loading-spinner' %}
+                </button>
+              </div>
+            </product-form-button>
+          {%- else -%}
+            <button
+              type='submit'
+              name='add'
+              id='product-buy-btn-{{ product.id }}-{{ sectionId }}'
+              class='product-form__btn btn btn--lg {% if show_dynamic_checkout == true %}btn--outline{% else %}btn--solid{% endif %}'
+              {% if available == false %}
+                disabled
+              {% endif %}
+              aria-label='{%- if available -%}{{ add_to_cart_label }}{%- else -%}{{ sold_out_label }}{%- endif -%}'
+            >
+              <span data-button-text>
+                {%- if available -%}
+                  {{ add_to_cart_label }}
+                {%- else -%}
+                  {{ sold_out_label }}
+                {%- endif -%}
+              </span>
+              {% render 'icon', icon_name: 'spinner', class: 'loading-spinner btn__loading-spinner' %}
+            </button>
+          {% endif %}
+
+          {%- if show_dynamic_checkout == true -%}
+            <div class='dynamic-checkout-buttons'>
+              {{ form | payment_button }}
+            </div>
+          {%- endif -%}
+        </div>
+      {%- endform -%}
+    </product-form>
+
+    {%- if show_pickup_availability == true -%}
+      <pickup-availability
+        class='pickup-availability body-font-weight-from-global-settings'
+        data-base-url='{{ shop.url }}{{ routes.root_url }}'
+        data-variant-id='{{ selected_variant.id }}'
+        data-has-only-default-variant='{{ product.has_only_default_variant }}'
+        id='product-pickup-availability-{{ product.id }}-{{ sectionId }}'
+      >
+        <pickup-availability-content class='pickup-availability-info'> </pickup-availability-content>
+      </pickup-availability>
+    {%- endif -%}
+  </div>
+{%- endif -%}

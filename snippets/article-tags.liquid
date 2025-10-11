@@ -1,0 +1,81 @@
+{%- liquid
+  assign show_tags = block.settings.show_tags
+  assign selected_tags = block.settings.selected_tags | split: ',' | uniq
+  assign collapse_extra_tags = block.settings.collapse_extra_tags
+
+  if show_tags == 'selected' and selected_tags.size > 0
+    assign tags = selected_tags
+  elsif show_tags == 'all' and article.tags.size > 0
+    assign tags = article.tags
+  endif
+-%}
+
+{% if show_tags != 'none' and tags.size > 0 %}
+  <div class='container container--xsmall' {{ block.shopify_attributes }}>
+    {% if collapse_extra_tags %}
+      <div class='article-tags__container'>
+        <collapsed-tags class='article-tags__component'>
+          <div
+            data-visible-tags
+            class='article-tags__tags article-tags__tags--with-collapse'
+          >
+            {%- for item in tags -%}
+              {% assign tag = item | strip %}
+
+              {% if article.tags contains tag %}
+                <div
+                  data-tag
+                  class='article-tags__tag'
+                >
+                  {{ tag | link_to_tag: tag }}
+                </div>
+              {%- endif %}
+            {%- endfor -%}
+            <div class='show-more-container article-tags__extend-button' data-extend-button>
+              <float-element-btn
+                class='article-tags__tag show-more'
+                data-aria-expanded='false'
+                data-float-element-id='{{layout}}-{{ article.id }}'
+                data-trigger='click'
+                tabindex='0'
+              >
+                <div class='show-more__dot'></div>
+                <div class='show-more__dot'></div>
+                <div class='show-more__dot'></div>
+              </float-element-btn>
+
+              <float-element
+                class='dropdown article-tags__dropdown'
+                aria-hidden='true'
+                id='{{layout}}-{{ article.id }}'
+                data-placement='bottom-end'
+                data-main-axis-offset='{% if settings.round_level != "1" %} 8{% else %} 0{% endif %}'
+                data-collapsed-tags
+              >
+                <template data-float-element-template='{{layout}}-{{ article.id }}'>
+                  <div class='article-tags__dropdown-body'></div>
+                </template>
+              </float-element>
+            </div>
+          </div>
+        </collapsed-tags>
+      </div>
+    {% else %}
+      <div class='article-tags__container'>
+        <div class='article-tags__component'>
+          <div class='article-tags__tags'>
+            {%- for item in tags -%}
+              {% assign tag = item | strip %}
+
+              {% if article.tags contains tag %}
+                <div class='article-tags__tag'>
+                  {{ tag | link_to_tag: tag }}
+                </div>
+              {% endif %}
+            {%- endfor -%}
+          </div>
+        </div>
+      </div>
+    {% endif %}
+  </div>
+{% endif %}

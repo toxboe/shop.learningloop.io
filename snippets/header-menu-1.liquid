@@ -1,0 +1,51 @@
+{%- liquid
+  assign options = block.settings
+
+  assign show_item_1 = options.show_item_1
+  assign show_item_2 = options.show_item_2
+  assign show_item_3 = options.show_item_3
+  assign show_item_4 = options.show_item_4
+  assign show_item_5 = options.show_item_5
+  assign show_item_6 = options.show_item_6
+  assign show_item_7 = options.show_item_7
+  assign show_item_8 = options.show_item_8
+  assign show_item_9 = options.show_item_9
+  assign add_spacing = options.add_spacing
+  assign heading_size = options.heading_size
+  assign body_size = options.body_size
+-%}
+<div
+  class='{{ class }} mega-menu__block mega-menu__block--images mega-menu__card-grid card-grid mega-menu-{{ block.id }} color-{{ block.settings.color_scheme }} {% if add_spacing %}mega-menu__block--spaced{% endif %}'
+  block-id='{{ block.id }}'
+  {{ block.shopify_attributes }}
+>
+  {%- liquid
+    if show_item_1 == true
+      render 'image-block', class: 'card-grid__item', img_ratio: 'nature', heading_size: heading_size, body_size: body_size, enable_vertical_text: options.enable_vertical_text, title: options.item_1_title, text: options.item_1_text, image: options.item_1_img, video: options.item_1_video, link: options.item_1_link, link_text: options.item_1_btn_text
+    endif
+    if show_item_2 == true
+      render 'image-block', class: 'card-grid__item', img_ratio: 'nature', heading_size: heading_size, body_size: body_size, enable_vertical_text: options.enable_vertical_text, title: options.item_2_title, text: options.item_2_text, image: options.item_2_img, video: options.item_2_video, link: options.item_2_link, link_text: options.item_2_btn_text
+    endif
+    if show_item_3 == true
+      render 'image-block', class: 'card-grid__item', img_ratio: 'nature', heading_size: heading_size, body_size: body_size, enable_vertical_text: options.enable_vertical_text, title: options.item_3_title, text: options.item_3_text, image: options.item_3_img, video: options.item_3_video, link: options.item_3_link, link_text: options.item_3_btn_text
+    endif
+    if show_item_4 == true
+      render 'image-block', class: 'card-grid__item', img_ratio: 'nature', heading_size: heading_size, body_size: body_size, enable_vertical_text: options.enable_vertical_text, title: options.item_4_title, text: options.item_4_text, image: options.item_4_img, video: options.item_4_video, link: options.item_4_link, link_text: options.item_4_btn_text
+    endif
+    if show_item_5 == true
+      render 'image-block', class: 'card-grid__item', img_ratio: 'nature', heading_size: heading_size, body_size: body_size, enable_vertical_text: options.enable_vertical_text, title: options.item_5_title, text: options.item_5_text, image: options.item_5_img, video: options.item_5_video, link: options.item_5_link, link_text: options.item_5_btn_text
+    endif
+    if show_item_6 == true
+      render 'image-block', class: 'card-grid__item', img_ratio: 'nature', heading_size: heading_size, body_size: body_size, enable_vertical_text: options.enable_vertical_text, title: options.item_6_title, text: options.item_6_text, image: options.item_6_img, video: options.item_6_video, link: options.item_6_link, link_text: options.item_6_btn_text
+    endif
+    if show_item_7 == true
+      render 'image-block', class: 'card-grid__item', img_ratio: 'nature', heading_size: heading_size, body_size: body_size, enable_vertical_text: options.enable_vertical_text, title: options.item_7_title, text: options.item_7_text, image: options.item_7_img, video: options.item_7_video, link: options.item_7_link, link_text: options.item_7_btn_text
+    endif
+    if show_item_8 == true
+      render 'image-block', class: 'card-grid__item', img_ratio: 'nature', heading_size: heading_size, body_size: body_size, enable_vertical_text: options.enable_vertical_text, title: options.item_8_title, text: options.item_8_text, image: options.item_8_img, video: options.item_8_video, link: options.item_8_link, link_text: options.item_8_btn_text
+    endif
+    if show_item_9 == true
+      render 'image-block', class: 'card-grid__item', img_ratio: 'nature', heading_size: heading_size, body_size: body_size, enable_vertical_text: options.enable_vertical_text, title: options.item_9_title, text: options.item_9_text, image: options.item_9_img, video: options.item_9_video, link: options.item_9_link, link_text: options.item_9_btn_text
+    endif
+  -%}
+</div>

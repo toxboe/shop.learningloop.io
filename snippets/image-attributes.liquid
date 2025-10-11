@@ -1,0 +1,39 @@
+{%- liquid
+  assign width_list = ''
+
+  if size == 'xsmall'
+    assign width_list = '80' | split: ','
+  elsif size == 'small'
+    assign width_list = '80,160' | split: ','
+  elsif size == 'medium'
+    assign width_list = '200,300,400,600,800,1000' | split: ','
+  else
+    assign width_list = '200,400,600,800,1000,1200,1600,2000' | split: ','
+  endif
+
+  assign is_eager_loading = false
+
+  if section.index < 3
+    assign is_eager_loading = true
+  endif
+-%}
+
+{%- capture srcset -%}
+  {%- for width in width_list -%}
+    {%- assign width_number = width | plus: 0 -%}
+    {%- if image.width < width_number -%}
+      {%- break -%}
+    {%- endif -%}
+    {{ image | image_url: width: width_number }} {{ width_number }}w,
+  {%- endfor -%}
+{%- endcapture -%}
+
+class='lazyload {{ class }}
+{{ class_from_parent }}
+{% if is_multiply_target %} multiply-mode__target {% endif %}' src='{{ image | image_url: width: 160 }}' srcset='
+{{- srcset -}}
+' data-aspectratio='
+{{- image.aspect_ratio -}}
+' data-sizes='auto' alt='{{ image.alt | escape }}' loading='{% if is_eager_loading %}eager{% else %}lazy{% endif %}'
+width='1' height='1' style='object-position: {{ image.presentation.focal_point }};'
+{% if parent_fit != blank %} data-parent-fit='{{ parent-fit }}' {% endif %}

@@ -1,0 +1,33 @@
+{%- liquid
+  assign options = block.settings
+  assign collection = options.collection
+  assign show_product_count = options.show_product_count
+  assign image = options.image | default: collection.image
+  assign video = options.video
+  assign caption = options.caption
+  assign title = options.title
+  assign text = options.text
+  assign link_text = options.link_text
+  assign link = options.link
+  assign product = options.product
+  assign content_position = options.content_position
+  assign body_size = options.body_size
+  assign heading_size = options.heading_size
+  assign quote_alignment = options.quote_alignment
+
+  assign product_card_align = options.product_card_align
+-%}
+{%- liquid
+  case block.type
+    when 'collection'
+      render 'collection-card', class: 'collage__collection-card', img_ratio: 'adapt', heading_size: heading_size, content_position: content_position, title: collection.title, img: image, collection: collection, text_style: 'on-image-top', show_product_count: show_product_count, link_text: link_text, link_url: collection.url
+    when 'image'
+      render 'image-block', class: 'collage__image-block', img_ratio: 'adapt', heading_size: heading_size, body_size: body_size, caption: caption, title: title, text: text, image: image, video: video, link: link, link_text: link_text
+    when 'product'
+      render 'product-card', class: 'collage__product-card', product: product, color_swatches_when_to_show: 'on_hover', card_style: 'solid', img_ratio: 'adapt', product_card_align: product_card_align
+    when 'quote'
+      render 'quote', class: 'collage__quote', block: block, quote_alignment: quote_alignment
+    when 'rich-text'
+      render 'rich-text-block', class: 'collage__rich-text', block: block
+  endcase
+-%}

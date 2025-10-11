@@ -1,0 +1,705 @@
+{%- liquid
+  assign options = section.settings
+  assign color_scheme = options.color_scheme
+  assign section_spacing_top = options.section_spacing_top
+  assign section_spacing_bottom = options.section_spacing_bottom
+  assign autoplay_mode = options.autoplay_mode
+  assign autoplay_interval = options.autoplay_interval
+  assign desktop_columns = options.cards_per_slide
+  assign section_layout = options.section_layout
+  assign image = options.image
+  assign body_size = options.body_size
+  assign heading_size = options.heading_size
+  assign quote_alignment = options.quote_alignment
+
+  assign enable_background_around_container = options.enable_background_around_container
+  assign container_size = options.container_size
+
+  assign caption = options.caption
+  assign text = options.text
+  assign title = options.title
+
+  assign btn_url = options.btn_url
+  assign btn_text = options.btn_text
+
+  assign columns_float = desktop_columns | times: 1.0
+  assign slide_base_width = 100
+  assign slide_count = section.blocks.size | divided_by: columns_float | ceil
+  assign slide_width = slide_base_width | divided_by: columns_float
+
+  if desktop_columns == 3
+    assign quote_text_variant = 'small'
+  elsif desktop_columns == 2
+    assign quote_text_variant = 'medium'
+  else
+    assign quote_text_variant = 'large'
+  endif
+-%}
+
+{% capture css %}
+  {% style %}
+    .section-{{ section.id }}{
+        --gsc-space-between-cards: 2.4rem;
+        --gsc-slide-width: {{ slide_width }}%;
+        --gsc-quote-height: {{ 344 }};
+        --gsc-quote-carousel-height: {{ 344 | divided_by: 10.0 }}rem;
+        --gsc-quote-desktop-slides: {{ desktop_columns }};
+        --gsc-section-spacing-top: {{ section_spacing_top }}px;
+        --gsc-section-spacing-bottom: {{ section_spacing_bottom }}px;
+    }
+
+    @media {% render 'media-queries', screen: 'md' %} {
+        .section-{{ section.id }} {
+            --gsc-quotes-per-slide: {{ desktop_columns }};
+
+            {% if section_layout == 'bottom-quotes' %}
+                --gsc-quote-carousel-height: {{ 426 | divided_by: 10.0 }}rem;
+            {% else %}
+                --gsc-quote-carousel-height: {{ 688 | divided_by: 10.0 }}rem;
+            {% endif %}
+        }
+    }
+  {% endstyle %}
+{% endcapture %}
+
+{% render 'inline-css-minifier', css: css %}
+
+<div>
+  {%- if section.blocks.size > 0 -%}
+    {%- for block in section.blocks -%}
+      {%- if block.settings.link == blank -%}
+        <sidebar-component
+          class='sidebar quote-sidebar color-{{ color_scheme }}'
+          id='quote-sidebar-{{block.id}}'
+          data-with-overlay
+          data-with-close-on-outside
+          data-with-close-on-escape
+          data-overlay-important
+          data-open-direction='left'
+          tabindex='-1'
+        >
+          <template data-sidebar-template='quote-sidebar-{{block.id}}'>
+            <div class='sidebar__body quote-sidebar__body' data-sidebar-body>
+              <sidebar-button>
+                <button
+                  data-sidebar-button
+                  data-sidebar-id='quote-sidebar-{{block.id}}'
+                  class='unstyled-button quote-sidebar__close-button-with-scale-hover close-button-with-scale-hover'
+                  aria-label='Close'
+                ></button>
+              </sidebar-button>
+              {%- render 'quote',
+                class: 'quote-sidebar__quote',
+                block: block,
+                text_variant: quote_text_variant,
+                is_inside_sidebar: true
+              -%}
+            </div>
+          </template>
+        </sidebar-component>
+      {%- endif -%}
+    {%- endfor -%}
+  {%- endif -%}
+</div>
+
+<div class='section-{{ section.id }} {% if enable_background_around_container %} section color-{{ color_scheme }} {% endif %}'>
+  <div class='section-spacing container container--{{ container_size }} testimonials__outer-container {% if container_size == 'full-screen' %} testimonials__outer-container--full-screen{% endif %}'>
+    <div class='testimonials'>
+      <div class='testimonials__body {% unless enable_background_around_container %} section color-{{ color_scheme }} {% endunless %} testimonials__body--{{ section_layout }} {% if section_layout != 'bottom-quotes' %} testimonials__body--aside-quotes {% endif %}'>
+        <div class='testimonials__container container container--large'>
+          {%- if caption != blank or title != blank or text != blank or btn_text != blank -%}
+            <div class='testimonials__content'>
+              {%- if caption != blank -%}
+                <div class='caption testimonials__caption'>{{ caption }}</div>
+              {%- endif -%}
+              {%- if title != blank -%}
+                <h3 class='{{ heading_size }}'>{{ title }}</h3>
+              {%- endif -%}
+              {%- if text != blank -%}
+                <div class='rte {{ body_size }} testimonials__text body-font-weight-from-global-settings'>
+                  {{ text }}
+                </div>
+              {%- endif -%}
+              {%- if btn_text != blank -%}
+                <a
+                  class='link testimonials__link'
+                  {% if btn_url != blank %}
+                    href='{{ btn_url }}'
+                  {% endif %}
+                  aria-label='{{ btn_text }}'
+                >
+                  <span class='link__text'>{{ btn_text }}</span>
+                  {%- render 'icon', icon_name: 'link-chevron', class: 'link__chevron' -%}
+                </a>
+              {%- endif -%}
+            </div>
+          {%- endif -%}
+
+          <carousel-component
+            class='carousel testimonials__carousel testimonials__carousel--desktop'
+            data-contain-scroll=''
+            data-section-id='{{ section.id }}'
+            {% if section_layout != 'bottom-quotes' %}
+              data-axis='y'
+            {% else %}
+              data-axis='x'
+            {% endif %}
+            {% if autoplay_mode == 'one_at_time' %}
+              data-animation-type='one_at_time'
+              data-autoplay-interval='{{autoplay_interval}}'
+            {% endif %}
+            with-stop-on-hover
+            data-draggable
+            data-align='start'
+          >
+            <div
+              class='carousel__viewport embla testimonials__carousel-viewport {% if section_layout != 'bottom-quotes' %}carousel__viewport--vertical{% endif %}'
+              data-carousel-viewport
+            >
+              <div class='carousel__container' data-carousel-container>
+                {%- liquid
+                  assign slide_size = desktop_columns
+                  assign start = 0
+                  assign end = slide_size | minus: 1
+                -%}
+                {%- for slide_index in (1..slide_count) -%}
+                  <div class='carousel__slide'>
+                    <div class='testimonials__slide-quotes'>
+                      {%- liquid
+                        for slide in (start..end)
+                          assign class = 'block-' | append: section.blocks[slide].id | append: ' testimonials__quote'
+                          if section.blocks[slide] != blank
+                            render 'quote', class: class, block: section.blocks[slide], quote_alignment: quote_alignment, text_variant: quote_text_variant
+                          endif
+                        endfor
+                        assign start = start | plus: desktop_columns
+                        assign end = end | plus: slide_size
+                      -%}
+                    </div>
+                  </div>
+                {%- endfor -%}
+              </div>
+            </div>
+            <carousel-dots
+              class='solid-dots-carousel testimonials__solid-dots-carousel {% if section_layout != 'bottom-quotes' %} solid-dots-carousel--vertical {% endif %}'
+              data-contain-scroll='keepSnaps'
+              data-align='center'
+              {% if section_layout != 'bottom-quotes' %}
+                data-axis='y'
+              {% else %}
+                data-axis='x'
+              {% endif %}
+            >
+              <div class='solid-dots-carousel__viewport embla' data-carousel-viewport>
+                <div
+                  class='solid-dots-carousel__container'
+                  data-carousel-container
+                >
+                  {%- for slide in (1..slide_count) -%}
+                    <carousel-dot
+                      class='solid-dots-carousel__solid-dot {% if forloop.index == 1 %}is-primary{% endif %}'
+                      tabindex='0'
+                      data-dot-index='{{ forloop.index0 }}'
+                    >
+                      <div class='solid-dots-carousel__solid-dot-circle'></div>
+                    </carousel-dot>
+                  {%- endfor -%}
+                </div>
+              </div>
+            </carousel-dots>
+          </carousel-component>
+          <carousel-component
+            class='carousel testimonials__carousel testimonials__carousel--tablet'
+            data-contain-scroll='trimSnaps'
+            data-section-id='{{ section.id }}'
+            {% if autoplay_mode == 'one_at_time' %}
+              data-animation-type="one_at_time"
+              data-autoplay-interval='{{autoplay_interval}}'
+            {% endif %}
+            with-stop-on-hover
+            data-draggable
+            data-align='start'
+            data-axis='x'
+          >
+            <div
+              class='carousel__viewport embla testimonials__carousel-viewport'
+              data-carousel-viewport
+            >
+              <div class='carousel__container' data-carousel-container>
+                {%- liquid
+                  assign slide_size = desktop_columns
+                  assign start = 0
+                  assign end = slide_size | minus: 1
+                -%}
+
+                {%- for slide_index in (1..slide_count) -%}
+                  <div class='carousel__slide'>
+                    <div class='testimonials__slide-quotes'>
+                      {%- liquid
+                        for slide in (start..end)
+                          assign class = 'block-' | append: section.blocks[slide].id | append: ' testimonials__quote'
+                          if section.blocks[slide] != blank
+                            render 'quote', class: class, block: section.blocks[slide], quote_alignment: quote_alignment, text_variant: quote_text_variant
+                          endif
+                        endfor
+                        assign start = start | plus: desktop_columns
+                        assign end = end | plus: slide_size
+                      -%}
+                    </div>
+                  </div>
+                {%- endfor -%}
+              </div>
+            </div>
+            <carousel-dots
+              class='solid-dots-carousel testimonials__solid-dots-carousel'
+              data-contain-scroll='keepSnaps'
+              data-align='center'
+              data-axis='x'
+            >
+              <div class='solid-dots-carousel__viewport embla' data-carousel-viewport>
+                <div
+                  class='solid-dots-carousel__container'
+                  data-carousel-container
+                >
+                  {%- for slide in (1..slide_count) -%}
+                    <carousel-dot
+                      class='solid-dots-carousel__solid-dot {% if forloop.index == 1 %}is-primary{% endif %}'
+                      tabindex='0'
+                      data-dot-index='{{ forloop.index0 }}'
+                    >
+                      <div class='solid-dots-carousel__solid-dot-circle'></div>
+                    </carousel-dot>
+                  {%- endfor -%}
+                </div>
+              </div>
+            </carousel-dots>
+          </carousel-component>
+          <carousel-component
+            class='carousel testimonials__carousel testimonials__carousel--mobile'
+            data-contain-scroll='trimSnaps'
+            data-section-id='{{ section.id }}'
+            {% if autoplay_mode == 'one_at_time' %}
+              data-animation-type="one_at_time"
+              data-autoplay-interval='{{autoplay_interval}}'
+            {% endif %}
+            with-stop-on-hover
+            data-draggable
+            data-align='start'
+            data-axis='x'
+          >
+            <div class='carousel__viewport embla testimonials__carousel-viewport' data-carousel-viewport>
+              <div class='carousel__container' data-carousel-container>
+                {%- for block in section.blocks -%}
+                  <div
+                    class='carousel__slide block-{{ block.id }}'
+                    block-id='{{ block.id }}'
+                  >
+                    {% render 'quote', class: 'testimonials__quote', quote_alignment: quote_alignment, block: block %}
+                  </div>
+                {%- endfor -%}
+              </div>
+            </div>
+            <carousel-dots
+              class='solid-dots-carousel testimonials__solid-dots-carousel'
+              data-contain-scroll='keepSnaps'
+              data-align='center'
+              data-axis='x'
+            >
+              <div class='solid-dots-carousel__viewport embla' data-carousel-viewport>
+                <div
+                  class='solid-dots-carousel__container'
+                  data-carousel-container
+                >
+                  {%- for block in section.blocks -%}
+                    <carousel-dot
+                      class='solid-dots-carousel__solid-dot {% if forloop.index == 1 %}is-primary{% endif %}'
+                      tabindex='0'
+                      data-dot-index='{{ forloop.index0 }}'
+                    >
+                      <div class='solid-dots-carousel__solid-dot-circle'></div>
+                    </carousel-dot>
+                  {%- endfor -%}
+                </div>
+              </div>
+            </carousel-dots>
+          </carousel-component>
+          {%- if section_layout != 'bottom-quotes' -%}
+            {%- if image != blank -%}
+              <div class='testimonials__image'>
+                <img
+                  {% render 'image-attributes', image: image, class: 'image zoom' %}
+                >
+              </div>
+            {%- endif -%}
+          {%- endif -%}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% render 'save-section-data-in-global-scope', section: section %}
+
+{% schema %}
+{
+  "name": "t:sections.testimonials.name",
+  "tag": "section",
+  "blocks": [
+    {
+      "type": "quote",
+      "name": "t:sections.testimonials.name_for_quote_block",
+      "settings": [
+        {
+          "type": "textarea",
+          "id": "text",
+          "default": "Add authentic testimonials of your customers talking about your products or brand in their own words, so that future customers can identify with them and their needs.",
+          "label": "t:sections.testimonials.label_for_text_setting_in_quote_block"
+        },
+        {
+          "type": "text",
+          "id": "author_name",
+          "default": "Author",
+          "label": "t:sections.testimonials.label_for_author_name_setting_in_quote_block"
+        },
+        {
+          "type": "image_picker",
+          "id": "author_image",
+          "label": "t:sections.testimonials.label_for_author_image_setting_in_quote_block"
+        },
+        {
+          "type": "range",
+          "id": "rating",
+          "min": 1,
+          "max": 5,
+          "step": 0.5,
+          "default": 4.5,
+          "label": "t:sections.testimonials.label_for_rating_setting_in_quote_block"
+        },
+        {
+          "type": "url",
+          "id": "link",
+          "label": "t:sections.testimonials.label_for_link_setting_in_quote_block",
+          "info": "t:sections.testimonials.tip_for_link_setting_in_quote_block"
+        }
+      ]
+    }
+  ],
+  "settings": [
+    {
+      "type": "select",
+      "id": "color_scheme",
+      "options": [
+        {
+          "value": "default",
+          "label": "t:sections.general_section_settings.color_scheme_option_default_label"
+        },
+        {
+          "value": "primary",
+          "label": "t:sections.general_section_settings.color_scheme_option_primary_label"
+        },
+        {
+          "value": "secondary",
+          "label": "t:sections.general_section_settings.color_scheme_option_secondary_label"
+        },
+        {
+          "value": "custom-1",
+          "label": "t:sections.general_section_settings.color_scheme_option_custom_1_label"
+        },
+        {
+          "value": "custom-2",
+          "label": "t:sections.general_section_settings.color_scheme_option_custom_2_label"
+        },
+        {
+          "value": "custom-3",
+          "label": "t:sections.general_section_settings.color_scheme_option_custom_3_label"
+        },
+        {
+          "value": "white",
+          "label": "t:sections.general_section_settings.color_scheme_option_white_text_label"
+        },
+        {
+          "value": "black",
+          "label": "t:sections.general_section_settings.color_scheme_option_black_text_label"
+        }
+      ],
+      "default": "default",
+      "label": "t:sections.general_section_settings.color_scheme_label",
+      "info": "t:sections.general_section_settings.color_scheme_tip"
+    },
+    {
+      "type": "checkbox",
+      "id": "enable_background_around_container",
+      "default": false,
+      "label": "t:sections.general_section_settings.enable_background_around_container_label"
+    },
+    {
+      "type": "select",
+      "id": "container_size",
+      "options": [
+        {
+          "value": "full-screen",
+          "label": "t:sections.general_section_settings.container_size.screen_width_option"
+        },
+        {
+          "value": "page-width",
+          "label": "t:sections.general_section_settings.container_size.page_width_option"
+        },
+        {
+          "value": "large",
+          "label": "t:sections.general_section_settings.container_size.large_width_option"
+        },
+        {
+          "value": "medium",
+          "label": "t:sections.general_section_settings.container_size.medium_width_option"
+        }
+      ],
+      "default": "page-width",
+      "label": "t:sections.general_section_settings.container_size.label"
+    },
+    {
+      "type": "range",
+      "id": "section_spacing_top",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "default": 96,
+      "unit": "t:sections.general_section_settings.section_spacing_top.unit",
+      "label": "t:sections.general_section_settings.section_spacing_top.label"
+    },
+    {
+      "type": "range",
+      "id": "section_spacing_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "default": 96,
+      "unit": "t:sections.general_section_settings.section_spacing_bottom.unit",
+      "label": "t:sections.general_section_settings.section_spacing_bottom.label"
+    },
+    {
+      "type": "select",
+      "id": "section_layout",
+      "options": [
+        {
+          "value": "left-quotes",
+          "label": "t:sections.testimonials.label_for_left_quotes_option_in_section_layout_setting"
+        },
+        {
+          "value": "right-quotes",
+          "label": "t:sections.testimonials.label_for_right_quotes_option_in_section_layout_setting"
+        },
+        {
+          "value": "bottom-quotes",
+          "label": "t:sections.testimonials.label_for_bottom_quotes_option_in_section_layout_setting"
+        }
+      ],
+      "default": "left-quotes",
+      "label": "t:sections.testimonials.label_for_section_layout_setting",
+      "info": "t:sections.testimonials.info_for_section_layout_setting"
+    },
+    {
+      "type": "header",
+      "content": "t:sections.testimonials.quotes_settings_header"
+    },
+    {
+      "type": "range",
+      "id": "cards_per_slide",
+      "min": 1,
+      "max": 3,
+      "step": 1,
+      "default": 2,
+      "label": "t:sections.testimonials.label_for_cards_per_slide_setting"
+    },
+    {
+      "type": "select",
+      "id": "quote_alignment",
+      "options": [
+        {
+          "value": "left",
+          "label": "t:sections.testimonials.label_for_quote_alignment_left_option"
+        },
+        {
+          "value": "center",
+          "label": "t:sections.testimonials.label_for_quote_alignment_center_option"
+        }
+      ],
+      "default": "left",
+      "label": "t:sections.testimonials.label_for_quote_alignment_setting"
+    },
+    {
+      "type": "header",
+      "content": "t:sections.testimonials.image_settings_header"
+    },
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "t:sections.testimonials.label_for_image_setting"
+    },
+    {
+      "type": "header",
+      "content": "t:sections.testimonials.text_settings_header"
+    },
+    {
+      "type": "text",
+      "id": "caption",
+      "default": "TESTIMONIALS",
+      "label": "t:sections.testimonials.label_for_caption_setting"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "default": "Customer stories",
+      "label": "t:sections.testimonials.label_for_title_setting"
+    },
+    {
+      "type": "richtext",
+      "id": "text",
+      "default": "<p>Show customer reviews: tweets, blog posts, or interviews. Invite customers to share their impressions of your products.</p>",
+      "label": "t:sections.testimonials.label_for_text_setting"
+    },
+    {
+      "type": "select",
+      "id": "heading_size",
+      "label": "t:sections.general_section_settings.label_for_heading_size_setting",
+      "options": [
+        {
+          "value": "h0",
+          "label": "t:sections.general_section_settings.heading_size_0_option"
+        },
+        {
+          "value": "h1",
+          "label": "t:sections.general_section_settings.heading_size_1_option"
+        },
+        {
+          "value": "h2",
+          "label": "t:sections.general_section_settings.heading_size_2_option"
+        },
+        {
+          "value": "h3",
+          "label": "t:sections.general_section_settings.heading_size_3_option"
+        },
+        {
+          "value": "h4",
+          "label": "t:sections.general_section_settings.heading_size_4_option"
+        },
+        {
+          "value": "h5",
+          "label": "t:sections.general_section_settings.heading_size_5_option"
+        },
+        {
+          "value": "h6",
+          "label": "t:sections.general_section_settings.heading_size_6_option"
+        },
+        {
+          "value": "h7",
+          "label": "t:sections.general_section_settings.heading_size_7_option"
+        }
+      ],
+      "default": "h3"
+    },
+    {
+      "type": "select",
+      "id": "body_size",
+      "label": "t:sections.general_section_settings.label_for_body_size_setting",
+      "info": "t:sections.general_section_settings.info_for_body_size_setting",
+      "options": [
+        {
+          "value": "body0",
+          "label": "t:sections.general_section_settings.body_size_0_option"
+        },
+        {
+          "value": "body1",
+          "label": "t:sections.general_section_settings.body_size_1_option"
+        },
+        {
+          "value": "body2",
+          "label": "t:sections.general_section_settings.body_size_2_option"
+        },
+        {
+          "value": "body3",
+          "label": "t:sections.general_section_settings.body_size_3_option"
+        },
+        {
+          "value": "body4",
+          "label": "t:sections.general_section_settings.body_size_4_option"
+        },
+        {
+          "value": "body5",
+          "label": "t:sections.general_section_settings.body_size_5_option"
+        },
+        {
+          "value": "body6",
+          "label": "t:sections.general_section_settings.body_size_6_option"
+        }
+      ],
+      "default": "body3"
+    },
+    {
+      "type": "text",
+      "id": "btn_text",
+      "default": "Link label",
+      "label": "t:sections.testimonials.label_for_button_text_setting"
+    },
+    {
+      "type": "url",
+      "id": "btn_url",
+      "label": "t:sections.testimonials.label_for_button_url_setting"
+    },
+    {
+      "type": "header",
+      "content": "t:sections.testimonials.carousel_settings_header"
+    },
+    {
+      "type": "select",
+      "id": "autoplay_mode",
+      "options": [
+        {
+          "value": "disabled",
+          "label": "t:sections.general_section_settings.carousel-settings.autoplay_mode.options.option_1"
+        },
+        {
+          "value": "one_at_time",
+          "label": "t:sections.general_section_settings.carousel-settings.autoplay_mode.options.option_3"
+        }
+      ],
+      "default": "disabled",
+      "label": "t:sections.general_section_settings.carousel-settings.autoplay_mode.label"
+    },
+    {
+      "type": "range",
+      "id": "autoplay_interval",
+      "min": 1,
+      "max": 10,
+      "step": 1,
+      "default": 3,
+      "unit": "t:sections.general_section_settings.carousel-settings.autoplay_interval.unit",
+      "label": "t:sections.general_section_settings.carousel-settings.autoplay_interval.label"
+    }
+  ],
+  "presets": [
+    {
+      "name": "t:sections.testimonials.name",
+      "blocks": [
+        {
+          "type": "quote"
+        },
+        {
+          "type": "quote"
+        },
+        {
+          "type": "quote"
+        },
+        {
+          "type": "quote"
+        },
+        {
+          "type": "quote"
+        },
+        {
+          "type": "quote"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

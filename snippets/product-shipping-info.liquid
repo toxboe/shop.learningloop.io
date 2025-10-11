@@ -1,0 +1,21 @@
+<div class="product-shipping-tag">
+  <div class="product-information-tag__heading  product-information-tag__heading--inline">
+    <div class="product-shipping-tag__icon-container">
+      {% render 'icon-pack', icon: 'fast-delivery' %}
+      <svg width="18" height="13" class="product-shipping-tag__icon-flag">       
+        <image class="shipping-info-flag" xlink:href  width="20" height="13"/>    
+      </svg> 
+    </div>
+    <div class="shipping-info-text">We ship from Latvia or the US, depending on your location.</div>
+  </div>
+</div>
+
+<script>
+  var dynamicShippingText = {
+    eu_shipping: "{% assign temp = 'product.store_front.shipping.eu' | t %}{%  if temp %}{{ temp }}{% endif %}",
+    non_eu_shipping: "{% assign temp = 'product.store_front.shipping.non_eu' | t %}{%  if temp %}{{ temp }}{% endif %}",
+    us_shipping: "{% assign temp = 'product.store_front.shipping.us' | t %}{%  if temp %}{{ temp }}{% endif %}",
+    worldwide_shipping: "{% assign temp = 'product.store_front.shipping.worldwide' | t %}{%  if temp %}{{ temp }}{% endif %}",
+  }
+  var svgDkSource = "http://purecatamphetamine.github.io/country-flag-icons/3x2/DK.svg"
+</script>

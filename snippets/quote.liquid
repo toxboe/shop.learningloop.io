@@ -1,0 +1,45 @@
+{%- liquid
+    assign options = block.settings
+    assign is_inside_sidebar = is_inside_sidebar | default: false
+-%}
+{%- if options.link == blank and is_inside_sidebar == false -%}
+    <sidebar-button class="{{ class }} {% if quote_alignment == 'center' %} quote--align-center{% endif %}">
+      <div data-sidebar-button data-sidebar-id="quote-sidebar-{{block.id}}" class="quote quote--with-sidebar" tabindex="0">
+{%- else -%}
+    <div class="quote {{ class }} {% if quote_alignment == 'center' %} quote--align-center{% endif %}">
+{%- endif -%}
+        <max-lines-component class="quote__content">
+            {%- if options.link != blank -%}
+                <a href="{{ options.link.url }}" class="quote__link unstyled-link" aria-label="{{ options.link.title }}"></a>
+            {%- endif -%}
+            {%- if options.text != blank -%}
+                {%- render 'icon', icon_name: 'quote', class: 'quote__icon' -%}
+                <div class="quote__text-wrap" data-quote-line-clamp>
+                    <div class="quote__text quote__text--{{ text_variant | default: 'medium' }} {% if is_inside_sidebar == false %}quote__text--truncate{% endif %}" data-quote-line-clamp-target>
+                        {{- options.text | strip_html -}}
+                    </div>
+                </div>
+            {%- endif -%}
+            <div class="quote__details">
+                {%- if options.author_image != blank -%}
+                    <img style="width:auto;" {% render 'image-attributes', image: options.author_image, size: 'medium', class: 'quote__avatar-image' %} />
+                {%- elsif quote_alignment != 'center' -%}
+                    {%- render 'icon', icon_name: 'long-minus', class: 'quote__icon-long-minus' -%}
+                {%- endif -%}
+                <div class="quote__details-credentials">
+                    <div class="quote__author-name">{{ options.author_name }}</div>
+                    {%- render 'rating',
+                      rating_style: 'stars_only',
+                      rating_count: options.rating,
+                      rating_reviews_count: 0
+                    -%}
+                </div>
+            </div>
+        </max-lines-component>
+{%- if options.link == blank and is_inside_sidebar == false -%}
+      </div>
+    </sidebar-button>
+{%- else -%}
+    </div>
+{%- endif -%}
+ 

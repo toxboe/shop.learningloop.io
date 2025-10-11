@@ -1,0 +1,58 @@
+{%- liquid
+  assign options = block.settings
+-%}
+
+<div class='in-cart-banner {{ class }} color-{{ options.color_scheme }}' {{ block.shopify_attributes }}>
+  {%- if options.btn_text == blank and options.btn_url != blank -%}
+    <a class='in-cart-banner__overlay-link' href='{{- options.btn_url -}}'></a>
+  {%- endif -%}
+  {%- if options.subheading != blank
+    or options.heading != blank
+    or options.text != blank
+    or options.btn_text != blank
+  -%}
+    <div class='in-cart-banner__content in-cart-banner__content--with-{{ options.content_align }}-alignment'>
+      {%- if options.subheading != blank or options.heading != blank or options.text != blank -%}
+        <div class='in-cart-banner__content-info'>
+          {%- if options.subheading != blank -%}
+            <div class='in-cart-banner__subheading'>{{- options.subheading -}}</div>
+          {%- endif -%}
+          {%- if options.heading != blank -%}
+            <h2 class='in-cart-banner__heading {{ options.heading_size }}'>{{- options.heading -}}</h2>
+          {%- endif -%}
+          {%- if options.text != blank -%}
+            <div class='in-cart-banner__text rte {{ options.body_size }} body-font-weight-from-global-settings'>
+              {{- options.text -}}
+            </div>
+          {%- endif -%}
+        </div>
+      {%- endif -%}
+      {%- if options.btn_text != blank -%}
+        <div class='in-cart-banner__content-buttons'>
+          {%- if options.btn_style == 'link' -%}
+            <a
+              class='link'
+              {% if options.btn_url != blank %}
+                href='{{- options.btn_url -}}'
+              {% endif %}
+              aria-label='{%- if options.btn_text != blank -%}{{- options.btn_text -}}{%- elsif options.btn_url.title != blank -%}{{- options.btn_url.title -}}{%- else -%}#{%- endif -%}'
+            >
+              <span class='link__text'>{{- options.btn_text -}}</span>
+              {%- render 'icon', icon_name: 'link-chevron', class: 'link__chevron' -%}
+            </a>
+          {%- else -%}
+            <a
+              class='btn btn--{{ options.btn_style }}'
+              {% if options.btn_url != blank %}
+                href='{{- options.btn_url -}}'
+              {% endif %}
+              aria-label='{%- if options.btn_text != blank -%}{{- options.btn_text -}}{%- elsif options.btn_url.title != blank -%}{{- options.btn_url.title -}}{%- else -%}#{%- endif -%}'
+            >
+              {{- options.btn_text -}}
+            </a>
+          {%- endif -%}
+        </div>
+      {%- endif -%}
+    </div>
+  {%- endif -%}
+</div>

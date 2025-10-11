@@ -1,0 +1,8 @@
+<pagination-component data-target='{{ target }}' data-container-id='{{ container_id }}'>
+  {%- if paginate.next -%}
+    <pagination-infinite-scroll class='pagination-infinite-scroll' data-url='{{ paginate.next.url }}'>
+      {%- render 'icon', icon_name: 'spinner', class: 'loading-spinner hidden pagination-infinite-scroll__loading-spinner' -%}
+    </pagination-infinite-scroll>
+  {%- endif -%}
+</pagination-component>
+ 

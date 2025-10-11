@@ -1,0 +1,6 @@
+{%- assign loading_spinner_class = 'loading-spinner ' | append: loading_spinner_class -%}
+
+<div class='loading-overlay {{ class }} hidden' {% if id != blank %} id='{{ id }}'{% endif %} {{ attrs }}>
+  {%- render 'icon', icon_name: 'spinner', class: loading_spinner_class, stroke_width: stroke_width -%}
+</div>
+ 

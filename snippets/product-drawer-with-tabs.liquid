@@ -1,0 +1,56 @@
+{%- liquid
+  assign options = block.settings
+  assign btn_text = options.popup_link_text
+  assign btn_style = options.btn_style
+  assign icon = options.icon
+  assign custom_icon_image = options.custom_icon_image
+-%}
+<div class='block-{{ block.id }} product-drawer-tabs-trigger-block' {{ block.shopify_attributes }}>
+  {%- if btn_style == 'text' -%}
+    <sidebar-button>
+      <button
+        data-sidebar-button
+        class='product-drawer-tabs-trigger-link unstyled-button'
+        data-sidebar-id='product-information-sidebar-{{ block.id }}-{{ product.id }}-{{ sectionId }}'
+        aria-label='{{ btn_text }}'
+        type='button'
+      >
+        {%- if custom_icon_image != blank -%}
+          <img
+            {% render 'image-attributes',
+              image: custom_icon_image,
+              size: 'small',
+              class: 'product-drawer-tabs-trigger-link__icon'
+            %}
+          >
+        {%- elsif icon != 'none' -%}
+          {% render 'icon-pack', icon: icon, class: 'product-drawer-tabs-trigger-link__icon' %}
+        {%- endif -%}
+        <span>{{ btn_text }}</span>
+      </button>
+    </sidebar-button>
+  {%- else -%}
+    <sidebar-button>
+      <button
+        data-sidebar-button
+        class='product-drawer-tabs-trigger-button btn btn--lg btn--{{ btn_style }}  {% if btn_style == 'outline' %} btn--outline-with-particular-text-color{% endif %} product__btn'
+        data-sidebar-id='product-information-sidebar-{{ block.id }}-{{ product.id }}-{{ sectionId }}'
+        aria-label='{{ btn_text }}'
+        type='button'
+      >
+        {%- if custom_icon_image != blank -%}
+          <img
+            {% render 'image-attributes',
+              image: custom_icon_image,
+              size: 'small',
+              class: 'product-drawer-tabs-trigger-button__icon'
+            %}
+          >
+        {%- elsif icon != 'none' -%}
+          {% render 'icon-pack', icon: icon, class: 'product-drawer-tabs-trigger-button__icon' %}
+        {%- endif -%}
+        <span>{{ btn_text }}</span>
+      </button>
+    </sidebar-button>
+  {%- endif -%}
+</div>

@@ -1,0 +1,287 @@
+{%- liquid
+  assign options = section.settings
+  assign section_spacing_top = options.section_spacing_top
+  assign section_spacing_bottom = options.section_spacing_bottom
+  assign color_scheme = options.color_scheme
+  assign container_size = options.container_size
+-%}
+
+{% capture css %}
+  {% style %}
+    .section-{{section.id}} {
+        --gsc-section-spacing-top: {{ section_spacing_top }}px;
+        --gsc-section-spacing-bottom: {{ section_spacing_bottom }}px;
+    }
+  {% endstyle %}
+{% endcapture %}
+
+{% render 'inline-css-minifier', css: css %}
+
+<div class='login section section-{{ section.id }} color-{{ color_scheme }}'>
+  <div class='container container--{{ container_size }} section-spacing'>
+    <login-component>
+      <div class='hidden' data-login-form='recover'>
+        <div class='login__content'>
+          <h5 class='login__title' tabindex='-1'>
+            {{ 'customer.login_page.store_front.forgot_password_title' | t }}
+          </h5>
+          <div class='login__text body-font-weight-from-global-settings'>
+            {{ 'customer.login_page.store_front.forgot_password_note' | t }}
+          </div>
+        </div>
+        {%- form 'recover_customer_password', class: 'login__form' -%}
+          {%- assign recover_success = form.posted_successfully? -%}
+
+          <div class='field login__field'>
+            <label class='label' for='{{ section.id }}-RecoveryEmail'>
+              {{- 'customer.login_page.store_front.email_input_label' | t -}}
+            </label>
+            <input
+              class='input input--solid input--large'
+              type='email'
+              id='{{ section.id }}-RecoveryEmail'
+              value=''
+              name='email'
+              autocorrect='off'
+              autocapitalize='off'
+              autocomplete='email'
+              placeholder='{{ 'customer.login_page.store_front.email_input_placeholder' | t }}'
+              required
+            >
+          </div>
+
+          {%- if form.errors -%}
+            <script>
+              window.addEventListener('load', () => {
+                window.bodyElement.notification.show("{{ form.errors.messages['form'] }}", 'warning')
+              })
+            </script>
+          {%- endif -%}
+
+          <div class='login__btns'>
+            <button
+              type='submit'
+              class='btn btn--solid btn--lg login__btn'
+              aria-label='{{ 'customer.login_page.screen_reader.submit' | t }}'
+            >
+              {{ 'customer.login_page.store_front.submit' | t }}
+            </button>
+            <button
+              class='btn btn--outline btn--lg login__btn'
+              data-login-form-id='login'
+              data-login-form-button
+              aria-label='{{ 'customer.login_page.screen_reader.cancel' | t }}'
+              type='button'
+            >
+              {{ 'customer.login_page.store_front.cancel' | t }}
+            </button>
+          </div>
+        {%- endform -%}
+      </div>
+      <div data-login-form='login'>
+        <div class='login__content'>
+          <h5 class='login__title'>
+            {{ 'customer.login_page.store_front.title' | t }}
+          </h5>
+        </div>
+        {%- if recover_success == true -%}
+          <script>
+            window.addEventListener('load', () => {
+              window.bodyElement.notification.show(
+                "{{ 'customer.recover_password.store_front.success' | t }}",
+                'success',
+              )
+            })
+          </script>
+        {%- endif -%}
+        {%- form 'customer_login', novalidate: 'novalidate', class: 'login__form' -%}
+          <div class='field login__field'>
+            <label class='label' for='{{ section.id }}-CustomerEmail'>
+              {{- 'customer.login_page.store_front.email_input_label' | t -}}
+            </label>
+            <input
+              class='input input--solid input--large'
+              type='email'
+              id='{{ section.id }}-CustomerEmail'
+              name='customer[email]'
+              autocomplete='email'
+              autocorrect='off'
+              autocapitalize='off'
+              placeholder='{{ 'customer.login_page.store_front.email_input_placeholder' | t }}'
+              required
+            >
+          </div>
+          {%- if form.password_needed -%}
+            <div class='field login__field'>
+              <label class='label' for='{{ section.id }}-CustomerPassword'>
+                {{ 'customer.login_page.store_front.password_input_label' | t }}
+              </label>
+              <div class='input-wrap'>
+                <password-field class='password-input'>
+                  <input
+                    class='input input--solid input--large password-input__input'
+                    type='password'
+                    value=''
+                    id='{{ section.id }}-CustomerPassword'
+                    name='customer[password]'
+                    autocomplete='current-password'
+                    placeholder='{{ 'customer.login_page.store_front.password_input_placeholder' | t }}'
+                    data-password-field-input
+                    required
+                  >
+                  <button type='button' class='password-input__btn unstyled-button' data-password-field-button>
+                    {% render 'icon',
+                      icon_name: 'password-input-opened-eye',
+                      class: 'password-input__icon password-input__icon--eye'
+                    %}
+                    {% render 'icon',
+                      icon_name: 'password-input-closed-eye',
+                      class: 'password-input__icon password-input__icon--closed-eye'
+                    %}
+                  </button>
+                </password-field>
+              </div>
+              <button
+                class='field__link login__field-link unstyled-button'
+                data-login-form-id='recover'
+                data-login-form-button
+                type='button'
+              >
+                {{ 'customer.login_page.store_front.forgot_password_link' | t }}
+              </button>
+            </div>
+          {%- endif -%}
+          <div class='login__btns'>
+            <button
+              class='btn btn--solid btn--lg login__btn'
+              aria-label='{{ 'customer.login_page.screen_reader.sign_in' | t }}'
+            >
+              {{ 'customer.login_page.store_front.sign_in' | t }}
+            </button>
+            {%- if shop.checkout.guest_login -%}
+              {%- form 'guest_login' -%}
+                <button
+                  class='btn btn--solid btn--lg'
+                  aria-label='{{ 'customer.login_page.screen_reader.guest_continue' | t }}'
+                >
+                  {{ 'customer.login_page.store_front.guest_continue' | t }}
+                </button>
+              {%- endform -%}
+            {%- endif -%}
+          </div>
+          <div class='login__footer'>
+            {{ 'customer.login_page.store_front.new_customer_at_html' | t: url: routes.account_register_url }}
+          </div>
+
+          {%- if form.errors -%}
+            <script>
+              window.addEventListener('load', () => {
+                window.bodyElement.notification.show("{{ form.errors.messages['form'] }}", 'warning')
+              })
+            </script>
+          {%- endif -%}
+        {%- endform -%}
+      </div>
+    </login-component>
+  </div>
+</div>
+
+{% render 'save-section-data-in-global-scope', section: section %}
+
+{% schema %}
+{
+  "name": "t:sections.login_form.name",
+  "tag": "section",
+  "settings": [
+    {
+      "type": "select",
+      "id": "color_scheme",
+      "options": [
+        {
+          "value": "default",
+          "label": "t:sections.general_section_settings.color_scheme_option_default_label"
+        },
+        {
+          "value": "primary",
+          "label": "t:sections.general_section_settings.color_scheme_option_primary_label"
+        },
+        {
+          "value": "secondary",
+          "label": "t:sections.general_section_settings.color_scheme_option_secondary_label"
+        },
+        {
+          "value": "custom-1",
+          "label": "t:sections.general_section_settings.color_scheme_option_custom_1_label"
+        },
+        {
+          "value": "custom-2",
+          "label": "t:sections.general_section_settings.color_scheme_option_custom_2_label"
+        },
+        {
+          "value": "custom-3",
+          "label": "t:sections.general_section_settings.color_scheme_option_custom_3_label"
+        },
+        {
+          "value": "white",
+          "label": "t:sections.general_section_settings.color_scheme_option_white_text_label"
+        },
+        {
+          "value": "black",
+          "label": "t:sections.general_section_settings.color_scheme_option_black_text_label"
+        }
+      ],
+      "default": "default",
+      "label": "t:sections.general_section_settings.color_scheme_label",
+      "info": "t:sections.general_section_settings.color_scheme_tip"
+    },
+    {
+      "type": "select",
+      "id": "container_size",
+      "options": [
+        {
+          "value": "page-width",
+          "label": "t:sections.general_section_settings.container_size.page_width_option"
+        },
+        {
+          "value": "large",
+          "label": "t:sections.general_section_settings.container_size.large_width_option"
+        },
+        {
+          "value": "medium",
+          "label": "t:sections.general_section_settings.container_size.medium_width_option"
+        },
+        {
+          "value": "small",
+          "label": "t:sections.general_section_settings.container_size.small_width_option"
+        },
+        {
+          "value": "xsmall",
+          "label": "t:sections.general_section_settings.container_size.extra_small_width_option"
+        }
+      ],
+      "default": "xsmall",
+      "label": "t:sections.general_section_settings.container_size.label"
+    },
+    {
+      "type": "range",
+      "id": "section_spacing_top",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "default": 96,
+      "unit": "t:sections.general_section_settings.section_spacing_top.unit",
+      "label": "t:sections.general_section_settings.section_spacing_top.label"
+    },
+    {
+      "type": "range",
+      "id": "section_spacing_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "default": 96,
+      "unit": "t:sections.general_section_settings.section_spacing_bottom.unit",
+      "label": "t:sections.general_section_settings.section_spacing_bottom.label"
+    }
+  ]
+}
+{% endschema %}

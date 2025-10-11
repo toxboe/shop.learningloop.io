@@ -1,0 +1,238 @@
+{% liquid
+  assign product_card_with_bottom_spacing = false
+  if settings.round_level != '1'
+    assign product_card_with_bottom_spacing = true
+  endif
+  assign view_all_collection_link_text = 'cards.collection_card.store_front.view_all_collection_link_text' | t
+
+  assign collection_card_is_added = false
+  assign collection_card_target_item_index = blank
+
+  case collection_card_position
+    when 'after-item-1'
+      assign collection_card_target_item_index = 1
+    when 'after-item-2'
+      assign collection_card_target_item_index = 2
+    when 'after-item-3'
+      assign collection_card_target_item_index = 3
+    when 'after-item-4'
+      assign collection_card_target_item_index = 4
+    when 'after-item-5'
+      assign collection_card_target_item_index = 5
+  endcase
+%}
+
+<carousel-component
+  class='card-carousel collection__card-carousel {% if show_navigation_on_hover %}card-carousel--navigation-on-hover{% endif %} {% if section_layout == 'carousel-overflow' %} card-carousel--with-half-next-slide{% endif %} {% if section_layout == 'carousel-overflow' and show_navigation_on_hover %} card-carousel--with-half-next-slide-and-hover-navigation{% endif %}'
+  data-section-id='{{ section.id }}'
+  {% if section_layout == 'carousel' and is_drag_free == true %}
+    data-breakpoints='
+      {
+        "(max-width: 768px)": { "dragFree": true },
+        "(min-width: 768px)": { "dragFree": false }
+      }
+    '
+  {% endif %}
+  {% if autoplay_mode == 'one_at_time' %}
+    data-animation-type='one_at_time'
+    data-autoplay-interval='{{autoplay_interval}}'
+  {% endif %}
+  {% if autoplay_mode == 'seamless' %}
+    data-loop
+    data-drag-free
+    data-animation-type='seamless'
+    data-autoplay-interval='{{autoplay_interval}}'
+  {% endif %}
+  data-contain-scroll='trimSnaps'
+  with-stop-on-hover
+  data-draggable
+  data-align='start'
+  data-axis='x'
+>
+  <div class='card-carousel__position-btn-wrap card-carousel__position-btn-wrap--prev {% if img_ratio == 'nature' %} card-carousel__position-btn-wrap--nature-img-ratio {% endif %}'>
+    <div class='shape shape--{{ img_ratio }}'>
+      <carousel-btn
+        class='carousel-btn card-carousel__carousel-btn card-carousel__carousel-btn--prev'
+        data-scroll-direction='prev'
+        tabindex='0'
+      >
+        {% render 'icon', icon_name: 'chevron', class: 'carousel-btn__icon x-flip' %}
+      </carousel-btn>
+    </div>
+  </div>
+  <div
+    class='card-carousel__viewport embla {% if section_layout == 'carousel-overflow' %} card-carousel__viewport--overflow{% endif %} {% if section_layout == 'slideshow' %}card-carousel__viewport--slideshow{% endif %}'
+    data-carousel-viewport
+  >
+    <div class='card-carousel__container' data-carousel-container>
+      {% if featured_products != blank %}
+        {%- for product in featured_products limit: product_limit -%}
+          {%- comment %}<locksmith:a34b>{% endcomment -%}
+            {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: product, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% else %}{% continue %}{% endif -%}
+          {%- comment %}</locksmith:a34b>{% endcomment -%}
+          <div class='card-carousel__slide {% if section_layout == 'slideshow' %}card-carousel__slide--slideshow{% endif %}'>
+            {%- render 'product-card',
+              product: product,
+              img_ratio: img_ratio,
+              product_card_align: product_card_align,
+              with_bottom_spacing: product_card_with_bottom_spacing
+            -%}
+          </div>
+        {%- endfor -%}
+      {% elsif featured_collection != blank %}
+        {% if collection_card_position == 'before-all-items' %}
+          <div class='card-carousel__slide collection__collection-card-slide {% if section_layout == 'slideshow' %}card-carousel__slide--slideshow{% endif %}'>
+            {%- render 'collection-card',
+              title: featured_collection.title,
+              img: featured_collection.image,
+              img_ratio: img_ratio,
+              collection: featured_collection,
+              text_style: collection_card_content_position,
+              content_align: collection_card_content_align,
+              heading_size: collection_card_heading_size,
+              show_product_count: collection_card_show_product_count,
+              link_url: featured_collection.url
+            -%}
+            {% assign collection_card_is_added = true %}
+          </div>
+        {% endif %}
+        {%- comment %}<locksmith:6569>{% endcomment -%}
+          {%- assign locksmith_0dd0_forloop__size = 0 %}{%- for product in featured_collection.products limit: product_limit -%}{% capture var %}{% render 'locksmith-variables', scope: 'subject', subject: product, subject_parent: featured_collection, variable: 'transparent' %}{% endcapture %}{% if var == 'true' %}{% assign locksmith_0dd0_forloop__size = locksmith_0dd0_forloop__size | plus: 1 %}{% endif %}{% endfor %}{% assign locksmith_0dd0_forloop__index = nil -%}
+        {%- comment %}</locksmith:6569>{% endcomment -%}
+        {%- for product in featured_collection.products limit: product_limit -%}
+          {%- comment %}<locksmith:9f5a>{% endcomment -%}
+            {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: product, subject_parent: featured_collection, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% if locksmith_0dd0_forloop__index == nil %}{% assign locksmith_0dd0_forloop__index = 1 %}{% assign locksmith_0dd0_forloop__index0 = 0 %}{% else %}{% assign locksmith_0dd0_forloop__index = locksmith_0dd0_forloop__index | plus: 1 %}{% assign locksmith_0dd0_forloop__index0 = locksmith_0dd0_forloop__index0 | plus: 1 %}{% endif %}{% if locksmith_0dd0_forloop__index == 1 %}{% assign locksmith_0dd0_forloop__first = true %}{% else %}{% assign locksmith_0dd0_forloop__first = false %}{% endif %}{% if locksmith_0dd0_forloop__index == locksmith_0dd0_forloop__size %}{% assign locksmith_0dd0_forloop__last = true %}{% else %}{% assign locksmith_0dd0_forloop__last = false %}{% endif %}{% assign locksmith_0dd0_forloop__rindex = locksmith_0dd0_forloop__size | minus: locksmith_0dd0_forloop__index | minus: 1 %}{% assign locksmith_0dd0_forloop__rindex0 = locksmith_0dd0_forloop__size | minus: locksmith_0dd0_forloop__index0 | minus: 1 %}{% else %}{% continue %}{% endif -%}
+          {%- comment %}</locksmith:9f5a>{% endcomment -%}
+          <div class='card-carousel__slide {% if section_layout == 'slideshow' %}card-carousel__slide--slideshow{% endif %}'>
+            {%- render 'product-card',
+              product: product,
+              img_ratio: img_ratio,
+              product_card_align: product_card_align,
+              with_bottom_spacing: product_card_with_bottom_spacing
+            -%}
+          </div>
+          {% if locksmith_0dd0_forloop__index == collection_card_target_item_index %}
+            <div class='card-carousel__slide collection__collection-card-slide {% if section_layout == 'slideshow' %}card-carousel__slide--slideshow{% endif %}'>
+              {%- render 'collection-card',
+                title: featured_collection.title,
+                img: featured_collection.image,
+                img_ratio: img_ratio,
+                collection: featured_collection,
+                text_style: collection_card_content_position,
+                content_align: collection_card_content_align,
+                heading_size: collection_card_heading_size,
+                show_product_count: collection_card_show_product_count,
+                link_url: featured_collection.url
+              -%}
+              {% assign collection_card_is_added = true %}
+            </div>
+          {% endif %}
+        {%- endfor -%}
+        {% if collection_card_position != 'none' %}
+          {% if collection_card_is_added == false or collection_card_position == 'after-all-items' %}
+            <div class='card-carousel__slide collection__collection-card-slide {% if section_layout == 'slideshow' %}card-carousel__slide--slideshow{% endif %}'>
+              {%- render 'collection-card',
+                title: featured_collection.title,
+                img: featured_collection.image,
+                img_ratio: img_ratio,
+                collection: featured_collection,
+                text_style: collection_card_content_position,
+                content_align: collection_card_content_align,
+                heading_size: collection_card_heading_size,
+                show_product_count: collection_card_show_product_count,
+                link_url: featured_collection.url
+              -%}
+            </div>
+          {% endif %}
+        {% endif %}
+      {% else %}
+        {%- for product in prepared_collection_placeholder limit: product_limit -%}
+          <div class='card-carousel__slide {% if section_layout == 'slideshow' %}card-carousel__slide--slideshow{% endif %}'>
+            {%- render 'product-card',
+              product: product,
+              img_ratio: img_ratio,
+              product_card_align: product_card_align,
+              with_bottom_spacing: product_card_with_bottom_spacing
+            -%}
+          </div>
+        {%- endfor -%}
+      {% endif %}
+    </div>
+  </div>
+  <div class='card-carousel__position-btn-wrap card-carousel__position-btn-wrap--next {% if img_ratio == 'nature' %} card-carousel__position-btn-wrap--nature-img-ratio {% endif %}'>
+    <div class='shape shape--{{ img_ratio }}'>
+      <carousel-btn
+        class='carousel-btn card-carousel__carousel-btn card-carousel__carousel-btn--next'
+        data-scroll-direction='next'
+        tabindex='0'
+      >
+        {%- render 'icon', icon_name: 'chevron', class: 'carousel-btn__icon' -%}
+      </carousel-btn>
+    </div>
+  </div>
+
+  {%- if section_layout == 'carousel-overflow' -%}
+    <carousel-progress
+      class='progress-bar progress-bar--with-background card-carousel__progress-bar'
+      data-target='scroll'
+    >
+      <div class='progress-bar__indicator' data-carousel-progress-indicator></div>
+    </carousel-progress>
+  {%- endif -%}
+
+  {% if section_layout == 'slideshow' %}
+    {% liquid
+      assign dots_list = prepared_collection_placeholder
+
+      if featured_products != blank
+        assign dots_list = featured_products
+      endif
+
+      if featured_products == blank and featured_collection != blank
+        assign dots_list = featured_collection.products
+      endif
+    %}
+
+    <carousel-dots
+      class='dots-carousel card-carousel__dots-container'
+      data-contain-scroll='keepSnaps'
+      data-align='center'
+    >
+      <div class='dots-carousel__viewport embla' data-carousel-viewport>
+        <div class='dots-carousel__container' data-carousel-container>
+          {%- comment %}<locksmith:ec29>{% endcomment -%}
+            {%- assign locksmith_ea2a_forloop__size = 0 %}{%- for dot in dots_list limit: product_limit -%}{% capture var %}{% render 'locksmith-variables', scope: 'subject', subject: dot, variable: 'transparent' %}{% endcapture %}{% if var == 'true' %}{% assign locksmith_ea2a_forloop__size = locksmith_ea2a_forloop__size | plus: 1 %}{% endif %}{% endfor %}{% assign locksmith_ea2a_forloop__index = nil -%}
+          {%- comment %}</locksmith:ec29>{% endcomment -%}
+          {%- for dot in dots_list limit: product_limit -%}
+            {%- comment %}<locksmith:ca97>{% endcomment -%}
+              {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: dot, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% if locksmith_ea2a_forloop__index == nil %}{% assign locksmith_ea2a_forloop__index = 1 %}{% assign locksmith_ea2a_forloop__index0 = 0 %}{% else %}{% assign locksmith_ea2a_forloop__index = locksmith_ea2a_forloop__index | plus: 1 %}{% assign locksmith_ea2a_forloop__index0 = locksmith_ea2a_forloop__index0 | plus: 1 %}{% endif %}{% if locksmith_ea2a_forloop__index == 1 %}{% assign locksmith_ea2a_forloop__first = true %}{% else %}{% assign locksmith_ea2a_forloop__first = false %}{% endif %}{% if locksmith_ea2a_forloop__index == locksmith_ea2a_forloop__size %}{% assign locksmith_ea2a_forloop__last = true %}{% else %}{% assign locksmith_ea2a_forloop__last = false %}{% endif %}{% assign locksmith_ea2a_forloop__rindex = locksmith_ea2a_forloop__size | minus: locksmith_ea2a_forloop__index | minus: 1 %}{% assign locksmith_ea2a_forloop__rindex0 = locksmith_ea2a_forloop__size | minus: locksmith_ea2a_forloop__index0 | minus: 1 %}{% else %}{% continue %}{% endif -%}
+            {%- comment %}</locksmith:ca97>{% endcomment -%}
+            <carousel-dot
+              class='dots-carousel__slide {% if locksmith_ea2a_forloop__index == 1 %}is-primary{% endif %}'
+              tabindex='0'
+              data-dot-index='{{ locksmith_ea2a_forloop__index0 }}'
+            >
+              <div class='dots-carousel__slide-body'>
+                <div class='dots-carousel__slide-inner-circle'></div>
+                <div
+                  class='dots-carousel__loader'
+                  size='medium'
+                  variant='dark'
+                  data-autoplay-indicator
+                  style='--gsc-autoplay-interval: {{ autoplay_interval }}s;'
+                >
+                  {% render 'icon',
+                    icon_name: 'circle',
+                    background_class: 'dots-carousel__loader-background',
+                    border_class: 'dots-carousel__loader-border',
+                    circle_class: 'dots-carousel__loader-circle'
+                  %}
+                </div>
+              </div>
+            </carousel-dot>
+          {%- endfor -%}
+        </div>
+      </div>
+    </carousel-dots>
+  {% endif %}
+</carousel-component>

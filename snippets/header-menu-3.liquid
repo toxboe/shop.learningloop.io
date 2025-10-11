@@ -1,0 +1,111 @@
+{%- liquid
+  assign options = block.settings
+
+  assign img_ratio = options.img_ratio
+  assign add_spacing = options.add_spacing
+  assign collection_card_content_align = options.collection_card_content_align
+  assign autoplay_mode = options.autoplay_mode
+  assign autoplay_interval = options.autoplay_interval
+  assign columns = options.columns
+  assign placeholder_count = columns | times: 2
+  assign collection_list = options.collection_list | default: (1..placeholder_count)
+  assign show_product_count = options.show_product_count
+  assign heading_size = options.heading_size
+  assign text_style = options.text_style
+  assign block_layout = options.block_layout
+-%}
+
+{% capture grid %}
+  <div
+    class='{{ class }} mega-menu__block card-grid mega-menu-{{ block.id }} block-{{ block.id }} color-{{ block.settings.color_scheme }} {% if add_spacing %}mega-menu__block--spaced{% endif %}'
+    block-id='{{ block.id }}'
+    {{ block.shopify_attributes }}
+  >
+    {%- for collection in collection_list -%}
+      {%- render 'collection-card', class: "card-grid__item", with_bottom_spacing: true, title: collection.title, text_style: text_style, heading_size: heading_size, img: collection.image, img_ratio: img_ratio, content_align: collection_card_content_align, collection: collection, show_product_count: show_product_count, link_url: collection.url -%}
+    {%- endfor -%}
+  </div>
+{% endcapture %}
+
+{% capture carousel %}
+  <div
+    class='{{ class }} mega-menu__block block-{{ block.id }} {% if add_spacing %}mega-menu__block--spaced{% endif %}'
+    block-id='{{ block.id }}'
+    {{ block.shopify_attributes }}
+  >
+    <carousel-component
+      class='card-carousel'
+      data-section-id='{{ section.id }}'
+      data-breakpoints='
+        {
+          "(max-width: 768px)": { "dragFree": true },
+          "(min-width: 768px)": { "dragFree": false }
+        }
+      '  
+      {% if autoplay_mode == 'one_at_time' %}
+        data-animation-type="one_at_time"
+        data-autoplay-interval='{{autoplay_interval}}'
+      {% endif %}
+      {% if autoplay_mode == 'seamless' %}
+          data-loop
+          data-drag-free
+          data-animation-type="seamless"
+          data-autoplay-interval='{{autoplay_interval}}'
+      {% endif %}
+      data-contain-scroll='trimSnaps'
+      with-stop-on-hover
+      data-draggable
+      data-align="start"
+      data-axis="x"
+    >
+      <div class='card-carousel__position-btn-wrap card-carousel__position-btn-wrap--prev {% if img_ratio == 'nature' %} card-carousel__position-btn-wrap--nature-img-ratio {% endif %}'>
+        <div class='shape shape--{{ img_ratio }}'>
+          <carousel-btn
+            class='carousel-btn card-carousel__carousel-btn card-carousel__carousel-btn--prev'
+            data-scroll-direction='prev'
+            tabindex='0'
+          >
+            {%- render 'icon', icon_name: 'chevron', class: 'carousel-btn__icon x-flip' -%}
+          </carousel-btn>
+        </div>
+      </div>
+      <div class='card-carousel__viewport embla' data-carousel-viewport>
+        <div class='card-carousel__container' data-carousel-container>
+          {%- for collection in collection_list -%}
+            <div class='card-carousel__slide'>
+              {%- render 'collection-card',
+                title: collection.title,
+                heading_size: heading_size,
+                text_style: text_style,
+                img: collection.image,
+                img_ratio: img_ratio,
+                content_align: collection_card_content_align,
+                collection: collection,
+                show_product_count: show_product_count,
+                link_url: collection.url,
+                with_bottom_spacing: true
+              -%}
+            </div>
+          {%- endfor -%}
+        </div>
+      </div>
+      <div class='card-carousel__position-btn-wrap card-carousel__position-btn-wrap--next {% if img_ratio == 'nature' %} card-carousel__position-btn-wrap--nature-img-ratio {% endif %}'>
+        <div class='shape shape--{{ img_ratio }}'>
+          <carousel-btn
+            class='carousel-btn card-carousel__carousel-btn card-carousel__carousel-btn--next'
+            data-scroll-direction='next'
+            tabindex='0'
+          >
+            {%- render 'icon', icon_name: 'chevron', class: 'carousel-btn__icon' -%}
+          </carousel-btn>
+        </div>
+      </div>
+    </carousel-component>
+  </div>
+{% endcapture %}
+
+{% if block_layout == 'carousel' %}
+  {{ carousel }}
+{% else %}
+  {{ grid }}
+{% endif %}

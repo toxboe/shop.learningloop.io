@@ -1,0 +1,24 @@
+{% assign alignment = content_position | split: '-' %}
+
+{% case content_position %}
+  {% when "top-left" %}
+    align-items: flex-start; justify-content: flex-start;
+  {% when "top-center" %}
+    align-items: center; justify-content: flex-start;
+  {% when "top-right" %}
+    align-items: flex-end; justify-content: flex-start;
+  {% when "center-left" %}
+    align-items: flex-start; justify-content: center;
+  {% when "center-center" %}
+    align-items: center; justify-content: center;
+  {% when "center-right" %}
+    align-items: flex-end; justify-content: center;
+  {% when "bottom-left" %}
+    align-items: flex-start; justify-content: flex-end;
+  {% when "bottom-center" %}
+    align-items: center; justify-content: flex-end;
+  {% when "bottom-right" %}
+    align-items: flex-end; justify-content: flex-end;
+{% endcase %}
+text-align: {{ alignment[1] }};
+ 

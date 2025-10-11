@@ -1,0 +1,100 @@
+{%- liquid
+  assign options = block.settings
+
+  assign img_ratio = options.img_ratio
+  assign columns = options.columns
+  assign add_spacing = options.add_spacing
+  assign autoplay_mode = options.autoplay_mode
+  assign autoplay_interval = options.autoplay_interval
+
+  assign placeholder_count = columns | times: 2
+  assign products = blank
+  assign product_limit = columns | times: 3
+
+  assign product_card_align = options.product_card_align
+  assign product_card_with_bottom_spacing = true
+
+  if options.featured_products != blank
+    assign products = options.featured_products
+  elsif options.collection != blank
+    assign products = options.collection.products
+  else
+    assign products = (1..placeholder_count)
+  endif
+
+  if add_spacing
+    assign product_card_with_bottom_spacing = false
+  endif
+-%}
+
+<div
+  class='{{ class }} mega-menu__block mega-menu__block--featured-collection block-{{ block.id }} {% if add_spacing %}mega-menu__block--spaced{% endif %}'
+  block-id='{{ block.id }}'
+  {{ block.shopify_attributes }}
+>
+  <carousel-component
+    class='card-carousel'
+    data-section-id='{{ section.id }}'
+    data-breakpoints='
+      {
+        "(max-width: 768px)": { "dragFree": true },
+        "(min-width: 768px)": { "dragFree": false }
+      }
+    '
+    {% if autoplay_mode == 'one_at_time' %}
+      data-animation-type='one_at_time'
+      data-autoplay-interval='{{autoplay_interval}}'
+    {% endif %}
+    {% if autoplay_mode == 'seamless' %}
+      data-loop
+      data-drag-free
+      data-animation-type='seamless'
+      data-autoplay-interval='{{autoplay_interval}}'
+    {% endif %}
+    data-contain-scroll='trimSnaps'
+    with-stop-on-hover
+    data-draggable
+    data-align='start'
+    data-axis='x'
+  >
+    <div class='card-carousel__position-btn-wrap card-carousel__position-btn-wrap--prev {% if img_ratio == 'nature' %} card-carousel__position-btn-wrap--nature-img-ratio {% endif %}'>
+      <div class='shape shape--{{ img_ratio }}'>
+        <carousel-btn
+          class='carousel-btn card-carousel__carousel-btn card-carousel__carousel-btn--prev'
+          data-scroll-direction='prev'
+          tabindex='0'
+        >
+          {%- render 'icon', icon_name: 'chevron', class: 'carousel-btn__icon x-flip' -%}
+        </carousel-btn>
+      </div>
+    </div>
+    <div class='card-carousel__viewport embla' data-carousel-viewport>
+      <div class='card-carousel__container' data-carousel-container>
+        {%- for product in products limit: product_limit -%}
+          {%- comment %}<locksmith:ea58>{% endcomment -%}
+            {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: product, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% else %}{% continue %}{% endif -%}
+          {%- comment %}</locksmith:ea58>{% endcomment -%}
+          <div class='card-carousel__slide'>
+            {%- render 'product-card',
+              product: product,
+              img_ratio: img_ratio,
+              product_card_align: product_card_align,
+              with_bottom_spacing: product_card_with_bottom_spacing
+            -%}
+          </div>
+        {%- endfor -%}
+      </div>
+    </div>
+    <div class='card-carousel__position-btn-wrap card-carousel__position-btn-wrap--next {% if img_ratio == 'nature' %} card-carousel__position-btn-wrap--nature-img-ratio {% endif %}'>
+      <div class='shape shape--{{ img_ratio }}'>
+        <carousel-btn
+          class='carousel-btn card-carousel__carousel-btn card-carousel__carousel-btn--next'
+          data-scroll-direction='next'
+          tabindex='0'
+        >
+          {%- render 'icon', icon_name: 'chevron', class: 'carousel-btn__icon' -%}
+        </carousel-btn>
+      </div>
+    </div>
+  </carousel-component>
+</div>

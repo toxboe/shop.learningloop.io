@@ -1,0 +1,107 @@
+{%- liquid
+  assign enable_video_looping = section.settings.enable_video_looping
+-%}
+
+<product-modal
+  class='product-modal'
+  id='ProductModal-{{ product.id }}-{{ sectionId }}'
+  role='dialog'
+  aria-modal='true'
+  data-overlay-opacity='0'
+  tabindex='-1'
+>
+  <template data-modal-template='ProductModal-{{ product.id }}-{{ sectionId }}' data-template='modal'>
+    <div class='product-modal__body'>
+      <modal-close-btn
+        class='product-modal__close-button-with-scale-hover close-button-with-scale-hover'
+        data-modal='#ProductModal-{{ product.id }}-{{ sectionId }}'
+        tabindex='0'
+      >
+      </modal-close-btn>
+      <carousel-component
+        class='carousel product-modal__carousel'
+        data-section-id='{{ sectionId }}'
+        data-product-modal-carousel
+        with-stop-on-hover
+        data-align='start'
+        data-draggable
+        data-axis='x'
+        data-contain-scroll='trimSnaps'
+      >
+        {%- if product_media.size > 1 -%}
+          <carousel-btn
+            class='carousel-btn product-modal__carousel-btn product-modal__carousel-btn--prev'
+            data-scroll-direction='prev'
+            data-product-modal-carousel-button
+            tabindex='0'
+          >
+            {%- render 'icon', icon_name: 'chevron', class: 'product-modal__chevron x-flip' -%}
+          </carousel-btn>
+        {%- endif -%}
+
+        <div class='carousel__viewport product-modal__carousel-viewport embla' data-carousel-viewport>
+          <div
+            class='carousel__container product-modal__carousel-container'
+            data-carousel-container
+            data-container='modal'
+          >
+            {%- if product.media != blank -%}
+              {%- if featured_media != null -%}
+                {%- assign media = featured_media -%}
+                <div
+                  class='carousel__slide product-modal__slide'
+                  data-media-id='{{ featured_media.id }}'
+                  data-product-modal-slide
+                  data-variant='{{ featured_media.alt }}'
+                >
+                  {%- render 'product-modal-media', media: media, loop: enable_video_looping -%}
+                </div>
+              {%- endif -%}
+              {%- for media in product_media -%}
+                {%- if media.id != featured_media.id -%}
+                  <div
+                    class='carousel__slide product-modal__slide'
+                    data-media-id='{{ media.id }}'
+                    data-product-modal-slide
+                    data-variant='{{ media.alt }}'
+                  >
+                    {%- render 'product-modal-media', media: media, loop: enable_video_looping -%}
+                  </div>
+                {%- endif -%}
+              {%- endfor -%}
+            {%- else -%}
+              {%- for media in product_media -%}
+                <div
+                  class='carousel__slide product-modal__slide'
+                  data-media-id='{{ forloop.index }}'
+                  data-product-modal-slide
+                  data-variant='{{ media.alt }}'
+                >
+                  {%- render 'product-modal-media', media: media, loop: enable_video_looping -%}
+                </div>
+              {%- endfor -%}
+            {%- endif -%}
+          </div>
+        </div>
+
+        {%- if product_media.size > 1 -%}
+          <carousel-btn
+            class='carousel-btn product-modal__carousel-btn product-modal__carousel-btn--next'
+            data-scroll-direction='next'
+            data-product-modal-carousel-button
+            tabindex='0'
+          >
+            {%- render 'icon', icon_name: 'chevron', class: 'product-modal__chevron' -%}
+          </carousel-btn>
+        {%- endif -%}
+
+        {%- if product_media.size > 1 -%}
+          <div class='product-modal__carousel-slide-number' data-product-modal-slide-number>
+            <span data-product-modal-selected-slide-number>1</span> /
+            <span data-product-modal-slides-total>{{ product_media.size }}</span>
+          </div>
+        {%- endif -%}
+      </carousel-component>
+    </div>
+  </template>
+</product-modal>
