@@ -155,12 +155,24 @@
     </div>
   </div>
 </div>
+{% render 'save-section-data-in-global-scope', section: section %}
 
 {% schema %}
 {
   "name": "t:sections.testimonials_grid.name",
   "tag": "section",
   "class": "section",
+  "enabled_on": {
+    "templates": [
+      "index",
+      "page",
+      "article",
+      "blog",
+      "collection",
+      "list-collections",
+      "product"
+    ]
+  },
   "settings": [
     {
       "type": "text",
