@@ -513,7 +513,7 @@
         "template--16729789563121__35a80c75-d4b0-4340-9552-75a9f11586de-1681824353e40c4786-0": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/persuasive-patterns-c_d-paper.png"
+            "image": "shopify://shop_images/business-models-competition.png"
           }
         }
       },
@@ -527,7 +527,7 @@
         "section_spacing_bottom": 90,
         "content_layout": "right",
         "image_layout": "collage",
-        "img_ratio": 0.8,
+        "img_ratio": 0.7,
         "rotate_images": false,
         "icon": "none",
         "subheading": "",
@@ -543,189 +543,6 @@
         "second_button_text": "",
         "second_button_link": "",
         "second_button_style": "solid"
-      }
-    },
-    "d7a5963e-c766-4f10-8cc1-5470486301a3": {
-      "type": "multicolumn",
-      "blocks": {
-        "6f3f5535-cb5f-45ac-b7d6-fabfd4ab3dcf": {
-          "type": "column_with_icon",
-          "settings": {
-            "icon": "none",
-            "icon_size": 64,
-            "title": "Step #1",
-            "text": "<h6>Take facts from research</h6><p>Start with a solid foundation of psychological insights and persuasive design techniques to influence user behaviour effectively.</p><p></p>",
-            "link_text": "",
-            "link_url": ""
-          }
-        },
-        "5ee60e82-a24a-4c02-9252-ef61ac14441f": {
-          "type": "column_with_icon",
-          "settings": {
-            "icon": "none",
-            "icon_size": 64,
-            "title": "Step #2",
-            "text": "<h6>Apply them to your product</h6><p>Ensure that your persuasive design choices are not based solely on intuition or assumptions but are backed by concrete evidence of their impact on user behaviour.</p>",
-            "link_text": "",
-            "link_url": ""
-          }
-        },
-        "c927e00e-659f-4e47-8e8b-4edeec7d601c": {
-          "type": "column_with_icon",
-          "settings": {
-            "icon": "none",
-            "icon_size": 64,
-            "title": "Step #3",
-            "text": "<h6>Get it right</h6><p>Fine-tune and optimize your product's persuasive strategies continuously. It's a cycle of learning, applying insights, testing, and refining, which leads to more effective and successful products.</p><p></p>",
-            "link_text": "",
-            "link_url": ""
-          }
-        }
-      },
-      "block_order": [
-        "6f3f5535-cb5f-45ac-b7d6-fabfd4ab3dcf",
-        "5ee60e82-a24a-4c02-9252-ef61ac14441f",
-        "c927e00e-659f-4e47-8e8b-4edeec7d601c"
-      ],
-      "settings": {
-        "color_scheme": "secondary",
-        "container_size": "medium",
-        "section_spacing_top": 90,
-        "section_spacing_bottom": 90,
-        "desktop_layout": "grid",
-        "mobile_layout": "one-column-grid",
-        "title": "The persuasive development process",
-        "text": "Data-driven and evidence-based approach to creating and refining products, where the science of psychology meets the science of validation to drive success.",
-        "heading_size": "h2",
-        "body_size": "body2",
-        "content_alignment": "center",
-        "column_heading_size": "h5",
-        "column_body_size": "body4",
-        "column_alignment": "center",
-        "desktop_columns": 3,
-        "desktop_space_between_cards": 24,
-        "desktop_content_spacing": 24,
-        "mobile_space_between_cards": 16,
-        "mobile_content_spacing": 24,
-        "show_column_background": true,
-        "show_navigation_on_hover": true,
-        "btn_text": "",
-        "btn_url": "",
-        "btn_style": "outline",
-        "autoplay_mode": "disabled",
-        "autoplay_interval": 3
-      }
-    },
-    "22962715-c6b1-4c9f-876b-dee37b67a0ae": {
-      "type": "images-with-text",
-      "blocks": {
-        "template--15386400456738__22962715-c6b1-4c9f-876b-dee37b67a0ae-image-1": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/persuasive-patterns-badge-sizes_1.png"
-          }
-        }
-      },
-      "block_order": [
-        "template--15386400456738__22962715-c6b1-4c9f-876b-dee37b67a0ae-image-1"
-      ],
-      "settings": {
-        "color_scheme": "default",
-        "container_size": "medium",
-        "section_spacing_top": 90,
-        "section_spacing_bottom": 48,
-        "content_layout": "left",
-        "image_layout": "collage",
-        "img_ratio": 0.8,
-        "rotate_images": false,
-        "icon": "none",
-        "subheading": "",
-        "heading": "Grow your business by only building what customers want",
-        "body": "<p>Persuasive Patterns will support you through the entire funnel. </p><p>The Validation Patterns will help you weed out what works and what doesn't. </p>",
-        "heading_size": "h2",
-        "body_size": "body2",
-        "content_alignment": "left",
-        "desktop_content_width": 540,
-        "first_button_text": "",
-        "first_button_link": "",
-        "first_button_style": "solid",
-        "second_button_text": "",
-        "second_button_link": "",
-        "second_button_style": "solid"
-      }
-    },
-    "f7cd431c-fef7-4f0a-8969-24198638a725": {
-      "type": "rich-text",
-      "blocks": {
-        "template--15410758647842__f7cd431c-fef7-4f0a-8969-24198638a725-heading-1": {
-          "type": "heading",
-          "settings": {
-            "title": "Grow your business by only building what customers want",
-            "heading_size": "h3"
-          }
-        },
-        "template--15410758647842__f7cd431c-fef7-4f0a-8969-24198638a725-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p><strong>Persuasive Patterns</strong> will support you through the entire funnel. </p><p>The <strong>Validation Patterns</strong> will help you weed out what works and what doesn't. </p><h6></h6><p></p>",
-            "text_2": "<p><strong>Awareness<br/></strong>Catch the attention of your audience and stand out from the crowd.</p><p><strong>Acquisition & conversion</strong><br/>Attract new customers and increase revenue.</p><p><strong>Activation & onboarding</strong><br/>Help users discover value early and keep up their momentum.</p><p><strong>Retention & loyalty</strong><br/>Keep users engaged as they progress and make leaving hard.</p><p><strong>Referral & social virality<br/></strong>Use social psychology to make sharing a given.</p><p><strong>Pricing & revenue</strong><br/>Find the right price, amount of options, and appropriate presentation at the right time.</p>",
-            "text_3": "",
-            "body_size": "body2"
-          }
-        }
-      },
-      "block_order": [
-        "template--15410758647842__f7cd431c-fef7-4f0a-8969-24198638a725-heading-1",
-        "template--15410758647842__f7cd431c-fef7-4f0a-8969-24198638a725-text-1"
-      ],
-      "settings": {
-        "color_scheme": "custom-2",
-        "enable_background_around_container": true,
-        "container_size": "medium",
-        "section_spacing_top": 90,
-        "section_spacing_bottom": 90,
-        "content_align": "left"
-      }
-    },
-    "a9b7acc2-f81e-4056-88b3-cdf6ae89c7a7": {
-      "type": "rich-text",
-      "blocks": {
-        "template--15412947091490__a9b7acc2-f81e-4056-88b3-cdf6ae89c7a7-icon-1": {
-          "type": "icon",
-          "settings": {
-            "icon": "none",
-            "icon_size": 48
-          }
-        },
-        "template--15412947091490__a9b7acc2-f81e-4056-88b3-cdf6ae89c7a7-heading-1": {
-          "type": "heading",
-          "settings": {
-            "title": "From theory to practise",
-            "heading_size": "h2"
-          }
-        },
-        "template--15412947091490__a9b7acc2-f81e-4056-88b3-cdf6ae89c7a7-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>While the Persuasive Patterns card deck offers valuable insights into the psychological principles of persuasion, it primarily provides theoretical guidance.</p><p>The Validation Patterns card deck offers practical validation techniques that make experimenting with the persuasive strategies a breeze.</p><p></p>",
-            "text_2": "",
-            "text_3": "",
-            "body_size": "body2"
-          }
-        }
-      },
-      "block_order": [
-        "template--15412947091490__a9b7acc2-f81e-4056-88b3-cdf6ae89c7a7-icon-1",
-        "template--15412947091490__a9b7acc2-f81e-4056-88b3-cdf6ae89c7a7-heading-1",
-        "template--15412947091490__a9b7acc2-f81e-4056-88b3-cdf6ae89c7a7-text-1"
-      ],
-      "settings": {
-        "color_scheme": "default",
-        "enable_background_around_container": false,
-        "container_size": "medium",
-        "section_spacing_top": 90,
-        "section_spacing_bottom": 0,
-        "content_align": "center"
       }
     },
     "0c2ed4d1-2136-4c5c-920e-482096df3899": {
@@ -748,7 +565,7 @@
         "bea85430-bb02-42b5-8f78-9d1ed74eafd3": {
           "type": "text",
           "settings": {
-            "text": "<p>Identify which strategies are truly persuasive and worth further development.</p><p>Without validation, there's a risk of investing time and resources in persuasive design strategies that may not be as effective as expected.</p><p></p>",
+            "text": "<p>With this bundle, you follow a proven, evidence-based innovation process. Rapid experimentation increases success by reducing the risk of failure.<br/><br/>Transform your innovation process – combine empathy-driven discovery with rigorous business modeling and testing, and your team will chart new paths, confidently.</p>",
             "text_2": "",
             "text_3": "",
             "body_size": "body2"
@@ -1040,10 +857,6 @@
     "logo_list_gFnG84",
     "dde7c692-d8b4-4a40-9d3a-c048f605740f",
     "35a80c75-d4b0-4340-9552-75a9f11586de",
-    "d7a5963e-c766-4f10-8cc1-5470486301a3",
-    "22962715-c6b1-4c9f-876b-dee37b67a0ae",
-    "f7cd431c-fef7-4f0a-8969-24198638a725",
-    "a9b7acc2-f81e-4056-88b3-cdf6ae89c7a7",
     "0c2ed4d1-2136-4c5c-920e-482096df3899",
     "f768b115-1f18-47e5-956e-b96e827df3ed",
     "1e590e7c-d880-41a0-a758-93f6b3de66f5",
