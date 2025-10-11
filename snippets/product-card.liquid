@@ -23,6 +23,20 @@
 
   assign featured_media = product.featured_media
   assign images = product.images
+
+  if show_mobile_carousel != true and show_mobile_carousel != false
+    assign show_mobile_carousel = true
+  endif
+
+  assign force_first_image_only = force_first_image_only | default: false
+
+  if force_first_image_only
+    assign first_image_media = product.media | where: 'media_type', 'image' | first
+    if first_image_media != blank
+      assign featured_media = first_image_media
+    endif
+    assign images = images | slice: 0, 1
+  endif
   assign price = product.price | default: 0
 
   if settings.show_background

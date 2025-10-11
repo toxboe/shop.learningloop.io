@@ -4,6 +4,12 @@
   assign collection_card_is_added = false
   assign collection_card_target_item_index = blank
 
+  if show_mobile_carousel != true and show_mobile_carousel != false
+    assign show_mobile_carousel = true
+  endif
+
+  assign force_first_image_only = force_first_image_only | default: false
+
   case collection_card_position
     when 'after-item-1'
       assign collection_card_target_item_index = 1
@@ -28,7 +34,8 @@
         class: 'card-grid__item',
         product: product,
         with_bottom_spacing: true,
-        show_mobile_carousel: true,
+        show_mobile_carousel: show_mobile_carousel,
+        force_first_image_only: force_first_image_only,
         img_ratio: img_ratio,
         product_card_align: product_card_align
       %}
@@ -61,7 +68,8 @@
         class: 'card-grid__item',
         product: product,
         with_bottom_spacing: true,
-        show_mobile_carousel: true,
+        show_mobile_carousel: show_mobile_carousel,
+        force_first_image_only: force_first_image_only,
         img_ratio: img_ratio,
         product_card_align: product_card_align
       %}
@@ -105,7 +113,8 @@
         class: 'card-grid__item',
         product: product,
         with_bottom_spacing: true,
-        show_mobile_carousel: true,
+        show_mobile_carousel: show_mobile_carousel,
+        force_first_image_only: force_first_image_only,
         img_ratio: img_ratio,
         product_card_align: product_card_align
       %}
