@@ -3713,6 +3713,10 @@
       "label_for_link_setting_in_quote_block": "Testimonial link",
       "tip_for_link_setting_in_quote_block": "If left blank, the whole testimonial slides in from the left when you select it"
     },
+    "testimonials_grid": {
+      "name": "Testimonials grid",
+      "preset_name": "Testimonials grid"
+    },
     "password_page_banner": {
       "name": "Email signup banner",
       "description": "Each email subscription creates a [customer account](https://help.shopify.com/en/manual/customers)",
