@@ -321,6 +321,135 @@
         "autoplay_interval": 3
       }
     },
+    "testimonials_grid_3byDha": {
+      "type": "testimonials-grid",
+      "blocks": {
+        "quote_QQzpqx": {
+          "type": "quote",
+          "settings": {
+            "text": "\"Keep the good work! A deck of cards is really one of the best formats to get into action and integrate it in your team's process\"",
+            "author_name": "Dany Cerone, Agency Director",
+            "author_image": "shopify://shop_images/Dany-Cerone.jpg",
+            "rating": 5,
+            "link": ""
+          }
+        },
+        "quote_tPyRfC": {
+          "type": "quote",
+          "settings": {
+            "text": "\"Human behavior and psychology have a major impact on web design and user experience. The Persuasive Patterns card deck is an excellent tool for learning how to apply these principles.\"",
+            "author_name": "Mathew Graham, Head of Product",
+            "author_image": "shopify://shop_images/Mathew-Graham.jpg",
+            "rating": 5,
+            "link": ""
+          }
+        },
+        "quote_6q4bUP": {
+          "type": "quote",
+          "settings": {
+            "text": "\"I work mostly alone at my home office and often get stuck with my thought process. At those moments it's priceless to be able to pick up a deck and reflect my thinking through the cards.\"",
+            "author_name": "Ella Kaila, Senior UX Designer @ Visma",
+            "author_image": "shopify://shop_images/Ella-Kaila.jpg",
+            "rating": 5,
+            "link": ""
+          }
+        },
+        "quote_EFfgfm": {
+          "type": "quote",
+          "settings": {
+            "text": "\"The Persuasive Patterns are a great way to generate ideas for applying psychological insights to real design projects.\"",
+            "author_name": "Björn Rohles, UX Training Manager",
+            "author_image": "shopify://shop_images/Bjorn-Rohles.jpg",
+            "rating": 5,
+            "link": ""
+          }
+        },
+        "quote_6VB8VF": {
+          "type": "quote",
+          "settings": {
+            "text": "\"The concepts are clearly communicated and the cards are nicely designed\"",
+            "author_name": "Helen Bentley, Staff Product Designer",
+            "author_image": "shopify://shop_images/Helen-Bentley.jpg",
+            "rating": 5,
+            "link": ""
+          }
+        },
+        "quote_MVVXkT": {
+          "type": "quote",
+          "settings": {
+            "text": "\"Insights are in an easy to share format. It's also a great brainstorming tool.\"",
+            "author_name": "David Di Sipio, Behavioral Design Researcher",
+            "author_image": "shopify://shop_images/David-Di-Sipio.jpg",
+            "rating": 5,
+            "link": ""
+          }
+        },
+        "quote_jVq69p": {
+          "type": "quote",
+          "settings": {
+            "text": "\"They help induce lateral thought, and enable problem solving from new angles.\"",
+            "author_name": "Bradley Martin, Creative Director",
+            "author_image": "shopify://shop_images/Bradley-Martin.jpg",
+            "rating": 5,
+            "link": ""
+          }
+        },
+        "quote_BDjhpc": {
+          "type": "quote",
+          "settings": {
+            "text": "\"Using the cards in a workshop led to around 20 solid ideas, so they clearly proved useful.\"",
+            "author_name": "Henning Fritzenwalder, Experience Design Lead, Thoughtworks",
+            "author_image": "shopify://shop_images/Henning-Fritzenwalder.jpg",
+            "rating": 5,
+            "link": ""
+          }
+        },
+        "quote_yEUxFx": {
+          "type": "quote",
+          "settings": {
+            "text": "\"It's a really good tool in the arsenal to brainstorm, creatively feed the mind and stimulate ideas and conversations..\"",
+            "author_name": "Bronius Motekaitis, Product Manager",
+            "author_image": "shopify://shop_images/Bronius-Motekaitis.jpg",
+            "rating": 5,
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "quote_QQzpqx",
+        "quote_tPyRfC",
+        "quote_6q4bUP",
+        "quote_EFfgfm",
+        "quote_6VB8VF",
+        "quote_MVVXkT",
+        "quote_jVq69p",
+        "quote_BDjhpc",
+        "quote_yEUxFx"
+      ],
+      "name": "t:sections.testimonials_grid.preset_name",
+      "settings": {
+        "caption": "",
+        "title": "",
+        "text": "",
+        "btn_text": "",
+        "btn_url": "",
+        "heading_size": "title",
+        "body_size": "body-md",
+        "caption_alignment": "left",
+        "heading_alignment": "left",
+        "body_alignment": "left",
+        "desktop_columns": 3,
+        "desktop_space_between_cards": 24,
+        "mobile_columns": "1",
+        "mobile_space_between_cards": 16,
+        "quote_alignment": "left",
+        "color_scheme": "default",
+        "enable_background_around_container": false,
+        "container_size": "page-width",
+        "section_spacing_top": 96,
+        "section_spacing_bottom": 96
+      }
+    },
     "bdfcb69a-fe4c-45c6-bccc-aaec4c360dc5": {
       "type": "multiple-collections",
       "custom_css": [
@@ -334,16 +463,16 @@
         "section_spacing_bottom": 90,
         "desktop_layout": "grid",
         "mobile_layout": "two-column",
-        "title": "Explore our products",
+        "title": "Choose your card deck",
         "heading_size": "h4",
         "alignment": "center",
         "collection_list": [
-          "frontpage-promoted"
+          "card-decks"
         ],
         "img_ratio": "default",
         "product_card_align": "left",
         "cards_to_show": 28,
-        "desktop_columns": 4,
+        "desktop_columns": 3,
         "desktop_space_between_cards": 32,
         "mobile_space_between_cards": 8,
         "show_navigation_on_hover": true,
@@ -491,132 +620,6 @@
         "second_button_text": "",
         "second_button_link": "",
         "second_button_style": "solid"
-      }
-    },
-    "testimonials_grid_3byDha": {
-      "type": "testimonials-grid",
-      "blocks": {
-        "quote_QQzpqx": {
-          "type": "quote",
-          "settings": {
-            "text": "\"Keep the good work! A deck of cards is really one of the best formats to get into action and integrate it in your team's process\"",
-            "author_name": "Dany Cerone, Agency Director",
-            "author_image": "shopify://shop_images/Dany-Cerone.jpg",
-            "rating": 5,
-            "link": ""
-          }
-        },
-        "quote_tPyRfC": {
-          "type": "quote",
-          "settings": {
-            "text": "\"Human behavior and psychology have a major impact on web design and user experience. The Persuasive Patterns card deck is an excellent tool for learning how to apply these principles.\"",
-            "author_name": "Mathew Graham, Head of Product",
-            "author_image": "shopify://shop_images/Mathew-Graham.jpg",
-            "rating": 5,
-            "link": ""
-          }
-        },
-        "quote_6q4bUP": {
-          "type": "quote",
-          "settings": {
-            "text": "\"I work mostly alone at my home office and often get stuck with my thought process. At those moments it's priceless to be able to pick up a deck and reflect my thinking through the cards.\"",
-            "author_name": "Ella Kaila, Senior UX Designer @ Visma",
-            "author_image": "shopify://shop_images/Ella-Kaila.jpg",
-            "rating": 5,
-            "link": ""
-          }
-        },
-        "quote_EFfgfm": {
-          "type": "quote",
-          "settings": {
-            "text": "\"The Persuasive Patterns are a great way to generate ideas for applying psychological insights to real design projects.\"",
-            "author_name": "Björn Rohles, UX Training Manager",
-            "author_image": "shopify://shop_images/Bjorn-Rohles.jpg",
-            "rating": 5,
-            "link": ""
-          }
-        },
-        "quote_6VB8VF": {
-          "type": "quote",
-          "settings": {
-            "text": "\"The concepts are clearly communicated and the cards are nicely designed\"",
-            "author_name": "Helen Bentley, Staff Product Designer",
-            "author_image": "shopify://shop_images/Helen-Bentley.jpg",
-            "rating": 5,
-            "link": ""
-          }
-        },
-        "quote_MVVXkT": {
-          "type": "quote",
-          "settings": {
-            "text": "\"Insights are in an easy to share format. It's also a great brainstorming tool.\"",
-            "author_name": "David Di Sipio, Behavioral Design Researcher",
-            "author_image": "shopify://shop_images/David-Di-Sipio.jpg",
-            "rating": 5,
-            "link": ""
-          }
-        },
-        "quote_jVq69p": {
-          "type": "quote",
-          "settings": {
-            "text": "\"They help induce lateral thought, and enable problem solving from new angles.\"",
-            "author_name": "Bradley Martin, Creative Director",
-            "author_image": "shopify://shop_images/Bradley-Martin.jpg",
-            "rating": 5,
-            "link": ""
-          }
-        },
-        "quote_BDjhpc": {
-          "type": "quote",
-          "settings": {
-            "text": "\"Using the cards in a workshop led to around 20 solid ideas, so they clearly proved useful.\"",
-            "author_name": "Henning Fritzenwalder, Experience Design Lead, Thoughtworks",
-            "author_image": "shopify://shop_images/Henning-Fritzenwalder.jpg",
-            "rating": 5,
-            "link": ""
-          }
-        },
-        "quote_yEUxFx": {
-          "type": "quote",
-          "settings": {
-            "text": "\"It's a really good tool in the arsenal to brainstorm, creatively feed the mind and stimulate ideas and conversations..\"",
-            "author_name": "Bronius Motekaitis, Product Manager",
-            "author_image": "shopify://shop_images/Bronius-Motekaitis.jpg",
-            "rating": 5,
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "quote_QQzpqx",
-        "quote_tPyRfC",
-        "quote_6q4bUP",
-        "quote_EFfgfm",
-        "quote_6VB8VF",
-        "quote_MVVXkT",
-        "quote_jVq69p",
-        "quote_BDjhpc",
-        "quote_yEUxFx"
-      ],
-      "name": "t:sections.testimonials_grid.preset_name",
-      "settings": {
-        "caption": "",
-        "title": "",
-        "text": "",
-        "btn_text": "",
-        "btn_url": "",
-        "heading_size": "title",
-        "body_size": "body-md",
-        "desktop_columns": 3,
-        "desktop_space_between_cards": 24,
-        "mobile_columns": "1",
-        "mobile_space_between_cards": 16,
-        "quote_alignment": "left",
-        "color_scheme": "default",
-        "enable_background_around_container": false,
-        "container_size": "page-width",
-        "section_spacing_top": 96,
-        "section_spacing_bottom": 96
       }
     }
   },
