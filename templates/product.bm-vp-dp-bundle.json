@@ -176,6 +176,77 @@
         "scale_video": true
       }
     },
+    "multicolumn_8XDic7": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_with_icon_dPieMp": {
+          "type": "column_with_icon",
+          "settings": {
+            "icon": "none",
+            "icon_size": 64,
+            "title": "Business Model Patterns",
+            "text": "<p>75 proven business strategies, each with clear descriptions and real-world examples. Think strategically about your business is put together and visualize new growth paths.</p>",
+            "link_text": "",
+            "link_url": ""
+          }
+        },
+        "column_with_icon_NcyFtY": {
+          "type": "column_with_icon",
+          "settings": {
+            "icon": "none",
+            "icon_size": 64,
+            "title": "Discovery Patterns",
+            "text": "<p>Build empathy and explore opportunities in the problem space. A collection of smart ways to gather qualitative user feedback to ensure you’re on the right track, so you can de-risk product decisions before investing heavily.</p>",
+            "link_text": "",
+            "link_url": ""
+          }
+        },
+        "column_with_icon_Pxp9GM": {
+          "type": "column_with_icon",
+          "settings": {
+            "icon": "none",
+            "icon_size": 64,
+            "title": "Validation Patterns",
+            "text": "<p>A library of clever lean experiments to test your solution, fast. Stop winging it and start bringing real evidence to the table. Turns guesswork into data-driven decisions.</p>",
+            "link_text": "",
+            "link_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_with_icon_dPieMp",
+        "column_with_icon_NcyFtY",
+        "column_with_icon_Pxp9GM"
+      ],
+      "settings": {
+        "color_scheme": "default",
+        "container_size": "medium",
+        "section_spacing_top": 17,
+        "section_spacing_bottom": 90,
+        "desktop_layout": "grid",
+        "mobile_layout": "one-column-grid",
+        "title": "In one pack, you get...",
+        "text": "",
+        "heading_size": "h2",
+        "body_size": "body2",
+        "content_alignment": "center",
+        "column_heading_size": "h6",
+        "column_body_size": "body2",
+        "column_alignment": "center",
+        "desktop_columns": 3,
+        "desktop_space_between_cards": 0,
+        "desktop_content_spacing": 0,
+        "mobile_space_between_cards": 16,
+        "mobile_content_spacing": 24,
+        "show_column_background": false,
+        "show_navigation_on_hover": true,
+        "btn_text": "",
+        "btn_url": "",
+        "btn_style": "outline",
+        "autoplay_mode": "disabled",
+        "autoplay_interval": 3
+      }
+    },
     "e6a2dc3b-b6a3-43da-ac2e-7e6e68957a71": {
       "type": "logo-list",
       "blocks": {
@@ -964,6 +1035,7 @@
   "order": [
     "ff03a7f7-70a4-4aa2-8e65-56be8e7dbefc",
     "main",
+    "multicolumn_8XDic7",
     "e6a2dc3b-b6a3-43da-ac2e-7e6e68957a71",
     "dde7c692-d8b4-4a40-9d3a-c048f605740f",
     "2ed17851-e2d9-4b4b-990c-3df8599c3b8e",
