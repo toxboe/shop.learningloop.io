@@ -1077,40 +1077,6 @@
         "autoplay_interval": 3
       }
     },
-    "featured_collection_bRdJmW": {
-      "type": "featured-collection",
-      "settings": {
-        "color_scheme": "default",
-        "container_size": "medium",
-        "section_spacing_top": 48,
-        "section_spacing_bottom": 48,
-        "desktop_layout": "carousel",
-        "mobile_layout": "carousel",
-        "title": "You can also get each card deck individually",
-        "heading_size": "h2",
-        "alignment": "center",
-        "collection": "",
-        "featured_products": [
-          "persuasive-patterns-conversions-decisions",
-          "persuasive-patterns-habits-engagement"
-        ],
-        "img_ratio": "default",
-        "product_card_align": "left",
-        "cards_to_show": 3,
-        "desktop_columns": 2,
-        "desktop_space_between_cards": 16,
-        "mobile_space_between_cards": 16,
-        "show_navigation_on_hover": true,
-        "collection_card_position": "after-all-items",
-        "collection_card_content_position": "on-image-bottom",
-        "collection_card_content_align": "left",
-        "collection_card_heading_size": "h6",
-        "collection_card_show_product_count": true,
-        "collection_card_overlay_opacity": 15,
-        "autoplay_mode": "disabled",
-        "autoplay_interval": 3
-      }
-    },
     "b211c279-71dd-44ae-b816-3d6f3d551fac": {
       "type": "faq",
       "blocks": {
@@ -1285,7 +1251,6 @@
     "d7a5963e-c766-4f10-8cc1-5470486301a3",
     "3a9d356f-f01d-4309-bccb-3ebc6d618648",
     "5b008df5-f049-4f41-953b-05c349f10d05",
-    "featured_collection_bRdJmW",
     "b211c279-71dd-44ae-b816-3d6f3d551fac",
     "images_with_text_JNw6qi"
   ]
