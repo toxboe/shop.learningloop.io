@@ -282,6 +282,14 @@
             "link": ""
           }
         },
+        "logo_7E6DCa": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/Notre-Dame-Logo.png",
+            "image_width": 100,
+            "link": ""
+          }
+        },
         "logo_fGfNV9": {
           "type": "logo",
           "settings": {
@@ -306,42 +314,10 @@
             "link": ""
           }
         },
-        "logo_HwTqQt": {
-          "type": "logo",
-          "settings": {
-            "image": "shopify://shop_images/logo_shopify.png",
-            "image_width": 100,
-            "link": ""
-          }
-        },
-        "logo_AEm3Qk": {
-          "type": "logo",
-          "settings": {
-            "image": "shopify://shop_images/logo_facebook.png",
-            "image_width": 100,
-            "link": ""
-          }
-        },
-        "logo_7E6DCa": {
-          "type": "logo",
-          "settings": {
-            "image": "shopify://shop_images/logo_apple.png",
-            "image_width": 100,
-            "link": ""
-          }
-        },
         "logo_rwGfj7": {
           "type": "logo",
           "settings": {
             "image": "shopify://shop_images/logo_microsoft.png",
-            "image_width": 100,
-            "link": ""
-          }
-        },
-        "logo_tXHxbq": {
-          "type": "logo",
-          "settings": {
-            "image": "shopify://shop_images/logo_booking-com.png",
             "image_width": 100,
             "link": ""
           }
@@ -354,14 +330,6 @@
             "link": ""
           }
         },
-        "logo_76dR9D": {
-          "type": "logo",
-          "settings": {
-            "image": "shopify://shop_images/logo_coca-cola.png",
-            "image_width": 100,
-            "link": ""
-          }
-        },
         "logo_EYqbH3": {
           "type": "logo",
           "settings": {
@@ -370,26 +338,10 @@
             "link": ""
           }
         },
-        "logo_Qf6Ffz": {
-          "type": "logo",
-          "settings": {
-            "image": "shopify://shop_images/logo_autodesk_f201490c-e97a-426a-ac85-51fe195c7fa4.png",
-            "image_width": 100,
-            "link": ""
-          }
-        },
         "logo_JhYTEi": {
           "type": "logo",
           "settings": {
             "image": "shopify://shop_images/King_logo_svg_ce28053d-f5dc-413f-a562-eef59d14688d.png",
-            "image_width": 100,
-            "link": ""
-          }
-        },
-        "logo_Xw6Rce": {
-          "type": "logo",
-          "settings": {
-            "image": "shopify://shop_images/logo_ubisoft_7c26911f-0960-45d8-959f-ccbe8666d358.png",
             "image_width": 100,
             "link": ""
           }
@@ -433,14 +385,6 @@
             "image_width": 100,
             "link": ""
           }
-        },
-        "logo_pCFGYJ": {
-          "type": "logo",
-          "settings": {
-            "image": "shopify://shop_images/logo_growth-tribe.png",
-            "image_width": 100,
-            "link": ""
-          }
         }
       },
       "block_order": [
@@ -448,26 +392,19 @@
         "logo_EB9WFj",
         "logo_iDGzDQ",
         "logo_TC4Kz6",
+        "logo_7E6DCa",
         "logo_fGfNV9",
         "logo_WerG3P",
         "logo_VdAKLg",
-        "logo_HwTqQt",
-        "logo_AEm3Qk",
-        "logo_7E6DCa",
         "logo_rwGfj7",
-        "logo_tXHxbq",
         "logo_6j43DH",
-        "logo_76dR9D",
         "logo_EYqbH3",
-        "logo_Qf6Ffz",
         "logo_JhYTEi",
-        "logo_Xw6Rce",
         "logo_zbWDDY",
         "logo_rH7gPK",
         "logo_MnXJd9",
         "logo_3MmyBx",
-        "logo_DxD7km",
-        "logo_pCFGYJ"
+        "logo_DxD7km"
       ],
       "settings": {
         "color_scheme": "custom-3",
