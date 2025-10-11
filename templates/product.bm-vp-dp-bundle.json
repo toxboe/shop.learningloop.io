@@ -507,68 +507,6 @@
         "autoplay_interval": 3
       }
     },
-    "2ed17851-e2d9-4b4b-990c-3df8599c3b8e": {
-      "type": "testimonials",
-      "blocks": {
-        "71628dc5-be30-438d-a4f3-da1da60e0eaf": {
-          "type": "quote",
-          "settings": {
-            "text": "\"We use the Persuasive Patterns deck of cards to get people thinking about how we can leverage different techniques to increase conversions on our websites. I LOVE the line art (#58 - Self-Expression is my fav) but do wish there was a resource to see real-world applications.\"",
-            "author_name": "Roeland Doherty - GrowthTribe",
-            "author_image": "shopify://shop_images/roeland-doherty.png",
-            "rating": 4.5,
-            "link": ""
-          }
-        },
-        "template--15386400456738__2ed17851-e2d9-4b4b-990c-3df8599c3b8e-quote-1": {
-          "type": "quote",
-          "settings": {
-            "text": "\"Loving my persuasive patterns cards from UI-Patterns.com. Really useful inspirational tool\"",
-            "author_name": "Paul Boag - Boagworks",
-            "author_image": "shopify://shop_images/paul-boag.png",
-            "rating": 4.5,
-            "link": ""
-          }
-        },
-        "526eb9a6-a7ba-402c-9365-3cde4d74d8af": {
-          "type": "quote",
-          "settings": {
-            "text": "\"Wanted to quickly shout out this Persuasive Patterns card deck I got from UI-Patterns and my favorite concept that's included - the Peak-End Rule. It's an excellent reference for keeping intended behaviors top-of-mind, and for explaining a complex concept simply to a stakeholder.\"",
-            "author_name": "Brett Sebbio - Lowe's",
-            "author_image": "shopify://shop_images/brett-sebbio.png",
-            "rating": 4.5,
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "71628dc5-be30-438d-a4f3-da1da60e0eaf",
-        "template--15386400456738__2ed17851-e2d9-4b4b-990c-3df8599c3b8e-quote-1",
-        "526eb9a6-a7ba-402c-9365-3cde4d74d8af"
-      ],
-      "custom_css": [
-        ".quote__text--large {font-weight: 400; font-style: italic;}"
-      ],
-      "settings": {
-        "color_scheme": "custom-3",
-        "enable_background_around_container": false,
-        "container_size": "large",
-        "section_spacing_top": 60,
-        "section_spacing_bottom": 90,
-        "section_layout": "bottom-quotes",
-        "cards_per_slide": 1,
-        "quote_alignment": "center",
-        "caption": "",
-        "title": "",
-        "text": "",
-        "heading_size": "h3",
-        "body_size": "body3",
-        "btn_text": "",
-        "btn_url": "",
-        "autoplay_mode": "one_at_time",
-        "autoplay_interval": 3
-      }
-    },
     "35a80c75-d4b0-4340-9552-75a9f11586de": {
       "type": "images-with-text",
       "blocks": {
@@ -1101,7 +1039,6 @@
     "multicolumn_8XDic7",
     "logo_list_gFnG84",
     "dde7c692-d8b4-4a40-9d3a-c048f605740f",
-    "2ed17851-e2d9-4b4b-990c-3df8599c3b8e",
     "35a80c75-d4b0-4340-9552-75a9f11586de",
     "d7a5963e-c766-4f10-8cc1-5470486301a3",
     "22962715-c6b1-4c9f-876b-dee37b67a0ae",
