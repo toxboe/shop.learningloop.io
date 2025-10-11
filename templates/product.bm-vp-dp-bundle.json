@@ -586,89 +586,13 @@
         "content_align": "center"
       }
     },
-    "f768b115-1f18-47e5-956e-b96e827df3ed": {
-      "type": "images-with-text",
-      "blocks": {
-        "91674a81-23eb-40b8-a782-230a65d5efd3": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/persuasive-patterns-in-customer-journey-mapping.jpg"
-          }
-        }
-      },
-      "block_order": [
-        "91674a81-23eb-40b8-a782-230a65d5efd3"
-      ],
-      "settings": {
-        "color_scheme": "secondary",
-        "container_size": "medium",
-        "section_spacing_top": 90,
-        "section_spacing_bottom": 0,
-        "content_layout": "right",
-        "image_layout": "collage",
-        "img_ratio": 1,
-        "rotate_images": false,
-        "icon": "none",
-        "subheading": "",
-        "heading": "Evergreen content",
-        "body": "<p>The behavioral insights in the deck we true thousand years ago and will work thousand years from now. They stood the test of time because they are simple, yet effective.</p>",
-        "heading_size": "h2",
-        "body_size": "body2",
-        "content_alignment": "left",
-        "desktop_content_width": 540,
-        "first_button_text": "",
-        "first_button_link": "",
-        "first_button_style": "solid",
-        "second_button_text": "",
-        "second_button_link": "",
-        "second_button_style": "solid"
-      }
-    },
-    "1e590e7c-d880-41a0-a758-93f6b3de66f5": {
-      "type": "images-with-text",
-      "blocks": {
-        "96d9468a-388a-4df3-860a-00a1419fd126": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/PP_CE_-_Workshop_setting_2.png"
-          }
-        }
-      },
-      "block_order": [
-        "96d9468a-388a-4df3-860a-00a1419fd126"
-      ],
-      "settings": {
-        "color_scheme": "secondary",
-        "container_size": "medium",
-        "section_spacing_top": 48,
-        "section_spacing_bottom": 90,
-        "content_layout": "right",
-        "image_layout": "collage",
-        "img_ratio": 1,
-        "rotate_images": false,
-        "icon": "none",
-        "subheading": "",
-        "heading": "Tangibly big",
-        "body": "<p>The cards are designed intentionally big in your hands. It's heavy to hold, smooth to touch, and easy on the eyes.</p><p>In the age of remote, we believe in the power of physical.</p>",
-        "heading_size": "h2",
-        "body_size": "body2",
-        "content_alignment": "left",
-        "desktop_content_width": 540,
-        "first_button_text": "",
-        "first_button_link": "",
-        "first_button_style": "solid",
-        "second_button_text": "",
-        "second_button_link": "",
-        "second_button_style": "solid"
-      }
-    },
     "49c49a29-168e-4bf6-a3ed-38b07d0f1838": {
       "type": "images-with-text",
       "blocks": {
         "805f2cb1-797a-4798-adc8-c77dee89eb53": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/PersuasiveC_D_Validation-transparent.png"
+            "image": "shopify://shop_images/Validation_Discovery_Business_Model_-_transparent.png"
           }
         }
       },
@@ -686,8 +610,8 @@
         "rotate_images": false,
         "icon": "none",
         "subheading": "",
-        "heading": "Become a confident behavioral designer + get results",
-        "body": "<p>Build a vocabulary based in human psychology and start designing for the human mind. Stop winging it and bring hard facts about we behave, decide, and take action to the table.</p>",
+        "heading": "Become a confident innovation strategist",
+        "body": "<p>Build a shared vocabulary for business innovation and start designing with evidence, not assumptions. </p><p><strong>Stop guessing</strong> and bring structured methods for how to discover, design, and validate new business ideas to the table.</p>",
         "heading_size": "h2",
         "body_size": "body2",
         "content_alignment": "left",
@@ -858,8 +782,6 @@
     "dde7c692-d8b4-4a40-9d3a-c048f605740f",
     "35a80c75-d4b0-4340-9552-75a9f11586de",
     "0c2ed4d1-2136-4c5c-920e-482096df3899",
-    "f768b115-1f18-47e5-956e-b96e827df3ed",
-    "1e590e7c-d880-41a0-a758-93f6b3de66f5",
     "49c49a29-168e-4bf6-a3ed-38b07d0f1838",
     "b211c279-71dd-44ae-b816-3d6f3d551fac",
     "product-recommendations"
