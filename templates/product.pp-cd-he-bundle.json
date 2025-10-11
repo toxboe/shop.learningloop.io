@@ -165,7 +165,7 @@
         "desktop_layout": "grid",
         "mobile_layout": "one-column-grid",
         "title": "Bite-size psychological insights",
-        "text": "Design patterns driven by psychology, presented in a manner easily referenced and used as a brainstorming tool.",
+        "text": "120 proven tactices driven by psychology, presented in a manner easily referenced and used as a brainstorming tool.",
         "heading_size": "h3",
         "body_size": "body2",
         "content_alignment": "center",
@@ -186,52 +186,116 @@
         "autoplay_interval": 3
       }
     },
-    "rich_text_hCkiHr": {
-      "type": "rich-text",
+    "slideshow_WDFPMf": {
+      "type": "slideshow",
       "blocks": {
-        "icon_kDBbrT": {
-          "type": "icon",
+        "image_banner_YqYcwN": {
+          "type": "image-banner",
           "settings": {
-            "icon": "none",
-            "icon_size": 48
+            "color_scheme": "white",
+            "desktop_img": "shopify://shop_images/usage2.jpg",
+            "desktop_overlay_opacity": 20,
+            "mobile_overlay_opacity": 20,
+            "caption": "",
+            "title": "",
+            "text": "",
+            "heading_size": "h2",
+            "body_size": "body3",
+            "desktop_content_position": "align-items:center;justify-content:center;",
+            "desktop_content_align": "center",
+            "content_max_width": 528,
+            "content_spacing": 116,
+            "mobile_content_position": "align-items:flex-end;justify-content:center;",
+            "mobile_content_align": "center",
+            "desktop_content_background": "none",
+            "mobile_content_background": "none",
+            "btn_text": "",
+            "btn_url": "",
+            "btn_style": "solid",
+            "extra_btn_text": "",
+            "extra_btn_url": "",
+            "extra_btn_style": "solid"
           }
         },
-        "caption_wn9YcR": {
-          "type": "caption",
+        "image_banner_L8bkxP": {
+          "type": "image-banner",
           "settings": {
-            "caption": "A complete toolkit for product psychology"
+            "color_scheme": "white",
+            "desktop_img": "shopify://shop_images/usage1.jpg",
+            "desktop_overlay_opacity": 20,
+            "mobile_overlay_opacity": 20,
+            "caption": "",
+            "title": "",
+            "text": "",
+            "heading_size": "h2",
+            "body_size": "body3",
+            "desktop_content_position": "align-items:center;justify-content:center;",
+            "desktop_content_align": "center",
+            "content_max_width": 528,
+            "content_spacing": 116,
+            "mobile_content_position": "align-items:flex-end;justify-content:center;",
+            "mobile_content_align": "center",
+            "desktop_content_background": "none",
+            "mobile_content_background": "none",
+            "btn_text": "",
+            "btn_url": "",
+            "btn_style": "solid",
+            "extra_btn_text": "",
+            "extra_btn_url": "",
+            "extra_btn_style": "solid"
           }
         },
-        "heading_DBLrD7": {
-          "type": "heading",
+        "image_banner_qBFFcd": {
+          "type": "image-banner",
           "settings": {
-            "title": "Inspire user action",
-            "heading_size": "h5"
-          }
-        },
-        "text_RyXcY7": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Together, the two decks offer over 120 proven tactics from psychology to help motivate users, improve conversions, foster long-term engagement, and inspire product action.</p>",
-            "text_2": "<p>All patterns are based on well-documented psychological principles from academia and have been tested, refined, and found powerful in real product settings.</p>",
-            "text_3": "",
-            "body_size": "body3"
+            "color_scheme": "white",
+            "desktop_img": "shopify://shop_images/usage3.jpg",
+            "desktop_overlay_opacity": 20,
+            "mobile_overlay_opacity": 20,
+            "caption": "",
+            "title": "",
+            "text": "",
+            "heading_size": "h2",
+            "body_size": "body3",
+            "desktop_content_position": "align-items:center;justify-content:center;",
+            "desktop_content_align": "center",
+            "content_max_width": 528,
+            "content_spacing": 116,
+            "mobile_content_position": "align-items:flex-end;justify-content:center;",
+            "mobile_content_align": "center",
+            "desktop_content_background": "none",
+            "mobile_content_background": "none",
+            "btn_text": "",
+            "btn_url": "",
+            "btn_style": "solid",
+            "extra_btn_text": "",
+            "extra_btn_url": "",
+            "extra_btn_style": "solid"
           }
         }
       },
       "block_order": [
-        "icon_kDBbrT",
-        "caption_wn9YcR",
-        "heading_DBLrD7",
-        "text_RyXcY7"
+        "image_banner_YqYcwN",
+        "image_banner_L8bkxP",
+        "image_banner_qBFFcd"
       ],
+      "name": "t:sections.slideshow.name",
       "settings": {
-        "color_scheme": "primary",
+        "color_scheme": "default",
         "enable_background_around_container": false,
-        "container_size": "medium",
-        "section_spacing_top": 0,
-        "section_spacing_bottom": 0,
-        "content_align": "center"
+        "container_size": "large",
+        "section_spacing_top": 38,
+        "section_spacing_bottom": 43,
+        "desktop_ratio": 0.3,
+        "mobile_ratio": 0.4,
+        "enable_circle_navigation": true,
+        "show_navigation_arrows": "on_hover",
+        "arrows_style": "corner-buttons",
+        "transition_style": "swipe",
+        "autoplay_mode": "disabled",
+        "autoplay_interval": 3,
+        "show_button_for_autoplay": true,
+        "accessibility_alt_text": "Our cards in use at team workshops"
       }
     },
     "e6a2dc3b-b6a3-43da-ac2e-7e6e68957a71": {
@@ -277,10 +341,26 @@
             "link": ""
           }
         },
+        "logo_Tb7rri": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/logo_amazon_ce0bc751-01a1-4459-8e3b-2805c836d43a.png",
+            "image_width": 100,
+            "link": ""
+          }
+        },
         "template--15386400456738__e6a2dc3b-b6a3-43da-ac2e-7e6e68957a71-logo-5": {
           "type": "logo",
           "settings": {
             "image": "shopify://shop_images/logo_booking-com.png",
+            "image_width": 100,
+            "link": ""
+          }
+        },
+        "9b1e4372-ad3c-4d0d-a3f4-f5edc9b124bd": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/logo_dropbox.png",
             "image_width": 100,
             "link": ""
           }
@@ -293,14 +373,6 @@
             "link": ""
           }
         },
-        "template--15386400456738__e6a2dc3b-b6a3-43da-ac2e-7e6e68957a71-logo-8": {
-          "type": "logo",
-          "settings": {
-            "image": "shopify://shop_images/logo_coca-cola.png",
-            "image_width": 100,
-            "link": ""
-          }
-        },
         "4a5e5f7c-e933-4dbe-b1bf-01b4e791667f": {
           "type": "logo",
           "settings": {
@@ -309,10 +381,114 @@
             "link": ""
           }
         },
-        "9b1e4372-ad3c-4d0d-a3f4-f5edc9b124bd": {
+        "logo_WiT3NR": {
           "type": "logo",
           "settings": {
-            "image": "shopify://shop_images/logo_dropbox.png",
+            "image": "shopify://shop_images/logo_deloitte.png",
+            "image_width": 100,
+            "link": ""
+          }
+        },
+        "logo_ppYkfK": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/logo_accenture.png",
+            "image_width": 100,
+            "link": ""
+          }
+        },
+        "logo_CPLW8J": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/logo_intel.png",
+            "image_width": 100,
+            "link": ""
+          }
+        },
+        "template--15386400456738__e6a2dc3b-b6a3-43da-ac2e-7e6e68957a71-logo-8": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/logo_coca-cola.png",
+            "image_width": 100,
+            "link": ""
+          }
+        },
+        "logo_3XR7XG": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/logo_ogilvy.png",
+            "image_width": 100,
+            "link": ""
+          }
+        },
+        "logo_KJn6XW": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/logo_autodesk_f201490c-e97a-426a-ac85-51fe195c7fa4.png",
+            "image_width": 100,
+            "link": ""
+          }
+        },
+        "logo_AYAJb7": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/King_logo_svg_ce28053d-f5dc-413f-a562-eef59d14688d.png",
+            "image_width": 100,
+            "link": ""
+          }
+        },
+        "logo_RzyCpA": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/logo_ubisoft_7c26911f-0960-45d8-959f-ccbe8666d358.png",
+            "image_width": 100,
+            "link": ""
+          }
+        },
+        "logo_iAdB6D": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/logo_mcafee_b1f6cdf4-2ecb-4e46-bed3-279c1e8e539c.png",
+            "image_width": 100,
+            "link": ""
+          }
+        },
+        "logo_BhcCw7": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/logo_maersk.png",
+            "image_width": 100,
+            "link": ""
+          }
+        },
+        "logo_krfnLN": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/logo_swisscom.png",
+            "image_width": 100,
+            "link": ""
+          }
+        },
+        "logo_3pKbcR": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/logo_verizon.png",
+            "image_width": 100,
+            "link": ""
+          }
+        },
+        "logo_WapFYN": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/logo_american-express.png",
+            "image_width": 100,
+            "link": ""
+          }
+        },
+        "logo_HULQTP": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/logo_growth-tribe.png",
             "image_width": 100,
             "link": ""
           }
@@ -324,11 +500,25 @@
         "template--15386400456738__e6a2dc3b-b6a3-43da-ac2e-7e6e68957a71-logo-3",
         "template--15386400456738__e6a2dc3b-b6a3-43da-ac2e-7e6e68957a71-logo-6",
         "template--15386400456738__e6a2dc3b-b6a3-43da-ac2e-7e6e68957a71-logo-4",
+        "logo_Tb7rri",
         "template--15386400456738__e6a2dc3b-b6a3-43da-ac2e-7e6e68957a71-logo-5",
+        "9b1e4372-ad3c-4d0d-a3f4-f5edc9b124bd",
         "template--15386400456738__e6a2dc3b-b6a3-43da-ac2e-7e6e68957a71-logo-7",
-        "template--15386400456738__e6a2dc3b-b6a3-43da-ac2e-7e6e68957a71-logo-8",
         "4a5e5f7c-e933-4dbe-b1bf-01b4e791667f",
-        "9b1e4372-ad3c-4d0d-a3f4-f5edc9b124bd"
+        "logo_WiT3NR",
+        "logo_ppYkfK",
+        "logo_CPLW8J",
+        "template--15386400456738__e6a2dc3b-b6a3-43da-ac2e-7e6e68957a71-logo-8",
+        "logo_3XR7XG",
+        "logo_KJn6XW",
+        "logo_AYAJb7",
+        "logo_RzyCpA",
+        "logo_iAdB6D",
+        "logo_BhcCw7",
+        "logo_krfnLN",
+        "logo_3pKbcR",
+        "logo_WapFYN",
+        "logo_HULQTP"
       ],
       "settings": {
         "color_scheme": "custom-3",
@@ -344,6 +534,77 @@
         "desktop_space_between_cards": 32,
         "mobile_space_between_cards": 12,
         "show_navigation_arrows": "always",
+        "autoplay_mode": "disabled",
+        "autoplay_interval": 3
+      }
+    },
+    "multicolumn_nrbJBG": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_with_icon_ej8Kyc": {
+          "type": "column_with_icon",
+          "settings": {
+            "icon": "none",
+            "icon_size": 64,
+            "title": "",
+            "text": "<p><strong>Acquisition & conversion</strong><br/>Attract new customers and increase revenue.</p><p><strong>Referral & social virality</strong><br/>Use social psychology to make sharing a given.</p>",
+            "link_text": "",
+            "link_url": ""
+          }
+        },
+        "column_with_icon_JFgfmd": {
+          "type": "column_with_icon",
+          "settings": {
+            "icon": "none",
+            "icon_size": 64,
+            "title": "",
+            "text": "<p><strong>Activation & onboarding</strong><br/>Help users discover value early and keep up their momentum.</p><p><strong>Branding</strong><br/>Stand out from your competition and become loved.</p>",
+            "link_text": "",
+            "link_url": ""
+          }
+        },
+        "column_with_icon_Jtpmmt": {
+          "type": "column_with_icon",
+          "settings": {
+            "icon": "none",
+            "icon_size": 64,
+            "title": "",
+            "text": "<p><strong>Retention & loyalty</strong><br/>Keep users engaged as they progress and make leaving hard.</p><p><strong>Pricing</strong> Find the right price, amount of options, and appropriate presentation at the right time.</p>",
+            "link_text": "",
+            "link_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_with_icon_ej8Kyc",
+        "column_with_icon_JFgfmd",
+        "column_with_icon_Jtpmmt"
+      ],
+      "settings": {
+        "color_scheme": "primary",
+        "container_size": "medium",
+        "section_spacing_top": 60,
+        "section_spacing_bottom": 32,
+        "desktop_layout": "grid",
+        "mobile_layout": "one-column-grid",
+        "title": "Created to grow your business",
+        "text": "Persuasive Patterns work in the entire funnel.",
+        "heading_size": "h3",
+        "body_size": "body2",
+        "content_alignment": "center",
+        "column_heading_size": "h6",
+        "column_body_size": "body3",
+        "column_alignment": "left",
+        "desktop_columns": 3,
+        "desktop_space_between_cards": 16,
+        "desktop_content_spacing": 24,
+        "mobile_space_between_cards": 16,
+        "mobile_content_spacing": 24,
+        "show_column_background": false,
+        "show_navigation_on_hover": true,
+        "btn_text": "",
+        "btn_url": "",
+        "btn_style": "outline",
         "autoplay_mode": "disabled",
         "autoplay_interval": 3
       }
@@ -1016,8 +1277,9 @@
     "ff03a7f7-70a4-4aa2-8e65-56be8e7dbefc",
     "main",
     "multicolumn_iwzUWC",
-    "rich_text_hCkiHr",
+    "slideshow_WDFPMf",
     "e6a2dc3b-b6a3-43da-ac2e-7e6e68957a71",
+    "multicolumn_nrbJBG",
     "testimonials_grid_9E7p9B",
     "0662d9b7-f318-474d-a1d7-73b91bd82677",
     "d7a5963e-c766-4f10-8cc1-5470486301a3",
