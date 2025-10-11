@@ -481,77 +481,75 @@
         "autoplay_interval": 3
       }
     },
-    "2ed17851-e2d9-4b4b-990c-3df8599c3b8e": {
-      "type": "testimonials",
+    "testimonials_grid_9E7p9T": {
+      "type": "testimonials-grid",
       "blocks": {
-        "71628dc5-be30-438d-a4f3-da1da60e0eaf": {
+        "quote_6TCbVa": {
           "type": "quote",
           "settings": {
             "text": "\"We use the Persuasive Patterns deck of cards to get people thinking about how we can leverage different techniques to increase conversions on our websites. I LOVE the line art (#58 - Self-Expression is my fav) but do wish there was a resource to see real-world applications.\"",
-            "author_name": "Roeland Doherty - GrowthTribe",
+            "author_name": "Roeland Doherty, GrowthTribe",
             "author_image": "shopify://shop_images/roeland-doherty.png",
-            "rating": 5,
+            "rating": 0,
             "link": ""
           }
         },
-        "template--15386400456738__2ed17851-e2d9-4b4b-990c-3df8599c3b8e-quote-1": {
-          "type": "quote",
-          "settings": {
-            "text": "\"Loving my persuasive patterns cards. Really useful inspirational tool\"",
-            "author_name": "Paul Boag - Boagworks",
-            "author_image": "shopify://shop_images/paul-boag.png",
-            "rating": 5,
-            "link": ""
-          }
-        },
-        "526eb9a6-a7ba-402c-9365-3cde4d74d8af": {
-          "type": "quote",
-          "settings": {
-            "text": "\"Wanted to quickly shout out this Persuasive Patterns card deck I got and my favorite concept that's included - the Peak-End Rule. It's an excellent reference for keeping intended behaviors top-of-mind, and for explaining a complex concept simply to a stakeholder.\"",
-            "author_name": "Brett Sebbio - Lowe's",
-            "author_image": "shopify://shop_images/brett-sebbio.png",
-            "rating": 5,
-            "link": ""
-          }
-        },
-        "quote_CQaUqm": {
+        "quote_CGdnDz": {
           "type": "quote",
           "settings": {
             "text": "\"As a marketing professional, I love the deck as a quick reference for when I am stuck, a way to think of new ways to tackle a problem or gain much needed insight.\"",
-            "author_name": "Julie Boake - Awedity Creative Inc.",
+            "author_name": "Julie Boake, Chief Marketing Officer",
             "author_image": "shopify://shop_images/julie_boake.jpg",
-            "rating": 5,
+            "rating": 0,
+            "link": ""
+          }
+        },
+        "quote_8mfmka": {
+          "type": "quote",
+          "settings": {
+            "text": "\"Wanted to quickly shout out this Persuasive Patterns card deck I got and my favorite concept that's included - the Peak-End Rule. It's an excellent reference for keeping intended behaviors top-of-mind, and for explaining a complex concept simply to a stakeholder.\"",
+            "author_name": "Brett Sebbio, VP Customer Experience",
+            "author_image": "shopify://shop_images/brett-sebbio.png",
+            "rating": 0,
+            "link": ""
+          }
+        },
+        "quote_NFbC4m": {
+          "type": "quote",
+          "settings": {
+            "text": "\"Loving my persuasive patterns cards. Really useful inspirational tool\"",
+            "author_name": "Paul Boag, Boagworks",
+            "author_image": "shopify://shop_images/paul-boag.png",
+            "rating": 0,
             "link": ""
           }
         }
       },
       "block_order": [
-        "71628dc5-be30-438d-a4f3-da1da60e0eaf",
-        "template--15386400456738__2ed17851-e2d9-4b4b-990c-3df8599c3b8e-quote-1",
-        "526eb9a6-a7ba-402c-9365-3cde4d74d8af",
-        "quote_CQaUqm"
+        "quote_6TCbVa",
+        "quote_CGdnDz",
+        "quote_8mfmka",
+        "quote_NFbC4m"
       ],
-      "custom_css": [
-        ".quote__text--large {font-weight: 400; font-style: italic;}"
-      ],
+      "name": "t:sections.testimonials_grid.preset_name",
       "settings": {
-        "color_scheme": "custom-3",
-        "enable_background_around_container": false,
-        "container_size": "large",
-        "section_spacing_top": 60,
-        "section_spacing_bottom": 90,
-        "section_layout": "bottom-quotes",
-        "cards_per_slide": 1,
-        "quote_alignment": "center",
         "caption": "",
         "title": "",
         "text": "",
-        "heading_size": "h3",
-        "body_size": "body3",
         "btn_text": "",
         "btn_url": "",
-        "autoplay_mode": "one_at_time",
-        "autoplay_interval": 3
+        "heading_size": "title",
+        "body_size": "body-md",
+        "desktop_columns": 3,
+        "desktop_space_between_cards": 24,
+        "mobile_columns": "1",
+        "mobile_space_between_cards": 16,
+        "quote_alignment": "left",
+        "color_scheme": "default",
+        "enable_background_around_container": false,
+        "container_size": "page-width",
+        "section_spacing_top": 96,
+        "section_spacing_bottom": 96
       }
     },
     "rich_text_irMfaD": {
@@ -1424,7 +1422,7 @@
     "rich_text_9rXAxA",
     "dde7c692-d8b4-4a40-9d3a-c048f605740f",
     "multicolumn_RhjhTP",
-    "2ed17851-e2d9-4b4b-990c-3df8599c3b8e",
+    "testimonials_grid_9E7p9T",
     "rich_text_irMfaD",
     "custom_liquid_zwW9yF",
     "35a80c75-d4b0-4340-9552-75a9f11586de",
