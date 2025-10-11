@@ -583,7 +583,7 @@
       "settings": {
         "color_scheme": "primary",
         "container_size": "medium",
-        "section_spacing_top": 60,
+        "section_spacing_top": 78,
         "section_spacing_bottom": 32,
         "desktop_layout": "grid",
         "mobile_layout": "one-column-grid",
@@ -781,7 +781,7 @@
       "name": "t:sections.testimonials_grid.preset_name",
       "settings": {
         "caption": "",
-        "title": "",
+        "title": "The rumor on the street",
         "text": "",
         "btn_text": "",
         "btn_url": "",
