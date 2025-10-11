@@ -627,8 +627,8 @@
           "settings": {
             "icon": "none",
             "icon_size": 64,
-            "title": "",
-            "text": "<p><strong>Acquisition & conversion</strong><br/>Attract new customers and increase revenue.</p><p><strong>Referral & social virality</strong><br/>Use social psychology to make sharing a given.</p>",
+            "title": "Top of Funnel",
+            "text": "<p><strong>Branding</strong><br/>Stand out from your competition and become loved.<br/><strong><br/>Acquisition & conversion</strong><br/>Attract new customers and increase revenue.</p>",
             "link_text": "",
             "link_url": ""
           }
@@ -638,8 +638,8 @@
           "settings": {
             "icon": "none",
             "icon_size": 64,
-            "title": "",
-            "text": "<p><strong>Activation & onboarding</strong><br/>Help users discover value early and keep up their momentum.</p><p><strong>Branding</strong><br/>Stand out from your competition and become loved.</p>",
+            "title": "Middle of  funnel",
+            "text": "<p><strong>Activation & onboarding</strong><br/>Help users discover value early and keep up their momentum.</p><p><strong>Pricing</strong><br/>Find the right price, amount of options, and appropriate presentation at the right time.<br/></p>",
             "link_text": "",
             "link_url": ""
           }
@@ -649,8 +649,8 @@
           "settings": {
             "icon": "none",
             "icon_size": 64,
-            "title": "",
-            "text": "<p><strong>Retention & loyalty</strong><br/>Keep users engaged as they progress and make leaving hard.</p><p><strong>Pricing</strong> Find the right price, amount of options, and appropriate presentation at the right time.</p>",
+            "title": "Bottom of funnel",
+            "text": "<p><strong>Retention & loyalty</strong><br/>Keep users engaged as they progress and make leaving hard.</p><p><strong>Referral & Social Virality</strong><br/>Use social psychology to make sharing a given.</p>",
             "link_text": "",
             "link_url": ""
           }
@@ -662,9 +662,9 @@
         "column_with_icon_Jtpmmt"
       ],
       "settings": {
-        "color_scheme": "primary",
+        "color_scheme": "custom-2",
         "container_size": "medium",
-        "section_spacing_top": 78,
+        "section_spacing_top": 59,
         "section_spacing_bottom": 50,
         "desktop_layout": "grid",
         "mobile_layout": "one-column-grid",
