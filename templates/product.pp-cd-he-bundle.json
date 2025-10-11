@@ -1161,6 +1161,44 @@
         "autoplay_interval": 3
       }
     },
+    "images_with_text_JNw6qi": {
+      "type": "images-with-text",
+      "blocks": {
+        "image_KPNaAB": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/persuasiveCD_HE_2.png"
+          }
+        }
+      },
+      "block_order": [
+        "image_KPNaAB"
+      ],
+      "settings": {
+        "color_scheme": "default",
+        "container_size": "medium",
+        "section_spacing_top": 67,
+        "section_spacing_bottom": 48,
+        "content_layout": "left",
+        "image_layout": "collage",
+        "img_ratio": 1,
+        "rotate_images": false,
+        "icon": "none",
+        "subheading": "Design better products",
+        "heading": "Become a confident behavioral designer",
+        "body": "<p>Build a vocabulary based in human psychology and start designing for the human mind. Stop winging it and bring hard facts about we behave, decide, and take action to the table.</p>",
+        "heading_size": "h2",
+        "body_size": "body3",
+        "content_alignment": "left",
+        "desktop_content_width": 360,
+        "first_button_text": "Shop both decks now",
+        "first_button_link": "",
+        "first_button_style": "solid",
+        "second_button_text": "",
+        "second_button_link": "",
+        "second_button_style": "solid"
+      }
+    },
     "b211c279-71dd-44ae-b816-3d6f3d551fac": {
       "type": "faq",
       "blocks": {
@@ -1283,44 +1321,6 @@
         "btn_url": "",
         "btn_style": "solid"
       }
-    },
-    "images_with_text_JNw6qi": {
-      "type": "images-with-text",
-      "blocks": {
-        "image_KPNaAB": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/persuasiveCD_HE_2.png"
-          }
-        }
-      },
-      "block_order": [
-        "image_KPNaAB"
-      ],
-      "settings": {
-        "color_scheme": "default",
-        "container_size": "medium",
-        "section_spacing_top": 67,
-        "section_spacing_bottom": 48,
-        "content_layout": "left",
-        "image_layout": "collage",
-        "img_ratio": 1,
-        "rotate_images": false,
-        "icon": "none",
-        "subheading": "Design better products",
-        "heading": "Become a confident behavioral designer",
-        "body": "<p>Build a vocabulary based in human psychology and start designing for the human mind. Stop winging it and bring hard facts about we behave, decide, and take action to the table.</p>",
-        "heading_size": "h2",
-        "body_size": "body3",
-        "content_alignment": "left",
-        "desktop_content_width": 360,
-        "first_button_text": "Shop both decks now",
-        "first_button_link": "",
-        "first_button_style": "solid",
-        "second_button_text": "",
-        "second_button_link": "",
-        "second_button_style": "solid"
-      }
     }
   },
   "order": [
@@ -1338,7 +1338,7 @@
     "d7a5963e-c766-4f10-8cc1-5470486301a3",
     "3a9d356f-f01d-4309-bccb-3ebc6d618648",
     "5b008df5-f049-4f41-953b-05c349f10d05",
-    "b211c279-71dd-44ae-b816-3d6f3d551fac",
-    "images_with_text_JNw6qi"
+    "images_with_text_JNw6qi",
+    "b211c279-71dd-44ae-b816-3d6f3d551fac"
   ]
 }
