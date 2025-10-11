@@ -489,6 +489,10 @@
     },
     "multiple_collections_NXeaYj": {
       "type": "multiple-collections",
+      "custom_css": [
+        "carousel-component,.product-card__actions,.dots-spinner,.product-card__dots-spinner-wrap {display: none !important;}",
+        "@media screen and (max-width: 768px) {carousel-component, .product-card__actions, .dots-spinner {display: block !important; }}"
+      ],
       "name": "Card decks",
       "settings": {
         "color_scheme": "default",
