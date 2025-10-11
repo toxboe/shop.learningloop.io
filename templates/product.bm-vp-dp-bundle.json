@@ -432,8 +432,8 @@
           "settings": {
             "icon": "none",
             "icon_size": 64,
-            "title": "Experiment on steroids",
-            "text": "<p>Proven psychological insights provide a strong foundation for explosive experiments.</p>",
+            "title": "Accelerate strategy",
+            "text": "<p>Use structured patterns to guide business model innovation. Each card turns complex strategy concepts into tangible, discussion-ready tools.</p>",
             "link_text": "",
             "link_url": ""
           }
@@ -443,8 +443,8 @@
           "settings": {
             "icon": "none",
             "icon_size": 64,
-            "title": "Eliminate guesswork",
-            "text": "<p>Add a behavioural lens to how you solve design problems.</p>",
+            "title": "Gain customer insight",
+            "text": "<p>Demystify research and make it straight-forward to uncover real user needs. You’ll build empathy fast and focus on what truly matters.</p>",
             "link_text": "",
             "link_url": ""
           }
@@ -454,8 +454,8 @@
           "settings": {
             "icon": "none",
             "icon_size": 64,
-            "title": "Collaborate better",
-            "text": "<p>Build a shared language and understanding and make collaboration more efficient.</p>",
+            "title": "Test with confidence",
+            "text": "<p>Embed lean startup experimentation in your workflow. Make it practical and easy to get started, so you can test ideas before scaling.</p><p></p>",
             "link_text": "",
             "link_url": ""
           }
@@ -465,8 +465,8 @@
           "settings": {
             "icon": "none",
             "icon_size": 64,
-            "title": "Fact driven development",
-            "text": "<p>Start with proven facts from psychology and apply it to your context.</p>",
+            "title": "Speak a shared language",
+            "text": "<p>Having all three decks creates a common framework across teams. Everyone, from consultants to product managers, can point to a card and align strategy with customer research and data.</p>",
             "link_text": "",
             "link_url": ""
           }
@@ -485,7 +485,7 @@
         "section_spacing_bottom": 90,
         "desktop_layout": "grid",
         "mobile_layout": "one-column-grid",
-        "title": "Enable your team to...",
+        "title": "Why this bundle matters",
         "text": "",
         "heading_size": "h2",
         "body_size": "body2",
