@@ -487,7 +487,7 @@
         "quote_6TCbVa": {
           "type": "quote",
           "settings": {
-            "text": "\"We use the Persuasive Patterns deck of cards to get people thinking about how we can leverage different techniques to increase conversions on our websites. I LOVE the line art (#58 - Self-Expression is my fav) but do wish there was a resource to see real-world applications.\"",
+            "text": "\"We use the Persuasive Patterns deck of cards to get people thinking about how we can leverage different techniques to increase conversions on our websites. I LOVE the line art (#30 - Self-Expression is my fav).",
             "author_name": "Roeland Doherty, GrowthTribe",
             "author_image": "shopify://shop_images/roeland-doherty.png",
             "rating": 0,
@@ -573,6 +573,16 @@
             "rating": 0,
             "link": ""
           }
+        },
+        "quote_eHjUw9": {
+          "type": "quote",
+          "settings": {
+            "text": "\"Typically I look for cognitive biases and how to address them with a particular pattern.\"",
+            "author_name": "Carina Marano, Design Strategist @ Visualade Inc.",
+            "author_image": "shopify://shop_images/Carina-Marano.jpg",
+            "rating": 0,
+            "link": ""
+          }
         }
       },
       "block_order": [
@@ -584,7 +594,8 @@
         "quote_i97wL6",
         "quote_NFbC4m",
         "quote_EXdthj",
-        "quote_pMCw3m"
+        "quote_pMCw3m",
+        "quote_eHjUw9"
       ],
       "name": "t:sections.testimonials_grid.preset_name",
       "settings": {
