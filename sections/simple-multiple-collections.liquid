@@ -5,6 +5,7 @@
   assign section_spacing_top = options.section_spacing_top
   assign section_spacing_bottom = options.section_spacing_bottom
   assign collection_list = options.collection_list
+  assign collection_count = collection_list | size
   assign first_collection = collection_list | first
   assign container_size = options.container_size
   assign collection_card_overlay_opacity = options.collection_card_overlay_opacity
@@ -28,8 +29,16 @@
 
   assign prepared_collection_list_placeholder = 'COLLECTION 1,COLLECTION 2,COLLECTION 3' | split: ','
   assign prepared_collection_placeholder = (1..product_limit)
-  assign has_collections = collection_list.count > 0
-  assign show_tabs = collection_list.count > 1 or has_collections == false
+
+  assign has_collections = false
+  if collection_count > 0
+    assign has_collections = true
+  endif
+
+  assign show_tabs = false
+  if collection_count > 1 or collection_count == 0
+    assign show_tabs = true
+  endif
 
   assign mobile_columns = 1
   if mobile_layout == 'two-column'
