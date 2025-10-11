@@ -434,39 +434,6 @@
         "autoplay_interval": 3
       }
     },
-    "rich_text_irMfaD": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_EKmddQ": {
-          "type": "heading",
-          "settings": {
-            "title": "From Insights to Action",
-            "heading_size": "h2"
-          }
-        },
-        "text_XMk8xQ": {
-          "type": "text",
-          "settings": {
-            "text": "<p>A complete toolkit with step-by-step guides to apply and implement with your team.</p><p><em>Hover each card to see its back side</em></p>",
-            "text_2": "",
-            "text_3": "",
-            "body_size": "body2"
-          }
-        }
-      },
-      "block_order": [
-        "heading_EKmddQ",
-        "text_XMk8xQ"
-      ],
-      "settings": {
-        "color_scheme": "default",
-        "enable_background_around_container": false,
-        "container_size": "page-width",
-        "section_spacing_top": 0,
-        "section_spacing_bottom": 0,
-        "content_align": "center"
-      }
-    },
     "testimonials_grid_9E7p9A": {
       "type": "testimonials-grid",
       "blocks": {
@@ -612,6 +579,9 @@
         "btn_url": "",
         "heading_size": "title",
         "body_size": "body-md",
+        "caption_alignment": "left",
+        "heading_alignment": "left",
+        "body_alignment": "left",
         "desktop_columns": 3,
         "desktop_space_between_cards": 24,
         "mobile_columns": "1",
@@ -622,6 +592,39 @@
         "container_size": "page-width",
         "section_spacing_top": 96,
         "section_spacing_bottom": 96
+      }
+    },
+    "rich_text_irMfaD": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_EKmddQ": {
+          "type": "heading",
+          "settings": {
+            "title": "From Insights to Action",
+            "heading_size": "h2"
+          }
+        },
+        "text_XMk8xQ": {
+          "type": "text",
+          "settings": {
+            "text": "<p>A complete toolkit with step-by-step guides to apply and implement with your team.</p><p><em>Hover each card to see its back side</em></p>",
+            "text_2": "",
+            "text_3": "",
+            "body_size": "body2"
+          }
+        }
+      },
+      "block_order": [
+        "heading_EKmddQ",
+        "text_XMk8xQ"
+      ],
+      "settings": {
+        "color_scheme": "default",
+        "enable_background_around_container": false,
+        "container_size": "page-width",
+        "section_spacing_top": 0,
+        "section_spacing_bottom": 0,
+        "content_align": "center"
       }
     },
     "custom_liquid_zwW9yF": {
@@ -1486,8 +1489,8 @@
     "e6a2dc3b-b6a3-43da-ac2e-7e6e68957a71",
     "rich_text_9rXAxA",
     "dde7c692-d8b4-4a40-9d3a-c048f605740f",
-    "rich_text_irMfaD",
     "testimonials_grid_9E7p9A",
+    "rich_text_irMfaD",
     "custom_liquid_zwW9yF",
     "35a80c75-d4b0-4340-9552-75a9f11586de",
     "0662d9b7-f318-474d-a1d7-73b91bd82677",
