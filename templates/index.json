@@ -528,7 +528,7 @@
       "type": "custom-liquid",
       "custom_css": [],
       "settings": {
-        "color_scheme": "default",
+        "color_scheme": "custom-2",
         "container_size": "medium",
         "section_spacing_top": 48,
         "section_spacing_bottom": 48,
