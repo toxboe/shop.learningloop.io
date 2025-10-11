@@ -103,7 +103,7 @@
         "container_size": "medium",
         "section_spacing_top": 32,
         "section_spacing_bottom": 90,
-        "layout": "one-column",
+        "layout": "thumbnails-bottom",
         "desktop_space_between_media": 4,
         "thumbnails_size": 88,
         "mobile_layout": "thumbnails-right",
