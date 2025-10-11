@@ -456,6 +456,40 @@
         "carousel-component,.product-card__actions,.dots-spinner,.product-card__dots-spinner-wrap {display: none !important;}",
         "@media screen and (max-width: 768px) {carousel-component, .product-card__actions, .dots-spinner {display: block !important; }}"
       ],
+      "name": "Bundles",
+      "settings": {
+        "color_scheme": "default",
+        "container_size": "medium",
+        "section_spacing_top": 90,
+        "section_spacing_bottom": 90,
+        "desktop_layout": "grid",
+        "mobile_layout": "two-column",
+        "title": "Popular bundles",
+        "heading_size": "h4",
+        "alignment": "center",
+        "collection_list": [
+          "popular-bundles"
+        ],
+        "img_ratio": "default",
+        "product_card_align": "left",
+        "cards_to_show": 28,
+        "desktop_columns": 3,
+        "desktop_space_between_cards": 32,
+        "mobile_space_between_cards": 8,
+        "show_navigation_on_hover": true,
+        "collection_card_position": "none",
+        "collection_card_content_position": "on-image-bottom",
+        "collection_card_content_align": "left",
+        "collection_card_heading_size": "h6",
+        "collection_card_show_product_count": false,
+        "collection_card_overlay_opacity": 15,
+        "autoplay_mode": "disabled",
+        "autoplay_interval": 3
+      }
+    },
+    "multiple_collections_NXeaYj": {
+      "type": "multiple-collections",
+      "name": "Card decks",
       "settings": {
         "color_scheme": "default",
         "container_size": "medium",
@@ -630,6 +664,7 @@
     "multicolumn_MAed87",
     "testimonials_grid_3byDha",
     "bdfcb69a-fe4c-45c6-bccc-aaec4c360dc5",
+    "multiple_collections_NXeaYj",
     "custom_liquid_yKQxrD",
     "001b304c-649c-41e2-a53b-7df53dae46b1",
     "742f54e3-44ed-4808-978b-f83400b0d688",
