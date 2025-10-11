@@ -297,95 +297,161 @@
         "second_button_style": "solid"
       }
     },
-    "testimonials_9K4mhN": {
-      "type": "testimonials",
+    "testimonials_grid_9E7p9B": {
+      "type": "testimonials-grid",
       "blocks": {
-        "quote_PKzPjB": {
+        "quote_7egXa3": {
           "type": "quote",
           "settings": {
-            "text": "Loving my persuasive patterns cards. Really useful inspirational tool.",
-            "author_name": "Paul Boag",
-            "author_image": "shopify://shop_images/avatar_7344054b-c48c-48f6-9ccf-42e5d24ba977.jpg",
-            "rating": 4.5,
+            "text": "\"Human behavior and psychology have a major impact on web design and user experience. The Persuasive Patterns card deck is an excellent tool for learning how to apply these principles.\"",
+            "author_name": "Mathew Graham, Head of Product @ Gigamatic",
+            "author_image": "shopify://shop_images/Mathew-Graham.jpg",
+            "rating": 5,
             "link": ""
           }
         },
-        "quote_MyEBY9": {
+        "quote_9QXJXr": {
           "type": "quote",
           "settings": {
-            "text": "We use the Persuasive Patterns deck of cards to get people thinking about how we can leverage different techniques to increase conversions on our websites. I LOVE the line art (#58 - Self-Expression is my fav) but do wish there was a resource to see real-world applications.",
-            "author_name": "Roeland Doherty - GrowthTribe",
-            "author_image": "shopify://shop_images/roeland-doherty.webp",
-            "rating": 4.5,
+            "text": "\"Persuasive Patterns has been very useful in getting around a number of UX related problems by helping to break down and distill the issues into their elemental form.\"",
+            "author_name": "Bradley Martin, Creative Director",
+            "author_image": "shopify://shop_images/Bradley-Martin.jpg",
+            "rating": 5,
             "link": ""
           }
         },
-        "quote_7aE88E": {
+        "quote_i97wL6": {
           "type": "quote",
           "settings": {
-            "text": "These cards are absolute lifesavers and a game-changer for my workflow. They pack more punch than a shelf of design-thinking books and are so easy to revisit for a refresher. Whenever things get tricky, these cards guide the way and have made a huge difference in design outcomes.\"",
-            "author_name": "Elvis Canziba",
-            "author_image": "shopify://shop_images/avatar.jpg",
-            "rating": 4.5,
+            "text": "\"These cards are simply the best format to make sure you'll integrate behavioral design in your project process.\"",
+            "author_name": "Dany Cerone, Agency Director @ botte secrète",
+            "author_image": "shopify://shop_images/Dany-Cerone.jpg",
+            "rating": 5,
             "link": ""
           }
         },
-        "quote_RMEFn8": {
+        "quote_6TCbVa": {
           "type": "quote",
           "settings": {
-            "text": "As a marketing professional, I love the deck as a quick reference for when I am stuck, a way to think of new ways to tackle a problem or gain much needed insight.",
-            "author_name": "Julie Boake - Awedity Creative Inc.",
-            "author_image": "shopify://shop_images/avatar_b5b1e4cd-801b-46f8-9f98-47ca6759a379.jpg",
-            "rating": 4.5,
+            "text": "\"The cards have been an excellent aid when working with my team. The Cognitive Dissonance card helped me explain how, in some cases, a little discomfort can motivate users to engage more effectively.\"",
+            "author_name": "Anthony Back, M.D. @ University of Washington, Medicine",
+            "author_image": "shopify://shop_images/anthony-back.jpg",
+            "rating": 5,
             "link": ""
           }
         },
-        "quote_DG88Cn": {
+        "quote_CGdnDz": {
           "type": "quote",
           "settings": {
-            "text": "Wanted to quickly shout out this Persuasive Patterns card deck I got and my favorite concept that's included - the Peak-End Rule. It's an excellent reference for keeping intended behaviors top-of-mind, and for explaining a complex concept simply to a stakeholder.",
-            "author_name": "Brett Sebbio - Lowe's",
-            "author_image": "shopify://shop_images/brett-sebbio.webp",
-            "rating": 4.5,
+            "text": "\"As a marketing professional, I love the deck as a quick reference for when I am stuck, a way to think of new ways to tackle a problem or gain much needed insight.\"",
+            "author_name": "Julie Boake, Chief Marketing Officer",
+            "author_image": "shopify://shop_images/julie_boake.jpg",
+            "rating": 5,
             "link": ""
           }
         },
-        "quote_xQqPGM": {
+        "quote_8mfmka": {
           "type": "quote",
           "settings": {
-            "text": "I have used these cards on many heuristic review projects. Design work too. It's great to have a system to flip through. \n\nThe production quality is very high - the price probably isn't considered to be low. But they are worth it. I hope there are more in the making.",
-            "author_name": "Trent Robertson",
-            "rating": 4.5,
+            "text": "\"Wanted to quickly shout out this Persuasive Patterns card deck I got and my favorite concept that's included - the Peak-End Rule. It's an excellent reference for keeping intended behaviors top-of-mind, and for explaining a complex concept simply to a stakeholder.\"",
+            "author_name": "Brett Sebbio, VP Customer Experience",
+            "author_image": "shopify://shop_images/brett-sebbio.png",
+            "rating": 5,
+            "link": ""
+          }
+        },
+        "quote_NFbC4m": {
+          "type": "quote",
+          "settings": {
+            "text": "\"The Persuasive Patterns card deck is a great possibility to get psychologically founded ideas for a digital product strategy.\"",
+            "author_name": "Paul Boag, Boagworks",
+            "author_image": "shopify://shop_images/Bjorn-Rohles.jpg",
+            "rating": 5,
+            "link": ""
+          }
+        },
+        "quote_EXdthj": {
+          "type": "quote",
+          "settings": {
+            "text": "\"We've found the Persuasive Pattern Cards to be a great tool to gather early constructive feedback from users and clients on a variety of use cases. I'd highly recommend.\"",
+            "author_name": "Wes Herzik, CDO @ Ikonic Media",
+            "author_image": "shopify://shop_images/Wes-Herzik.jpg",
+            "rating": 5,
+            "link": ""
+          }
+        },
+        "quote_CLUkxM": {
+          "type": "quote",
+          "settings": {
+            "text": "\"Many of my colleagues still need training in this area. The cards offer a solid introduction to the basics and serve as a practical, hands-on resource during projects.\"",
+            "author_name": "Ralph Langer, Senior UX Designer @ Doyle Dane Bernbach",
+            "rating": 5,
+            "link": ""
+          }
+        },
+        "quote_eHjUw9": {
+          "type": "quote",
+          "settings": {
+            "text": "\"Typically I look for cognitive biases and how to address them with a particular pattern.\"",
+            "author_name": "Carina Marano, Design Strategist @ Visualade Inc.",
+            "author_image": "shopify://shop_images/Carina-Marano.jpg",
+            "rating": 5,
+            "link": ""
+          }
+        },
+        "quote_9bRgRJ": {
+          "type": "quote",
+          "settings": {
+            "text": "“The cards gave me so many ideas that it was a bit overwhelming. But honestly, that’s the whole point.”",
+            "author_name": "Simon Mahony",
+            "rating": 5,
+            "link": ""
+          }
+        },
+        "quote_pMCw3m": {
+          "type": "quote",
+          "settings": {
+            "text": "\"Loving my persuasive patterns cards. Really useful inspirational tool.\"",
+            "author_name": "Paul Boag, Boagworks",
+            "author_image": "shopify://shop_images/paul-boag.png",
+            "rating": 5,
             "link": ""
           }
         }
       },
       "block_order": [
-        "quote_PKzPjB",
-        "quote_MyEBY9",
-        "quote_7aE88E",
-        "quote_RMEFn8",
-        "quote_DG88Cn",
-        "quote_xQqPGM"
+        "quote_7egXa3",
+        "quote_9QXJXr",
+        "quote_i97wL6",
+        "quote_6TCbVa",
+        "quote_CGdnDz",
+        "quote_8mfmka",
+        "quote_NFbC4m",
+        "quote_EXdthj",
+        "quote_CLUkxM",
+        "quote_eHjUw9",
+        "quote_9bRgRJ",
+        "quote_pMCw3m"
       ],
+      "name": "t:sections.testimonials_grid.preset_name",
       "settings": {
-        "color_scheme": "default",
-        "enable_background_around_container": false,
-        "container_size": "page-width",
-        "section_spacing_top": 61,
-        "section_spacing_bottom": 32,
-        "section_layout": "bottom-quotes",
-        "cards_per_slide": 2,
-        "quote_alignment": "left",
         "caption": "",
         "title": "",
         "text": "",
-        "heading_size": "h3",
-        "body_size": "body3",
         "btn_text": "",
         "btn_url": "",
-        "autoplay_mode": "disabled",
-        "autoplay_interval": 3
+        "heading_size": "title",
+        "body_size": "body-md",
+        "desktop_columns": 3,
+        "desktop_space_between_cards": 24,
+        "mobile_columns": "1",
+        "mobile_space_between_cards": 16,
+        "quote_alignment": "left",
+        "color_scheme": "default",
+        "enable_background_around_container": false,
+        "container_size": "page-width",
+        "section_spacing_top": 96,
+        "section_spacing_bottom": 96
       }
     },
     "e6a2dc3b-b6a3-43da-ac2e-7e6e68957a71": {
@@ -972,7 +1038,7 @@
     "rich_text_hCkiHr",
     "images_with_text_JNw6qi",
     "e6a2dc3b-b6a3-43da-ac2e-7e6e68957a71",
-    "testimonials_9K4mhN",
+    "testimonials_grid_9E7p9B",
     "0662d9b7-f318-474d-a1d7-73b91bd82677",
     "d7a5963e-c766-4f10-8cc1-5470486301a3",
     "3a9d356f-f01d-4309-bccb-3ebc6d618648",
