@@ -501,7 +501,7 @@
         "section_spacing_bottom": 90,
         "desktop_layout": "grid",
         "mobile_layout": "two-column",
-        "title": "Choose your card deck",
+        "title": "Card decks",
         "heading_size": "h4",
         "alignment": "center",
         "collection_list": [
