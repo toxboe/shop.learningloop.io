@@ -186,6 +186,39 @@
         "autoplay_interval": 3
       }
     },
+    "video_banner_mDeLRb": {
+      "type": "video-banner",
+      "name": "t:sections.video_banner.name",
+      "settings": {
+        "color_scheme": "white",
+        "enable_background_around_container": false,
+        "container_size": "full-screen",
+        "section_spacing_top": 13,
+        "section_spacing_bottom": 9,
+        "desktop_ratio": 0.4,
+        "mobile_ratio": 1.6,
+        "shopify_video": "shopify://files/videos/PP ProductHunt explainer with captions.mp4",
+        "youtube_or_vimeo_video": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "video_alt_text": "Introducing the Persuasive Patterns 4th generation",
+        "enable_autoplay": false,
+        "enable_controls": true,
+        "enable_looping": false,
+        "mute_video": false,
+        "desktop_overlay_opacity": 20,
+        "mobile_overlay_opacity": 20,
+        "subheading": "Introducing",
+        "heading": "The Persuasive Patterns",
+        "text": "<p>4th generation</p>",
+        "heading_size": "h1",
+        "body_size": "body1",
+        "desktop_content_position": "center",
+        "desktop_content_align": "center",
+        "content_width": 528,
+        "content_spacing": 116,
+        "mobile_content_position": "center",
+        "mobile_content_align": "center"
+      }
+    },
     "slideshow_WDFPMf": {
       "type": "slideshow",
       "blocks": {
@@ -1327,6 +1360,7 @@
     "ff03a7f7-70a4-4aa2-8e65-56be8e7dbefc",
     "main",
     "multicolumn_iwzUWC",
+    "video_banner_mDeLRb",
     "slideshow_WDFPMf",
     "e6a2dc3b-b6a3-43da-ac2e-7e6e68957a71",
     "rich_text_rWe4R9",
