@@ -784,7 +784,7 @@
         "color_tabs": "none",
         "container_size": "medium",
         "section_spacing_top": 52,
-        "section_spacing_bottom": 80,
+        "section_spacing_bottom": 0,
         "section_layout": "bottom-tabs",
         "expand_first_tab": true,
         "title": "Frequently Asked Questions",
@@ -794,32 +794,6 @@
         "btn_text": "",
         "btn_url": "",
         "btn_style": "solid"
-      }
-    },
-    "product-recommendations": {
-      "type": "product-recommendations",
-      "settings": {
-        "color_scheme": "default",
-        "container_size": "medium",
-        "section_spacing_top": 48,
-        "section_spacing_bottom": 48,
-        "desktop_layout": "carousel",
-        "mobile_layout": "carousel",
-        "title": "You may also like",
-        "heading_size": "h4",
-        "alignment": "center",
-        "product_recommendations_type": "auto",
-        "featured_collection": "",
-        "featured_products": [],
-        "img_ratio": "square",
-        "product_card_align": "center",
-        "cards_to_show": 18,
-        "desktop_columns": 3,
-        "desktop_space_between_cards": 20,
-        "mobile_space_between_cards": 20,
-        "show_navigation_on_hover": true,
-        "autoplay_mode": "disabled",
-        "autoplay_interval": 3
       }
     }
   },
@@ -833,7 +807,6 @@
     "35a80c75-d4b0-4340-9552-75a9f11586de",
     "0c2ed4d1-2136-4c5c-920e-482096df3899",
     "49c49a29-168e-4bf6-a3ed-38b07d0f1838",
-    "b211c279-71dd-44ae-b816-3d6f3d551fac",
-    "product-recommendations"
+    "b211c279-71dd-44ae-b816-3d6f3d551fac"
   ]
 }
