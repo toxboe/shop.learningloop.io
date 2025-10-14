@@ -614,7 +614,7 @@
         "bea85430-bb02-42b5-8f78-9d1ed74eafd3": {
           "type": "text",
           "settings": {
-            "text": "<p>With this bundle, you follow a proven, evidence-based innovation process. Rapid experimentation increases success by reducing the risk of failure.<br/><br/>Transform your innovation process – combine empathy-driven discovery with rigorous business modeling and testing, and your team will chart new paths, confidently.</p>",
+            "text": "<p>With this bundle, you follow a proven, evidence-based innovation process. Rapid experimentation increases success by reducing the risk of failure.</p>",
             "text_2": "",
             "text_3": "",
             "body_size": "body2"
@@ -631,7 +631,7 @@
         "enable_background_around_container": false,
         "container_size": "medium",
         "section_spacing_top": 0,
-        "section_spacing_bottom": 90,
+        "section_spacing_bottom": 0,
         "content_align": "center"
       }
     },
