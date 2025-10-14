@@ -192,7 +192,7 @@
       "settings": {
         "color_scheme": "white",
         "enable_background_around_container": false,
-        "container_size": "page-width",
+        "container_size": "small",
         "section_spacing_top": 13,
         "section_spacing_bottom": 9,
         "desktop_ratio": 0.7,
