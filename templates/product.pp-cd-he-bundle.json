@@ -219,118 +219,6 @@
         "mobile_content_align": "center"
       }
     },
-    "slideshow_WDFPMf": {
-      "type": "slideshow",
-      "blocks": {
-        "image_banner_YqYcwN": {
-          "type": "image-banner",
-          "settings": {
-            "color_scheme": "white",
-            "desktop_img": "shopify://shop_images/usage2.jpg",
-            "desktop_overlay_opacity": 20,
-            "mobile_overlay_opacity": 20,
-            "caption": "",
-            "title": "",
-            "text": "",
-            "heading_size": "h2",
-            "body_size": "body3",
-            "desktop_content_position": "align-items:center;justify-content:center;",
-            "desktop_content_align": "center",
-            "content_max_width": 528,
-            "content_spacing": 116,
-            "mobile_content_position": "align-items:flex-end;justify-content:center;",
-            "mobile_content_align": "center",
-            "desktop_content_background": "none",
-            "mobile_content_background": "none",
-            "btn_text": "",
-            "btn_url": "",
-            "btn_style": "solid",
-            "extra_btn_text": "",
-            "extra_btn_url": "",
-            "extra_btn_style": "solid"
-          }
-        },
-        "image_banner_L8bkxP": {
-          "type": "image-banner",
-          "settings": {
-            "color_scheme": "white",
-            "desktop_img": "shopify://shop_images/usage1.jpg",
-            "desktop_overlay_opacity": 20,
-            "mobile_overlay_opacity": 20,
-            "caption": "",
-            "title": "",
-            "text": "",
-            "heading_size": "h2",
-            "body_size": "body3",
-            "desktop_content_position": "align-items:center;justify-content:center;",
-            "desktop_content_align": "center",
-            "content_max_width": 528,
-            "content_spacing": 116,
-            "mobile_content_position": "align-items:flex-end;justify-content:center;",
-            "mobile_content_align": "center",
-            "desktop_content_background": "none",
-            "mobile_content_background": "none",
-            "btn_text": "",
-            "btn_url": "",
-            "btn_style": "solid",
-            "extra_btn_text": "",
-            "extra_btn_url": "",
-            "extra_btn_style": "solid"
-          }
-        },
-        "image_banner_qBFFcd": {
-          "type": "image-banner",
-          "settings": {
-            "color_scheme": "white",
-            "desktop_img": "shopify://shop_images/usage3.jpg",
-            "desktop_overlay_opacity": 20,
-            "mobile_overlay_opacity": 20,
-            "caption": "",
-            "title": "",
-            "text": "",
-            "heading_size": "h2",
-            "body_size": "body3",
-            "desktop_content_position": "align-items:center;justify-content:center;",
-            "desktop_content_align": "center",
-            "content_max_width": 528,
-            "content_spacing": 116,
-            "mobile_content_position": "align-items:flex-end;justify-content:center;",
-            "mobile_content_align": "center",
-            "desktop_content_background": "none",
-            "mobile_content_background": "none",
-            "btn_text": "",
-            "btn_url": "",
-            "btn_style": "solid",
-            "extra_btn_text": "",
-            "extra_btn_url": "",
-            "extra_btn_style": "solid"
-          }
-        }
-      },
-      "block_order": [
-        "image_banner_YqYcwN",
-        "image_banner_L8bkxP",
-        "image_banner_qBFFcd"
-      ],
-      "name": "t:sections.slideshow.name",
-      "settings": {
-        "color_scheme": "default",
-        "enable_background_around_container": false,
-        "container_size": "large",
-        "section_spacing_top": 38,
-        "section_spacing_bottom": 43,
-        "desktop_ratio": 0.3,
-        "mobile_ratio": 0.4,
-        "enable_circle_navigation": true,
-        "show_navigation_arrows": "on_hover",
-        "arrows_style": "corner-buttons",
-        "transition_style": "swipe",
-        "autoplay_mode": "disabled",
-        "autoplay_interval": 3,
-        "show_button_for_autoplay": true,
-        "accessibility_alt_text": "Our cards in use at team workshops"
-      }
-    },
     "e6a2dc3b-b6a3-43da-ac2e-7e6e68957a71": {
       "type": "logo-list",
       "blocks": {
@@ -1361,7 +1249,6 @@
     "main",
     "multicolumn_iwzUWC",
     "video_banner_mDeLRb",
-    "slideshow_WDFPMf",
     "e6a2dc3b-b6a3-43da-ac2e-7e6e68957a71",
     "rich_text_rWe4R9",
     "custom_liquid_WGxB6G",
