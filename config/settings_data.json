@@ -63,7 +63,7 @@
     "white_text_button_text_color": "#ffffff",
     "default_img_ratio": "square",
     "show_vendor": false,
-    "show_currency_code": false,
+    "show_currency_code": true,
     "show_color_count": false,
     "show_background": false,
     "enable_product_darken_background": false,
