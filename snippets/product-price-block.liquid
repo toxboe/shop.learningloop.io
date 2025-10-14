@@ -2,6 +2,7 @@
   assign options = block.settings
   assign show_tax_status = options.show_tax_status
   assign taxes_included = cart.taxes_included
+  assign currency_code = cart.currency.iso_code | default: shop.currency
 -%}
 
 {% capture section_background_color %}
@@ -20,9 +21,9 @@
         <div class='product-price__content' data-product-block-item>
           <div class='product-price__cost'>
             <div class='product-price__current-price {% if block.settings.highlight_sale_price and variant.compare_at_price > price %} product-price__current-price--highlight-sale{% endif %}'>
-              {{ variant.price | money }}
+              <span class='product-price__currency-code'>{{ currency_code }}</span> {{ variant.price | money }}
               {%- if variant.unit_price_measurement -%}
-                ({{ variant.unit_price | money }}
+                (<span class='product-price__currency-code'>{{ currency_code }}</span> {{ variant.unit_price | money }}
                 <span aria-hidden='true'>/</span>
                 {%- if variant.unit_price_measurement.reference_value != 1 -%}
                   {{- variant.unit_price_measurement.reference_value -}}
@@ -32,7 +33,7 @@
             </div>
             {%- if variant.compare_at_price > price -%}
               <div class='product-price__old-price  {% if block.settings.highlight_sale_price and variant.compare_at_price > price %} product-price__old-price--highlight-sale{% endif %}'>
-                {{ variant.compare_at_price | money }}
+                <span class='product-price__currency-code'>{{ currency_code }}</span> {{ variant.compare_at_price | money }}
               </div>
             {%- endif -%}
           </div>
@@ -69,9 +70,9 @@
       <div class='product-price__content' data-product-block-item>
         <div class='product-price__cost'>
           <div class='product-price__current-price {% if block.settings.highlight_sale_price and variant.compare_at_price > price %} product-price__current-price--highlight-sale{% endif %}'>
-            {{ price | money }}
+            <span class='product-price__currency-code'>{{ currency_code }}</span> {{ price | money }}
             {%- if variant.unit_price_measurement -%}
-              ({{ variant.unit_price | money }}
+              (<span class='product-price__currency-code'>{{ currency_code }}</span> {{ variant.unit_price | money }}
               <span aria-hidden='true'>/</span>
               {%- if variant.unit_price_measurement.reference_value != 1 -%}
                 {{- variant.unit_price_measurement.reference_value -}}
@@ -81,7 +82,7 @@
           </div>
           {%- if compare_at_price > price -%}
             <div class='product-price__old-price {% if block.settings.highlight_sale_price %} product-price__old-price--highlight-sale{% endif %}'>
-              {{ compare_at_price | money }}
+              <span class='product-price__currency-code'>{{ currency_code }}</span> {{ compare_at_price | money }}
             </div>
           {%- endif -%}
         </div>
