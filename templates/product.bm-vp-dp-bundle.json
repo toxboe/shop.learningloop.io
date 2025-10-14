@@ -507,6 +507,55 @@
         "autoplay_interval": 3
       }
     },
+    "rich_text_qrA4GC": {
+      "type": "rich-text",
+      "blocks": {
+        "icon_zebDxR": {
+          "type": "icon",
+          "settings": {
+            "icon": "none",
+            "icon_size": 48
+          }
+        },
+        "caption_JLjDn4": {
+          "type": "caption",
+          "settings": {
+            "caption": "The tools and frameworks you need to ..."
+          }
+        },
+        "heading_iU7tjk": {
+          "type": "heading",
+          "settings": {
+            "title": "Foster a culture of business innovation",
+            "heading_size": "h5"
+          }
+        },
+        "text_yXa9wV": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Foster a culture of innovation within your organization. Discover new business models, validate your ideas, and continuously adapt to market changes. </p><p>Drive growth and stay ahead of the competition by leveraging a systematic approach to business development and customer understanding.</p>",
+            "text_2": "<p>The tools and frameworks you need to explore diverse business opportunities, experiment with novel concepts, and refine your strategy based on real-world feedback. </p><p>By embracing continuous improvement and innovative thinking, you can create a resilient and forward-thinking business poised for long-term success.</p>",
+            "text_3": "",
+            "body_size": "body3"
+          }
+        }
+      },
+      "block_order": [
+        "icon_zebDxR",
+        "caption_JLjDn4",
+        "heading_iU7tjk",
+        "text_yXa9wV"
+      ],
+      "name": "t:sections.rich_text.name",
+      "settings": {
+        "color_scheme": "custom-2",
+        "enable_background_around_container": true,
+        "container_size": "medium",
+        "section_spacing_top": 40,
+        "section_spacing_bottom": 40,
+        "content_align": "center"
+      }
+    },
     "35a80c75-d4b0-4340-9552-75a9f11586de": {
       "type": "images-with-text",
       "blocks": {
@@ -780,6 +829,7 @@
     "multicolumn_8XDic7",
     "logo_list_gFnG84",
     "dde7c692-d8b4-4a40-9d3a-c048f605740f",
+    "rich_text_qrA4GC",
     "35a80c75-d4b0-4340-9552-75a9f11586de",
     "0c2ed4d1-2136-4c5c-920e-482096df3899",
     "49c49a29-168e-4bf6-a3ed-38b07d0f1838",
