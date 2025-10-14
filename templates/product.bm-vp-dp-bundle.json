@@ -651,7 +651,7 @@
       "settings": {
         "color_scheme": "default",
         "container_size": "medium",
-        "section_spacing_top": 90,
+        "section_spacing_top": 44,
         "section_spacing_bottom": 60,
         "content_layout": "left",
         "image_layout": "collage",
