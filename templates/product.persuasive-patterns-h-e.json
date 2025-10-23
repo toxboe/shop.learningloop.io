@@ -29,15 +29,6 @@
             "heading_size": "h2"
           }
         },
-        "price": {
-          "type": "price",
-          "settings": {
-            "price_size": "sm",
-            "show_tax_status": false,
-            "show_sale_amount_badge": true,
-            "highlight_sale_price": true
-          }
-        },
         "28586830-d855-4547-8946-94914bac9e85": {
           "type": "description",
           "settings": {
@@ -152,7 +143,6 @@
       },
       "block_order": [
         "title",
-        "price",
         "28586830-d855-4547-8946-94914bac9e85",
         "d3d427d0-4e7d-4f81-9057-c64f65a4f183",
         "quantity_selector",
@@ -626,6 +616,9 @@
         "btn_url": "",
         "heading_size": "title",
         "body_size": "body-md",
+        "caption_alignment": "left",
+        "heading_alignment": "left",
+        "body_alignment": "left",
         "desktop_columns": 3,
         "desktop_space_between_cards": 24,
         "mobile_columns": "1",
