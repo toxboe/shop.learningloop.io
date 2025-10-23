@@ -5,6 +5,18 @@
   assign primary_option_names = settings.primary_option_name | downcase | split: ','
   assign primary_option_name_downcase = blank
 
+  assign show_currency_code = options.show_currency_code
+  assign show_compare_at_price = options.show_compare_at_price
+  assign currency_code = localization.country.currency.iso_code | default: cart.currency.iso_code | default: shop.currency
+
+  if show_currency_code == blank
+    assign show_currency_code = true
+  endif
+
+  if show_compare_at_price == blank
+    assign show_compare_at_price = false
+  endif
+
   for name in primary_option_names
     assign name_striped = name | strip
     if product.options_by_name[name_striped] != blank
@@ -129,7 +141,22 @@
             </div>
             <div class='product-variant-picker__container'>
               {%- for value in option.values -%}
-                {% assign popular = product.variants[forloop.index0].metafields.custom.most_popular.value %}
+                {%- liquid
+                  assign variant = product.variants[forloop.index0]
+                  assign popular = variant.metafields.custom.most_popular.value
+                  assign variant_price = variant.price
+                  assign compare_at_price = variant.compare_at_price
+                  assign has_compare_at_price = false
+
+                  if compare_at_price and compare_at_price > variant_price and compare_at_price > 0
+                    assign has_compare_at_price = true
+                  endif
+
+                  assign formatted_price = variant_price | money_without_trailing_zeros
+                  assign formatted_price_without_currency = variant_price | money_without_currency | strip
+                  assign formatted_compare_at_price = compare_at_price | money_without_trailing_zeros
+                  assign formatted_compare_at_price_without_currency = compare_at_price | money_without_currency | strip
+                -%}
                 <label
                   for='{{ sectionId }}-{{ product.id }}-{{ option.position }}-{{ forloop.index0 }}'
                   class='product-variant-picker__option {% if option.selected_value == value %} selected {% endif %} {% if option_type == 'button-outline' %} pill--outline {% elsif option_type == 'button-solid' %} pill--solid {% elsif option_type == 'button-underline' %} pill--underline {% endif %} {% if popular %} most-popular {% endif %}'
@@ -144,9 +171,28 @@
                     <div class="product-variant-picker__option__radiobutton"></div>
                     <div class="product-variant-picker__option__details">
                       <span class='product-variant-picker__option__title'>{{ value }}</span>
-                      <span class='product-variant-picker__option__description'>{{ product.variants[forloop.index0].metafields.custom.product_label_2.value }}</span>
+                      <span class='product-variant-picker__option__description'>{{ variant.metafields.custom.product_label_2.value }}</span>
                     </div>
-                    <span class='product-variant-picker__option__price'>{{ product.variants[forloop.index0].price | money_without_trailing_zeros }}</span>
+                    <span class='product-variant-picker__option__price'>
+                      {% if show_compare_at_price and has_compare_at_price %}
+                        <span class='product-variant-picker__option__compare-price'>
+                          {% if show_currency_code and currency_code != blank %}
+                            <span class='product-variant-picker__option__currency'>{{ currency_code }}</span>
+                            {{ formatted_compare_at_price_without_currency }}
+                          {% else %}
+                            {{ formatted_compare_at_price }}
+                          {% endif %}
+                        </span>
+                      {% endif %}
+                      <span class='product-variant-picker__option__current-price'>
+                        {% if show_currency_code and currency_code != blank %}
+                          <span class='product-variant-picker__option__currency'>{{ currency_code }}</span>
+                          {{ formatted_price_without_currency }}
+                        {% else %}
+                          {{ formatted_price }}
+                        {% endif %}
+                      </span>
+                    </span>
                   </div>
                 </label>
               {%- endfor -%}

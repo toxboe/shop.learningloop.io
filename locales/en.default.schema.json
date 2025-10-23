@@ -4427,6 +4427,14 @@
         "swatches_description": {
           "content": "Assign swatches to options and adjust their syle in Theme settings>Swatches"
         },
+        "show_currency_code": {
+          "label": "Show currency code before price",
+          "info": "Displays the currency code before each variant price."
+        },
+        "show_compare_at_price": {
+          "label": "Show compare-at price",
+          "info": "Displays the compare-at price in red with a strikethrough when available."
+        },
         "information_drawer_setting_header": {
           "content": "Information drawer"
         },
