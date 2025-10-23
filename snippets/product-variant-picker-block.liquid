@@ -9,7 +9,11 @@
   assign show_compare_at_price = options.show_compare_at_price
   assign currency_code = localization.country.currency.iso_code | default: cart.currency.iso_code | default: shop.currency
 
-  if show_currency_code == blank
+  if options.show_currency_code == blank and options.show_currency_code != false
+    assign show_currency_code = settings.show_currency_code
+  endif
+
+  if show_currency_code == blank and show_currency_code != false
     assign show_currency_code = true
   endif
 
@@ -153,9 +157,7 @@
                   endif
 
                   assign formatted_price = variant_price | money_without_trailing_zeros
-                  assign formatted_price_without_currency = variant_price | money_without_currency | strip
                   assign formatted_compare_at_price = compare_at_price | money_without_trailing_zeros
-                  assign formatted_compare_at_price_without_currency = compare_at_price | money_without_currency | strip
                 -%}
                 <label
                   for='{{ sectionId }}-{{ product.id }}-{{ option.position }}-{{ forloop.index0 }}'
@@ -177,20 +179,16 @@
                       {% if show_compare_at_price and has_compare_at_price %}
                         <span class='product-variant-picker__option__compare-price'>
                           {% if show_currency_code and currency_code != blank %}
-                            <span class='product-variant-picker__option__currency'>{{ currency_code }}</span>
-                            {{ formatted_compare_at_price_without_currency }}
-                          {% else %}
-                            {{ formatted_compare_at_price }}
+                            <span class='product-variant-picker__option__currency'>{{- currency_code -}}</span>
                           {% endif %}
+                          <span class='product-variant-picker__option__amount'>{{- formatted_compare_at_price -}}</span>
                         </span>
                       {% endif %}
                       <span class='product-variant-picker__option__current-price'>
                         {% if show_currency_code and currency_code != blank %}
-                          <span class='product-variant-picker__option__currency'>{{ currency_code }}</span>
-                          {{ formatted_price_without_currency }}
-                        {% else %}
-                          {{ formatted_price }}
+                          <span class='product-variant-picker__option__currency'>{{- currency_code -}}</span>
                         {% endif %}
+                        <span class='product-variant-picker__option__amount'>{{- formatted_price -}}</span>
                       </span>
                     </span>
                   </div>
