@@ -1,1 +1,1161 @@
-{"sections":{"ff03a7f7-70a4-4aa2-8e65-56be8e7dbefc":{"type":"breadcrumbs","disabled":true,"settings":{"color_scheme":"default","container_size":"large","section_spacing_top":16,"section_spacing_bottom":0,"show_breadcrumbs_product_title":true}},"main":{"type":"product","blocks":{"title":{"type":"title","settings":{"heading_size":"h2"}},"price":{"type":"price","settings":{"price_size":"sm","show_tax_status":false,"show_sale_amount_badge":true,"highlight_sale_price":true}},"28586830-d855-4547-8946-94914bac9e85":{"type":"description","settings":{"title":"","block_style":"static","icon":"none"}},"d3d427d0-4e7d-4f81-9057-c64f65a4f183":{"type":"variant_picker","settings":{"option_type":"button-outline","primary_swatch_option_type":"button-outline","secondary_swatch_option_type":"swatches","option_name":"","information_drawer_button_label":"","text":"","page":"","image_width":60}},"quantity_selector":{"type":"quantity_selector","settings":{}},"buy_buttons":{"type":"buy_buttons","settings":{"show_dynamic_checkout":true,"enable_pickup_availability":false,"enable_gift_card":false}},"c9188b10-e29c-4c63-b385-a3faa860d64a":{"type":"information_tag","settings":{"tag_style":"solid","heading":"Digital Cards emailed after purchase","body":"","content_alignment":"left","icon":"email-outline","icon_position":"inline","tag_background_color":"#ffffff","tag_text_color":"#344454","enable_drawer":false,"drawer_text":"<p>Tell more about your product, add care instructions, country of origin, or manufacturer information.<\/p>","drawer_page":"","drawer_media_size":60}},"4eeca04a-4423-41c9-a374-7a9d970a3d59":{"type":"information_tag","disabled":true,"settings":{"tag_style":"solid","heading":"We ship to Denmark from Latvia, EU.","body":"","content_alignment":"left","icon":"fast-delivery","icon_position":"inline","tag_background_color":"#ffffff","tag_text_color":"#344454","enable_drawer":false,"drawer_text":"<p>Tell more about your product, add care instructions, country of origin, or manufacturer information.<\/p>","drawer_page":"","drawer_media_size":60}},"a1297489-7eee-44d2-9252-af8ab78ecef1":{"type":"information_tag","settings":{"tag_style":"solid","heading":"Clever product research methods that will help you uncover core user needs an assumptions.","body":"","content_alignment":"left","icon":"checkmark","icon_position":"inline","tag_background_color":"#ffffff","tag_text_color":"#344454","enable_drawer":false,"drawer_text":"<p>Tell more about your product, add care instructions, country of origin, or manufacturer information.<\/p>","drawer_page":"","drawer_media_size":60}},"shipping_tag_ieyygz":{"type":"shipping_tag","settings":{}},"6d6606d5-ae7e-4306-b3d7-67030f2e4136":{"type":"related_products","settings":{"color_scheme":"primary","show_background":false,"show_in_quick_view":false,"block_layout":"grid-with-horizontal-cards","img_ratio":"inherited","title":"Goes well with","heading_size":"h7","alignment":"left","product_recommendations_type":"manually","featured_collection":"","featured_products":["validation-patterns"],"products_to_show":10,"show_navigation_on_hover":true,"autoplay_mode":"disabled","autoplay_interval":3}}},"block_order":["title","price","28586830-d855-4547-8946-94914bac9e85","d3d427d0-4e7d-4f81-9057-c64f65a4f183","quantity_selector","buy_buttons","c9188b10-e29c-4c63-b385-a3faa860d64a","4eeca04a-4423-41c9-a374-7a9d970a3d59","a1297489-7eee-44d2-9252-af8ab78ecef1","shipping_tag_ieyygz","6d6606d5-ae7e-4306-b3d7-67030f2e4136"],"settings":{"color_scheme":"default","container_size":"medium","section_spacing_top":32,"section_spacing_bottom":90,"layout":"thumbnails-bottom","desktop_space_between_media":4,"thumbnails_size":88,"mobile_layout":"thumbnails-right","img_ratio":"square","show_only_selected_variants":false,"enable_image_zoom":true,"enable_video_looping":true,"enable_video_autoplay":true,"scale_video":true}},"e6a2dc3b-b6a3-43da-ac2e-7e6e68957a71":{"type":"logo-list","blocks":{"template--15386400456738__e6a2dc3b-b6a3-43da-ac2e-7e6e68957a71-logo-1":{"type":"logo","settings":{"image":"shopify:\/\/shop_images\/logo_google.png","image_width":100,"link":""}},"template--15386400456738__e6a2dc3b-b6a3-43da-ac2e-7e6e68957a71-logo-2":{"type":"logo","settings":{"image":"shopify:\/\/shop_images\/logo_shopify.png","image_width":100,"link":""}},"template--15386400456738__e6a2dc3b-b6a3-43da-ac2e-7e6e68957a71-logo-3":{"type":"logo","settings":{"image":"shopify:\/\/shop_images\/logo_facebook.png","image_width":100,"link":""}},"template--15386400456738__e6a2dc3b-b6a3-43da-ac2e-7e6e68957a71-logo-6":{"type":"logo","settings":{"image":"shopify:\/\/shop_images\/logo_apple.png","image_width":100,"link":""}},"template--15386400456738__e6a2dc3b-b6a3-43da-ac2e-7e6e68957a71-logo-4":{"type":"logo","settings":{"image":"shopify:\/\/shop_images\/logo_microsoft.png","image_width":100,"link":""}},"template--15386400456738__e6a2dc3b-b6a3-43da-ac2e-7e6e68957a71-logo-5":{"type":"logo","settings":{"image":"shopify:\/\/shop_images\/logo_booking-com.png","image_width":100,"link":""}},"template--15386400456738__e6a2dc3b-b6a3-43da-ac2e-7e6e68957a71-logo-7":{"type":"logo","settings":{"image":"shopify:\/\/shop_images\/logo_ubisoft.png","image_width":100,"link":""}},"template--15386400456738__e6a2dc3b-b6a3-43da-ac2e-7e6e68957a71-logo-8":{"type":"logo","settings":{"image":"shopify:\/\/shop_images\/logo_mcafee.png","image_width":100,"link":""}},"4a5e5f7c-e933-4dbe-b1bf-01b4e791667f":{"type":"logo","settings":{"image":"shopify:\/\/shop_images\/logo_autodesk.png","image_width":100,"link":""}},"9b1e4372-ad3c-4d0d-a3f4-f5edc9b124bd":{"type":"logo","settings":{"image":"shopify:\/\/shop_images\/logo_dropbox.png","image_width":100,"link":""}}},"block_order":["template--15386400456738__e6a2dc3b-b6a3-43da-ac2e-7e6e68957a71-logo-1","template--15386400456738__e6a2dc3b-b6a3-43da-ac2e-7e6e68957a71-logo-2","template--15386400456738__e6a2dc3b-b6a3-43da-ac2e-7e6e68957a71-logo-3","template--15386400456738__e6a2dc3b-b6a3-43da-ac2e-7e6e68957a71-logo-6","template--15386400456738__e6a2dc3b-b6a3-43da-ac2e-7e6e68957a71-logo-4","template--15386400456738__e6a2dc3b-b6a3-43da-ac2e-7e6e68957a71-logo-5","template--15386400456738__e6a2dc3b-b6a3-43da-ac2e-7e6e68957a71-logo-7","template--15386400456738__e6a2dc3b-b6a3-43da-ac2e-7e6e68957a71-logo-8","4a5e5f7c-e933-4dbe-b1bf-01b4e791667f","9b1e4372-ad3c-4d0d-a3f4-f5edc9b124bd"],"settings":{"color_scheme":"custom-3","container_size":"medium","section_spacing_top":90,"section_spacing_bottom":90,"desktop_layout":"grid","mobile_layout":"carousel","title":"Trusted by leading product designers at","heading_size":"h2","alignment":"center","desktop_columns":6,"desktop_space_between_cards":32,"mobile_space_between_cards":12,"show_navigation_arrows":"always","autoplay_mode":"disabled","autoplay_interval":3}},"dde7c692-d8b4-4a40-9d3a-c048f605740f":{"type":"multicolumn","blocks":{"c30fcdde-404e-46b7-8b9d-e30e4ca416a9":{"type":"column_with_icon","settings":{"icon":"none","icon_size":64,"title":"Make product discovery straightforward","text":"<p>It doesn't have to be complicated or time consuming<\/p>","link_text":"","link_url":""}},"column_with_icon_qtetjH":{"type":"column_with_icon","settings":{"icon":"none","icon_size":64,"title":"Speed up discovery","text":"<p>Get useful customer feedback in a matter of hours and days - not weeks or months.<\/p>","link_text":"","link_url":""}},"36ab52b2-e6a1-4d3a-94b7-1ff61cdc45ef":{"type":"column_with_icon","settings":{"icon":"none","icon_size":64,"title":"Go from intuition to innovation","text":"<p>Let data drive your design decisions<\/p>","link_text":"","link_url":""}},"template--15386400456738__dde7c692-d8b4-4a40-9d3a-c048f605740f-column_with_icon-1":{"type":"column_with_icon","settings":{"icon":"none","icon_size":64,"title":"Turn insights into decisions","text":"<p>Use the bundled workshop exercises to focus in on what matters<\/p>","link_text":"","link_url":""}},"5df10a33-b18b-4e99-bc48-6ce55dc3c935":{"type":"column_with_icon","settings":{"icon":"none","icon_size":64,"title":"Breakthrough creative blocks","text":"<p>Generate a wealth of diverse ideas that will propel your product forward. pen_spark<\/p>","link_text":"","link_url":""}},"column_with_icon_iDkCyF":{"type":"column_with_icon","settings":{"icon":"none","icon_size":64,"title":"Gain critical insights, even on a budget","text":"<p>Match your level of uncertainty with how product discovery investment. <\/p>","link_text":"","link_url":""}}},"block_order":["c30fcdde-404e-46b7-8b9d-e30e4ca416a9","column_with_icon_qtetjH","36ab52b2-e6a1-4d3a-94b7-1ff61cdc45ef","template--15386400456738__dde7c692-d8b4-4a40-9d3a-c048f605740f-column_with_icon-1","5df10a33-b18b-4e99-bc48-6ce55dc3c935","column_with_icon_iDkCyF"],"settings":{"color_scheme":"default","container_size":"medium","section_spacing_top":90,"section_spacing_bottom":90,"desktop_layout":"grid","mobile_layout":"one-column-grid","title":"Enable your team to...","text":"","heading_size":"h2","body_size":"body2","content_alignment":"center","column_heading_size":"h5","column_body_size":"body2","column_alignment":"center","desktop_columns":2,"desktop_space_between_cards":0,"desktop_content_spacing":0,"mobile_space_between_cards":16,"mobile_content_spacing":24,"show_column_background":false,"show_navigation_on_hover":true,"btn_text":"","btn_url":"","btn_style":"outline","autoplay_mode":"disabled","autoplay_interval":3}},"multicolumn_wxji3i":{"type":"multicolumn","blocks":{"column_with_icon_DUmnrA":{"type":"column_with_icon","settings":{"icon":"checkmark","custom_icon_image":"shopify:\/\/shop_images\/method-some-listening.png","icon_size":164,"title":"Research method","text":"<p>Social Media Listening<\/p>","link_text":"","link_url":""}},"column_with_icon_4jQcPM":{"type":"column_with_icon","settings":{"icon":"checkmark","custom_icon_image":"shopify:\/\/shop_images\/method-discovery-program.png","icon_size":164,"title":"Research method","text":"<p>Customer Discovery Program<\/p>","link_text":"","link_url":""}},"column_with_icon_rJijt7":{"type":"column_with_icon","settings":{"icon":"checkmark","custom_icon_image":"shopify:\/\/shop_images\/exercise_-_opp-tree.png","icon_size":164,"title":"Workshop exercise","text":"<p>Opportunity Solution Tree Mapping<\/p>","link_text":"","link_url":""}},"column_with_icon_JpLJVK":{"type":"column_with_icon","settings":{"icon":"checkmark","custom_icon_image":"shopify:\/\/shop_images\/best-practise-facts-opinions.png","icon_size":164,"title":"Best Practice","text":"<p>Facts over opinions<\/p>","link_text":"","link_url":""}}},"block_order":["column_with_icon_DUmnrA","column_with_icon_4jQcPM","column_with_icon_rJijt7","column_with_icon_JpLJVK"],"settings":{"color_scheme":"secondary","container_size":"medium","section_spacing_top":90,"section_spacing_bottom":60,"desktop_layout":"grid","mobile_layout":"one-column-grid","title":"Clever product research methods and exercises","text":"Imagine being able to uncover valuable insights from your customers in a matter of hours. Not weeks or months.","heading_size":"h2","body_size":"body2","content_alignment":"center","column_heading_size":"h7","column_body_size":"body4","column_alignment":"center","desktop_columns":4,"desktop_space_between_cards":20,"desktop_content_spacing":25,"mobile_space_between_cards":16,"mobile_content_spacing":24,"show_column_background":false,"show_navigation_on_hover":false,"btn_text":"","btn_url":"","btn_style":"outline","autoplay_mode":"disabled","autoplay_interval":3}},"2ed17851-e2d9-4b4b-990c-3df8599c3b8e":{"type":"testimonials","blocks":{"71628dc5-be30-438d-a4f3-da1da60e0eaf":{"type":"quote","settings":{"text":"\"Bought these great cards a while ago. They are excellent to improve skills of the overall team and helped us to speak the same language!\"","author_name":"Viki Kavallari - Senior Product Designer, Klarna","author_image":"shopify:\/\/shop_images\/viki-kavallari.png","rating":4.5,"link":""}},"template--15386400456738__2ed17851-e2d9-4b4b-990c-3df8599c3b8e-quote-1":{"type":"quote","settings":{"text":"\"I have used these cards on many heuristic review projects. Design work too. It's great to have a system to flip through. The production quality is very high - the price probably isn't considered to be low. But they are worth it. I hope there are more in the making.\"","author_name":"Trent Robertson - Design Strategist, Ruby Red Frog","author_image":"shopify:\/\/shop_images\/trent-robertson.jpg","rating":4.5,"link":""}},"526eb9a6-a7ba-402c-9365-3cde4d74d8af":{"type":"quote","settings":{"text":"\"Only looked through a few of the cards [...], but already got ideas for ways to improve our user research and testing process\"","author_name":"Christoffer Hauthorn - Head of Product, Emplate","author_image":"shopify:\/\/shop_images\/brett-sebbio.png","rating":4.5,"link":""}}},"block_order":["71628dc5-be30-438d-a4f3-da1da60e0eaf","template--15386400456738__2ed17851-e2d9-4b4b-990c-3df8599c3b8e-quote-1","526eb9a6-a7ba-402c-9365-3cde4d74d8af"],"disabled":true,"custom_css":[".quote__text--large {font-weight: 400; font-style: italic;}"],"settings":{"color_scheme":"custom-3","enable_background_around_container":false,"container_size":"large","section_spacing_top":60,"section_spacing_bottom":60,"section_layout":"bottom-quotes","cards_per_slide":1,"quote_alignment":"center","caption":"","title":"","text":"","heading_size":"h3","body_size":"body3","btn_text":"","btn_url":"","autoplay_mode":"one_at_time","autoplay_interval":3}},"35a80c75-d4b0-4340-9552-75a9f11586de":{"type":"images-with-text","blocks":{"template--16729789563121__35a80c75-d4b0-4340-9552-75a9f11586de-1681824353e40c4786-0":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/product-discovery-patterns-all-cards.png"}}},"block_order":["template--16729789563121__35a80c75-d4b0-4340-9552-75a9f11586de-1681824353e40c4786-0"],"settings":{"color_scheme":"default","container_size":"medium","section_spacing_top":48,"section_spacing_bottom":76,"content_layout":"right","image_layout":"collage","img_ratio":1.1,"rotate_images":false,"icon":"none","subheading":"","heading":"Design","body":"<h6><strong>Clear language<\/strong><\/h6><p>Make sense of complex design research with concise and actionable methods.<\/p><p>The academic complexities of what constitutes good research have been transformed into understandable, concise, and digestible product experiments that has proven to work time and time again.<\/p><h6><strong>Supercharge your ideas<\/strong><\/h6><p>Learn how to both validate and build on your ideas with strong customer insights by exploring connected product experiments.<\/p><h6><strong>Memorable illustrations<\/strong><\/h6><p>Hand-drawn illustrations by artist Annesofie Sandal provide engaging metaphors to reinforce learning.<\/p>","heading_size":"h2","body_size":"body3","content_alignment":"left","desktop_content_width":440,"first_button_text":"Buy now","first_button_link":"","first_button_style":"solid","second_button_text":"","second_button_link":"","second_button_style":"solid"}},"d7a5963e-c766-4f10-8cc1-5470486301a3":{"type":"multicolumn","blocks":{"6f3f5535-cb5f-45ac-b7d6-fabfd4ab3dcf":{"type":"column_with_icon","settings":{"icon":"checkmark","custom_icon_image":"shopify:\/\/shop_images\/Group_1.png","icon_size":46,"title":"Start with the most critical assumption","text":"<p>If that isn't true, then nothing else matters<\/p>","link_text":"","link_url":""}},"ff8e288f-f9e3-4561-a24d-16d72749ffa1":{"type":"column_with_icon","settings":{"icon":"checkmark","custom_icon_image":"shopify:\/\/shop_images\/Group_2.png","icon_size":46,"title":"Discover problems before solutions","text":"<p>Prioritize discovery over premature solution validation<\/p>","link_text":"","link_url":""}},"0d2961c6-65b3-496a-9cf2-6e1d2a58063b":{"type":"column_with_icon","settings":{"icon":"checkmark","custom_icon_image":"shopify:\/\/shop_images\/Group_3.png","icon_size":46,"title":"Make it a Habit","text":"<p>You need insights while you are making decisions, not after<\/p>","link_text":"","link_url":""}},"1ef4b9a4-03d3-45b2-b1a8-9a83538ddb6b":{"type":"column_with_icon","settings":{"icon":"checkmark","custom_icon_image":"shopify:\/\/shop_images\/Group_4.png","icon_size":46,"title":"Match fidelity with certainty","text":"<p>Don't search a hay stack using a microscope.<\/p>","link_text":"","link_url":""}}},"block_order":["6f3f5535-cb5f-45ac-b7d6-fabfd4ab3dcf","ff8e288f-f9e3-4561-a24d-16d72749ffa1","0d2961c6-65b3-496a-9cf2-6e1d2a58063b","1ef4b9a4-03d3-45b2-b1a8-9a83538ddb6b"],"settings":{"color_scheme":"secondary","container_size":"medium","section_spacing_top":90,"section_spacing_bottom":19,"desktop_layout":"grid","mobile_layout":"one-column-grid","title":"Product discovery doesn't have to be daunting","text":"Real product discovery does not have to be complicated and time-consuming.","heading_size":"h2","body_size":"body2","content_alignment":"center","column_heading_size":"h7","column_body_size":"body4","column_alignment":"center","desktop_columns":4,"desktop_space_between_cards":24,"desktop_content_spacing":24,"mobile_space_between_cards":16,"mobile_content_spacing":24,"show_column_background":true,"show_navigation_on_hover":true,"btn_text":"","btn_url":"","btn_style":"outline","autoplay_mode":"disabled","autoplay_interval":3}},"multicolumn_8UXrVD":{"type":"multicolumn","settings":{"color_scheme":"secondary","container_size":"medium","section_spacing_top":13,"section_spacing_bottom":60,"desktop_layout":"grid","mobile_layout":"one-column-grid","title":"","text":"<em>The card deck includes a set of step-by-step exercises guiding you from insight to action – and a set of best practices teaching you the mindset needed to not end up in analysis paralysis or breaking the budget.<\/em>","heading_size":"h2","body_size":"body2","content_alignment":"center","column_heading_size":"h7","column_body_size":"body4","column_alignment":"center","desktop_columns":4,"desktop_space_between_cards":24,"desktop_content_spacing":24,"mobile_space_between_cards":16,"mobile_content_spacing":24,"show_column_background":true,"show_navigation_on_hover":true,"btn_text":"","btn_url":"","btn_style":"outline","autoplay_mode":"disabled","autoplay_interval":3}},"5b008df5-f049-4f41-953b-05c349f10d05":{"type":"multicolumn","settings":{"color_scheme":"default","container_size":"medium","section_spacing_top":90,"section_spacing_bottom":60,"desktop_layout":"grid","mobile_layout":"one-column-grid","title":"De-risk product decisions","text":"Quickly and efficiently gather user feedback to ensure you're on the right track.","heading_size":"h2","body_size":"body3","content_alignment":"center","column_heading_size":"h7","column_body_size":"body4","column_alignment":"center","desktop_columns":3,"desktop_space_between_cards":24,"desktop_content_spacing":24,"mobile_space_between_cards":16,"mobile_content_spacing":24,"show_column_background":true,"show_navigation_on_hover":true,"btn_text":"","btn_url":"","btn_style":"outline","autoplay_mode":"disabled","autoplay_interval":3}},"f768b115-1f18-47e5-956e-b96e827df3ed":{"type":"images-with-text","blocks":{"91674a81-23eb-40b8-a782-230a65d5efd3":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/on_table_discovery.png"}}},"block_order":["91674a81-23eb-40b8-a782-230a65d5efd3"],"settings":{"color_scheme":"default","container_size":"medium","section_spacing_top":0,"section_spacing_bottom":0,"content_layout":"right","image_layout":"collage","img_ratio":1,"rotate_images":false,"icon":"none","subheading":"","heading":"Product & Design","body":"<h6>De-risk success<\/h6><p>Avoid humiliating launches by making sure there is an actual demand for what you are building.<\/p><h6>Create your own data<\/h6><p>Questions before data. Create the data you need to answer your existing questions rather than starting by looking at existing data to see what questions you can answer.<\/p><h6>Build with confidence<\/h6><p>Make informed design decisions based on real user data.<\/p>","heading_size":"h4","body_size":"body3","content_alignment":"left","desktop_content_width":540,"first_button_text":"","first_button_link":"","first_button_style":"solid","second_button_text":"","second_button_link":"","second_button_style":"solid"}},"85a65abe-e978-425c-878e-fbcfd5a51e80":{"type":"images-with-text","blocks":{"22463531-4c4e-45e9-8cef-cd761613d94b":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/environment_shot_4.png"}}},"block_order":["22463531-4c4e-45e9-8cef-cd761613d94b"],"settings":{"color_scheme":"default","container_size":"medium","section_spacing_top":60,"section_spacing_bottom":60,"content_layout":"right","image_layout":"collage","img_ratio":1.1,"rotate_images":false,"icon":"none","subheading":"","heading":"Marketing","body":"<h6>Drive conversions<\/h6><p>Learn exactly what triggers a purchase rather than blinding yourself with overwhelming analytics.<\/p><h6>Test before spending<\/h6><p>Test your value propositions before running ads with them to ensure a message match between the service you are offering and what your customers need.<\/p><h6>Test comprehension<\/h6><p>Make sure your target segments actually understand what your proposition.<\/p>","heading_size":"h4","body_size":"body3","content_alignment":"left","desktop_content_width":540,"first_button_text":"","first_button_link":"","first_button_style":"solid","second_button_text":"","second_button_link":"","second_button_style":"solid"}},"1971f6a0-4fc9-4946-88d7-d6bc12a9b811":{"type":"images-with-text","blocks":{"4ae71525-1b6d-4031-a8bb-e6aad58faa29":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/Top_3.png"}}},"block_order":["4ae71525-1b6d-4031-a8bb-e6aad58faa29"],"settings":{"color_scheme":"default","container_size":"medium","section_spacing_top":48,"section_spacing_bottom":90,"content_layout":"right","image_layout":"collage","img_ratio":1.1,"rotate_images":false,"icon":"none","subheading":"","heading":"Strategy & planning","body":"<h6>Sharpen your portfolio and backlog<\/h6><p>Only work on projects and features that matters, delivers results, and is proven to have impact.<\/p><h6>Data-informed decisions<\/h6><p>Don’t only trust your gut feeling. Rely on real data to move your organization forward.<\/p><h6>Continuous Discovery<\/h6><p>Experimentation is hard to get started. Validation Patterns makes it practical and easy to get started.<\/p>","heading_size":"h4","body_size":"body3","content_alignment":"left","desktop_content_width":540,"first_button_text":"","first_button_link":"","first_button_style":"solid","second_button_text":"","second_button_link":"","second_button_style":"solid"}},"b8ed0e59-c597-4d91-a2f9-c1b6740b1bf1":{"type":"multicolumn","settings":{"color_scheme":"secondary","container_size":"medium","section_spacing_top":90,"section_spacing_bottom":90,"desktop_layout":"grid","mobile_layout":"one-column-grid","title":"Don't get stuck in the \"idea soup\"","text":"Intuition and guesswork can only take you so far. Traditional research methods can be time-consuming and expensive. <strong>Unearth user needs and ignite design inspiration<\/strong>.","heading_size":"h2","body_size":"body2","content_alignment":"center","column_heading_size":"h7","column_body_size":"body4","column_alignment":"center","desktop_columns":3,"desktop_space_between_cards":24,"desktop_content_spacing":24,"mobile_space_between_cards":16,"mobile_content_spacing":24,"show_column_background":true,"show_navigation_on_hover":true,"btn_text":"","btn_url":"","btn_style":"outline","autoplay_mode":"disabled","autoplay_interval":3}},"cef8706b-fe23-4795-9ef3-11ca2eb8f8e3":{"type":"images-with-text","blocks":{"aa7f9fb0-7d6b-4afc-9d79-b92f8aad73cb":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/environment_1_21c5d0db-965d-49aa-839f-cab389475af1.png"}}},"block_order":["aa7f9fb0-7d6b-4afc-9d79-b92f8aad73cb"],"settings":{"color_scheme":"default","container_size":"medium","section_spacing_top":90,"section_spacing_bottom":0,"content_layout":"right","image_layout":"collage","img_ratio":0.8,"rotate_images":false,"icon":"none","subheading":"","heading":"Evergreen content","body":"<p>The product research methods in the deck have been tested and trusted by product teams worldwide at companies like Spotify, Booking.com, Facebook, Amazon, and Google and recommended by top universities like Havard, MIT, and Stanford.<\/p>","heading_size":"h2","body_size":"body2","content_alignment":"left","desktop_content_width":540,"first_button_text":"","first_button_link":"","first_button_style":"solid","second_button_text":"","second_button_link":"","second_button_style":"solid"}},"1e590e7c-d880-41a0-a758-93f6b3de66f5":{"type":"images-with-text","blocks":{"96d9468a-388a-4df3-860a-00a1419fd126":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/gradient_discovery.png"}}},"block_order":["96d9468a-388a-4df3-860a-00a1419fd126"],"settings":{"color_scheme":"default","container_size":"medium","section_spacing_top":48,"section_spacing_bottom":90,"content_layout":"right","image_layout":"collage","img_ratio":0.9,"rotate_images":false,"icon":"none","subheading":"","heading":"Tangibly big","body":"<p>The Discovery Patterns card deck is designed to let its physical qualities reflect the weight of its content. It's heavy. It's intentionally big in your hand. It's smooth to touch and easy on your eyes.<\/p><p>In the age of remote, we believe in the power of physical.<\/p>","heading_size":"h2","body_size":"body2","content_alignment":"left","desktop_content_width":540,"first_button_text":"","first_button_link":"","first_button_style":"solid","second_button_text":"","second_button_link":"","second_button_style":"solid"}},"49c49a29-168e-4bf6-a3ed-38b07d0f1838":{"type":"images-with-text","blocks":{"805f2cb1-797a-4798-adc8-c77dee89eb53":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/discovery-patterns-product-images-small_31c1ffe8-55e5-4ff3-a43a-ceade6b325d1.png"}}},"block_order":["805f2cb1-797a-4798-adc8-c77dee89eb53"],"settings":{"color_scheme":"custom-3","container_size":"medium","section_spacing_top":90,"section_spacing_bottom":90,"content_layout":"left","image_layout":"collage","img_ratio":1,"rotate_images":false,"icon":"none","subheading":"","heading":"Don't work in the blind","body":"<p>The Discovery Patterns Card Deck helps you generate research insights to avoid misguided design choices.<\/p>","heading_size":"h2","body_size":"body2","content_alignment":"left","desktop_content_width":540,"first_button_text":"Shop now","first_button_link":"","first_button_style":"solid","second_button_text":"","second_button_link":"","second_button_style":"solid"}},"b211c279-71dd-44ae-b816-3d6f3d551fac":{"type":"faq","blocks":{"template--15386400456738__b211c279-71dd-44ae-b816-3d6f3d551fac-question-1":{"type":"question","settings":{"title":"Can I get the Discovery Patterns for my entire team?","icon":"none","text":"<p>Yes! We offer team discounts when buying in bundle with any of our other card decks.<\/p><p>Get in touch at <a href=\"mailto:info@ui-patterns.com\">info@learningloop.io<\/a><\/p>","page":"","image_width":100}},"template--15386400456738__b211c279-71dd-44ae-b816-3d6f3d551fac-question-2":{"type":"question","settings":{"title":"Do you do discounts for educational institutions, students, or non profits?","icon":"none","text":"<p>We do! Get in touch at <a href=\"mailto:info@ui-patterns.com\">info@learningloop.io<\/a>with your credentials (non-profit status or student ID) and we will arrange a discount for you.<\/p>","page":"","image_width":100}},"template--15386400456738__b211c279-71dd-44ae-b816-3d6f3d551fac-question-3":{"type":"question","settings":{"title":"When and how do I receive my digital cards?","icon":"none","text":"<p>The digital cards are emailed to you immediately after your checkout. If it does not show up, then please check your spam folder.<\/p><p>You can also download the cards by logging into your account. If you forgot your password, you can set a new one by using the email address you bought the card deck with.<\/p>","page":"","image_width":100}},"f8ac65b5-fb9d-403b-afe7-b5bb1d280a63":{"type":"question","settings":{"title":"Will the digital cards work with my software?","icon":"none","text":"<p>The digital cards are compatible with <em>Miro, Mural, FigJam, Powerpoint, Keynote, Jamboard, Whiteboard<\/em> – in theory any software that allows you to insert images. The digital cards come in both a lightweight PDF and JPEG images of each card.<\/p>","page":"","image_width":100}},"7b59e4cf-b4a8-4aec-917f-fd99776858d4":{"type":"question","settings":{"title":"Do you ship to my country?","icon":"none","text":"<p>We ship to most countries in the world. If you want to be sure, then our checkout flow will let you know if we ship to your country.<\/p>","page":"","image_width":100}},"b7f706fb-598a-48a3-aa33-b4be3eee3431":{"type":"question","settings":{"title":"How long does shipping take?","icon":"none","text":"<p>We have fulfilment centers in the US and in Europe (Latvia). North America and Europe ship within days. Countries within Asia, Africa, and South America can take a few weeks. We show the estimated time from the courier on the checkout page.<\/p>","page":"","image_width":100}},"cb93e254-36d4-446b-8233-9b8790259287":{"type":"question","settings":{"title":"Will there be customs charges on my order?","icon":"none","text":"<p>If you are ordering outside of Europe or North America, customs charges should be minimal, if non-existant as we declare the cost price of the physical deck, not the full retail price of everything (Digital Cards, etc).<\/p>","page":"","image_width":100}},"3a377a13-d071-41bf-aea2-689ec6378cf1":{"type":"question","settings":{"title":"Can you send an invoice?","icon":"none","text":"<p>Of course. We will automatically email you an invoice after making a purchase. Watch your spam folder as the PDF file attached have a tendency to get stuck there.<\/p>","page":"","image_width":100}},"8b7bf7ac-f2d4-4fbb-bdca-565ac4a5c1b8":{"type":"question","settings":{"title":"Can I track the package?","icon":"none","text":"<p>Yes. We will automatically email you a tracking link once your package has left the warehouse. Depending on the time and day, this can some times be the next business day in the local timezone of our fulfilment center.<\/p><p>If you do not receive the tracking link in your email inbox, then please check your spam folder.<\/p>","page":"","image_width":100}}},"block_order":["template--15386400456738__b211c279-71dd-44ae-b816-3d6f3d551fac-question-1","template--15386400456738__b211c279-71dd-44ae-b816-3d6f3d551fac-question-2","template--15386400456738__b211c279-71dd-44ae-b816-3d6f3d551fac-question-3","f8ac65b5-fb9d-403b-afe7-b5bb1d280a63","7b59e4cf-b4a8-4aec-917f-fd99776858d4","b7f706fb-598a-48a3-aa33-b4be3eee3431","cb93e254-36d4-446b-8233-9b8790259287","3a377a13-d071-41bf-aea2-689ec6378cf1","8b7bf7ac-f2d4-4fbb-bdca-565ac4a5c1b8"],"settings":{"color_scheme":"custom-3","enable_background_around_container":false,"color_tabs":"none","container_size":"medium","section_spacing_top":90,"section_spacing_bottom":80,"section_layout":"bottom-tabs","expand_first_tab":true,"title":"Frequently Asked Questions","text":"","heading_size":"h5","body_size":"body3","btn_text":"","btn_url":"","btn_style":"solid"}},"product-recommendations":{"type":"product-recommendations","settings":{"color_scheme":"default","container_size":"medium","section_spacing_top":48,"section_spacing_bottom":48,"desktop_layout":"carousel","mobile_layout":"carousel","title":"You may also like","heading_size":"h4","alignment":"center","product_recommendations_type":"auto","featured_collection":"","featured_products":[],"img_ratio":"square","product_card_align":"center","cards_to_show":18,"desktop_columns":3,"desktop_space_between_cards":20,"mobile_space_between_cards":20,"show_navigation_on_hover":true,"autoplay_mode":"disabled","autoplay_interval":3}}},"order":["ff03a7f7-70a4-4aa2-8e65-56be8e7dbefc","main","e6a2dc3b-b6a3-43da-ac2e-7e6e68957a71","dde7c692-d8b4-4a40-9d3a-c048f605740f","multicolumn_wxji3i","2ed17851-e2d9-4b4b-990c-3df8599c3b8e","35a80c75-d4b0-4340-9552-75a9f11586de","d7a5963e-c766-4f10-8cc1-5470486301a3","multicolumn_8UXrVD","5b008df5-f049-4f41-953b-05c349f10d05","f768b115-1f18-47e5-956e-b96e827df3ed","85a65abe-e978-425c-878e-fbcfd5a51e80","1971f6a0-4fc9-4946-88d7-d6bc12a9b811","b8ed0e59-c597-4d91-a2f9-c1b6740b1bf1","cef8706b-fe23-4795-9ef3-11ca2eb8f8e3","1e590e7c-d880-41a0-a758-93f6b3de66f5","49c49a29-168e-4bf6-a3ed-38b07d0f1838","b211c279-71dd-44ae-b816-3d6f3d551fac","product-recommendations"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "ff03a7f7-70a4-4aa2-8e65-56be8e7dbefc": {
+      "type": "breadcrumbs",
+      "disabled": true,
+      "settings": {
+        "color_scheme": "default",
+        "container_size": "large",
+        "section_spacing_top": 16,
+        "section_spacing_bottom": 0,
+        "show_breadcrumbs_product_title": true
+      }
+    },
+    "main": {
+      "type": "product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h2"
+          }
+        },
+        "28586830-d855-4547-8946-94914bac9e85": {
+          "type": "description",
+          "settings": {
+            "title": "",
+            "block_style": "static",
+            "icon": "none"
+          }
+        },
+        "d3d427d0-4e7d-4f81-9057-c64f65a4f183": {
+          "type": "variant_picker",
+          "settings": {
+            "option_type": "button-outline",
+            "primary_swatch_option_type": "button-outline",
+            "secondary_swatch_option_type": "swatches",
+            "option_name": "",
+            "information_drawer_button_label": "",
+            "text": "",
+            "page": "",
+            "image_width": 60
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "enable_pickup_availability": false,
+            "enable_gift_card": false
+          }
+        },
+        "c9188b10-e29c-4c63-b385-a3faa860d64a": {
+          "type": "information_tag",
+          "settings": {
+            "tag_style": "solid",
+            "heading": "Digital Cards emailed after purchase",
+            "body": "",
+            "content_alignment": "left",
+            "icon": "email-outline",
+            "icon_position": "inline",
+            "tag_background_color": "#ffffff",
+            "tag_text_color": "#344454",
+            "enable_drawer": false,
+            "drawer_text": "<p>Tell more about your product, add care instructions, country of origin, or manufacturer information.</p>",
+            "drawer_page": "",
+            "drawer_media_size": 60
+          }
+        },
+        "4eeca04a-4423-41c9-a374-7a9d970a3d59": {
+          "type": "information_tag",
+          "disabled": true,
+          "settings": {
+            "tag_style": "solid",
+            "heading": "We ship to Denmark from Latvia, EU.",
+            "body": "",
+            "content_alignment": "left",
+            "icon": "fast-delivery",
+            "icon_position": "inline",
+            "tag_background_color": "#ffffff",
+            "tag_text_color": "#344454",
+            "enable_drawer": false,
+            "drawer_text": "<p>Tell more about your product, add care instructions, country of origin, or manufacturer information.</p>",
+            "drawer_page": "",
+            "drawer_media_size": 60
+          }
+        },
+        "a1297489-7eee-44d2-9252-af8ab78ecef1": {
+          "type": "information_tag",
+          "settings": {
+            "tag_style": "solid",
+            "heading": "Clever product research methods that will help you uncover core user needs an assumptions.",
+            "body": "",
+            "content_alignment": "left",
+            "icon": "checkmark",
+            "icon_position": "inline",
+            "tag_background_color": "#ffffff",
+            "tag_text_color": "#344454",
+            "enable_drawer": false,
+            "drawer_text": "<p>Tell more about your product, add care instructions, country of origin, or manufacturer information.</p>",
+            "drawer_page": "",
+            "drawer_media_size": 60
+          }
+        },
+        "shipping_tag_ieyygz": {
+          "type": "shipping_tag",
+          "settings": {}
+        },
+        "6d6606d5-ae7e-4306-b3d7-67030f2e4136": {
+          "type": "related_products",
+          "settings": {
+            "color_scheme": "primary",
+            "show_background": false,
+            "show_in_quick_view": false,
+            "block_layout": "grid-with-horizontal-cards",
+            "img_ratio": "inherited",
+            "title": "Goes well with",
+            "heading_size": "h7",
+            "alignment": "left",
+            "product_recommendations_type": "manually",
+            "featured_collection": "",
+            "featured_products": [
+              "validation-patterns"
+            ],
+            "products_to_show": 10,
+            "show_navigation_on_hover": true,
+            "autoplay_mode": "disabled",
+            "autoplay_interval": 3
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "28586830-d855-4547-8946-94914bac9e85",
+        "d3d427d0-4e7d-4f81-9057-c64f65a4f183",
+        "quantity_selector",
+        "buy_buttons",
+        "c9188b10-e29c-4c63-b385-a3faa860d64a",
+        "4eeca04a-4423-41c9-a374-7a9d970a3d59",
+        "a1297489-7eee-44d2-9252-af8ab78ecef1",
+        "shipping_tag_ieyygz",
+        "6d6606d5-ae7e-4306-b3d7-67030f2e4136"
+      ],
+      "settings": {
+        "color_scheme": "default",
+        "container_size": "medium",
+        "section_spacing_top": 32,
+        "section_spacing_bottom": 90,
+        "layout": "thumbnails-bottom",
+        "desktop_space_between_media": 4,
+        "thumbnails_size": 88,
+        "mobile_layout": "thumbnails-right",
+        "img_ratio": "square",
+        "show_only_selected_variants": false,
+        "enable_image_zoom": true,
+        "enable_video_looping": true,
+        "enable_video_autoplay": true,
+        "scale_video": true
+      }
+    },
+    "e6a2dc3b-b6a3-43da-ac2e-7e6e68957a71": {
+      "type": "logo-list",
+      "blocks": {
+        "template--15386400456738__e6a2dc3b-b6a3-43da-ac2e-7e6e68957a71-logo-1": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/logo_google.png",
+            "image_width": 100,
+            "link": ""
+          }
+        },
+        "template--15386400456738__e6a2dc3b-b6a3-43da-ac2e-7e6e68957a71-logo-2": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/logo_shopify.png",
+            "image_width": 100,
+            "link": ""
+          }
+        },
+        "template--15386400456738__e6a2dc3b-b6a3-43da-ac2e-7e6e68957a71-logo-3": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/logo_facebook.png",
+            "image_width": 100,
+            "link": ""
+          }
+        },
+        "template--15386400456738__e6a2dc3b-b6a3-43da-ac2e-7e6e68957a71-logo-6": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/logo_apple.png",
+            "image_width": 100,
+            "link": ""
+          }
+        },
+        "template--15386400456738__e6a2dc3b-b6a3-43da-ac2e-7e6e68957a71-logo-4": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/logo_microsoft.png",
+            "image_width": 100,
+            "link": ""
+          }
+        },
+        "template--15386400456738__e6a2dc3b-b6a3-43da-ac2e-7e6e68957a71-logo-5": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/logo_booking-com.png",
+            "image_width": 100,
+            "link": ""
+          }
+        },
+        "template--15386400456738__e6a2dc3b-b6a3-43da-ac2e-7e6e68957a71-logo-7": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/logo_ubisoft.png",
+            "image_width": 100,
+            "link": ""
+          }
+        },
+        "template--15386400456738__e6a2dc3b-b6a3-43da-ac2e-7e6e68957a71-logo-8": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/logo_mcafee.png",
+            "image_width": 100,
+            "link": ""
+          }
+        },
+        "4a5e5f7c-e933-4dbe-b1bf-01b4e791667f": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/logo_autodesk.png",
+            "image_width": 100,
+            "link": ""
+          }
+        },
+        "9b1e4372-ad3c-4d0d-a3f4-f5edc9b124bd": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/logo_dropbox.png",
+            "image_width": 100,
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15386400456738__e6a2dc3b-b6a3-43da-ac2e-7e6e68957a71-logo-1",
+        "template--15386400456738__e6a2dc3b-b6a3-43da-ac2e-7e6e68957a71-logo-2",
+        "template--15386400456738__e6a2dc3b-b6a3-43da-ac2e-7e6e68957a71-logo-3",
+        "template--15386400456738__e6a2dc3b-b6a3-43da-ac2e-7e6e68957a71-logo-6",
+        "template--15386400456738__e6a2dc3b-b6a3-43da-ac2e-7e6e68957a71-logo-4",
+        "template--15386400456738__e6a2dc3b-b6a3-43da-ac2e-7e6e68957a71-logo-5",
+        "template--15386400456738__e6a2dc3b-b6a3-43da-ac2e-7e6e68957a71-logo-7",
+        "template--15386400456738__e6a2dc3b-b6a3-43da-ac2e-7e6e68957a71-logo-8",
+        "4a5e5f7c-e933-4dbe-b1bf-01b4e791667f",
+        "9b1e4372-ad3c-4d0d-a3f4-f5edc9b124bd"
+      ],
+      "settings": {
+        "color_scheme": "custom-3",
+        "container_size": "medium",
+        "section_spacing_top": 90,
+        "section_spacing_bottom": 90,
+        "desktop_layout": "grid",
+        "mobile_layout": "carousel",
+        "title": "Trusted by leading product designers at",
+        "heading_size": "h2",
+        "alignment": "center",
+        "desktop_columns": 6,
+        "desktop_space_between_cards": 32,
+        "mobile_space_between_cards": 12,
+        "show_navigation_arrows": "always",
+        "autoplay_mode": "disabled",
+        "autoplay_interval": 3
+      }
+    },
+    "dde7c692-d8b4-4a40-9d3a-c048f605740f": {
+      "type": "multicolumn",
+      "blocks": {
+        "c30fcdde-404e-46b7-8b9d-e30e4ca416a9": {
+          "type": "column_with_icon",
+          "settings": {
+            "icon": "none",
+            "icon_size": 64,
+            "title": "Make product discovery straightforward",
+            "text": "<p>It doesn't have to be complicated or time consuming</p>",
+            "link_text": "",
+            "link_url": ""
+          }
+        },
+        "column_with_icon_qtetjH": {
+          "type": "column_with_icon",
+          "settings": {
+            "icon": "none",
+            "icon_size": 64,
+            "title": "Speed up discovery",
+            "text": "<p>Get useful customer feedback in a matter of hours and days - not weeks or months.</p>",
+            "link_text": "",
+            "link_url": ""
+          }
+        },
+        "36ab52b2-e6a1-4d3a-94b7-1ff61cdc45ef": {
+          "type": "column_with_icon",
+          "settings": {
+            "icon": "none",
+            "icon_size": 64,
+            "title": "Go from intuition to innovation",
+            "text": "<p>Let data drive your design decisions</p>",
+            "link_text": "",
+            "link_url": ""
+          }
+        },
+        "template--15386400456738__dde7c692-d8b4-4a40-9d3a-c048f605740f-column_with_icon-1": {
+          "type": "column_with_icon",
+          "settings": {
+            "icon": "none",
+            "icon_size": 64,
+            "title": "Turn insights into decisions",
+            "text": "<p>Use the bundled workshop exercises to focus in on what matters</p>",
+            "link_text": "",
+            "link_url": ""
+          }
+        },
+        "5df10a33-b18b-4e99-bc48-6ce55dc3c935": {
+          "type": "column_with_icon",
+          "settings": {
+            "icon": "none",
+            "icon_size": 64,
+            "title": "Breakthrough creative blocks",
+            "text": "<p>Generate a wealth of diverse ideas that will propel your product forward. pen_spark</p>",
+            "link_text": "",
+            "link_url": ""
+          }
+        },
+        "column_with_icon_iDkCyF": {
+          "type": "column_with_icon",
+          "settings": {
+            "icon": "none",
+            "icon_size": 64,
+            "title": "Gain critical insights, even on a budget",
+            "text": "<p>Match your level of uncertainty with how product discovery investment. </p>",
+            "link_text": "",
+            "link_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "c30fcdde-404e-46b7-8b9d-e30e4ca416a9",
+        "column_with_icon_qtetjH",
+        "36ab52b2-e6a1-4d3a-94b7-1ff61cdc45ef",
+        "template--15386400456738__dde7c692-d8b4-4a40-9d3a-c048f605740f-column_with_icon-1",
+        "5df10a33-b18b-4e99-bc48-6ce55dc3c935",
+        "column_with_icon_iDkCyF"
+      ],
+      "settings": {
+        "color_scheme": "default",
+        "container_size": "medium",
+        "section_spacing_top": 90,
+        "section_spacing_bottom": 90,
+        "desktop_layout": "grid",
+        "mobile_layout": "one-column-grid",
+        "title": "Enable your team to...",
+        "text": "",
+        "heading_size": "h2",
+        "body_size": "body2",
+        "content_alignment": "center",
+        "column_heading_size": "h5",
+        "column_body_size": "body2",
+        "column_alignment": "center",
+        "desktop_columns": 2,
+        "desktop_space_between_cards": 0,
+        "desktop_content_spacing": 0,
+        "mobile_space_between_cards": 16,
+        "mobile_content_spacing": 24,
+        "show_column_background": false,
+        "show_navigation_on_hover": true,
+        "btn_text": "",
+        "btn_url": "",
+        "btn_style": "outline",
+        "autoplay_mode": "disabled",
+        "autoplay_interval": 3
+      }
+    },
+    "multicolumn_wxji3i": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_with_icon_DUmnrA": {
+          "type": "column_with_icon",
+          "settings": {
+            "icon": "checkmark",
+            "custom_icon_image": "shopify://shop_images/method-some-listening.png",
+            "icon_size": 164,
+            "title": "Research method",
+            "text": "<p>Social Media Listening</p>",
+            "link_text": "",
+            "link_url": ""
+          }
+        },
+        "column_with_icon_4jQcPM": {
+          "type": "column_with_icon",
+          "settings": {
+            "icon": "checkmark",
+            "custom_icon_image": "shopify://shop_images/method-discovery-program.png",
+            "icon_size": 164,
+            "title": "Research method",
+            "text": "<p>Customer Discovery Program</p>",
+            "link_text": "",
+            "link_url": ""
+          }
+        },
+        "column_with_icon_rJijt7": {
+          "type": "column_with_icon",
+          "settings": {
+            "icon": "checkmark",
+            "custom_icon_image": "shopify://shop_images/exercise_-_opp-tree.png",
+            "icon_size": 164,
+            "title": "Workshop exercise",
+            "text": "<p>Opportunity Solution Tree Mapping</p>",
+            "link_text": "",
+            "link_url": ""
+          }
+        },
+        "column_with_icon_JpLJVK": {
+          "type": "column_with_icon",
+          "settings": {
+            "icon": "checkmark",
+            "custom_icon_image": "shopify://shop_images/best-practise-facts-opinions.png",
+            "icon_size": 164,
+            "title": "Best Practice",
+            "text": "<p>Facts over opinions</p>",
+            "link_text": "",
+            "link_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_with_icon_DUmnrA",
+        "column_with_icon_4jQcPM",
+        "column_with_icon_rJijt7",
+        "column_with_icon_JpLJVK"
+      ],
+      "settings": {
+        "color_scheme": "secondary",
+        "container_size": "medium",
+        "section_spacing_top": 90,
+        "section_spacing_bottom": 60,
+        "desktop_layout": "grid",
+        "mobile_layout": "one-column-grid",
+        "title": "Clever product research methods and exercises",
+        "text": "Imagine being able to uncover valuable insights from your customers in a matter of hours. Not weeks or months.",
+        "heading_size": "h2",
+        "body_size": "body2",
+        "content_alignment": "center",
+        "column_heading_size": "h7",
+        "column_body_size": "body4",
+        "column_alignment": "center",
+        "desktop_columns": 4,
+        "desktop_space_between_cards": 20,
+        "desktop_content_spacing": 25,
+        "mobile_space_between_cards": 16,
+        "mobile_content_spacing": 24,
+        "show_column_background": false,
+        "show_navigation_on_hover": false,
+        "btn_text": "",
+        "btn_url": "",
+        "btn_style": "outline",
+        "autoplay_mode": "disabled",
+        "autoplay_interval": 3
+      }
+    },
+    "2ed17851-e2d9-4b4b-990c-3df8599c3b8e": {
+      "type": "testimonials",
+      "blocks": {
+        "71628dc5-be30-438d-a4f3-da1da60e0eaf": {
+          "type": "quote",
+          "settings": {
+            "text": "\"Bought these great cards a while ago. They are excellent to improve skills of the overall team and helped us to speak the same language!\"",
+            "author_name": "Viki Kavallari - Senior Product Designer, Klarna",
+            "author_image": "shopify://shop_images/viki-kavallari.png",
+            "rating": 4.5,
+            "link": ""
+          }
+        },
+        "template--15386400456738__2ed17851-e2d9-4b4b-990c-3df8599c3b8e-quote-1": {
+          "type": "quote",
+          "settings": {
+            "text": "\"I have used these cards on many heuristic review projects. Design work too. It's great to have a system to flip through. The production quality is very high - the price probably isn't considered to be low. But they are worth it. I hope there are more in the making.\"",
+            "author_name": "Trent Robertson - Design Strategist, Ruby Red Frog",
+            "author_image": "shopify://shop_images/trent-robertson.jpg",
+            "rating": 4.5,
+            "link": ""
+          }
+        },
+        "526eb9a6-a7ba-402c-9365-3cde4d74d8af": {
+          "type": "quote",
+          "settings": {
+            "text": "\"Only looked through a few of the cards [...], but already got ideas for ways to improve our user research and testing process\"",
+            "author_name": "Christoffer Hauthorn - Head of Product, Emplate",
+            "author_image": "shopify://shop_images/brett-sebbio.png",
+            "rating": 4.5,
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "71628dc5-be30-438d-a4f3-da1da60e0eaf",
+        "template--15386400456738__2ed17851-e2d9-4b4b-990c-3df8599c3b8e-quote-1",
+        "526eb9a6-a7ba-402c-9365-3cde4d74d8af"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".quote__text--large {font-weight: 400; font-style: italic;}"
+      ],
+      "settings": {
+        "color_scheme": "custom-3",
+        "enable_background_around_container": false,
+        "container_size": "large",
+        "section_spacing_top": 60,
+        "section_spacing_bottom": 60,
+        "section_layout": "bottom-quotes",
+        "cards_per_slide": 1,
+        "quote_alignment": "center",
+        "caption": "",
+        "title": "",
+        "text": "",
+        "heading_size": "h3",
+        "body_size": "body3",
+        "btn_text": "",
+        "btn_url": "",
+        "autoplay_mode": "one_at_time",
+        "autoplay_interval": 3
+      }
+    },
+    "35a80c75-d4b0-4340-9552-75a9f11586de": {
+      "type": "images-with-text",
+      "blocks": {
+        "template--16729789563121__35a80c75-d4b0-4340-9552-75a9f11586de-1681824353e40c4786-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/product-discovery-patterns-all-cards.png"
+          }
+        }
+      },
+      "block_order": [
+        "template--16729789563121__35a80c75-d4b0-4340-9552-75a9f11586de-1681824353e40c4786-0"
+      ],
+      "settings": {
+        "color_scheme": "default",
+        "container_size": "medium",
+        "section_spacing_top": 48,
+        "section_spacing_bottom": 76,
+        "content_layout": "right",
+        "image_layout": "collage",
+        "img_ratio": 1.1,
+        "rotate_images": false,
+        "icon": "none",
+        "subheading": "",
+        "heading": "Design",
+        "body": "<h6><strong>Clear language</strong></h6><p>Make sense of complex design research with concise and actionable methods.</p><p>The academic complexities of what constitutes good research have been transformed into understandable, concise, and digestible product experiments that has proven to work time and time again.</p><h6><strong>Supercharge your ideas</strong></h6><p>Learn how to both validate and build on your ideas with strong customer insights by exploring connected product experiments.</p><h6><strong>Memorable illustrations</strong></h6><p>Hand-drawn illustrations by artist Annesofie Sandal provide engaging metaphors to reinforce learning.</p>",
+        "heading_size": "h2",
+        "body_size": "body3",
+        "content_alignment": "left",
+        "desktop_content_width": 440,
+        "first_button_text": "Buy now",
+        "first_button_link": "",
+        "first_button_style": "solid",
+        "second_button_text": "",
+        "second_button_link": "",
+        "second_button_style": "solid"
+      }
+    },
+    "d7a5963e-c766-4f10-8cc1-5470486301a3": {
+      "type": "multicolumn",
+      "blocks": {
+        "6f3f5535-cb5f-45ac-b7d6-fabfd4ab3dcf": {
+          "type": "column_with_icon",
+          "settings": {
+            "icon": "checkmark",
+            "custom_icon_image": "shopify://shop_images/Group_1.png",
+            "icon_size": 46,
+            "title": "Start with the most critical assumption",
+            "text": "<p>If that isn't true, then nothing else matters</p>",
+            "link_text": "",
+            "link_url": ""
+          }
+        },
+        "ff8e288f-f9e3-4561-a24d-16d72749ffa1": {
+          "type": "column_with_icon",
+          "settings": {
+            "icon": "checkmark",
+            "custom_icon_image": "shopify://shop_images/Group_2.png",
+            "icon_size": 46,
+            "title": "Discover problems before solutions",
+            "text": "<p>Prioritize discovery over premature solution validation</p>",
+            "link_text": "",
+            "link_url": ""
+          }
+        },
+        "0d2961c6-65b3-496a-9cf2-6e1d2a58063b": {
+          "type": "column_with_icon",
+          "settings": {
+            "icon": "checkmark",
+            "custom_icon_image": "shopify://shop_images/Group_3.png",
+            "icon_size": 46,
+            "title": "Make it a Habit",
+            "text": "<p>You need insights while you are making decisions, not after</p>",
+            "link_text": "",
+            "link_url": ""
+          }
+        },
+        "1ef4b9a4-03d3-45b2-b1a8-9a83538ddb6b": {
+          "type": "column_with_icon",
+          "settings": {
+            "icon": "checkmark",
+            "custom_icon_image": "shopify://shop_images/Group_4.png",
+            "icon_size": 46,
+            "title": "Match fidelity with certainty",
+            "text": "<p>Don't search a hay stack using a microscope.</p>",
+            "link_text": "",
+            "link_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "6f3f5535-cb5f-45ac-b7d6-fabfd4ab3dcf",
+        "ff8e288f-f9e3-4561-a24d-16d72749ffa1",
+        "0d2961c6-65b3-496a-9cf2-6e1d2a58063b",
+        "1ef4b9a4-03d3-45b2-b1a8-9a83538ddb6b"
+      ],
+      "settings": {
+        "color_scheme": "secondary",
+        "container_size": "medium",
+        "section_spacing_top": 90,
+        "section_spacing_bottom": 19,
+        "desktop_layout": "grid",
+        "mobile_layout": "one-column-grid",
+        "title": "Product discovery doesn't have to be daunting",
+        "text": "Real product discovery does not have to be complicated and time-consuming.",
+        "heading_size": "h2",
+        "body_size": "body2",
+        "content_alignment": "center",
+        "column_heading_size": "h7",
+        "column_body_size": "body4",
+        "column_alignment": "center",
+        "desktop_columns": 4,
+        "desktop_space_between_cards": 24,
+        "desktop_content_spacing": 24,
+        "mobile_space_between_cards": 16,
+        "mobile_content_spacing": 24,
+        "show_column_background": true,
+        "show_navigation_on_hover": true,
+        "btn_text": "",
+        "btn_url": "",
+        "btn_style": "outline",
+        "autoplay_mode": "disabled",
+        "autoplay_interval": 3
+      }
+    },
+    "multicolumn_8UXrVD": {
+      "type": "multicolumn",
+      "settings": {
+        "color_scheme": "secondary",
+        "container_size": "medium",
+        "section_spacing_top": 13,
+        "section_spacing_bottom": 60,
+        "desktop_layout": "grid",
+        "mobile_layout": "one-column-grid",
+        "title": "",
+        "text": "<em>The card deck includes a set of step-by-step exercises guiding you from insight to action – and a set of best practices teaching you the mindset needed to not end up in analysis paralysis or breaking the budget.</em>",
+        "heading_size": "h2",
+        "body_size": "body2",
+        "content_alignment": "center",
+        "column_heading_size": "h7",
+        "column_body_size": "body4",
+        "column_alignment": "center",
+        "desktop_columns": 4,
+        "desktop_space_between_cards": 24,
+        "desktop_content_spacing": 24,
+        "mobile_space_between_cards": 16,
+        "mobile_content_spacing": 24,
+        "show_column_background": true,
+        "show_navigation_on_hover": true,
+        "btn_text": "",
+        "btn_url": "",
+        "btn_style": "outline",
+        "autoplay_mode": "disabled",
+        "autoplay_interval": 3
+      }
+    },
+    "5b008df5-f049-4f41-953b-05c349f10d05": {
+      "type": "multicolumn",
+      "settings": {
+        "color_scheme": "default",
+        "container_size": "medium",
+        "section_spacing_top": 90,
+        "section_spacing_bottom": 60,
+        "desktop_layout": "grid",
+        "mobile_layout": "one-column-grid",
+        "title": "De-risk product decisions",
+        "text": "Quickly and efficiently gather user feedback to ensure you're on the right track.",
+        "heading_size": "h2",
+        "body_size": "body3",
+        "content_alignment": "center",
+        "column_heading_size": "h7",
+        "column_body_size": "body4",
+        "column_alignment": "center",
+        "desktop_columns": 3,
+        "desktop_space_between_cards": 24,
+        "desktop_content_spacing": 24,
+        "mobile_space_between_cards": 16,
+        "mobile_content_spacing": 24,
+        "show_column_background": true,
+        "show_navigation_on_hover": true,
+        "btn_text": "",
+        "btn_url": "",
+        "btn_style": "outline",
+        "autoplay_mode": "disabled",
+        "autoplay_interval": 3
+      }
+    },
+    "f768b115-1f18-47e5-956e-b96e827df3ed": {
+      "type": "images-with-text",
+      "blocks": {
+        "91674a81-23eb-40b8-a782-230a65d5efd3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/on_table_discovery.png"
+          }
+        }
+      },
+      "block_order": [
+        "91674a81-23eb-40b8-a782-230a65d5efd3"
+      ],
+      "settings": {
+        "color_scheme": "default",
+        "container_size": "medium",
+        "section_spacing_top": 0,
+        "section_spacing_bottom": 0,
+        "content_layout": "right",
+        "image_layout": "collage",
+        "img_ratio": 1,
+        "rotate_images": false,
+        "icon": "none",
+        "subheading": "",
+        "heading": "Product & Design",
+        "body": "<h6>De-risk success</h6><p>Avoid humiliating launches by making sure there is an actual demand for what you are building.</p><h6>Create your own data</h6><p>Questions before data. Create the data you need to answer your existing questions rather than starting by looking at existing data to see what questions you can answer.</p><h6>Build with confidence</h6><p>Make informed design decisions based on real user data.</p>",
+        "heading_size": "h4",
+        "body_size": "body3",
+        "content_alignment": "left",
+        "desktop_content_width": 540,
+        "first_button_text": "",
+        "first_button_link": "",
+        "first_button_style": "solid",
+        "second_button_text": "",
+        "second_button_link": "",
+        "second_button_style": "solid"
+      }
+    },
+    "85a65abe-e978-425c-878e-fbcfd5a51e80": {
+      "type": "images-with-text",
+      "blocks": {
+        "22463531-4c4e-45e9-8cef-cd761613d94b": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/environment_shot_4.png"
+          }
+        }
+      },
+      "block_order": [
+        "22463531-4c4e-45e9-8cef-cd761613d94b"
+      ],
+      "settings": {
+        "color_scheme": "default",
+        "container_size": "medium",
+        "section_spacing_top": 60,
+        "section_spacing_bottom": 60,
+        "content_layout": "right",
+        "image_layout": "collage",
+        "img_ratio": 1.1,
+        "rotate_images": false,
+        "icon": "none",
+        "subheading": "",
+        "heading": "Marketing",
+        "body": "<h6>Drive conversions</h6><p>Learn exactly what triggers a purchase rather than blinding yourself with overwhelming analytics.</p><h6>Test before spending</h6><p>Test your value propositions before running ads with them to ensure a message match between the service you are offering and what your customers need.</p><h6>Test comprehension</h6><p>Make sure your target segments actually understand what your proposition.</p>",
+        "heading_size": "h4",
+        "body_size": "body3",
+        "content_alignment": "left",
+        "desktop_content_width": 540,
+        "first_button_text": "",
+        "first_button_link": "",
+        "first_button_style": "solid",
+        "second_button_text": "",
+        "second_button_link": "",
+        "second_button_style": "solid"
+      }
+    },
+    "1971f6a0-4fc9-4946-88d7-d6bc12a9b811": {
+      "type": "images-with-text",
+      "blocks": {
+        "4ae71525-1b6d-4031-a8bb-e6aad58faa29": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Top_3.png"
+          }
+        }
+      },
+      "block_order": [
+        "4ae71525-1b6d-4031-a8bb-e6aad58faa29"
+      ],
+      "settings": {
+        "color_scheme": "default",
+        "container_size": "medium",
+        "section_spacing_top": 48,
+        "section_spacing_bottom": 90,
+        "content_layout": "right",
+        "image_layout": "collage",
+        "img_ratio": 1.1,
+        "rotate_images": false,
+        "icon": "none",
+        "subheading": "",
+        "heading": "Strategy & planning",
+        "body": "<h6>Sharpen your portfolio and backlog</h6><p>Only work on projects and features that matters, delivers results, and is proven to have impact.</p><h6>Data-informed decisions</h6><p>Don’t only trust your gut feeling. Rely on real data to move your organization forward.</p><h6>Continuous Discovery</h6><p>Experimentation is hard to get started. Validation Patterns makes it practical and easy to get started.</p>",
+        "heading_size": "h4",
+        "body_size": "body3",
+        "content_alignment": "left",
+        "desktop_content_width": 540,
+        "first_button_text": "",
+        "first_button_link": "",
+        "first_button_style": "solid",
+        "second_button_text": "",
+        "second_button_link": "",
+        "second_button_style": "solid"
+      }
+    },
+    "b8ed0e59-c597-4d91-a2f9-c1b6740b1bf1": {
+      "type": "multicolumn",
+      "settings": {
+        "color_scheme": "secondary",
+        "container_size": "medium",
+        "section_spacing_top": 90,
+        "section_spacing_bottom": 90,
+        "desktop_layout": "grid",
+        "mobile_layout": "one-column-grid",
+        "title": "Don't get stuck in the \"idea soup\"",
+        "text": "Intuition and guesswork can only take you so far. Traditional research methods can be time-consuming and expensive. <strong>Unearth user needs and ignite design inspiration</strong>.",
+        "heading_size": "h2",
+        "body_size": "body2",
+        "content_alignment": "center",
+        "column_heading_size": "h7",
+        "column_body_size": "body4",
+        "column_alignment": "center",
+        "desktop_columns": 3,
+        "desktop_space_between_cards": 24,
+        "desktop_content_spacing": 24,
+        "mobile_space_between_cards": 16,
+        "mobile_content_spacing": 24,
+        "show_column_background": true,
+        "show_navigation_on_hover": true,
+        "btn_text": "",
+        "btn_url": "",
+        "btn_style": "outline",
+        "autoplay_mode": "disabled",
+        "autoplay_interval": 3
+      }
+    },
+    "cef8706b-fe23-4795-9ef3-11ca2eb8f8e3": {
+      "type": "images-with-text",
+      "blocks": {
+        "aa7f9fb0-7d6b-4afc-9d79-b92f8aad73cb": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/environment_1_21c5d0db-965d-49aa-839f-cab389475af1.png"
+          }
+        }
+      },
+      "block_order": [
+        "aa7f9fb0-7d6b-4afc-9d79-b92f8aad73cb"
+      ],
+      "settings": {
+        "color_scheme": "default",
+        "container_size": "medium",
+        "section_spacing_top": 90,
+        "section_spacing_bottom": 0,
+        "content_layout": "right",
+        "image_layout": "collage",
+        "img_ratio": 0.8,
+        "rotate_images": false,
+        "icon": "none",
+        "subheading": "",
+        "heading": "Evergreen content",
+        "body": "<p>The product research methods in the deck have been tested and trusted by product teams worldwide at companies like Spotify, Booking.com, Facebook, Amazon, and Google and recommended by top universities like Havard, MIT, and Stanford.</p>",
+        "heading_size": "h2",
+        "body_size": "body2",
+        "content_alignment": "left",
+        "desktop_content_width": 540,
+        "first_button_text": "",
+        "first_button_link": "",
+        "first_button_style": "solid",
+        "second_button_text": "",
+        "second_button_link": "",
+        "second_button_style": "solid"
+      }
+    },
+    "1e590e7c-d880-41a0-a758-93f6b3de66f5": {
+      "type": "images-with-text",
+      "blocks": {
+        "96d9468a-388a-4df3-860a-00a1419fd126": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/gradient_discovery.png"
+          }
+        }
+      },
+      "block_order": [
+        "96d9468a-388a-4df3-860a-00a1419fd126"
+      ],
+      "settings": {
+        "color_scheme": "default",
+        "container_size": "medium",
+        "section_spacing_top": 48,
+        "section_spacing_bottom": 90,
+        "content_layout": "right",
+        "image_layout": "collage",
+        "img_ratio": 0.9,
+        "rotate_images": false,
+        "icon": "none",
+        "subheading": "",
+        "heading": "Tangibly big",
+        "body": "<p>The Discovery Patterns card deck is designed to let its physical qualities reflect the weight of its content. It's heavy. It's intentionally big in your hand. It's smooth to touch and easy on your eyes.</p><p>In the age of remote, we believe in the power of physical.</p>",
+        "heading_size": "h2",
+        "body_size": "body2",
+        "content_alignment": "left",
+        "desktop_content_width": 540,
+        "first_button_text": "",
+        "first_button_link": "",
+        "first_button_style": "solid",
+        "second_button_text": "",
+        "second_button_link": "",
+        "second_button_style": "solid"
+      }
+    },
+    "49c49a29-168e-4bf6-a3ed-38b07d0f1838": {
+      "type": "images-with-text",
+      "blocks": {
+        "805f2cb1-797a-4798-adc8-c77dee89eb53": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/discovery-patterns-product-images-small_31c1ffe8-55e5-4ff3-a43a-ceade6b325d1.png"
+          }
+        }
+      },
+      "block_order": [
+        "805f2cb1-797a-4798-adc8-c77dee89eb53"
+      ],
+      "settings": {
+        "color_scheme": "custom-3",
+        "container_size": "medium",
+        "section_spacing_top": 90,
+        "section_spacing_bottom": 90,
+        "content_layout": "left",
+        "image_layout": "collage",
+        "img_ratio": 1,
+        "rotate_images": false,
+        "icon": "none",
+        "subheading": "",
+        "heading": "Don't work in the blind",
+        "body": "<p>The Discovery Patterns Card Deck helps you generate research insights to avoid misguided design choices.</p>",
+        "heading_size": "h2",
+        "body_size": "body2",
+        "content_alignment": "left",
+        "desktop_content_width": 540,
+        "first_button_text": "Shop now",
+        "first_button_link": "",
+        "first_button_style": "solid",
+        "second_button_text": "",
+        "second_button_link": "",
+        "second_button_style": "solid"
+      }
+    },
+    "b211c279-71dd-44ae-b816-3d6f3d551fac": {
+      "type": "faq",
+      "blocks": {
+        "template--15386400456738__b211c279-71dd-44ae-b816-3d6f3d551fac-question-1": {
+          "type": "question",
+          "settings": {
+            "title": "Can I get the Discovery Patterns for my entire team?",
+            "icon": "none",
+            "text": "<p>Yes! We offer team discounts when buying in bundle with any of our other card decks.</p><p>Get in touch at <a href=\"mailto:info@ui-patterns.com\">info@learningloop.io</a></p>",
+            "page": "",
+            "image_width": 100
+          }
+        },
+        "template--15386400456738__b211c279-71dd-44ae-b816-3d6f3d551fac-question-2": {
+          "type": "question",
+          "settings": {
+            "title": "Do you do discounts for educational institutions, students, or non profits?",
+            "icon": "none",
+            "text": "<p>We do! Get in touch at <a href=\"mailto:info@ui-patterns.com\">info@learningloop.io</a>with your credentials (non-profit status or student ID) and we will arrange a discount for you.</p>",
+            "page": "",
+            "image_width": 100
+          }
+        },
+        "template--15386400456738__b211c279-71dd-44ae-b816-3d6f3d551fac-question-3": {
+          "type": "question",
+          "settings": {
+            "title": "When and how do I receive my digital cards?",
+            "icon": "none",
+            "text": "<p>The digital cards are emailed to you immediately after your checkout. If it does not show up, then please check your spam folder.</p><p>You can also download the cards by logging into your account. If you forgot your password, you can set a new one by using the email address you bought the card deck with.</p>",
+            "page": "",
+            "image_width": 100
+          }
+        },
+        "f8ac65b5-fb9d-403b-afe7-b5bb1d280a63": {
+          "type": "question",
+          "settings": {
+            "title": "Will the digital cards work with my software?",
+            "icon": "none",
+            "text": "<p>The digital cards are compatible with <em>Miro, Mural, FigJam, Powerpoint, Keynote, Jamboard, Whiteboard</em> – in theory any software that allows you to insert images. The digital cards come in both a lightweight PDF and JPEG images of each card.</p>",
+            "page": "",
+            "image_width": 100
+          }
+        },
+        "7b59e4cf-b4a8-4aec-917f-fd99776858d4": {
+          "type": "question",
+          "settings": {
+            "title": "Do you ship to my country?",
+            "icon": "none",
+            "text": "<p>We ship to most countries in the world. If you want to be sure, then our checkout flow will let you know if we ship to your country.</p>",
+            "page": "",
+            "image_width": 100
+          }
+        },
+        "b7f706fb-598a-48a3-aa33-b4be3eee3431": {
+          "type": "question",
+          "settings": {
+            "title": "How long does shipping take?",
+            "icon": "none",
+            "text": "<p>We have fulfilment centers in the US and in Europe (Latvia). North America and Europe ship within days. Countries within Asia, Africa, and South America can take a few weeks. We show the estimated time from the courier on the checkout page.</p>",
+            "page": "",
+            "image_width": 100
+          }
+        },
+        "cb93e254-36d4-446b-8233-9b8790259287": {
+          "type": "question",
+          "settings": {
+            "title": "Will there be customs charges on my order?",
+            "icon": "none",
+            "text": "<p>If you are ordering outside of Europe or North America, customs charges should be minimal, if non-existant as we declare the cost price of the physical deck, not the full retail price of everything (Digital Cards, etc).</p>",
+            "page": "",
+            "image_width": 100
+          }
+        },
+        "3a377a13-d071-41bf-aea2-689ec6378cf1": {
+          "type": "question",
+          "settings": {
+            "title": "Can you send an invoice?",
+            "icon": "none",
+            "text": "<p>Of course. We will automatically email you an invoice after making a purchase. Watch your spam folder as the PDF file attached have a tendency to get stuck there.</p>",
+            "page": "",
+            "image_width": 100
+          }
+        },
+        "8b7bf7ac-f2d4-4fbb-bdca-565ac4a5c1b8": {
+          "type": "question",
+          "settings": {
+            "title": "Can I track the package?",
+            "icon": "none",
+            "text": "<p>Yes. We will automatically email you a tracking link once your package has left the warehouse. Depending on the time and day, this can some times be the next business day in the local timezone of our fulfilment center.</p><p>If you do not receive the tracking link in your email inbox, then please check your spam folder.</p>",
+            "page": "",
+            "image_width": 100
+          }
+        }
+      },
+      "block_order": [
+        "template--15386400456738__b211c279-71dd-44ae-b816-3d6f3d551fac-question-1",
+        "template--15386400456738__b211c279-71dd-44ae-b816-3d6f3d551fac-question-2",
+        "template--15386400456738__b211c279-71dd-44ae-b816-3d6f3d551fac-question-3",
+        "f8ac65b5-fb9d-403b-afe7-b5bb1d280a63",
+        "7b59e4cf-b4a8-4aec-917f-fd99776858d4",
+        "b7f706fb-598a-48a3-aa33-b4be3eee3431",
+        "cb93e254-36d4-446b-8233-9b8790259287",
+        "3a377a13-d071-41bf-aea2-689ec6378cf1",
+        "8b7bf7ac-f2d4-4fbb-bdca-565ac4a5c1b8"
+      ],
+      "settings": {
+        "color_scheme": "custom-3",
+        "enable_background_around_container": false,
+        "color_tabs": "none",
+        "container_size": "medium",
+        "section_spacing_top": 90,
+        "section_spacing_bottom": 80,
+        "section_layout": "bottom-tabs",
+        "expand_first_tab": true,
+        "title": "Frequently Asked Questions",
+        "text": "",
+        "heading_size": "h5",
+        "body_size": "body3",
+        "btn_text": "",
+        "btn_url": "",
+        "btn_style": "solid"
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "color_scheme": "default",
+        "container_size": "medium",
+        "section_spacing_top": 48,
+        "section_spacing_bottom": 48,
+        "desktop_layout": "carousel",
+        "mobile_layout": "carousel",
+        "title": "You may also like",
+        "heading_size": "h4",
+        "alignment": "center",
+        "product_recommendations_type": "auto",
+        "featured_collection": "",
+        "featured_products": [],
+        "img_ratio": "square",
+        "product_card_align": "center",
+        "cards_to_show": 18,
+        "desktop_columns": 3,
+        "desktop_space_between_cards": 20,
+        "mobile_space_between_cards": 20,
+        "show_navigation_on_hover": true,
+        "autoplay_mode": "disabled",
+        "autoplay_interval": 3
+      }
+    }
+  },
+  "order": [
+    "ff03a7f7-70a4-4aa2-8e65-56be8e7dbefc",
+    "main",
+    "e6a2dc3b-b6a3-43da-ac2e-7e6e68957a71",
+    "dde7c692-d8b4-4a40-9d3a-c048f605740f",
+    "multicolumn_wxji3i",
+    "2ed17851-e2d9-4b4b-990c-3df8599c3b8e",
+    "35a80c75-d4b0-4340-9552-75a9f11586de",
+    "d7a5963e-c766-4f10-8cc1-5470486301a3",
+    "multicolumn_8UXrVD",
+    "5b008df5-f049-4f41-953b-05c349f10d05",
+    "f768b115-1f18-47e5-956e-b96e827df3ed",
+    "85a65abe-e978-425c-878e-fbcfd5a51e80",
+    "1971f6a0-4fc9-4946-88d7-d6bc12a9b811",
+    "b8ed0e59-c597-4d91-a2f9-c1b6740b1bf1",
+    "cef8706b-fe23-4795-9ef3-11ca2eb8f8e3",
+    "1e590e7c-d880-41a0-a758-93f6b3de66f5",
+    "49c49a29-168e-4bf6-a3ed-38b07d0f1838",
+    "b211c279-71dd-44ae-b816-3d6f3d551fac",
+    "product-recommendations"
+  ]
+}
