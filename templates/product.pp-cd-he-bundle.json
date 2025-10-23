@@ -29,15 +29,6 @@
             "heading_size": "h2"
           }
         },
-        "price_becWtb": {
-          "type": "price",
-          "settings": {
-            "price_size": "md",
-            "show_tax_status": true,
-            "show_sale_amount_badge": true,
-            "highlight_sale_price": true
-          }
-        },
         "description_MXpgB7": {
           "type": "description",
           "settings": {
@@ -91,7 +82,6 @@
       },
       "block_order": [
         "title_rqYBbK",
-        "price_becWtb",
         "description_MXpgB7",
         "variant_picker_kLe9w3",
         "buy_buttons_UtTrhb",
