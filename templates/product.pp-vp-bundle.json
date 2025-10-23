@@ -29,15 +29,6 @@
             "heading_size": "h2"
           }
         },
-        "price": {
-          "type": "price",
-          "settings": {
-            "price_size": "sm",
-            "show_tax_status": false,
-            "show_sale_amount_badge": true,
-            "highlight_sale_price": true
-          }
-        },
         "28586830-d855-4547-8946-94914bac9e85": {
           "type": "description",
           "settings": {
@@ -52,6 +43,8 @@
             "option_type": "button-outline",
             "primary_swatch_option_type": "button-outline",
             "secondary_swatch_option_type": "swatches",
+            "show_currency_code": true,
+            "show_compare_at_price": true,
             "option_name": "",
             "information_drawer_button_label": "",
             "text": "",
@@ -149,7 +142,6 @@
       },
       "block_order": [
         "title",
-        "price",
         "28586830-d855-4547-8946-94914bac9e85",
         "d3d427d0-4e7d-4f81-9057-c64f65a4f183",
         "quantity_selector",
