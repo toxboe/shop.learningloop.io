@@ -43,6 +43,8 @@
             "option_type": "button-solid",
             "primary_swatch_option_type": "variant-images",
             "secondary_swatch_option_type": "swatches",
+            "show_currency_code": true,
+            "show_compare_at_price": true,
             "option_name": "",
             "information_drawer_button_label": "",
             "text": "",
