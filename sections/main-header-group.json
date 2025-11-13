@@ -157,10 +157,96 @@
         "icon_style": "round-outline",
         "cart_icon": "bag"
       }
+    },
+    "countdown_banner_TeKBEF": {
+      "type": "countdown-banner",
+      "blocks": {
+        "subheading_WNrKjr": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "All products in the store"
+          }
+        },
+        "heading_HncLjQ": {
+          "type": "heading",
+          "settings": {
+            "heading": "25% off sale",
+            "heading_size": "h0"
+          }
+        },
+        "text_RJbVDr": {
+          "type": "text",
+          "settings": {
+            "body": "BLACK FRIDAY 2025",
+            "body_size": "body0"
+          }
+        },
+        "countdown_fnw4c3": {
+          "type": "countdown",
+          "settings": {
+            "color_scheme": "secondary",
+            "background_type": "separate",
+            "background_style": "solid",
+            "enable_separators": true,
+            "captitalize_unit_labels": true,
+            "timer_desktop_width": 75,
+            "mode": "fixed",
+            "year": "2025",
+            "month": "december",
+            "day": "1",
+            "hour": "23",
+            "minute": "0",
+            "hide_on_complete": true,
+            "evergreen_unit": "day",
+            "evergreen_value": 1,
+            "evergreen_on_complete": "restart"
+          }
+        },
+        "buttons_DxtNMd": {
+          "type": "buttons",
+          "settings": {
+            "btn_text": "Shop unique offers",
+            "btn_url": "shopify://collections/popular-bundles",
+            "btn_style": "solid",
+            "extra_btn_text": "",
+            "extra_btn_url": "",
+            "extra_btn_style": "solid"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_WNrKjr",
+        "heading_HncLjQ",
+        "text_RJbVDr",
+        "countdown_fnw4c3",
+        "buttons_DxtNMd"
+      ],
+      "disabled": true,
+      "name": "Black Friday Countdown",
+      "settings": {
+        "color_scheme": "white",
+        "enable_background_around_container": false,
+        "container_size": "full-screen",
+        "section_spacing_top": 0,
+        "section_spacing_bottom": 0,
+        "desktop_ratio": 0.4,
+        "mobile_ratio": 1.6,
+        "desktop_overlay_opacity": 90,
+        "mobile_overlay_opacity": 90,
+        "desktop_content_position": "align-items:center;justify-content:center;",
+        "desktop_content_align": "center",
+        "content_max_width": 704,
+        "content_spacing": 116,
+        "mobile_content_position": "align-items:center;justify-content:center;",
+        "mobile_content_align": "center",
+        "desktop_content_background": "none",
+        "mobile_content_background": "none"
+      }
     }
   },
   "order": [
     "announcement-bar",
-    "header"
+    "header",
+    "countdown_banner_TeKBEF"
   ]
 }
