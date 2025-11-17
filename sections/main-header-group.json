@@ -161,10 +161,11 @@
     "countdown_banner_TeKBEF": {
       "type": "countdown-banner",
       "blocks": {
-        "subheading_WNrKjr": {
-          "type": "subheading",
+        "text_RJbVDr": {
+          "type": "text",
           "settings": {
-            "subheading": "All products in the store"
+            "body": "BLACK FRIDAY 2025",
+            "body_size": "body0"
           }
         },
         "heading_HncLjQ": {
@@ -172,13 +173,6 @@
           "settings": {
             "heading": "25% off sale",
             "heading_size": "h0"
-          }
-        },
-        "text_RJbVDr": {
-          "type": "text",
-          "settings": {
-            "body": "BLACK FRIDAY 2025",
-            "body_size": "body0"
           }
         },
         "countdown_fnw4c3": {
@@ -202,23 +196,29 @@
             "evergreen_on_complete": "restart"
           }
         },
+        "subheading_WNrKjr": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Get first access to our biggest limited drops. Sign up for alerts."
+          }
+        },
         "buttons_DxtNMd": {
           "type": "buttons",
           "settings": {
             "btn_text": "Shop unique offers",
             "btn_url": "shopify://collections/popular-bundles",
-            "btn_style": "solid",
-            "extra_btn_text": "",
-            "extra_btn_url": "",
-            "extra_btn_style": "solid"
+            "btn_style": "link",
+            "extra_btn_text": "Get notified of crazy offers",
+            "extra_btn_url": "https://app.learningloop.io/questionnaires/early-bird-black-friday-list",
+            "extra_btn_style": "link"
           }
         }
       },
       "block_order": [
-        "subheading_WNrKjr",
-        "heading_HncLjQ",
         "text_RJbVDr",
+        "heading_HncLjQ",
         "countdown_fnw4c3",
+        "subheading_WNrKjr",
         "buttons_DxtNMd"
       ],
       "name": "Black Friday Countdown",
