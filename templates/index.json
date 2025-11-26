@@ -473,7 +473,7 @@
         "img_ratio": "default",
         "product_card_align": "center",
         "cards_to_show": 28,
-        "desktop_columns": 3,
+        "desktop_columns": 2,
         "desktop_space_between_cards": 12,
         "mobile_space_between_cards": 8,
         "show_navigation_on_hover": true,
