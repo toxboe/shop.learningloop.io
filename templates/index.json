@@ -300,7 +300,7 @@
             "icon": "easy-returns",
             "icon_size": 42,
             "title": "",
-            "text": "<p>A system of interconnected cards to keep you moving forward</p>",
+            "text": "<p>Interconnected cards</p>",
             "link_text": "",
             "link_url": ""
           }
@@ -345,7 +345,7 @@
         "column_body_size": "body4",
         "column_alignment": "center",
         "desktop_columns": 5,
-        "desktop_space_between_cards": 10,
+        "desktop_space_between_cards": 3,
         "desktop_content_spacing": 12,
         "mobile_space_between_cards": 16,
         "mobile_content_spacing": 24,
