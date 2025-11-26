@@ -503,7 +503,7 @@
         "desktop_layout": "grid",
         "mobile_layout": "two-column",
         "title": "Choose your deck",
-        "heading_size": "h4",
+        "heading_size": "h3",
         "alignment": "center",
         "collection_list": [
           "card-decks"
@@ -520,7 +520,7 @@
         "collection_card_content_align": "left",
         "collection_card_heading_size": "h6",
         "collection_card_show_product_count": false,
-        "collection_card_overlay_opacity": 15,
+        "collection_card_overlay_opacity": 0,
         "autoplay_mode": "disabled",
         "autoplay_interval": 3
       }
