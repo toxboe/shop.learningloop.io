@@ -654,6 +654,7 @@
         "template--15411042287650__001b304c-649c-41e2-a53b-7df53dae46b1-text-1",
         "template--15411042287650__001b304c-649c-41e2-a53b-7df53dae46b1-buttons-1"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "secondary",
         "enable_background_around_container": true,
@@ -665,6 +666,7 @@
     },
     "742f54e3-44ed-4808-978b-f83400b0d688": {
       "type": "image-banner",
+      "disabled": true,
       "settings": {
         "color_scheme": "white",
         "enable_background_around_container": false,
