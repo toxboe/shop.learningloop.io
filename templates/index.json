@@ -327,7 +327,8 @@
         "column_with_icon_4w7TwP"
       ],
       "custom_css": [
-        ".multicolumn__column-media--icon {padding-bottom: 0;}"
+        ".multicolumn__column-media--icon {padding-bottom: 0;}",
+        ".multicolumn__container>*+* {margin-top: 2rem;}"
       ],
       "settings": {
         "color_scheme": "custom-3",
