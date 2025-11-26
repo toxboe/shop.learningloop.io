@@ -217,7 +217,7 @@
       "settings": {
         "color_scheme": "white",
         "enable_background_around_container": false,
-        "container_size": "full-screen",
+        "container_size": "small",
         "section_spacing_top": 0,
         "section_spacing_bottom": 23,
         "desktop_ratio": 0.6,
