@@ -211,6 +211,42 @@
         "content_align": "left"
       }
     },
+    "image_banner_qCBhXX": {
+      "type": "image-banner",
+      "name": "t:sections.image_banner.name",
+      "settings": {
+        "color_scheme": "white",
+        "enable_background_around_container": false,
+        "container_size": "full-screen",
+        "section_spacing_top": 0,
+        "section_spacing_bottom": 0,
+        "desktop_ratio": 0.7,
+        "mobile_ratio": 1.6,
+        "desktop_img": "shopify://shop_images/business-model-patterns-environment-photo.png",
+        "mobile_img": "shopify://shop_images/business-model-patterns-environment-photo.png",
+        "desktop_overlay_opacity": 0,
+        "mobile_overlay_opacity": 0,
+        "caption": "",
+        "title": "",
+        "text": "",
+        "heading_size": "h2",
+        "body_size": "body3",
+        "desktop_content_position": "align-items:center;justify-content:center;",
+        "desktop_content_align": "center",
+        "content_max_width": 528,
+        "content_spacing": 116,
+        "mobile_content_position": "align-items:center;justify-content:center;",
+        "mobile_content_align": "center",
+        "desktop_content_background": "none",
+        "mobile_content_background": "none",
+        "btn_text": "",
+        "btn_url": "",
+        "btn_style": "solid",
+        "extra_btn_text": "",
+        "extra_btn_url": "",
+        "extra_btn_style": "solid"
+      }
+    },
     "multicolumn_MAed87": {
       "type": "multicolumn",
       "blocks": {
@@ -702,6 +738,7 @@
     "fd49f0e5-16f4-4a85-bb68-d9e45a5ee153",
     "44dc2944-fead-4dde-9b5f-5c6c004bf21e",
     "rich_text_bPC7PY",
+    "image_banner_qCBhXX",
     "multicolumn_MAed87",
     "testimonials_grid_3byDha",
     "bdfcb69a-fe4c-45c6-bccc-aaec4c360dc5",
