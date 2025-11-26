@@ -254,7 +254,7 @@
           "type": "column_with_icon",
           "settings": {
             "icon": "checkmark",
-            "icon_size": 42,
+            "icon_size": 38,
             "title": "",
             "text": "<p>Timeless strategies, expert-curated</p>",
             "link_text": "",
@@ -265,7 +265,7 @@
           "type": "column_with_icon",
           "settings": {
             "icon": "pen-and-ruler",
-            "icon_size": 42,
+            "icon_size": 38,
             "title": "",
             "text": "<p>Expert knowledge in your back pocket</p>",
             "link_text": "",
@@ -287,7 +287,7 @@
           "type": "column_with_icon",
           "settings": {
             "icon": "routing",
-            "icon_size": 42,
+            "icon_size": 38,
             "title": "",
             "text": "<p>Concise, step-by-step guides</p>",
             "link_text": "",
@@ -298,7 +298,7 @@
           "type": "column_with_icon",
           "settings": {
             "icon": "easy-returns",
-            "icon_size": 42,
+            "icon_size": 38,
             "title": "",
             "text": "<p>Interconnected cards</p>",
             "link_text": "",
@@ -328,7 +328,7 @@
       ],
       "custom_css": [
         ".multicolumn__column-media--icon {padding-bottom: 0;}",
-        ".multicolumn__container>*+* {margin-top: 2rem;}"
+        ".multicolumn__container > * + * {margin-top: 2rem;}"
       ],
       "settings": {
         "color_scheme": "custom-3",
