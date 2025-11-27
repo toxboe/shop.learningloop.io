@@ -229,7 +229,7 @@
         "section_spacing_top": 0,
         "section_spacing_bottom": 0,
         "desktop_ratio": 0.4,
-        "mobile_ratio": 1.6,
+        "mobile_ratio": 0.7,
         "desktop_overlay_opacity": 90,
         "mobile_overlay_opacity": 90,
         "desktop_content_position": "align-items:center;justify-content:center;",
