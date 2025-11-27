@@ -150,7 +150,7 @@
         "section_spacing_top": 90,
         "section_spacing_bottom": 90,
         "desktop_layout": "grid",
-        "mobile_layout": "carousel",
+        "mobile_layout": "two-column",
         "title": "Trusted by leading teams at",
         "heading_size": "h3",
         "alignment": "center",
