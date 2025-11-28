@@ -178,7 +178,7 @@
         "subheading_WNrKjr": {
           "type": "subheading",
           "settings": {
-            "subheading": "Discount applied at checkout"
+            "subheading": "25% discount applied at checkout"
           }
         },
         "countdown_fnw4c3": {
@@ -208,7 +208,7 @@
             "btn_text": "Shop unique offers",
             "btn_url": "shopify://collections/popular-bundles",
             "btn_style": "link",
-            "extra_btn_text": "Get notified of crazy offers",
+            "extra_btn_text": "",
             "extra_btn_url": "https://app.learningloop.io/questionnaires/early-bird-black-friday-list",
             "extra_btn_style": "link"
           }
