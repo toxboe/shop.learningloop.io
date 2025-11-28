@@ -175,6 +175,12 @@
             "heading_size": "h0"
           }
         },
+        "subheading_WNrKjr": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Discount applied at checkout"
+          }
+        },
         "countdown_fnw4c3": {
           "type": "countdown",
           "settings": {
@@ -196,12 +202,6 @@
             "evergreen_on_complete": "restart"
           }
         },
-        "subheading_WNrKjr": {
-          "type": "subheading",
-          "settings": {
-            "subheading": "Get first access to our biggest limited drops. Sign up for alerts."
-          }
-        },
         "buttons_DxtNMd": {
           "type": "buttons",
           "settings": {
@@ -217,8 +217,8 @@
       "block_order": [
         "text_RJbVDr",
         "heading_HncLjQ",
-        "countdown_fnw4c3",
         "subheading_WNrKjr",
+        "countdown_fnw4c3",
         "buttons_DxtNMd"
       ],
       "name": "Black Friday Countdown",
