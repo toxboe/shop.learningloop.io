@@ -362,36 +362,6 @@
     "testimonials_grid_3byDha": {
       "type": "testimonials-grid",
       "blocks": {
-        "quote_QQzpqx": {
-          "type": "quote",
-          "settings": {
-            "text": "\"Keep the good work! A deck of cards is really one of the best formats to get into action and integrate it in your team's process\"",
-            "author_name": "Dany Cerone, Agency Director",
-            "author_image": "shopify://shop_images/Dany-Cerone.jpg",
-            "rating": 5,
-            "link": ""
-          }
-        },
-        "quote_tPyRfC": {
-          "type": "quote",
-          "settings": {
-            "text": "\"Human behavior and psychology have a major impact on web design and user experience. The Persuasive Patterns card deck is an excellent tool for learning how to apply these principles.\"",
-            "author_name": "Mathew Graham, Head of Product",
-            "author_image": "shopify://shop_images/Mathew-Graham.jpg",
-            "rating": 5,
-            "link": ""
-          }
-        },
-        "quote_6q4bUP": {
-          "type": "quote",
-          "settings": {
-            "text": "\"I work mostly alone at my home office and often get stuck with my thought process. At those moments it's priceless to be able to pick up a deck and reflect my thinking through the cards.\"",
-            "author_name": "Ella Kaila, Senior UX Designer @ Visma",
-            "author_image": "shopify://shop_images/Ella-Kaila.jpg",
-            "rating": 5,
-            "link": ""
-          }
-        },
         "quote_EFfgfm": {
           "type": "quote",
           "settings": {
@@ -418,6 +388,36 @@
             "text": "\"Insights are in an easy to share format. It's also a great brainstorming tool.\"",
             "author_name": "David Di Sipio, Behavioral Design Researcher",
             "author_image": "shopify://shop_images/David-Di-Sipio.jpg",
+            "rating": 5,
+            "link": ""
+          }
+        },
+        "quote_tPyRfC": {
+          "type": "quote",
+          "settings": {
+            "text": "\"Human behavior and psychology have a major impact on web design and user experience. The Persuasive Patterns card deck is an excellent tool for learning how to apply these principles.\"",
+            "author_name": "Mathew Graham, Head of Product",
+            "author_image": "shopify://shop_images/Mathew-Graham.jpg",
+            "rating": 5,
+            "link": ""
+          }
+        },
+        "quote_QQzpqx": {
+          "type": "quote",
+          "settings": {
+            "text": "\"Keep the good work! A deck of cards is really one of the best formats to get into action and integrate it in your team's process\"",
+            "author_name": "Dany Cerone, Agency Director",
+            "author_image": "shopify://shop_images/Dany-Cerone.jpg",
+            "rating": 5,
+            "link": ""
+          }
+        },
+        "quote_6q4bUP": {
+          "type": "quote",
+          "settings": {
+            "text": "\"I work mostly alone at my home office and often get stuck with my thought process. At those moments it's priceless to be able to pick up a deck and reflect my thinking through the cards.\"",
+            "author_name": "Ella Kaila, Senior UX Designer @ Visma",
+            "author_image": "shopify://shop_images/Ella-Kaila.jpg",
             "rating": 5,
             "link": ""
           }
@@ -454,12 +454,12 @@
         }
       },
       "block_order": [
-        "quote_QQzpqx",
-        "quote_tPyRfC",
-        "quote_6q4bUP",
         "quote_EFfgfm",
         "quote_6VB8VF",
         "quote_MVVXkT",
+        "quote_tPyRfC",
+        "quote_QQzpqx",
+        "quote_6q4bUP",
         "quote_jVq69p",
         "quote_BDjhpc",
         "quote_yEUxFx"
