@@ -221,6 +221,7 @@
         "countdown_fnw4c3",
         "buttons_DxtNMd"
       ],
+      "disabled": true,
       "name": "Black Friday Countdown",
       "settings": {
         "color_scheme": "white",
