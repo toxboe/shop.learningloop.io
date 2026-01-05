@@ -1,1 +1,349 @@
-{"sections":{"ff03a7f7-70a4-4aa2-8e65-56be8e7dbefc":{"type":"breadcrumbs","disabled":true,"settings":{"color_scheme":"default","container_size":"large","section_spacing_top":16,"section_spacing_bottom":0,"show_breadcrumbs_product_title":true}},"main":{"type":"product","blocks":{"title":{"type":"title","settings":{"heading_size":"h2"}},"price":{"type":"price","settings":{"price_size":"sm","show_tax_status":false,"show_sale_amount_badge":true,"highlight_sale_price":true}},"28586830-d855-4547-8946-94914bac9e85":{"type":"description","settings":{"title":"","block_style":"static","icon":"none"}},"d3d427d0-4e7d-4f81-9057-c64f65a4f183":{"type":"variant_picker","settings":{"option_type":"button-outline","primary_swatch_option_type":"button-outline","secondary_swatch_option_type":"swatches","option_name":"","information_drawer_button_label":"","text":"","page":"","image_width":60}},"quantity_selector":{"type":"quantity_selector","settings":{}},"buy_buttons":{"type":"buy_buttons","settings":{"show_dynamic_checkout":true,"enable_pickup_availability":false,"enable_gift_card":false}},"c9188b10-e29c-4c63-b385-a3faa860d64a":{"type":"information_tag","settings":{"tag_style":"solid","heading":"Digital Cards emailed after purchase","body":"","content_alignment":"left","icon":"email-outline","icon_position":"inline","tag_background_color":"#ffffff","tag_text_color":"#344454","enable_drawer":false,"drawer_text":"<p>Tell more about your product, add care instructions, country of origin, or manufacturer information.<\/p>","drawer_page":"","drawer_media_size":60}},"4eeca04a-4423-41c9-a374-7a9d970a3d59":{"type":"information_tag","settings":{"tag_style":"solid","heading":"We ship to Denmark from Latvia, EU.","body":"","content_alignment":"left","icon":"fast-delivery","icon_position":"inline","tag_background_color":"#ffffff","tag_text_color":"#344454","enable_drawer":false,"drawer_text":"<p>Tell more about your product, add care instructions, country of origin, or manufacturer information.<\/p>","drawer_page":"","drawer_media_size":60}},"a1297489-7eee-44d2-9252-af8ab78ecef1":{"type":"information_tag","settings":{"tag_style":"solid","heading":"60 lean product experiments easily referenced and used in workshops.","body":"","content_alignment":"left","icon":"checkmark","icon_position":"inline","tag_background_color":"#ffffff","tag_text_color":"#344454","enable_drawer":false,"drawer_text":"<p>Tell more about your product, add care instructions, country of origin, or manufacturer information.<\/p>","drawer_page":"","drawer_media_size":60}},"6d6606d5-ae7e-4306-b3d7-67030f2e4136":{"type":"related_products","settings":{"color_scheme":"primary","show_background":false,"show_in_quick_view":false,"block_layout":"carousel-with-vertical-cards","img_ratio":"inherited","title":"Goes well with","heading_size":"h7","alignment":"left","product_recommendations_type":"manually","featured_collection":"","featured_products":["validation-patterns","ui-patterns","persuasive-patterns-3rd-generation"],"products_to_show":10,"show_navigation_on_hover":true,"autoplay_mode":"disabled","autoplay_interval":3}}},"block_order":["title","price","28586830-d855-4547-8946-94914bac9e85","d3d427d0-4e7d-4f81-9057-c64f65a4f183","quantity_selector","buy_buttons","c9188b10-e29c-4c63-b385-a3faa860d64a","4eeca04a-4423-41c9-a374-7a9d970a3d59","a1297489-7eee-44d2-9252-af8ab78ecef1","6d6606d5-ae7e-4306-b3d7-67030f2e4136"],"settings":{"color_scheme":"default","container_size":"medium","section_spacing_top":32,"section_spacing_bottom":60,"layout":"thumbnails-bottom","desktop_space_between_media":4,"thumbnails_size":88,"mobile_layout":"thumbnails-right","img_ratio":"square","show_only_selected_variants":false,"enable_image_zoom":true,"enable_video_looping":true,"enable_video_autoplay":true,"scale_video":true}},"e6a2dc3b-b6a3-43da-ac2e-7e6e68957a71":{"type":"logo-list","blocks":{"template--15386400456738__e6a2dc3b-b6a3-43da-ac2e-7e6e68957a71-logo-1":{"type":"logo","settings":{"image":"shopify:\/\/shop_images\/logo_google.png","image_width":100,"link":""}},"template--15386400456738__e6a2dc3b-b6a3-43da-ac2e-7e6e68957a71-logo-2":{"type":"logo","settings":{"image":"shopify:\/\/shop_images\/logo_shopify.png","image_width":100,"link":""}},"template--15386400456738__e6a2dc3b-b6a3-43da-ac2e-7e6e68957a71-logo-3":{"type":"logo","settings":{"image":"shopify:\/\/shop_images\/logo_facebook.png","image_width":100,"link":""}},"template--15386400456738__e6a2dc3b-b6a3-43da-ac2e-7e6e68957a71-logo-6":{"type":"logo","settings":{"image":"shopify:\/\/shop_images\/logo_apple.png","image_width":100,"link":""}},"template--15386400456738__e6a2dc3b-b6a3-43da-ac2e-7e6e68957a71-logo-4":{"type":"logo","settings":{"image":"shopify:\/\/shop_images\/logo_microsoft.png","image_width":100,"link":""}},"template--15386400456738__e6a2dc3b-b6a3-43da-ac2e-7e6e68957a71-logo-5":{"type":"logo","settings":{"image":"shopify:\/\/shop_images\/logo_booking-com.png","image_width":100,"link":""}},"template--15386400456738__e6a2dc3b-b6a3-43da-ac2e-7e6e68957a71-logo-7":{"type":"logo","settings":{"image":"shopify:\/\/shop_images\/logo_harvard-business-school.png","image_width":100,"link":""}},"template--15386400456738__e6a2dc3b-b6a3-43da-ac2e-7e6e68957a71-logo-8":{"type":"logo","settings":{"image":"shopify:\/\/shop_images\/logo_coca-cola.png","image_width":100,"link":""}},"4a5e5f7c-e933-4dbe-b1bf-01b4e791667f":{"type":"logo","settings":{"image":"shopify:\/\/shop_images\/logo-mckinsey-and-company.png","image_width":100,"link":""}},"9b1e4372-ad3c-4d0d-a3f4-f5edc9b124bd":{"type":"logo","settings":{"image":"shopify:\/\/shop_images\/logo_dropbox.png","image_width":100,"link":""}}},"block_order":["template--15386400456738__e6a2dc3b-b6a3-43da-ac2e-7e6e68957a71-logo-1","template--15386400456738__e6a2dc3b-b6a3-43da-ac2e-7e6e68957a71-logo-2","template--15386400456738__e6a2dc3b-b6a3-43da-ac2e-7e6e68957a71-logo-3","template--15386400456738__e6a2dc3b-b6a3-43da-ac2e-7e6e68957a71-logo-6","template--15386400456738__e6a2dc3b-b6a3-43da-ac2e-7e6e68957a71-logo-4","template--15386400456738__e6a2dc3b-b6a3-43da-ac2e-7e6e68957a71-logo-5","template--15386400456738__e6a2dc3b-b6a3-43da-ac2e-7e6e68957a71-logo-7","template--15386400456738__e6a2dc3b-b6a3-43da-ac2e-7e6e68957a71-logo-8","4a5e5f7c-e933-4dbe-b1bf-01b4e791667f","9b1e4372-ad3c-4d0d-a3f4-f5edc9b124bd"],"settings":{"color_scheme":"custom-3","container_size":"medium","section_spacing_top":90,"section_spacing_bottom":90,"desktop_layout":"grid","mobile_layout":"carousel","title":"Trusted by leading product designers at","heading_size":"h2","alignment":"center","desktop_columns":6,"desktop_space_between_cards":32,"mobile_space_between_cards":12,"show_navigation_arrows":"always","autoplay_mode":"disabled","autoplay_interval":3}},"product-recommendations":{"type":"product-recommendations","settings":{"color_scheme":"default","container_size":"medium","section_spacing_top":48,"section_spacing_bottom":48,"desktop_layout":"carousel","mobile_layout":"carousel","title":"You may also like","heading_size":"h5","alignment":"center","product_recommendations_type":"auto","featured_collection":"","featured_products":[],"img_ratio":"square","product_card_align":"center","cards_to_show":18,"desktop_columns":3,"desktop_space_between_cards":20,"mobile_space_between_cards":20,"show_navigation_on_hover":true,"autoplay_mode":"disabled","autoplay_interval":3}}},"order":["ff03a7f7-70a4-4aa2-8e65-56be8e7dbefc","main","e6a2dc3b-b6a3-43da-ac2e-7e6e68957a71","product-recommendations"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "ff03a7f7-70a4-4aa2-8e65-56be8e7dbefc": {
+      "type": "breadcrumbs",
+      "disabled": true,
+      "settings": {
+        "color_scheme": "default",
+        "container_size": "large",
+        "section_spacing_top": 16,
+        "section_spacing_bottom": 0,
+        "show_breadcrumbs_product_title": true
+      }
+    },
+    "main": {
+      "type": "product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h2"
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "price_size": "sm",
+            "show_tax_status": false,
+            "show_sale_amount_badge": true,
+            "highlight_sale_price": true
+          }
+        },
+        "28586830-d855-4547-8946-94914bac9e85": {
+          "type": "description",
+          "settings": {
+            "title": "",
+            "block_style": "static",
+            "icon": "none"
+          }
+        },
+        "d3d427d0-4e7d-4f81-9057-c64f65a4f183": {
+          "type": "variant_picker",
+          "settings": {
+            "option_type": "button-outline",
+            "primary_swatch_option_type": "button-outline",
+            "secondary_swatch_option_type": "swatches",
+            "show_currency_code": true,
+            "show_compare_at_price": false,
+            "option_name": "",
+            "information_drawer_button_label": "",
+            "text": "",
+            "page": "",
+            "image_width": 60
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "enable_pickup_availability": false,
+            "enable_gift_card": false
+          }
+        },
+        "c9188b10-e29c-4c63-b385-a3faa860d64a": {
+          "type": "information_tag",
+          "settings": {
+            "tag_style": "solid",
+            "heading": "Digital Cards emailed after purchase",
+            "body": "",
+            "content_alignment": "left",
+            "icon": "email-outline",
+            "icon_position": "inline",
+            "tag_background_color": "#ffffff",
+            "tag_text_color": "#344454",
+            "enable_drawer": false,
+            "drawer_text": "<p>Tell more about your product, add care instructions, country of origin, or manufacturer information.</p>",
+            "drawer_page": "",
+            "drawer_media_size": 60
+          }
+        },
+        "4eeca04a-4423-41c9-a374-7a9d970a3d59": {
+          "type": "information_tag",
+          "settings": {
+            "tag_style": "solid",
+            "heading": "We ship to Denmark from Latvia, EU.",
+            "body": "",
+            "content_alignment": "left",
+            "icon": "fast-delivery",
+            "icon_position": "inline",
+            "tag_background_color": "#ffffff",
+            "tag_text_color": "#344454",
+            "enable_drawer": false,
+            "drawer_text": "<p>Tell more about your product, add care instructions, country of origin, or manufacturer information.</p>",
+            "drawer_page": "",
+            "drawer_media_size": 60
+          }
+        },
+        "a1297489-7eee-44d2-9252-af8ab78ecef1": {
+          "type": "information_tag",
+          "settings": {
+            "tag_style": "solid",
+            "heading": "60 lean product experiments easily referenced and used in workshops.",
+            "body": "",
+            "content_alignment": "left",
+            "icon": "checkmark",
+            "icon_position": "inline",
+            "tag_background_color": "#ffffff",
+            "tag_text_color": "#344454",
+            "enable_drawer": false,
+            "drawer_text": "<p>Tell more about your product, add care instructions, country of origin, or manufacturer information.</p>",
+            "drawer_page": "",
+            "drawer_media_size": 60
+          }
+        },
+        "6d6606d5-ae7e-4306-b3d7-67030f2e4136": {
+          "type": "related_products",
+          "settings": {
+            "color_scheme": "primary",
+            "show_background": false,
+            "show_in_quick_view": false,
+            "block_layout": "carousel-with-vertical-cards",
+            "img_ratio": "inherited",
+            "title": "Goes well with",
+            "heading_size": "h7",
+            "alignment": "left",
+            "product_recommendations_type": "manually",
+            "featured_collection": "",
+            "featured_products": [
+              "validation-patterns",
+              "ui-patterns",
+              "persuasive-patterns-3rd-generation"
+            ],
+            "products_to_show": 10,
+            "show_navigation_on_hover": true,
+            "autoplay_mode": "disabled",
+            "autoplay_interval": 3
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "price",
+        "28586830-d855-4547-8946-94914bac9e85",
+        "d3d427d0-4e7d-4f81-9057-c64f65a4f183",
+        "quantity_selector",
+        "buy_buttons",
+        "c9188b10-e29c-4c63-b385-a3faa860d64a",
+        "4eeca04a-4423-41c9-a374-7a9d970a3d59",
+        "a1297489-7eee-44d2-9252-af8ab78ecef1",
+        "6d6606d5-ae7e-4306-b3d7-67030f2e4136"
+      ],
+      "settings": {
+        "color_scheme": "default",
+        "container_size": "medium",
+        "section_spacing_top": 32,
+        "section_spacing_bottom": 60,
+        "layout": "thumbnails-bottom",
+        "desktop_space_between_media": 4,
+        "thumbnails_size": 88,
+        "mobile_layout": "thumbnails-right",
+        "img_ratio": "square",
+        "show_only_selected_variants": false,
+        "enable_image_zoom": true,
+        "enable_video_looping": true,
+        "enable_video_autoplay": true,
+        "scale_video": true
+      }
+    },
+    "e6a2dc3b-b6a3-43da-ac2e-7e6e68957a71": {
+      "type": "logo-list",
+      "blocks": {
+        "template--15386400456738__e6a2dc3b-b6a3-43da-ac2e-7e6e68957a71-logo-1": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/logo_google.png",
+            "image_width": 100,
+            "link": ""
+          }
+        },
+        "template--15386400456738__e6a2dc3b-b6a3-43da-ac2e-7e6e68957a71-logo-2": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/logo_shopify.png",
+            "image_width": 100,
+            "link": ""
+          }
+        },
+        "template--15386400456738__e6a2dc3b-b6a3-43da-ac2e-7e6e68957a71-logo-3": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/logo_facebook.png",
+            "image_width": 100,
+            "link": ""
+          }
+        },
+        "template--15386400456738__e6a2dc3b-b6a3-43da-ac2e-7e6e68957a71-logo-6": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/logo_apple.png",
+            "image_width": 100,
+            "link": ""
+          }
+        },
+        "template--15386400456738__e6a2dc3b-b6a3-43da-ac2e-7e6e68957a71-logo-4": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/logo_microsoft.png",
+            "image_width": 100,
+            "link": ""
+          }
+        },
+        "template--15386400456738__e6a2dc3b-b6a3-43da-ac2e-7e6e68957a71-logo-5": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/logo_booking-com.png",
+            "image_width": 100,
+            "link": ""
+          }
+        },
+        "template--15386400456738__e6a2dc3b-b6a3-43da-ac2e-7e6e68957a71-logo-7": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/logo_harvard-business-school.png",
+            "image_width": 100,
+            "link": ""
+          }
+        },
+        "template--15386400456738__e6a2dc3b-b6a3-43da-ac2e-7e6e68957a71-logo-8": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/logo_coca-cola.png",
+            "image_width": 100,
+            "link": ""
+          }
+        },
+        "4a5e5f7c-e933-4dbe-b1bf-01b4e791667f": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/logo-mckinsey-and-company.png",
+            "image_width": 100,
+            "link": ""
+          }
+        },
+        "9b1e4372-ad3c-4d0d-a3f4-f5edc9b124bd": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/logo_dropbox.png",
+            "image_width": 100,
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15386400456738__e6a2dc3b-b6a3-43da-ac2e-7e6e68957a71-logo-1",
+        "template--15386400456738__e6a2dc3b-b6a3-43da-ac2e-7e6e68957a71-logo-2",
+        "template--15386400456738__e6a2dc3b-b6a3-43da-ac2e-7e6e68957a71-logo-3",
+        "template--15386400456738__e6a2dc3b-b6a3-43da-ac2e-7e6e68957a71-logo-6",
+        "template--15386400456738__e6a2dc3b-b6a3-43da-ac2e-7e6e68957a71-logo-4",
+        "template--15386400456738__e6a2dc3b-b6a3-43da-ac2e-7e6e68957a71-logo-5",
+        "template--15386400456738__e6a2dc3b-b6a3-43da-ac2e-7e6e68957a71-logo-7",
+        "template--15386400456738__e6a2dc3b-b6a3-43da-ac2e-7e6e68957a71-logo-8",
+        "4a5e5f7c-e933-4dbe-b1bf-01b4e791667f",
+        "9b1e4372-ad3c-4d0d-a3f4-f5edc9b124bd"
+      ],
+      "settings": {
+        "color_scheme": "custom-3",
+        "container_size": "medium",
+        "section_spacing_top": 90,
+        "section_spacing_bottom": 90,
+        "desktop_layout": "grid",
+        "mobile_layout": "carousel",
+        "title": "Trusted by leading product designers at",
+        "heading_size": "h2",
+        "alignment": "center",
+        "desktop_columns": 6,
+        "desktop_space_between_cards": 32,
+        "mobile_space_between_cards": 12,
+        "show_navigation_arrows": "always",
+        "autoplay_mode": "disabled",
+        "autoplay_interval": 3
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "color_scheme": "default",
+        "container_size": "medium",
+        "section_spacing_top": 48,
+        "section_spacing_bottom": 48,
+        "desktop_layout": "carousel",
+        "mobile_layout": "carousel",
+        "title": "You may also like",
+        "heading_size": "h5",
+        "alignment": "center",
+        "product_recommendations_type": "auto",
+        "featured_collection": "",
+        "featured_products": [],
+        "img_ratio": "square",
+        "product_card_align": "center",
+        "cards_to_show": 18,
+        "desktop_columns": 3,
+        "desktop_space_between_cards": 20,
+        "mobile_space_between_cards": 20,
+        "show_navigation_on_hover": true,
+        "autoplay_mode": "disabled",
+        "autoplay_interval": 3
+      }
+    },
+    "1767631367e9d0d052": {
+      "type": "apps",
+      "blocks": {
+        "klaviyo_reviews_product_reviews_Li4Pbg": {
+          "type": "shopify://apps/klaviyo-reviews/blocks/product-reviews/db20e365-d984-4ac4-9655-e1588d951ca9",
+          "disabled": true,
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "klaviyo_reviews_product_reviews_Li4Pbg"
+      ],
+      "settings": {
+        "color_scheme": "default",
+        "container_size": "large",
+        "section_spacing_top": 48,
+        "section_spacing_bottom": 48,
+        "custom_liquid": ""
+      }
+    }
+  },
+  "order": [
+    "ff03a7f7-70a4-4aa2-8e65-56be8e7dbefc",
+    "main",
+    "e6a2dc3b-b6a3-43da-ac2e-7e6e68957a71",
+    "product-recommendations",
+    "1767631367e9d0d052"
+  ]
+}
