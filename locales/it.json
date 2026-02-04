@@ -28,15 +28,13 @@
       }
     },
     "quote": {
-      "store_front": {
-      },
+      "store_front": {},
       "screen_reader": {
         "aria_label_for_close_drawer_button": "Chiudi"
       }
     },
     "back_to_top_button": {
-      "store_front": {
-      },
+      "store_front": {},
       "screen_reader": {
         "aria_label": "Torna su"
       }
@@ -46,12 +44,10 @@
         "progress_message": "Ancora [value] per avere la spedizione gratuita!",
         "achieved_message": "Spedizione gratuita sbloccata!"
       },
-      "screen_reader": {
-      }
+      "screen_reader": {}
     },
     "logo": {
-      "store_front": {
-      },
+      "store_front": {},
       "screen_reader": {
         "aria_label": "Logo"
       }
@@ -63,15 +59,14 @@
           "other": "{{ count }} recensioni"
         }
       },
-      "screen_reader": {
-      }
+      "screen_reader": {}
     },
     "password_page": {
       "store_front": {
         "placeholder_for_password_input": "La tua password",
         "placeholder_for_email_input": "Il tuo indirizzo email",
         "text_before_powered_shopify_logo": "Questo negozio sarà ospitato su",
-        "text_for_link_to_admin_at_html": "<span>Sei il proprietario del negozio? <a href=\"\/admin\" class=\"{{ class }}\">Accedi qui<\/a><\/span>",
+        "text_for_link_to_admin_at_html": "<span>Sei il proprietario del negozio? <a href=\"/admin\" class=\"{{ class }}\">Accedi qui</a></span>",
         "text_for_element_which_open_modal": "Accedi utilizzando la password",
         "text_for_title_in_login_modal": "Inserisci la password del negozio",
         "incorrect_password_error_message": "Password errata"
@@ -115,15 +110,15 @@
         "add_order_notes_button": "Aggiungi nota all'ordine",
         "placeholder_for_textarea_for_order_note": "Lascia un messaggio al venditore",
         "label_for_subtotal_price_html": {
-          "one": "Subtotale <span class=\"subtotal__subtotals-cart-item-count\">({{ count }} item)<\/span>",
-          "other": "Subtotale <span class=\"subtotal__subtotals-cart-item-count\">({{ count }} item)<\/span>"
+          "one": "Subtotale <span class=\"subtotal__subtotals-cart-item-count\">({{ count }} item)</span>",
+          "other": "Subtotale <span class=\"subtotal__subtotals-cart-item-count\">({{ count }} item)</span>"
         },
         "label_for_total_price": "Totale",
         "text_for_go_to_cart_button": "Vai al carrello",
         "text_for_checkout_button": "Check-out",
-        "taxes_and_shipping_policy_at_checkout_html": "Imposte e <a href=\"{{ link }}\">spese di spedizione<\/a> calcolate al momento del check-out",
+        "taxes_and_shipping_policy_at_checkout_html": "Imposte e <a href=\"{{ link }}\">spese di spedizione</a> calcolate al momento del check-out",
         "taxes_included_but_shipping_at_checkout": "Imposte incluse e spese di spedizione calcolate al momento del check-out",
-        "taxes_included_and_shipping_policy_html": "Imposte incluse. <a href=\"{{ link }}\">Spese di spedizione<\/a> calcolate al momento del check-out.",
+        "taxes_included_and_shipping_policy_html": "Imposte incluse. <a href=\"{{ link }}\">Spese di spedizione</a> calcolate al momento del check-out.",
         "taxes_and_shipping_at_checkout": "Imposte e spese di spedizione calcolate al momento del check-out"
       },
       "screen_reader": {
@@ -178,8 +173,7 @@
         "button_label": "Mostra altri",
         "results_label": "Hai visionato {{ current_count }} di {{ count }} risultati"
       },
-      "screen_reader": {
-      }
+      "screen_reader": {}
     },
     "share": {
       "store_front": {
@@ -232,8 +226,7 @@
         "cart_error": "Si è verificato un errore durante l'aggiornamento del carrello. Riprova più tardi.",
         "cart_quantity_error_html": "Puoi aggiungere solo [quantity] articoli al tuo carrello."
       },
-      "screen_reader": {
-      }
+      "screen_reader": {}
     },
     "badges": {
       "store_front": {
@@ -252,8 +245,7 @@
           "variant_5_html": "Risparmia {{ amount }}"
         }
       },
-      "screen_reader": {
-      }
+      "screen_reader": {}
     }
   },
   "blogs": {
@@ -311,7 +303,7 @@
         "eu": "Spediamo a {{ countryName }} dalla Lettonia, UE.",
         "non_eu": "Spediamo a {{ countryName }} dalla Lettonia, UE. Il tuo ordine potrebbe essere soggetto a dazi doganali locali. Si prega di considerare questo nei tuoi costi totali.",
         "us": "Spediamo a {{ countryName }} da Charlotte, NC.",
-        "worldwide": "Spediamo a {{ countryName }} dagli Stati Uniti. Il tuo ordine viene spedito da una posizione internazionale. Potresti dover pagare spese di gestione e\/o dazi doganali alla consegna."
+        "worldwide": "Spediamo a {{ countryName }} dagli Stati Uniti. Il tuo ordine viene spedito da una posizione internazionale. Potresti dover pagare spese di gestione e/o dazi doganali alla consegna."
       },
       "quantity": {
         "label": "Quantità"
@@ -327,8 +319,8 @@
         "view_store_info": "Visualizza informazioni sul negozio",
         "check_other_stores": "Verifica la disponibilità in altri negozi",
         "pick_up_available": "Ritiro disponibile",
-        "pick_up_available_at_html": "Ritiro disponibile presso la sede <span class=\"pickup-availability-info__location-name\">{{ location_name }}<\/span>",
-        "pick_up_unavailable_at_html": "Ritiro attualmente non disponibile presso la sede <span class=\"pickup-availability-info__location-name\">{{ location_name }}<\/span>",
+        "pick_up_available_at_html": "Ritiro disponibile presso la sede <span class=\"pickup-availability-info__location-name\">{{ location_name }}</span>",
+        "pick_up_unavailable_at_html": "Ritiro attualmente non disponibile presso la sede <span class=\"pickup-availability-info__location-name\">{{ location_name }}</span>",
         "pick_up_unavailable": "Ritiro attualmente non disponibile"
       },
       "sold_out": "Esaurito",
@@ -414,10 +406,9 @@
   },
   "custom_liquid": {
     "store_front": {
-      "stub_text": "Scrivi o copia\/incolla il codice Liquid"
+      "stub_text": "Scrivi o copia/incolla il codice Liquid"
     },
-    "screen_reader": {
-    }
+    "screen_reader": {}
   },
   "collection_hero_banner": {
     "store_front": {
@@ -485,8 +476,7 @@
       "store_front": {
         "order_history": "Storico ordini"
       },
-      "screen_reader": {
-      }
+      "screen_reader": {}
     },
     "activate_account": {
       "store_front": {
@@ -516,7 +506,7 @@
         "address1": "Indirizzo - campo 1",
         "address2": "Indirizzo - campo 2",
         "city": "Città",
-        "country": "Paese\/Area geografica",
+        "country": "Paese/Area geografica",
         "zip": "CAP",
         "phone": "Numero di telefono",
         "set_default": "Imposta come indirizzo predefinito",
@@ -543,7 +533,7 @@
         "forgot_password_title": "Password dimenticata",
         "forgot_password_link": "Hai dimenticato la password?",
         "forgot_password_note": "Ti invieremo una email per reimpostare la password.",
-        "new_customer_at_html": "Nuovo cliente? <a href=\"{{ url }}\">Crea un account<\/a>",
+        "new_customer_at_html": "Nuovo cliente? <a href=\"{{ url }}\">Crea un account</a>",
         "guest_continue": "Continua",
         "password_input_placeholder": "Inserisci la password",
         "password_input_label": "Password",
@@ -594,15 +584,13 @@
         "fulfillment_status": "Stato di evasione",
         "total": "Totale"
       },
-      "screen_reader": {
-      }
+      "screen_reader": {}
     },
     "recover_password": {
       "store_front": {
         "success": "Ti abbiamo inviato un'email con un link per aggiornare la password."
       },
-      "screen_reader": {
-      }
+      "screen_reader": {}
     },
     "register": {
       "store_front": {
@@ -612,7 +600,7 @@
         "email": "Indirizzo email",
         "password": "Password",
         "create_account_button_label": "Crea account",
-        "sign_in_link_html": "Già cliente? <a href=\"{{ account_login_url }}\" aria-label=\"Link to account login page\">Accedi<\/a>",
+        "sign_in_link_html": "Già cliente? <a href=\"{{ account_login_url }}\" aria-label=\"Link to account login page\">Accedi</a>",
         "success_message": "Account creato con successo. Una email di verifica è stata inviata al tuo indirizzo email. Clicca il link nella email per attivare il tuo account."
       },
       "screen_reader": {
@@ -657,8 +645,7 @@
           "other": "{{ count }} prodotti"
         }
       },
-      "screen_reader": {
-      }
+      "screen_reader": {}
     },
     "product_card": {
       "store_front": {
@@ -701,8 +688,7 @@
           "other": "{{ count }} commenti"
         }
       },
-      "screen_reader": {
-      }
+      "screen_reader": {}
     }
   },
   "dialog_elements": {
@@ -720,13 +706,11 @@
       "store_front": {
         "header_title": "Visualizzazione rapida"
       },
-      "screen_reader": {
-      }
+      "screen_reader": {}
     }
   },
   "before_after_images": {
-    "store_front": {
-    },
+    "store_front": {},
     "screen_reader": {
       "separator": {
         "button": "trascina la linea tra le immagini"
@@ -744,12 +728,10 @@
       "second": "Sec",
       "seconds": "Sec"
     },
-    "screen_reader": {
-    }
+    "screen_reader": {}
   },
   "hotspots": {
-    "store_front": {
-    },
+    "store_front": {},
     "screen_reader": {
       "pin": "Hotspot. Se è attivo, compariranno delle informazioni aggiuntive",
       "close": "Chiudi la finestra con le informazioni sull'hotspot"
@@ -776,5 +758,10 @@
     "screen_reader": {
       "close": "Chiudi"
     }
+  },
+  "cart": {
+    "vat_number_label": "VAT number (optional)",
+    "vat_number_placeholder": "e.g., DK12345678",
+    "vat_number_help": "Used for invoicing. Leave blank if not applicable."
   }
 }

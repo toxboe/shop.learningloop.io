@@ -236,31 +236,48 @@
                 {%- endif -%}
               </cart-related-products-block>
             {% when 'order_notes' %}
+              {%- liquid
+                assign vat_country_code = localization.country.iso_code | default: cart.shipping_address.country_code
+                assign eu_countries = 'AT,BE,BG,HR,CY,CZ,DK,EE,FI,FR,DE,GR,HU,IE,IT,LV,LT,LU,MT,NL,PL,PT,RO,SK,SI,ES,SE' | split: ','
+                assign show_vat_note = true
+                if block.settings.show_vat_note_eu_only
+                  unless vat_country_code != blank and eu_countries contains vat_country_code
+                    assign show_vat_note = false
+                  endunless
+                endif
+              -%}
               <cart-order-notes-block
                 class='cart__block'
                 block-id='{{ block.id }}'
                 {{ block.shopify_attributes }}
               >
-                {%- if cart != empty -%}
+                {%- if cart != empty and show_vat_note -%}
                   <accordeon-component
                     class='accordeon-plus accordeon-plus--top-bordered accordeon-plus--bottom-bordered cart-order-notes'
                     data-aria-expanded='false'
                   >
                     <accordeon-btn class='accordeon-plus__btn cart-order-notes__accordeon-btn' tabindex='0'>
-                      {{ 'general.subtotal.store_front.add_order_notes_button' | t }}
+                      {{ 'cart.vat_number_label' | t }}
                       {% render 'icon', icon_name: 'plus', class: 'accordeon-plus__icon' %}
                     </accordeon-btn>
                     <div class='accordeon-plus__content-wrap' data-accordeon-content-wrapper>
                       <div class='accordeon-plus__content cart-order-notes__accordeon-content' data-accordeon-content>
                         <cart-note>
-                          <textarea
-                            class='textarea cart-order-notes__textarea'
+                          <label class='cart-order-notes__label' for='CartPageNote'>
+                            {{ 'cart.vat_number_label' | t }}
+                          </label>
+                          <input
+                            class='input input--solid input--large cart-order-notes__input'
+                            type='text'
                             name='note'
                             id='CartPageNote'
                             form='CartPageForm'
-                            placeholder='{{ 'general.subtotal.store_front.placeholder_for_textarea_for_order_note' | t }}'
+                            value='{{ cart.note | escape }}'
+                            placeholder='{{ 'cart.vat_number_placeholder' | t }}'
                             data-cart-note-textarea
-                          >{{ cart.note }}</textarea>
+                            data-vat-note
+                          >
+                          <p class='cart-order-notes__help'>{{ 'cart.vat_number_help' | t }}</p>
                         </cart-note>
                       </div>
                     </div>
@@ -1100,7 +1117,15 @@
     {
       "type": "order_notes",
       "name": "t:sections.cart.blocks.order_notes.name",
-      "limit": 1
+      "limit": 1,
+      "settings": [
+        {
+          "type": "checkbox",
+          "id": "show_vat_note_eu_only",
+          "default": false,
+          "label": "Show only for EU shipping countries"
+        }
+      ]
     },
     {
       "type": "subtotal",

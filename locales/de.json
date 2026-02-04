@@ -28,15 +28,13 @@
       }
     },
     "quote": {
-      "store_front": {
-      },
+      "store_front": {},
       "screen_reader": {
         "aria_label_for_close_drawer_button": "Schließen"
       }
     },
     "back_to_top_button": {
-      "store_front": {
-      },
+      "store_front": {},
       "screen_reader": {
         "aria_label": "Zurück nach oben"
       }
@@ -46,12 +44,10 @@
         "progress_message": "Nur noch [value] vom kostenlosen Versand entfernt!",
         "achieved_message": "Kostenloser Versand verfügbar!"
       },
-      "screen_reader": {
-      }
+      "screen_reader": {}
     },
     "logo": {
-      "store_front": {
-      },
+      "store_front": {},
       "screen_reader": {
         "aria_label": "Logo"
       }
@@ -63,15 +59,14 @@
           "other": "{{ count }} Bewertungen"
         }
       },
-      "screen_reader": {
-      }
+      "screen_reader": {}
     },
     "password_page": {
       "store_front": {
         "placeholder_for_password_input": "Ihr Passwort",
         "placeholder_for_email_input": "Ihre E-Mail-Adresse",
         "text_before_powered_shopify_logo": "Dieser Shop wird unterstützt von",
-        "text_for_link_to_admin_at_html": "<span>Bist du der Shop-Inhaber? <a href=\"\/admin\" class=\"{{ class }}\">Hier einloggen<\/a><\/span>",
+        "text_for_link_to_admin_at_html": "<span>Bist du der Shop-Inhaber? <a href=\"/admin\" class=\"{{ class }}\">Hier einloggen</a></span>",
         "text_for_element_which_open_modal": "Mit Passwort betreten",
         "text_for_title_in_login_modal": "Shop-Passwort",
         "incorrect_password_error_message": "Falsches Passwort"
@@ -115,15 +110,15 @@
         "add_order_notes_button": "Warenkorbanmerkung hinzufügen",
         "placeholder_for_textarea_for_order_note": "Fügen Sie eine Anmerkung für den Verkäufer",
         "label_for_subtotal_price_html": {
-          "one": "Zwischensumme <span class=\"subtotal__subtotals-cart-item-count\">({{ count }} Artikel)<\/span>",
-          "other": "Zwischensumme <span class=\"subtotal__subtotals-cart-item-count\">({{ count }} Artikel)<\/span>"
+          "one": "Zwischensumme <span class=\"subtotal__subtotals-cart-item-count\">({{ count }} Artikel)</span>",
+          "other": "Zwischensumme <span class=\"subtotal__subtotals-cart-item-count\">({{ count }} Artikel)</span>"
         },
         "label_for_total_price": "Gesamtsumme",
         "text_for_go_to_cart_button": "Zum Warenkorb",
         "text_for_checkout_button": "Auschecken",
-        "taxes_and_shipping_policy_at_checkout_html": "Steuern und <a href=\"{{ link }}\">Versand<\/a> werden beim Checkout berechnet",
+        "taxes_and_shipping_policy_at_checkout_html": "Steuern und <a href=\"{{ link }}\">Versand</a> werden beim Checkout berechnet",
         "taxes_included_but_shipping_at_checkout": "Steuern sind inklusive und Versand wird beim Checkout berechnet",
-        "taxes_included_and_shipping_policy_html": "Inklusive Steuern. <a href=\"{{ link }}\">Versand<\/a> wird beim Checkout berechnet.",
+        "taxes_included_and_shipping_policy_html": "Inklusive Steuern. <a href=\"{{ link }}\">Versand</a> wird beim Checkout berechnet.",
         "taxes_and_shipping_at_checkout": "Steuern und Versand werden beim Checkout berechnet"
       },
       "screen_reader": {
@@ -178,8 +173,7 @@
         "button_label": "Mehr laden",
         "results_label": "Sie haben {{ current_count }} von {{ count }} Ergebnisse angesehen"
       },
-      "screen_reader": {
-      }
+      "screen_reader": {}
     },
     "share": {
       "store_front": {
@@ -232,8 +226,7 @@
         "cart_error": "Beim Aktualisieren Ihres Warenkorbs ist ein Fehler aufgetreten. Bitte versuchen Sie es erneut.",
         "cart_quantity_error_html": "Sie können nur [quantity] Artikel zu Ihrem Warenkorb hinzufügen."
       },
-      "screen_reader": {
-      }
+      "screen_reader": {}
     },
     "badges": {
       "store_front": {
@@ -252,8 +245,7 @@
           "variant_5_html": "Sie sparen {{ amount }}"
         }
       },
-      "screen_reader": {
-      }
+      "screen_reader": {}
     }
   },
   "blogs": {
@@ -311,7 +303,7 @@
         "eu": "Wir versenden nach {{ countryName }} aus Lettland, EU.",
         "non_eu": "Wir versenden nach {{ countryName }} aus Lettland, EU. Ihre Bestellung könnte lokalen Zollgebühren unterliegen. Bitte berücksichtigen Sie dies in Ihren Gesamtkosten.",
         "us": "Wir versenden nach {{ countryName }} aus Charlotte, NC.",
-        "worldwide": "Wir versenden nach {{ countryName }} aus den USA. Ihre Bestellung wird von einem internationalen Standort versendet. Möglicherweise müssen Sie bei der Lieferung Bearbeitungs- und\/oder Zollgebühren zahlen."
+        "worldwide": "Wir versenden nach {{ countryName }} aus den USA. Ihre Bestellung wird von einem internationalen Standort versendet. Möglicherweise müssen Sie bei der Lieferung Bearbeitungs- und/oder Zollgebühren zahlen."
       },
       "quantity": {
         "label": "Anzahl"
@@ -327,8 +319,8 @@
         "view_store_info": "Geschäftsinformationen anzeigen",
         "check_other_stores": "Verfügbarkeit in anderen Geschäften prüfen",
         "pick_up_available": "Abholung verfügbar",
-        "pick_up_available_at_html": "Abholung verfügbar im <span class=\"pickup-availability-info__location-name\">{{ location_name }}<\/span>",
-        "pick_up_unavailable_at_html": "Abholung derzeit nicht verfügbar im <span class=\"pickup-availability-info__location-name\">{{ location_name }}<\/span>",
+        "pick_up_available_at_html": "Abholung verfügbar im <span class=\"pickup-availability-info__location-name\">{{ location_name }}</span>",
+        "pick_up_unavailable_at_html": "Abholung derzeit nicht verfügbar im <span class=\"pickup-availability-info__location-name\">{{ location_name }}</span>",
         "pick_up_unavailable": "Abholung derzeit nicht verfügbar"
       },
       "sold_out": "Ausverkauft",
@@ -414,10 +406,9 @@
   },
   "custom_liquid": {
     "store_front": {
-      "stub_text": "Liquid Code schreiben oder kopieren\/einfügen"
+      "stub_text": "Liquid Code schreiben oder kopieren/einfügen"
     },
-    "screen_reader": {
-    }
+    "screen_reader": {}
   },
   "collection_hero_banner": {
     "store_front": {
@@ -485,8 +476,7 @@
       "store_front": {
         "order_history": "Bestellhistorie"
       },
-      "screen_reader": {
-      }
+      "screen_reader": {}
     },
     "activate_account": {
       "store_front": {
@@ -516,8 +506,8 @@
         "address1": "Adresse 1",
         "address2": "Adresse 2",
         "city": "Stadt",
-        "country": "Land\/ Region",
-        "zip": "Postleitzahl\/ ZIP Code",
+        "country": "Land/ Region",
+        "zip": "Postleitzahl/ ZIP Code",
         "phone": "Telefonnummer",
         "set_default": "Als Standardadresse festlegen",
         "add": "Adresse hinzufügen",
@@ -543,7 +533,7 @@
         "forgot_password_title": "Haben Sie Ihr Passwort vergessen?",
         "forgot_password_link": "Haben Sie Ihr Passwort vergessen?",
         "forgot_password_note": "Wir senden Ihnen eine E-Mail, um Ihr Passwort zurückzusetzen.",
-        "new_customer_at_html": "Sie sind ein neuer Kunde? <a href=\"{{ url }}\">Konto erstellen<\/a>",
+        "new_customer_at_html": "Sie sind ein neuer Kunde? <a href=\"{{ url }}\">Konto erstellen</a>",
         "guest_continue": "Weiter",
         "password_input_placeholder": "Geben Sie Ihr Passwort ein",
         "password_input_label": "Passwort",
@@ -594,15 +584,13 @@
         "fulfillment_status": "Auftragsstatus",
         "total": "Gesamtsumme"
       },
-      "screen_reader": {
-      }
+      "screen_reader": {}
     },
     "recover_password": {
       "store_front": {
         "success": "Wir haben Ihnen eine E-Mail mit einem Link gesendet, um Ihr Passwort zu aktualisieren."
       },
-      "screen_reader": {
-      }
+      "screen_reader": {}
     },
     "register": {
       "store_front": {
@@ -612,7 +600,7 @@
         "email": "E-Mail",
         "password": "Passwort",
         "create_account_button_label": "Konto erstellen",
-        "sign_in_link_html": "Sind Sie ein wiederkehrender Kunde? <a href=\"{{ account_login_url }}\" aria-label=\"Link to account login page\">Anmelden<\/a>",
+        "sign_in_link_html": "Sind Sie ein wiederkehrender Kunde? <a href=\"{{ account_login_url }}\" aria-label=\"Link to account login page\">Anmelden</a>",
         "success_message": "Das Konto wurde erfolgreich erstellt. Eine Bestätigungs-E-Mail wurde an Ihre E-Mail-Adresse gesendet. Klicken Sie auf den Link in der E-Mail, um Ihr Konto zu aktivieren."
       },
       "screen_reader": {
@@ -657,8 +645,7 @@
           "other": "{{ count }} Produkte"
         }
       },
-      "screen_reader": {
-      }
+      "screen_reader": {}
     },
     "product_card": {
       "store_front": {
@@ -701,8 +688,7 @@
           "other": "{{ count }} Kommentare"
         }
       },
-      "screen_reader": {
-      }
+      "screen_reader": {}
     }
   },
   "dialog_elements": {
@@ -720,13 +706,11 @@
       "store_front": {
         "header_title": "Schnellansicht"
       },
-      "screen_reader": {
-      }
+      "screen_reader": {}
     }
   },
   "before_after_images": {
-    "store_front": {
-    },
+    "store_front": {},
     "screen_reader": {
       "separator": {
         "button": "die Grenze zwischen den Bildern ziehen"
@@ -744,12 +728,10 @@
       "second": "Sek",
       "seconds": "Sek"
     },
-    "screen_reader": {
-    }
+    "screen_reader": {}
   },
   "hotspots": {
-    "store_front": {
-    },
+    "store_front": {},
     "screen_reader": {
       "pin": "Hotspot. Wenn er aktiv ist, werden zusätzliche Informationen angezeigt.",
       "close": "Das Fenster mit den Informationen im Hotspot schließen."
@@ -776,5 +758,10 @@
     "screen_reader": {
       "close": "Schließen"
     }
+  },
+  "cart": {
+    "vat_number_label": "VAT number (optional)",
+    "vat_number_placeholder": "e.g., DK12345678",
+    "vat_number_help": "Used for invoicing. Leave blank if not applicable."
   }
 }
