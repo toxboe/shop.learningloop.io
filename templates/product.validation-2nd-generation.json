@@ -472,10 +472,10 @@
           "type": "column_with_icon",
           "settings": {
             "icon": "checkmark",
-            "custom_icon_image": "shopify://shop_images/method-some-listening.png",
+            "custom_icon_image": "shopify://shop_images/drywallet-small.png",
             "icon_size": 164,
-            "title": "Social Media Listening",
-            "text": "<p>Discovery experiment</p>",
+            "title": "Dry Wallet",
+            "text": "<p>Validation experiment</p>",
             "link_text": "",
             "link_url": ""
           }
@@ -484,10 +484,10 @@
           "type": "column_with_icon",
           "settings": {
             "icon": "checkmark",
-            "custom_icon_image": "shopify://shop_images/method-discovery-program.png",
+            "custom_icon_image": "shopify://shop_images/fake-door-small.png",
             "icon_size": 164,
-            "title": "Customer Discovery Program",
-            "text": "<p>Discovery experiment</p>",
+            "title": "Fake Door",
+            "text": "<p>Validation experiment</p>",
             "link_text": "",
             "link_url": ""
           }
@@ -496,9 +496,9 @@
           "type": "column_with_icon",
           "settings": {
             "icon": "checkmark",
-            "custom_icon_image": "shopify://shop_images/exercise_-_opp-tree.png",
+            "custom_icon_image": "shopify://shop_images/assumptions-mapping-small.png",
             "icon_size": 164,
-            "title": "Opportunity Solution Tree Mapping",
+            "title": "Assumptions Mapping",
             "text": "<p>Workshop exercise</p>",
             "link_text": "",
             "link_url": ""
@@ -508,9 +508,9 @@
           "type": "column_with_icon",
           "settings": {
             "icon": "checkmark",
-            "custom_icon_image": "shopify://shop_images/best-practise-facts-opinions.png",
+            "custom_icon_image": "shopify://shop_images/assumptions-mapping.png",
             "icon_size": 164,
-            "title": "Value facts over opinions",
+            "title": "Experiment Pairing",
             "text": "<p>Best Practice</p>",
             "link_text": "",
             "link_url": ""
@@ -558,7 +558,7 @@
         "template--16729789563121__35a80c75-d4b0-4340-9552-75a9f11586de-1681824353e40c4786-0": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/validation-patterns-card-deck-mockup_5d547311-9b72-4a84-99df-88b19a2c371b.jpg"
+            "image": "shopify://shop_images/3.png"
           }
         }
       },
@@ -572,7 +572,7 @@
         "section_spacing_bottom": 90,
         "content_layout": "right",
         "image_layout": "collage",
-        "img_ratio": 0.9,
+        "img_ratio": 1.2,
         "rotate_images": false,
         "icon": "none",
         "subheading": "",
@@ -686,8 +686,8 @@
         "section_spacing_top": 0,
         "section_spacing_bottom": 0,
         "desktop_ratio": 0.3,
-        "mobile_ratio": 1.6,
-        "desktop_img": "shopify://shop_images/Frame_3_9ecd256d-7a4e-415c-8a6c-9b43c7058da9.png",
+        "mobile_ratio": 0.6,
+        "desktop_img": "shopify://shop_images/four-validation-cards.png",
         "desktop_overlay_opacity": 0,
         "mobile_overlay_opacity": 0,
         "caption": "",
@@ -786,7 +786,7 @@
         "22463531-4c4e-45e9-8cef-cd761613d94b": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/validation-patterns-in-workshop-setting-2_600x341_crop_center_1.png"
+            "image": "shopify://shop_images/validation_1.png"
           }
         }
       },
@@ -824,7 +824,7 @@
         "4ae71525-1b6d-4031-a8bb-e6aad58faa29": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/strategy-and-planning_1.png"
+            "image": "shopify://shop_images/cone-of-uncertainty_997a79c5-50a7-4a4d-a3c9-1c29bf0edd59.jpg"
           }
         }
       },
@@ -893,7 +893,7 @@
         "aa7f9fb0-7d6b-4afc-9d79-b92f8aad73cb": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/validation-patterns-from-above_b3c9d86c-1459-497a-bbca-2a2fbb1207de.jpg"
+            "image": "shopify://shop_images/validation-environment.png"
           }
         }
       },
@@ -907,7 +907,7 @@
         "section_spacing_bottom": 0,
         "content_layout": "right",
         "image_layout": "collage",
-        "img_ratio": 0.8,
+        "img_ratio": 0.7,
         "rotate_images": false,
         "icon": "none",
         "subheading": "",
@@ -931,7 +931,7 @@
         "96d9468a-388a-4df3-860a-00a1419fd126": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/validation-patterns-from-the-side.jpg"
+            "image": "shopify://shop_images/1.png"
           }
         }
       },
@@ -945,7 +945,7 @@
         "section_spacing_bottom": 90,
         "content_layout": "right",
         "image_layout": "collage",
-        "img_ratio": 0.7,
+        "img_ratio": 0.9,
         "rotate_images": false,
         "icon": "none",
         "subheading": "",
@@ -969,7 +969,7 @@
         "805f2cb1-797a-4798-adc8-c77dee89eb53": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/validation-patterns-card-deck.png"
+            "image": "shopify://shop_images/validation-front.png"
           }
         }
       },
@@ -1009,7 +1009,7 @@
           "settings": {
             "title": "Can I get the Validation Patterns for my entire team?",
             "icon": "none",
-            "text": "<p>Yes! We offer team discounts when buying both the Persuasive Patterns and Validation Patterns card deck.</p><p>Get in touch at <a href=\"mailto:info@ui-patterns.com\">info@learningloop.io</a></p>",
+            "text": "<p>Yes! We offer team discounts when buying both the Discovery Patterns and Validation Patterns card deck.</p><p>Get in touch at <a href=\"mailto:info@ui-patterns.com\">info@learningloop.io</a></p>",
             "page": "",
             "image_width": 100
           }
@@ -1019,7 +1019,7 @@
           "settings": {
             "title": "Do you do discounts for educational institutions, students, or non profits?",
             "icon": "none",
-            "text": "<p>We do! Get in touch at <a href=\"mailto:info@ui-patterns.com\">info@learningloop.io</a>with your credentials (non-profit status or student ID) and we will arrange a discount for you.</p>",
+            "text": "<p>We do! Get in touch at <a href=\"mailto:info@ui-patterns.com\">info@learningloop.io </a>with your credentials (non-profit status or student ID) and we will arrange a discount for you.</p>",
             "page": "",
             "image_width": 100
           }
