@@ -465,6 +465,93 @@
         "autoplay_interval": 3
       }
     },
+    "multicolumn_MUUJnN": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_with_icon_xJXwkp": {
+          "type": "column_with_icon",
+          "settings": {
+            "icon": "checkmark",
+            "custom_icon_image": "shopify://shop_images/method-some-listening.png",
+            "icon_size": 164,
+            "title": "Social Media Listening",
+            "text": "<p>Discovery experiment</p>",
+            "link_text": "",
+            "link_url": ""
+          }
+        },
+        "column_with_icon_KKgBqz": {
+          "type": "column_with_icon",
+          "settings": {
+            "icon": "checkmark",
+            "custom_icon_image": "shopify://shop_images/method-discovery-program.png",
+            "icon_size": 164,
+            "title": "Customer Discovery Program",
+            "text": "<p>Discovery experiment</p>",
+            "link_text": "",
+            "link_url": ""
+          }
+        },
+        "column_with_icon_pH6BbA": {
+          "type": "column_with_icon",
+          "settings": {
+            "icon": "checkmark",
+            "custom_icon_image": "shopify://shop_images/exercise_-_opp-tree.png",
+            "icon_size": 164,
+            "title": "Opportunity Solution Tree Mapping",
+            "text": "<p>Workshop exercise</p>",
+            "link_text": "",
+            "link_url": ""
+          }
+        },
+        "column_with_icon_LtgERK": {
+          "type": "column_with_icon",
+          "settings": {
+            "icon": "checkmark",
+            "custom_icon_image": "shopify://shop_images/best-practise-facts-opinions.png",
+            "icon_size": 164,
+            "title": "Value facts over opinions",
+            "text": "<p>Best Practice</p>",
+            "link_text": "",
+            "link_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_with_icon_xJXwkp",
+        "column_with_icon_KKgBqz",
+        "column_with_icon_pH6BbA",
+        "column_with_icon_LtgERK"
+      ],
+      "settings": {
+        "color_scheme": "secondary",
+        "container_size": "medium",
+        "section_spacing_top": 90,
+        "section_spacing_bottom": 60,
+        "desktop_layout": "grid",
+        "mobile_layout": "one-column-grid",
+        "title": "Powerful product experiments and exercises",
+        "text": "Example cards",
+        "heading_size": "h2",
+        "body_size": "body2",
+        "content_alignment": "center",
+        "column_heading_size": "h7",
+        "column_body_size": "body4",
+        "column_alignment": "center",
+        "desktop_columns": 4,
+        "desktop_space_between_cards": 20,
+        "desktop_content_spacing": 25,
+        "mobile_space_between_cards": 16,
+        "mobile_content_spacing": 24,
+        "show_column_background": false,
+        "show_navigation_on_hover": false,
+        "btn_text": "",
+        "btn_url": "",
+        "btn_style": "outline",
+        "autoplay_mode": "disabled",
+        "autoplay_interval": 3
+      }
+    },
     "35a80c75-d4b0-4340-9552-75a9f11586de": {
       "type": "images-with-text",
       "blocks": {
@@ -1070,6 +1157,7 @@
     "e6a2dc3b-b6a3-43da-ac2e-7e6e68957a71",
     "dde7c692-d8b4-4a40-9d3a-c048f605740f",
     "2ed17851-e2d9-4b4b-990c-3df8599c3b8e",
+    "multicolumn_MUUJnN",
     "35a80c75-d4b0-4340-9552-75a9f11586de",
     "d7a5963e-c766-4f10-8cc1-5470486301a3",
     "1543ceb6-a72e-4318-b4cb-5f2cc1a0ff14",
