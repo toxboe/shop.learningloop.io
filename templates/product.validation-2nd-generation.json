@@ -52,6 +52,8 @@
             "option_type": "button-outline",
             "primary_swatch_option_type": "button-outline",
             "secondary_swatch_option_type": "swatches",
+            "show_currency_code": true,
+            "show_compare_at_price": false,
             "option_name": "",
             "information_drawer_button_label": "",
             "text": "",
@@ -110,7 +112,7 @@
           "type": "information_tag",
           "settings": {
             "tag_style": "solid",
-            "heading": "60 lean product experiments easily referenced and used in workshops.",
+            "heading": "A collection of lean product experiments easily referenced and used in workshops.",
             "body": "",
             "content_alignment": "left",
             "icon": "checkmark",
