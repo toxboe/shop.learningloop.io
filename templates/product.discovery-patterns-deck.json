@@ -402,8 +402,8 @@
             "icon": "checkmark",
             "custom_icon_image": "shopify://shop_images/method-some-listening.png",
             "icon_size": 164,
-            "title": "Research method",
-            "text": "<p>Social Media Listening</p>",
+            "title": "Social Media Listening",
+            "text": "<p>Discovery experiment</p>",
             "link_text": "",
             "link_url": ""
           }
@@ -414,8 +414,8 @@
             "icon": "checkmark",
             "custom_icon_image": "shopify://shop_images/method-discovery-program.png",
             "icon_size": 164,
-            "title": "Research method",
-            "text": "<p>Customer Discovery Program</p>",
+            "title": "Customer Discovery Program",
+            "text": "<p>Discovery experiment</p>",
             "link_text": "",
             "link_url": ""
           }
@@ -426,8 +426,8 @@
             "icon": "checkmark",
             "custom_icon_image": "shopify://shop_images/exercise_-_opp-tree.png",
             "icon_size": 164,
-            "title": "Workshop exercise",
-            "text": "<p>Opportunity Solution Tree Mapping</p>",
+            "title": "Opportunity Solution Tree Mapping",
+            "text": "<p>Workshop exercise</p>",
             "link_text": "",
             "link_url": ""
           }
@@ -438,8 +438,8 @@
             "icon": "checkmark",
             "custom_icon_image": "shopify://shop_images/best-practise-facts-opinions.png",
             "icon_size": 164,
-            "title": "Best Practice",
-            "text": "<p>Facts over opinions</p>",
+            "title": "Value facts over opinions",
+            "text": "<p>Best Practice</p>",
             "link_text": "",
             "link_url": ""
           }
