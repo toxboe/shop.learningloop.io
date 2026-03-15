@@ -53,6 +53,8 @@
             "option_type": "button-outline",
             "primary_swatch_option_type": "button-outline",
             "secondary_swatch_option_type": "swatches",
+            "show_currency_code": true,
+            "show_compare_at_price": false,
             "option_name": "",
             "information_drawer_button_label": "",
             "text": "",
@@ -76,7 +78,7 @@
         "c9188b10-e29c-4c63-b385-a3faa860d64a": {
           "type": "information_tag",
           "settings": {
-            "tag_style": "solid",
+            "tag_style": "none",
             "heading": "Digital PDF book emailed after purchase",
             "body": "",
             "content_alignment": "left",
@@ -111,8 +113,8 @@
         "a1297489-7eee-44d2-9252-af8ab78ecef1": {
           "type": "information_tag",
           "settings": {
-            "tag_style": "solid",
-            "heading": "20+ workshop exercises and sessions to help you design behaviorally",
+            "tag_style": "none",
+            "heading": "100+ tactics from psychology to influence the perception of value and price",
             "body": "",
             "content_alignment": "left",
             "icon": "checkmark",
@@ -140,8 +142,7 @@
             "featured_collection": "product-psychology",
             "featured_products": [
               "persuasive-patterns-conversions-decisions",
-              "persuasive-patterns-habits-engagement",
-              "the-persuasive-product-psychology-pdf-book"
+              "persuasive-patterns-habits-engagement"
             ],
             "products_to_show": 10,
             "show_navigation_on_hover": true,
@@ -179,13 +180,255 @@
         "scale_video": true
       }
     },
+    "rich_text_BDFArn": {
+      "type": "rich-text",
+      "blocks": {
+        "icon_7zxkhN": {
+          "type": "icon",
+          "settings": {
+            "icon": "none",
+            "icon_size": 48
+          }
+        },
+        "caption_XK3XVb": {
+          "type": "caption",
+          "settings": {
+            "caption": "100+ pricing tactics from psychology"
+          }
+        },
+        "heading_JWJr3c": {
+          "type": "heading",
+          "settings": {
+            "title": "<strong>Pricing isn’t just a number. It’s perception.</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_7GCKFd": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Two products with the same price can perform very differently depending on how that price is presented. A plan that feels expensive in one context can feel like a great deal in another.</p><p>Customers rarely evaluate prices rationally. Instead they rely on comparisons, mental shortcuts, and psychological cues.</p><p>This book shows how to design pricing with those behaviors in mind.</p>",
+            "text_2": "",
+            "text_3": "",
+            "body_size": "body3"
+          }
+        }
+      },
+      "block_order": [
+        "icon_7zxkhN",
+        "caption_XK3XVb",
+        "heading_JWJr3c",
+        "text_7GCKFd"
+      ],
+      "name": "Pricing is perception",
+      "settings": {
+        "color_scheme": "custom-3",
+        "enable_background_around_container": true,
+        "container_size": "xsmall",
+        "section_spacing_top": 32,
+        "section_spacing_bottom": 29,
+        "content_align": "left"
+      }
+    },
+    "dde7c692-d8b4-4a40-9d3a-c048f605740f": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--15386400456738__dde7c692-d8b4-4a40-9d3a-c048f605740f-column_with_icon-1": {
+          "type": "column_with_icon",
+          "settings": {
+            "icon": "none",
+            "icon_size": 64,
+            "title": "Pricing pages",
+            "text": "<p>Design layouts that guide customers toward the right plan</p>",
+            "link_text": "",
+            "link_url": ""
+          }
+        },
+        "13cba67f-e320-42ff-bd11-ee52a8bb0375": {
+          "type": "column_with_icon",
+          "settings": {
+            "icon": "none",
+            "icon_size": 64,
+            "title": "Price anchoring",
+            "text": "<p>Use comparisons that make prices feel more reasonable</p>",
+            "link_text": "",
+            "link_url": ""
+          }
+        },
+        "36ab52b2-e6a1-4d3a-94b7-1ff61cdc45ef": {
+          "type": "column_with_icon",
+          "settings": {
+            "icon": "none",
+            "icon_size": 64,
+            "title": "Tier structures",
+            "text": "<p>Structure plans and bundles that increase adoption</p>",
+            "link_text": "",
+            "link_url": ""
+          }
+        },
+        "c30fcdde-404e-46b7-8b9d-e30e4ca416a9": {
+          "type": "column_with_icon",
+          "settings": {
+            "icon": "none",
+            "icon_size": 64,
+            "title": "Discount framing",
+            "text": "<p>Present promotions without damaging perceived value</p>",
+            "link_text": "",
+            "link_url": ""
+          }
+        },
+        "column_with_icon_4r8UTg": {
+          "type": "column_with_icon",
+          "settings": {
+            "icon": "none",
+            "icon_size": 64,
+            "title": "Payment design",
+            "text": "<p>Reduce the psychological pain of paying</p>",
+            "link_text": "",
+            "link_url": ""
+          }
+        },
+        "column_with_icon_xcHckB": {
+          "type": "column_with_icon",
+          "settings": {
+            "icon": "none",
+            "icon_size": 64,
+            "title": "Urgency signals",
+            "text": "<p>Use scarcity and deadlines to encourage action</p>",
+            "link_text": "",
+            "link_url": ""
+          }
+        },
+        "column_with_icon_n8yRmR": {
+          "type": "column_with_icon",
+          "settings": {
+            "icon": "none",
+            "icon_size": 64,
+            "title": "Value framing",
+            "text": "<p>Make the benefits of your product easier to understand</p>",
+            "link_text": "",
+            "link_url": ""
+          }
+        },
+        "column_with_icon_XGmJP9": {
+          "type": "column_with_icon",
+          "settings": {
+            "icon": "none",
+            "icon_size": 64,
+            "title": "Pricing experiments",
+            "text": "<p>Test and measure changes that improve revenue</p>",
+            "link_text": "",
+            "link_url": ""
+          }
+        },
+        "column_with_icon_jbTRYA": {
+          "type": "column_with_icon",
+          "settings": {
+            "icon": "none",
+            "icon_size": 64,
+            "title": "Plan comparisons",
+            "text": "<p>Structure options so customers choose the plan that fits them best</p>",
+            "link_text": "",
+            "link_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15386400456738__dde7c692-d8b4-4a40-9d3a-c048f605740f-column_with_icon-1",
+        "13cba67f-e320-42ff-bd11-ee52a8bb0375",
+        "36ab52b2-e6a1-4d3a-94b7-1ff61cdc45ef",
+        "c30fcdde-404e-46b7-8b9d-e30e4ca416a9",
+        "column_with_icon_4r8UTg",
+        "column_with_icon_xcHckB",
+        "column_with_icon_n8yRmR",
+        "column_with_icon_XGmJP9",
+        "column_with_icon_jbTRYA"
+      ],
+      "name": "What you'll learn",
+      "settings": {
+        "color_scheme": "default",
+        "container_size": "medium",
+        "section_spacing_top": 90,
+        "section_spacing_bottom": 90,
+        "desktop_layout": "grid",
+        "mobile_layout": "one-column-grid",
+        "title": "What you’ll learn",
+        "text": "Inside this book you’ll discover how to...",
+        "heading_size": "h1",
+        "body_size": "body2",
+        "content_alignment": "center",
+        "column_heading_size": "h5",
+        "column_body_size": "body2",
+        "column_alignment": "center",
+        "desktop_columns": 3,
+        "desktop_space_between_cards": 0,
+        "desktop_content_spacing": 0,
+        "mobile_space_between_cards": 16,
+        "mobile_content_spacing": 24,
+        "show_column_background": false,
+        "show_navigation_on_hover": true,
+        "btn_text": "",
+        "btn_url": "",
+        "btn_style": "outline",
+        "autoplay_mode": "disabled",
+        "autoplay_interval": 3
+      }
+    },
+    "rich_text_KBK8Hj": {
+      "type": "rich-text",
+      "blocks": {
+        "icon_tHCDkU": {
+          "type": "icon",
+          "settings": {
+            "icon": "none",
+            "icon_size": 48
+          }
+        },
+        "caption_jY7Fgj": {
+          "type": "caption",
+          "settings": {
+            "caption": "100+ pricing tactics from psychology"
+          }
+        },
+        "heading_Upik9n": {
+          "type": "heading",
+          "settings": {
+            "title": "Who this book is for",
+            "heading_size": "h1"
+          }
+        },
+        "text_Mq3mF8": {
+          "type": "text",
+          "settings": {
+            "text": "<ul><li><strong>Product managers</strong><br/>Improve monetization and plan adoption</li><li><strong>'Growth teams</strong><br/>Run pricing and conversion experiments</li><li><strong>Product designers</strong><br/>Design pricing pages and upgrade flows</li><li><strong>Founders</strong><br/>Build your first pricing strategy</li><li><strong>Marketing teams</strong><br/>Communicate value and promotions clearly</li></ul>",
+            "text_2": "",
+            "text_3": "",
+            "body_size": "body3"
+          }
+        }
+      },
+      "block_order": [
+        "icon_tHCDkU",
+        "caption_jY7Fgj",
+        "heading_Upik9n",
+        "text_Mq3mF8"
+      ],
+      "name": "Who is this book for",
+      "settings": {
+        "color_scheme": "custom-3",
+        "enable_background_around_container": true,
+        "container_size": "xsmall",
+        "section_spacing_top": 32,
+        "section_spacing_bottom": 29,
+        "content_align": "left"
+      }
+    },
     "e9a610fc-df4d-4a04-ac16-4f00035ff7b4": {
       "type": "instagram",
       "blocks": {
         "template--20887063330850__e9a610fc-df4d-4a04-ac16-4f00035ff7b4-post-2": {
           "type": "post",
           "settings": {
-            "image": "shopify://shop_images/Book-The-Persuasive-Workshopper-pages_bb6a5e39-310e-4d34-ad0c-b729fa345781.png",
+            "image": "shopify://shop_images/spread-charm-pricing_a1ba5843-d8a0-454a-b38f-7b6fa45949d9.png",
             "link": "",
             "icon": "none"
           }
@@ -194,15 +437,16 @@
       "block_order": [
         "template--20887063330850__e9a610fc-df4d-4a04-ac16-4f00035ff7b4-post-2"
       ],
+      "name": "Spread",
       "settings": {
-        "color_scheme": "custom-3",
+        "color_scheme": "default",
         "container_size": "xsmall",
         "section_spacing_top": 48,
         "section_spacing_bottom": 48,
         "desktop_layout": "grid",
         "mobile_layout": "one-column",
         "title": "Inside the",
-        "text": "<strong>Persuasive Patterns Workshop Playbook</strong>",
+        "text": "<strong>Psychology of Pricing Book</strong>",
         "heading_size": "h7",
         "body_size": "body0",
         "content_alignment": "center",
@@ -218,196 +462,6 @@
         "autoplay_interval": 3
       }
     },
-    "b45a2952-cb96-4679-a8dc-d0d9045bd086": {
-      "type": "multicolumn",
-      "blocks": {
-        "template--20887063330850__b45a2952-cb96-4679-a8dc-d0d9045bd086-column_with_icon-1": {
-          "type": "column_with_icon",
-          "settings": {
-            "icon": "none",
-            "icon_size": 20,
-            "title": "",
-            "text": "<p><strong>Step-by-step behavioral workshops </strong>explained so that you can run them with your team and <strong>infuse design psychology </strong>into your product.</p>",
-            "link_text": "",
-            "link_url": ""
-          }
-        },
-        "template--20887063330850__b45a2952-cb96-4679-a8dc-d0d9045bd086-column_with_icon-2": {
-          "type": "column_with_icon",
-          "settings": {
-            "icon": "none",
-            "icon_size": 64,
-            "title": "",
-            "text": "<p><strong>Facilitation techniques </strong>to align any team and generate more better ideas through inclusion and diversity.</p>",
-            "link_text": "",
-            "link_url": ""
-          }
-        },
-        "template--20887063330850__b45a2952-cb96-4679-a8dc-d0d9045bd086-column_with_icon-3": {
-          "type": "column_with_icon",
-          "settings": {
-            "icon": "none",
-            "icon_size": 64,
-            "title": "",
-            "text": "<p>Learn to <strong>design your own workshop </strong>to achieve any objective, using the Workshop Design System.</p>",
-            "link_text": "",
-            "link_url": ""
-          }
-        },
-        "c9834d57-cd0f-44b5-8d74-149c1c1fed3b": {
-          "type": "column_with_icon",
-          "settings": {
-            "icon": "none",
-            "icon_size": 64,
-            "title": "",
-            "text": "<p><strong>Spark creative solutions </strong>and <strong>make impactful decisions </strong>using insights from psychology.</p>",
-            "link_text": "",
-            "link_url": ""
-          }
-        },
-        "5af1eed3-4968-4871-a614-4ac216d5208b": {
-          "type": "column_with_icon",
-          "settings": {
-            "icon": "none",
-            "icon_size": 64,
-            "title": "",
-            "text": "<p>Uncover how to <strong>position yourself as a leader</strong> and expert of behavioral innovation within your organization and with clients by running workshops.</p>",
-            "link_text": "",
-            "link_url": ""
-          }
-        },
-        "86cd76cb-24b9-49bc-8ff0-8d85e951d94b": {
-          "type": "column_with_icon",
-          "settings": {
-            "icon": "none",
-            "icon_size": 64,
-            "title": "",
-            "text": "<p>An undestanding of not just what users say or do, but <strong>what blocks- or enables users </strong>from reaching their goals.</p>",
-            "link_text": "",
-            "link_url": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--20887063330850__b45a2952-cb96-4679-a8dc-d0d9045bd086-column_with_icon-1",
-        "template--20887063330850__b45a2952-cb96-4679-a8dc-d0d9045bd086-column_with_icon-2",
-        "template--20887063330850__b45a2952-cb96-4679-a8dc-d0d9045bd086-column_with_icon-3",
-        "c9834d57-cd0f-44b5-8d74-149c1c1fed3b",
-        "5af1eed3-4968-4871-a614-4ac216d5208b",
-        "86cd76cb-24b9-49bc-8ff0-8d85e951d94b"
-      ],
-      "settings": {
-        "color_scheme": "custom-3",
-        "container_size": "large",
-        "section_spacing_top": 33,
-        "section_spacing_bottom": 35,
-        "desktop_layout": "grid",
-        "mobile_layout": "one-column-grid",
-        "title": "Inside these pages you will uncover:",
-        "text": "",
-        "heading_size": "h5",
-        "body_size": "body3",
-        "content_alignment": "center",
-        "column_heading_size": "h7",
-        "column_body_size": "body2",
-        "column_alignment": "center",
-        "desktop_columns": 2,
-        "desktop_space_between_cards": 9,
-        "desktop_content_spacing": 11,
-        "mobile_space_between_cards": 7,
-        "mobile_content_spacing": 12,
-        "show_column_background": true,
-        "show_navigation_on_hover": false,
-        "btn_text": "",
-        "btn_url": "",
-        "btn_style": "outline",
-        "autoplay_mode": "disabled",
-        "autoplay_interval": 3
-      }
-    },
-    "dde7c692-d8b4-4a40-9d3a-c048f605740f": {
-      "type": "multicolumn",
-      "blocks": {
-        "template--15386400456738__dde7c692-d8b4-4a40-9d3a-c048f605740f-column_with_icon-1": {
-          "type": "column_with_icon",
-          "settings": {
-            "icon": "none",
-            "icon_size": 64,
-            "title": "Solve problems with psychology",
-            "text": "<p>Address challenging design problems by applying behavioral lenses, changing user behaviors and habits.</p>",
-            "link_text": "",
-            "link_url": ""
-          }
-        },
-        "13cba67f-e320-42ff-bd11-ee52a8bb0375": {
-          "type": "column_with_icon",
-          "settings": {
-            "icon": "none",
-            "icon_size": 64,
-            "title": "Design for the human mind",
-            "text": "<p>Generate products and experiences that resonate with users by understanding and catering to their psychological needs and preferences.</p>",
-            "link_text": "",
-            "link_url": ""
-          }
-        },
-        "36ab52b2-e6a1-4d3a-94b7-1ff61cdc45ef": {
-          "type": "column_with_icon",
-          "settings": {
-            "icon": "none",
-            "icon_size": 64,
-            "title": "Design ethically",
-            "text": "<p>Incorporate ethical considerations into the design process and team to ensure solutions are user-friendly and responsible.</p>",
-            "link_text": "",
-            "link_url": ""
-          }
-        },
-        "c30fcdde-404e-46b7-8b9d-e30e4ca416a9": {
-          "type": "column_with_icon",
-          "settings": {
-            "icon": "none",
-            "icon_size": 64,
-            "title": "Enhance decision-making",
-            "text": "<p>Make informed decisions by evaluating ideas and interventions through a behavioral perspective.</p>",
-            "link_text": "",
-            "link_url": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--15386400456738__dde7c692-d8b4-4a40-9d3a-c048f605740f-column_with_icon-1",
-        "13cba67f-e320-42ff-bd11-ee52a8bb0375",
-        "36ab52b2-e6a1-4d3a-94b7-1ff61cdc45ef",
-        "c30fcdde-404e-46b7-8b9d-e30e4ca416a9"
-      ],
-      "settings": {
-        "color_scheme": "default",
-        "container_size": "medium",
-        "section_spacing_top": 90,
-        "section_spacing_bottom": 90,
-        "desktop_layout": "grid",
-        "mobile_layout": "one-column-grid",
-        "title": "Enable your team to...",
-        "text": "",
-        "heading_size": "h2",
-        "body_size": "body2",
-        "content_alignment": "center",
-        "column_heading_size": "h5",
-        "column_body_size": "body2",
-        "column_alignment": "center",
-        "desktop_columns": 2,
-        "desktop_space_between_cards": 0,
-        "desktop_content_spacing": 0,
-        "mobile_space_between_cards": 16,
-        "mobile_content_spacing": 24,
-        "show_column_background": false,
-        "show_navigation_on_hover": true,
-        "btn_text": "",
-        "btn_url": "",
-        "btn_style": "outline",
-        "autoplay_mode": "disabled",
-        "autoplay_interval": 3
-      }
-    },
     "ecafa17c-b35b-4988-935e-8aa7ff542e8b": {
       "type": "multicolumn",
       "blocks": {
@@ -416,8 +470,8 @@
           "settings": {
             "icon": "none",
             "icon_size": 64,
-            "title": "In-Depth Framework",
-            "text": "<p>Use the Persuasive Workshop Design System to design your own workshops</p>",
+            "title": "Psychology explained",
+            "text": "<p>The behavioral principle behind the tactic</p>",
             "link_text": "",
             "link_url": ""
           }
@@ -427,8 +481,8 @@
           "settings": {
             "icon": "none",
             "icon_size": 64,
-            "title": "Ethical Guidelines & Exercises",
-            "text": "<p>Navigate the ethical considerations of persuasive design to maintain trust and integrity in your work and run the ethical reflection workshop with your own team.</p>",
+            "title": "Best to use which tactic",
+            "text": "<p>When the tactic works best</p>",
             "link_text": "",
             "link_url": ""
           }
@@ -438,8 +492,8 @@
           "settings": {
             "icon": "none",
             "icon_size": 64,
-            "title": "Workshop Recipes",
-            "text": "<p>Or use tried-and-tested recipes connecting workshop exercises into sessions – tailored for various objectives: from intervention design to habit formation and change.</p>",
+            "title": "Practical examples",
+            "text": "<p>Where to apply it in your product or funnel</p>",
             "link_text": "",
             "link_url": ""
           }
@@ -449,8 +503,8 @@
           "settings": {
             "icon": "none",
             "icon_size": 64,
-            "title": "Integrated with the Persuasive Patterns card deck",
-            "text": "<p>The book is intended to be used in tandem with the Persuasive Patterns card deck, which enriches the workshop exercises with a plethora of cognitive biases, psychological effects, and persuasive techniques.</p>",
+            "title": "Failure modes",
+            "text": "<p>When it may backfire</p>",
             "link_text": "",
             "link_url": ""
           }
@@ -460,8 +514,8 @@
           "settings": {
             "icon": "none",
             "icon_size": 64,
-            "title": "Workshop Exercises",
-            "text": "<p>Explore a library of behaviorally focused workshop exercises that can be creatively combined to design novel and impactful workshops.</p>",
+            "title": "Experiment ideas",
+            "text": "<p>Ways to test and measure the impact</p>",
             "link_text": "",
             "link_url": ""
           }
@@ -481,8 +535,8 @@
         "section_spacing_bottom": 90,
         "desktop_layout": "grid",
         "mobile_layout": "one-column-grid",
-        "title": "A framework for running behavioral workshops",
-        "text": "",
+        "title": "What’s inside the book",
+        "text": "<strong>100+ pricing tactics</strong>, each explained with:",
         "heading_size": "h2",
         "body_size": "body2",
         "content_alignment": "center",
@@ -501,44 +555,6 @@
         "btn_style": "outline",
         "autoplay_mode": "disabled",
         "autoplay_interval": 3
-      }
-    },
-    "49c49a29-168e-4bf6-a3ed-38b07d0f1838": {
-      "type": "images-with-text",
-      "blocks": {
-        "805f2cb1-797a-4798-adc8-c77dee89eb53": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/persuasive-workshop-and-cards_5b0227a9-93c0-4f8a-bde6-ba1dc96a843e.png"
-          }
-        }
-      },
-      "block_order": [
-        "805f2cb1-797a-4798-adc8-c77dee89eb53"
-      ],
-      "settings": {
-        "color_scheme": "default",
-        "container_size": "medium",
-        "section_spacing_top": 90,
-        "section_spacing_bottom": 60,
-        "content_layout": "left",
-        "image_layout": "collage",
-        "img_ratio": 1,
-        "rotate_images": false,
-        "icon": "none",
-        "subheading": "",
-        "heading": "The perfect companion",
-        "body": "<p>This book is a powerful add-on to the Persuasive Patterns card deck, providing you with the know-how to implement behavioral design in a workshop setting.</p><p><strong>Become a Persuasive Workshopper<br/></strong>Transform your workshops with the power of behavioral design. This book will equip you with the tools and knowledge to integrate persuasive patterns into your workshops, creating engaging and effective user experiences.</p>",
-        "heading_size": "h2",
-        "body_size": "body2",
-        "content_alignment": "left",
-        "desktop_content_width": 540,
-        "first_button_text": "Shop now",
-        "first_button_link": "",
-        "first_button_style": "solid",
-        "second_button_text": "",
-        "second_button_link": "",
-        "second_button_style": "solid"
       }
     },
     "b211c279-71dd-44ae-b816-3d6f3d551fac": {
@@ -579,17 +595,7 @@
           "settings": {
             "title": "Do I need the Persuasive Patterns card deck to use this book?",
             "icon": "none",
-            "text": "<p>While the book stands alone as a valuable resource, having the card deck will enhance your workshop experience.</p>",
-            "page": "",
-            "image_width": 100
-          }
-        },
-        "d8f564ad-3ddc-440b-93dd-9fff877e6517": {
-          "type": "question",
-          "settings": {
-            "title": "Can this book be used for remote workshops?",
-            "icon": "none",
-            "text": "<p>Yes, the principles and exercises outlined in the book can be adapted for remote workshops, making it a versatile resource for both in-person and virtual settings.</p>",
+            "text": "<p>While the book stands alone as a valuable resource, having the card deck will enhance your understanding of each pricing tactic.</p>",
             "page": "",
             "image_width": 100
           }
@@ -597,9 +603,59 @@
         "bdf6c27b-c691-4825-b828-2c4f508f0f86": {
           "type": "question",
           "settings": {
-            "title": "How will this book help me in my role?",
+            "title": "Is this a strategy book or a tactics book?",
             "icon": "none",
-            "text": "<p>This book will enhance your skills in facilitating workshops that are structured, engaging, and focused on achieving behavioral outcomes. It will help you craft workshops that lead to actionable insights and prototypes, fostering innovation and alignment within teams.</p>",
+            "text": "<p>Primarily a tactics book. The core of the book contains <strong>100+ pricing tactics</strong>, each explained in a structured format with the psychology behind it, when to use it, and how to test it. The first part of the book introduces the psychological foundations that make those tactics effective.</p>",
+            "page": "",
+            "image_width": 100
+          }
+        },
+        "question_dMgEH6": {
+          "type": "question",
+          "settings": {
+            "title": "Will these tactics work for every product?",
+            "icon": "none",
+            "text": "<p>No single tactic works everywhere. Pricing is context-dependent. That’s why the book focuses on helping you understand <strong>when a tactic works, when it doesn’t, and how to test it</strong> in your own product or market.</p>",
+            "page": "",
+            "image_width": 100
+          }
+        },
+        "question_nmqcrf": {
+          "type": "question",
+          "settings": {
+            "title": "Is this book about manipulating customers?",
+            "icon": "none",
+            "text": "<p>No. The goal of this book is to help teams design pricing that is <strong>clear, transparent, and aligned with the value they provide</strong>. Behavioral insights can be used responsibly to help customers understand value and make better decisions.</p>",
+            "page": "",
+            "image_width": 100
+          }
+        },
+        "question_TgQfD6": {
+          "type": "question",
+          "settings": {
+            "title": "Can these ideas be tested with experiments?",
+            "icon": "none",
+            "text": "<p>Yes. Many of the tactics in the book are well suited for A/B testing and experimentation. Each tactic includes suggestions for how it might be tested so teams can validate its impact in their own product.</p><h3></h3>",
+            "page": "",
+            "image_width": 100
+          }
+        },
+        "question_FNqtp6": {
+          "type": "question",
+          "settings": {
+            "title": "Should I read the book cover to cover?",
+            "icon": "none",
+            "text": "<p>You can, but you don’t have to. The book is structured so it can be used both as a sequential read and as a reference. Many readers return to specific tactics when working on a pricing page, promotion, or pricing experiment.</p>",
+            "page": "",
+            "image_width": 100
+          }
+        },
+        "question_9xb8Gz": {
+          "type": "question",
+          "settings": {
+            "title": "What makes this book different from other pricing books?",
+            "icon": "none",
+            "text": "<p>Most pricing books focus on pricing strategy, economics, or pricing models. This book focuses on how customers perceive prices in real interfaces, pricing pages, checkout flows, upgrade prompts, and promotions,  and provides practical tactics grounded in behavioral science.</p>",
             "page": "",
             "image_width": 100
           }
@@ -640,8 +696,12 @@
         "f8ac65b5-fb9d-403b-afe7-b5bb1d280a63",
         "e894c4ce-c535-4c63-bd7b-7cd72862261e",
         "8427391b-c706-4556-aa68-28bc1cc13edc",
-        "d8f564ad-3ddc-440b-93dd-9fff877e6517",
         "bdf6c27b-c691-4825-b828-2c4f508f0f86",
+        "question_dMgEH6",
+        "question_nmqcrf",
+        "question_TgQfD6",
+        "question_FNqtp6",
+        "question_9xb8Gz",
         "template--15386400456738__b211c279-71dd-44ae-b816-3d6f3d551fac-question-3",
         "81c52cd1-d4dc-46c1-bdc6-c19bed22766b",
         "3a377a13-d071-41bf-aea2-689ec6378cf1"
@@ -694,11 +754,11 @@
   "order": [
     "ff03a7f7-70a4-4aa2-8e65-56be8e7dbefc",
     "main",
-    "e9a610fc-df4d-4a04-ac16-4f00035ff7b4",
-    "b45a2952-cb96-4679-a8dc-d0d9045bd086",
+    "rich_text_BDFArn",
     "dde7c692-d8b4-4a40-9d3a-c048f605740f",
+    "rich_text_KBK8Hj",
+    "e9a610fc-df4d-4a04-ac16-4f00035ff7b4",
     "ecafa17c-b35b-4988-935e-8aa7ff542e8b",
-    "49c49a29-168e-4bf6-a3ed-38b07d0f1838",
     "b211c279-71dd-44ae-b816-3d6f3d551fac",
     "product-recommendations"
   ]
