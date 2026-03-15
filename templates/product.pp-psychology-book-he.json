@@ -235,16 +235,16 @@
         "heading_WDqy4m": {
           "type": "heading",
           "settings": {
-            "title": "<strong>Design products people choose</strong>",
+            "title": "Design products people return to",
             "heading_size": "h0"
           }
         },
         "text_HcQjVd": {
           "type": "text",
           "settings": {
-            "text": "<p>Learn how to apply product psychology to <strong>increase conversions, shape better user decisions</strong>, and design with more confidence.</p>",
-            "text_2": "<p>This book breaks down the cognitive biases, psychological effects, and persuasive techniques that <strong>influence how people choose, click, buy, subscribe, and act</strong>. </p><p></p>",
-            "text_3": "<p>This is a <strong>practical guide</strong> for product designers who want to move beyond intuition and use psychology-informed design in a structured, ethical way.</p>",
+            "text": "<p>Learn how to <strong>build lasting habits</strong>, deepen user engagement, and create products that become part of people’s lives.</p>",
+            "text_2": "<p>This book breaks down how psychological principles <strong>shape habit formation, sustained engagement, and user loyalty</strong>.</p>",
+            "text_3": "<p>This is a practical guide for product designers who want to <strong>create products users love</strong>, value, and come back to consistently.</p>",
             "body_size": "body3"
           }
         },
@@ -369,7 +369,7 @@
             "icon": "none",
             "icon_size": 64,
             "title": "",
-            "text": "<p>Each <strong>Conversion & Decision  </strong>pattern unfolded in detail with theoretical underpinnings and practical tips for getting their implementaiton right.</p>",
+            "text": "<p>Each <strong>Habits & Engagement  </strong>pattern unfolded in detail with theoretical underpinnings and practical tips for getting their implementaiton right.</p>",
             "link_text": "",
             "link_url": ""
           }
@@ -432,7 +432,7 @@
             "icon": "none",
             "icon_size": 64,
             "title": "Solve problems with psychology",
-            "text": "<p>You tweak button labels.<br/>You test layouts.</p><p>You adjust pricing pages, <br/>onboarding flows, <br/>and calls to action.</p><p>But without understanding the psychology behind user decisions, it is easy to make surface-level changes that do not move the metric that matters.</p>",
+            "text": "<p>Getting a user to sign up is one challenge.</p><p>Getting them to come back tomorrow, next week, and next month is another.</p>",
             "link_text": "",
             "link_url": ""
           }
@@ -448,10 +448,10 @@
         "section_spacing_bottom": 0,
         "desktop_layout": "grid",
         "mobile_layout": "one-column-grid",
-        "title": "Most conversion work stops at guesswork",
-        "text": "Improve conversions by understanding how users actually make decisions.",
-        "heading_size": "h1",
-        "body_size": "body2",
+        "title": "Most products get attention.",
+        "text": "<strong>Very few build habits.</strong>",
+        "heading_size": "h0",
+        "body_size": "body0",
         "content_alignment": "center",
         "column_heading_size": "h5",
         "column_body_size": "body2",
@@ -479,7 +479,7 @@
             "icon": "none",
             "icon_size": 64,
             "title": "",
-            "text": "<p>If you have ever asked:</p><ul><li>Why do users hesitate right before converting?</li><li>Why do some offers feel more compelling than others?</li><li>Why do users ignore obvious next steps?</li><li>Why do small changes in framing, defaults, order, or social proof change behavior so much?</li></ul>",
+            "text": "<p>Most teams work hard on acquisition, activation, and onboarding, but still struggle with the real test of product value:</p><ul><li>Why do users drop off after trying the product?</li><li>Why do some products become part of a routine while others get forgotten?</li><li>Why do some experiences create momentum, mastery, and loyalty?</li><li>Why do users engage deeply with one product but only occasionally with another?</li></ul>",
             "link_text": "",
             "link_url": ""
           }
@@ -490,7 +490,7 @@
             "icon": "none",
             "icon_size": 64,
             "title": "",
-            "text": "<p>This book helps answer those questions with practical psychological principles you can apply to real product decisions.</p><p>The book is explicitly focused on how design influences user choices, reduces friction, and improves conversion-related outcomes.</p>",
+            "text": "<p>This book is built around those questions.</p><p>It focuses on the psychology behind engagement and habit formation, then turns that into practical product design guidance.</p>",
             "link_text": "",
             "link_url": ""
           }
@@ -538,7 +538,7 @@
             "icon": "none",
             "icon_size": 64,
             "title": "",
-            "text": "<p>This book is a working guide for using psychology in product design so you can:</p><ul><li>understand what drives user decisions</li><li>apply persuasive patterns to real flows and interfaces</li><li>improve engagement and conversion rates</li><li>stand out in a crowded market</li><li>guide users ethically, without manipulation</li></ul>",
+            "text": "<p>Inside, you will learn how to:</p><ul><li>design for habit formation</li><li>strengthen onboarding and activation</li><li>improve retention and repeat use</li><li>create motivating product experiences</li><li>build stronger long-term relationships with users</li><li>apply persuasive psychology ethically</li></ul>",
             "link_text": "",
             "link_url": ""
           }
@@ -549,7 +549,7 @@
             "icon": "none",
             "icon_size": 64,
             "title": "",
-            "text": "<p>The purpose of the book is to bridge psychological theory and design practice, helping you convert insight into actionable strategies that influence decisions in your products.</p>",
+            "text": "<p>The book is created as a bridge between psychological theory and practical product design, with the goal of helping designers create products users love and return to. </p>",
             "link_text": "",
             "link_url": ""
           }
@@ -566,8 +566,8 @@
         "section_spacing_bottom": 90,
         "desktop_layout": "grid",
         "mobile_layout": "one-column-grid",
-        "title": "Turn behavioral science into better product decisions",
-        "text": "",
+        "title": "Turn behavioral design into long-term engagement",
+        "text": "This book is a practical guide for product designers who want to understand how habits form, how sustained engagement works, and how to create experiences users return to because they add genuine value.",
         "heading_size": "h1",
         "body_size": "body2",
         "content_alignment": "center",
@@ -596,8 +596,8 @@
           "settings": {
             "icon": "none",
             "icon_size": 64,
-            "title": "The psychology behind decisions",
-            "text": "<p>Learn the cognitive biases, psychological effects, and persuasive techniques that shape what users do. </p>",
+            "title": "Learn how habits form and stick",
+            "text": "<p>Learn the psychological foundations of habit formation and sustained engagement so you can design products that fit naturally into users’ routines. </p><p></p>",
             "link_text": "",
             "link_url": ""
           }
@@ -607,8 +607,8 @@
           "settings": {
             "icon": "none",
             "icon_size": 64,
-            "title": "Product Psychology",
-            "text": "<p>See how to use these ideas in practice through examples, pattern breakdowns, and implementation guidance. </p>",
+            "title": "Improve onboarding, activation, and retention",
+            "text": "<p>The book directly connects these principles to onboarding workflows, activation, and long-term retention. </p>",
             "link_text": "",
             "link_url": ""
           }
@@ -618,8 +618,8 @@
           "settings": {
             "icon": "none",
             "icon_size": 64,
-            "title": "Design for conversion",
-            "text": "<p>The book is centered on decisions like signing up, purchasing, clicking calls to action, and completing key flows.</p>",
+            "title": "Create deeper engagement, not surface-level activity",
+            "text": "<p>It is designed to move you away from shallow engagement tactics and toward a more profound psychology-informed approach. </p><p></p>",
             "link_text": "",
             "link_url": ""
           }
@@ -629,8 +629,8 @@
           "settings": {
             "icon": "none",
             "icon_size": 64,
-            "title": "From guesswork to make-it-work",
-            "text": "<p>A starter kit for psychology-informed design practice.</p>",
+            "title": "Design products users value over time",
+            "text": "<p>The book emphasizes products that users love, value, and return to regularly because they support meaningful outcomes. </p>",
             "link_text": "",
             "link_url": ""
           }
@@ -649,7 +649,7 @@
         "section_spacing_bottom": 90,
         "desktop_layout": "grid",
         "mobile_layout": "one-column-grid",
-        "title": "What you will learn inside Conversions & Decisions",
+        "title": "What you will learn inside Habits & Engagement",
         "text": "",
         "heading_size": "h2",
         "body_size": "body2",
@@ -680,7 +680,7 @@
             "icon": "none",
             "icon_size": 64,
             "title": "This book is for people who design decisions into products:",
-            "text": "<p>Product designers<br/>UX designers<br/>UI designers<br/>Product managers<br/>Growth designers<br/>Founders building conversion-focused products<br/>Teams using the Persuasive Patterns card deck and wanting deeper guidance</p><p></p><p>The book is written as a companion to the card deck while also helping designers integrate psychological principles into existing UX tools and workflows. </p>",
+            "text": "<p>Product designers<br/>UX designers<br/>UI designers<br/>Product managers<br/>Growth designers<br/>Founders building conversion-focused products<br/>Teams using the Persuasive Patterns card deck and wanting deeper guidance</p><p>The book is explicitly intended for product designers who want to enhance their work through applied psychology, while complementing the card deck with deeper explanations and practical use.</p>",
             "link_text": "",
             "link_url": ""
           }
@@ -738,7 +738,7 @@
             "icon": "none",
             "icon_size": 64,
             "title": "",
-            "text": "<p><strong>“I already know UX.”</strong><br/>This book is designed to build on the UX tools and frameworks you already use, not replace them.</p><p><strong>“I do not want manipulative tactics.”</strong><br/>Good. The book helps you apply these principles ethically with full transparency, and respect for user autonomy.</p><p><strong>“I need practical guidance, not theory alone.”</strong><br/>The book is practical from the start: actionable steps, examples, best practices, and implementation guidance. </p><p><strong>“I want measurable impact.”</strong><br/>The book connects psychological principles with improved engagement, conversion rates, and business performance.</p>",
+            "text": "<p><strong>“I already know UX.”</strong><br/>This book is designed to build on the UX tools and frameworks you already use, while deepening your understanding of user behavior through psychology. </p><p><strong>“I do not want manipulative engagement tactics.”</strong><br/><br/>Good. The book emphasizes ethical design, respect for autonomy, user well-being, transparency, and long-term trust.</p><p><strong>“I need practical guidance, not theory alone.”</strong><br/>The book is practical  and actionable, with guidance you can implement in products. </p><p><strong>“I care about retention, not just engagement vanity metrics.”</strong><br/>That is exactly the angle here: onboarding, activation, retention, long-term relationships, and meaningful repeated use.</p>",
             "link_text": "",
             "link_url": ""
           }
@@ -805,7 +805,7 @@
           "settings": {
             "title": "What is this book about?",
             "icon": "none",
-            "text": "<p>It is a guide to applying cognitive biases, psychological effects, and persuasive techniques to product design, with a focus on conversions and decisions.</p>",
+            "text": "<p>It is a guide to applying psychological principles to product design with a focus on habits, engagement, and long-term user relationships.</p>",
             "page": "",
             "image_width": 100
           }
