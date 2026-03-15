@@ -211,6 +211,35 @@
         "content_align": "left"
       }
     },
+    "collection_text_hwL7fD": {
+      "type": "collection-text",
+      "name": "Just launched!",
+      "settings": {
+        "color_scheme": "custom-3",
+        "container_size": "large",
+        "section_spacing_top": 48,
+        "section_spacing_bottom": 48,
+        "content_position": "left",
+        "collection": "books",
+        "icon": "none",
+        "caption": "JUST LAUNCHED in BOOKS",
+        "title": "Psychology of Pricing",
+        "text": "<p>Pricing isn’t the problem. Presentation is.</p>",
+        "heading_size": "h5",
+        "body_size": "body3",
+        "link_text": "Read more",
+        "link_url": "shopify://products/psychology-of-pricing-book",
+        "img_ratio": "default",
+        "product_card_align": "left",
+        "cards_to_show": 2,
+        "desktop_columns": 3,
+        "desktop_space_between_cards": 16,
+        "mobile_space_between_cards": 16,
+        "show_navigation_on_hover": true,
+        "autoplay_mode": "disabled",
+        "autoplay_interval": 3
+      }
+    },
     "image_banner_qCBhXX": {
       "type": "image-banner",
       "name": "t:sections.image_banner.name",
@@ -742,6 +771,7 @@
     "fd49f0e5-16f4-4a85-bb68-d9e45a5ee153",
     "44dc2944-fead-4dde-9b5f-5c6c004bf21e",
     "rich_text_bPC7PY",
+    "collection_text_hwL7fD",
     "image_banner_qCBhXX",
     "multicolumn_MAed87",
     "testimonials_grid_3byDha",
