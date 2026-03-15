@@ -1,0 +1,967 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "ff03a7f7-70a4-4aa2-8e65-56be8e7dbefc": {
+      "type": "breadcrumbs",
+      "disabled": true,
+      "settings": {
+        "color_scheme": "default",
+        "container_size": "large",
+        "section_spacing_top": 16,
+        "section_spacing_bottom": 0,
+        "show_breadcrumbs_product_title": true
+      }
+    },
+    "main": {
+      "type": "product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h2"
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "price_size": "sm",
+            "show_tax_status": false,
+            "show_sale_amount_badge": true,
+            "highlight_sale_price": true
+          }
+        },
+        "28586830-d855-4547-8946-94914bac9e85": {
+          "type": "description",
+          "settings": {
+            "title": "",
+            "block_style": "static",
+            "icon": "none"
+          }
+        },
+        "d3d427d0-4e7d-4f81-9057-c64f65a4f183": {
+          "type": "variant_picker",
+          "disabled": true,
+          "settings": {
+            "option_type": "button-outline",
+            "primary_swatch_option_type": "button-outline",
+            "secondary_swatch_option_type": "swatches",
+            "show_currency_code": true,
+            "show_compare_at_price": false,
+            "option_name": "",
+            "information_drawer_button_label": "",
+            "text": "",
+            "page": "",
+            "image_width": 60
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "disabled": true,
+          "settings": {}
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "enable_pickup_availability": false,
+            "enable_gift_card": false
+          }
+        },
+        "c9188b10-e29c-4c63-b385-a3faa860d64a": {
+          "type": "information_tag",
+          "settings": {
+            "tag_style": "none",
+            "heading": "Digital PDF book emailed after purchase",
+            "body": "",
+            "content_alignment": "left",
+            "icon": "email-outline",
+            "icon_position": "inline",
+            "tag_background_color": "#ffffff",
+            "tag_text_color": "#344454",
+            "enable_drawer": false,
+            "drawer_text": "<p>Tell more about your product, add care instructions, country of origin, or manufacturer information.</p>",
+            "drawer_page": "",
+            "drawer_media_size": 60
+          }
+        },
+        "4eeca04a-4423-41c9-a374-7a9d970a3d59": {
+          "type": "information_tag",
+          "disabled": true,
+          "settings": {
+            "tag_style": "solid",
+            "heading": "",
+            "body": "",
+            "content_alignment": "left",
+            "icon": "fast-delivery",
+            "icon_position": "inline",
+            "tag_background_color": "#ffffff",
+            "tag_text_color": "#344454",
+            "enable_drawer": false,
+            "drawer_text": "<p>Tell more about your product, add care instructions, country of origin, or manufacturer information.</p>",
+            "drawer_page": "",
+            "drawer_media_size": 60
+          }
+        },
+        "a1297489-7eee-44d2-9252-af8ab78ecef1": {
+          "type": "information_tag",
+          "settings": {
+            "tag_style": "none",
+            "heading": "The theoretical foundation of the Persuasive Patterns card deck",
+            "body": "",
+            "content_alignment": "left",
+            "icon": "checkmark",
+            "icon_position": "inline",
+            "tag_background_color": "#ffffff",
+            "tag_text_color": "#344454",
+            "enable_drawer": false,
+            "drawer_text": "<p>Tell more about your product, add care instructions, country of origin, or manufacturer information.</p>",
+            "drawer_page": "",
+            "drawer_media_size": 60
+          }
+        },
+        "information_tag_ijWJEt": {
+          "type": "information_tag",
+          "settings": {
+            "tag_style": "none",
+            "heading": "Practical frameworks used by leading behavioral designers that you can use to apply persuasive design to your product",
+            "body": "",
+            "content_alignment": "left",
+            "icon": "checkmark",
+            "icon_position": "inline",
+            "tag_background_color": "#ffffff",
+            "tag_text_color": "#344454",
+            "enable_drawer": false,
+            "drawer_text": "<p>Tell more about your product, add care instructions, country of origin, or manufacturer information.</p>",
+            "drawer_page": "",
+            "drawer_media_size": 60
+          }
+        },
+        "information_tag_WAaFCX": {
+          "type": "information_tag",
+          "settings": {
+            "tag_style": "none",
+            "heading": "In-depth exploration of each persuasive pattern, including practical tips on application and suggestions for pairing with other patterns.",
+            "body": "",
+            "content_alignment": "left",
+            "icon": "checkmark",
+            "icon_position": "inline",
+            "tag_background_color": "#ffffff",
+            "tag_text_color": "#344454",
+            "enable_drawer": false,
+            "drawer_text": "<p>Tell more about your product, add care instructions, country of origin, or manufacturer information.</p>",
+            "drawer_page": "",
+            "drawer_media_size": 60
+          }
+        },
+        "6d6606d5-ae7e-4306-b3d7-67030f2e4136": {
+          "type": "related_products",
+          "settings": {
+            "color_scheme": "primary",
+            "show_background": false,
+            "show_in_quick_view": false,
+            "block_layout": "grid-with-horizontal-cards",
+            "img_ratio": "inherited",
+            "title": "Goes well with",
+            "heading_size": "h7",
+            "alignment": "left",
+            "product_recommendations_type": "manually",
+            "featured_collection": "",
+            "featured_products": [
+              "persuasive-patterns-conversions-decisions",
+              "the-persuasive-patterns-workshop-playbook-pdf-book"
+            ],
+            "products_to_show": 10,
+            "show_navigation_on_hover": true,
+            "autoplay_mode": "disabled",
+            "autoplay_interval": 3
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "price",
+        "28586830-d855-4547-8946-94914bac9e85",
+        "d3d427d0-4e7d-4f81-9057-c64f65a4f183",
+        "quantity_selector",
+        "buy_buttons",
+        "c9188b10-e29c-4c63-b385-a3faa860d64a",
+        "4eeca04a-4423-41c9-a374-7a9d970a3d59",
+        "a1297489-7eee-44d2-9252-af8ab78ecef1",
+        "information_tag_ijWJEt",
+        "information_tag_WAaFCX",
+        "6d6606d5-ae7e-4306-b3d7-67030f2e4136"
+      ],
+      "settings": {
+        "color_scheme": "default",
+        "container_size": "medium",
+        "section_spacing_top": 32,
+        "section_spacing_bottom": 90,
+        "layout": "thumbnails-bottom",
+        "desktop_space_between_media": 4,
+        "thumbnails_size": 88,
+        "mobile_layout": "thumbnails-right",
+        "img_ratio": "square",
+        "show_only_selected_variants": false,
+        "enable_image_zoom": true,
+        "enable_video_looping": true,
+        "enable_video_autoplay": true,
+        "scale_video": true
+      }
+    },
+    "rich_text_pJmR3A": {
+      "type": "rich-text",
+      "blocks": {
+        "icon_pHqgJW": {
+          "type": "icon",
+          "settings": {
+            "icon": "none",
+            "icon_size": 48
+          }
+        },
+        "caption_8BTM7C": {
+          "type": "caption",
+          "settings": {
+            "caption": "Learn Product Psychology"
+          }
+        },
+        "heading_WDqy4m": {
+          "type": "heading",
+          "settings": {
+            "title": "<strong>Design products people choose</strong>",
+            "heading_size": "h0"
+          }
+        },
+        "text_HcQjVd": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Learn how to apply product psychology to <strong>increase conversions, shape better user decisions</strong>, and design with more confidence.</p>",
+            "text_2": "<p>This book breaks down the cognitive biases, psychological effects, and persuasive techniques that <strong>influence how people choose, click, buy, subscribe, and act</strong>. </p><p></p>",
+            "text_3": "<p>This is a <strong>practical guide</strong> for product designers who want to move beyond intuition and use psychology-informed design in a structured, ethical way.</p>",
+            "body_size": "body3"
+          }
+        },
+        "buttons_VMpyVz": {
+          "type": "buttons",
+          "settings": {
+            "btn_text": "",
+            "btn_url": "",
+            "btn_style": "link",
+            "extra_btn_text": "",
+            "extra_btn_url": "",
+            "extra_btn_style": "solid"
+          }
+        }
+      },
+      "block_order": [
+        "icon_pHqgJW",
+        "caption_8BTM7C",
+        "heading_WDqy4m",
+        "text_HcQjVd",
+        "buttons_VMpyVz"
+      ],
+      "name": "Design Products People Choose",
+      "settings": {
+        "color_scheme": "custom-3",
+        "enable_background_around_container": true,
+        "container_size": "xsmall",
+        "section_spacing_top": 0,
+        "section_spacing_bottom": 0,
+        "content_align": "center"
+      }
+    },
+    "e9a610fc-df4d-4a04-ac16-4f00035ff7b4": {
+      "type": "instagram",
+      "blocks": {
+        "template--20887063330850__e9a610fc-df4d-4a04-ac16-4f00035ff7b4-post-2": {
+          "type": "post",
+          "settings": {
+            "image": "shopify://shop_images/ethical-dimension-spread.png",
+            "link": "",
+            "icon": "none"
+          }
+        }
+      },
+      "block_order": [
+        "template--20887063330850__e9a610fc-df4d-4a04-ac16-4f00035ff7b4-post-2"
+      ],
+      "settings": {
+        "color_scheme": "custom-3",
+        "container_size": "xsmall",
+        "section_spacing_top": 48,
+        "section_spacing_bottom": 48,
+        "desktop_layout": "grid",
+        "mobile_layout": "one-column",
+        "title": "See what’s inside",
+        "text": "Instant access. PDF format.",
+        "heading_size": "h2",
+        "body_size": "body2",
+        "content_alignment": "center",
+        "img_ratio": 0.8,
+        "desktop_columns": 1,
+        "desktop_space_between_cards": 16,
+        "mobile_space_between_cards": 16,
+        "show_arrows_on_hover": true,
+        "btn_text": "",
+        "btn_url": "",
+        "btn_style": "outline",
+        "autoplay_mode": "disabled",
+        "autoplay_interval": 3
+      }
+    },
+    "b45a2952-cb96-4679-a8dc-d0d9045bd086": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--20887063330850__b45a2952-cb96-4679-a8dc-d0d9045bd086-column_with_icon-1": {
+          "type": "column_with_icon",
+          "settings": {
+            "icon": "none",
+            "icon_size": 20,
+            "title": "",
+            "text": "<p><strong>Foundational theoretical </strong>knowledge about the core principles of design psychology from rhetorics to behavioral economics.</p>",
+            "link_text": "",
+            "link_url": ""
+          }
+        },
+        "template--20887063330850__b45a2952-cb96-4679-a8dc-d0d9045bd086-column_with_icon-2": {
+          "type": "column_with_icon",
+          "settings": {
+            "icon": "none",
+            "icon_size": 64,
+            "title": "",
+            "text": "<p>Tools for <strong>behavioral diagnosis</strong> to understand user behavior and identify barriers and enabling factors influencing user engagement and satisfaction.</p>",
+            "link_text": "",
+            "link_url": ""
+          }
+        },
+        "template--20887063330850__b45a2952-cb96-4679-a8dc-d0d9045bd086-column_with_icon-3": {
+          "type": "column_with_icon",
+          "settings": {
+            "icon": "none",
+            "icon_size": 64,
+            "title": "",
+            "text": "<p><strong>Practical frameworks and strategies</strong> to help you design with a behavioral lens.</p>",
+            "link_text": "",
+            "link_url": ""
+          }
+        },
+        "c9834d57-cd0f-44b5-8d74-149c1c1fed3b": {
+          "type": "column_with_icon",
+          "settings": {
+            "icon": "none",
+            "icon_size": 64,
+            "title": "",
+            "text": "<p><strong>Practical tips that will spark creative solutions</strong> informed by psychology.</p>",
+            "link_text": "",
+            "link_url": ""
+          }
+        },
+        "5af1eed3-4968-4871-a614-4ac216d5208b": {
+          "type": "column_with_icon",
+          "settings": {
+            "icon": "none",
+            "icon_size": 64,
+            "title": "",
+            "text": "<p>Each <strong>Conversion & Decision  </strong>pattern unfolded in detail with theoretical underpinnings and practical tips for getting their implementaiton right.</p>",
+            "link_text": "",
+            "link_url": ""
+          }
+        },
+        "86cd76cb-24b9-49bc-8ff0-8d85e951d94b": {
+          "type": "column_with_icon",
+          "settings": {
+            "icon": "none",
+            "icon_size": 64,
+            "title": "",
+            "text": "<p>An undestanding of not just what users say or do, but <strong>what blocks- or enables users </strong>from reaching their goals.</p>",
+            "link_text": "",
+            "link_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--20887063330850__b45a2952-cb96-4679-a8dc-d0d9045bd086-column_with_icon-1",
+        "template--20887063330850__b45a2952-cb96-4679-a8dc-d0d9045bd086-column_with_icon-2",
+        "template--20887063330850__b45a2952-cb96-4679-a8dc-d0d9045bd086-column_with_icon-3",
+        "c9834d57-cd0f-44b5-8d74-149c1c1fed3b",
+        "5af1eed3-4968-4871-a614-4ac216d5208b",
+        "86cd76cb-24b9-49bc-8ff0-8d85e951d94b"
+      ],
+      "settings": {
+        "color_scheme": "custom-3",
+        "container_size": "large",
+        "section_spacing_top": 6,
+        "section_spacing_bottom": 35,
+        "desktop_layout": "grid",
+        "mobile_layout": "one-column-grid",
+        "title": "Inside these pages you will uncover:",
+        "text": "",
+        "heading_size": "h5",
+        "body_size": "body3",
+        "content_alignment": "center",
+        "column_heading_size": "h7",
+        "column_body_size": "body2",
+        "column_alignment": "center",
+        "desktop_columns": 2,
+        "desktop_space_between_cards": 9,
+        "desktop_content_spacing": 11,
+        "mobile_space_between_cards": 7,
+        "mobile_content_spacing": 12,
+        "show_column_background": true,
+        "show_navigation_on_hover": false,
+        "btn_text": "",
+        "btn_url": "",
+        "btn_style": "outline",
+        "autoplay_mode": "disabled",
+        "autoplay_interval": 3
+      }
+    },
+    "dde7c692-d8b4-4a40-9d3a-c048f605740f": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--15386400456738__dde7c692-d8b4-4a40-9d3a-c048f605740f-column_with_icon-1": {
+          "type": "column_with_icon",
+          "settings": {
+            "icon": "none",
+            "icon_size": 64,
+            "title": "Solve problems with psychology",
+            "text": "<p>You tweak button labels.<br/>You test layouts.</p><p>You adjust pricing pages, <br/>onboarding flows, <br/>and calls to action.</p><p>But without understanding the psychology behind user decisions, it is easy to make surface-level changes that do not move the metric that matters.</p>",
+            "link_text": "",
+            "link_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15386400456738__dde7c692-d8b4-4a40-9d3a-c048f605740f-column_with_icon-1"
+      ],
+      "settings": {
+        "color_scheme": "default",
+        "container_size": "medium",
+        "section_spacing_top": 90,
+        "section_spacing_bottom": 0,
+        "desktop_layout": "grid",
+        "mobile_layout": "one-column-grid",
+        "title": "Most conversion work stops at guesswork",
+        "text": "Improve conversions by understanding how users actually make decisions.",
+        "heading_size": "h1",
+        "body_size": "body2",
+        "content_alignment": "center",
+        "column_heading_size": "h5",
+        "column_body_size": "body2",
+        "column_alignment": "center",
+        "desktop_columns": 1,
+        "desktop_space_between_cards": 0,
+        "desktop_content_spacing": 0,
+        "mobile_space_between_cards": 16,
+        "mobile_content_spacing": 24,
+        "show_column_background": false,
+        "show_navigation_on_hover": true,
+        "btn_text": "",
+        "btn_url": "",
+        "btn_style": "outline",
+        "autoplay_mode": "disabled",
+        "autoplay_interval": 3
+      }
+    },
+    "multicolumn_jJeRJz": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_with_icon_byhYEV": {
+          "type": "column_with_icon",
+          "settings": {
+            "icon": "none",
+            "icon_size": 64,
+            "title": "",
+            "text": "<p>If you have ever asked:</p><ul><li>Why do users hesitate right before converting?</li><li>Why do some offers feel more compelling than others?</li><li>Why do users ignore obvious next steps?</li><li>Why do small changes in framing, defaults, order, or social proof change behavior so much?</li></ul>",
+            "link_text": "",
+            "link_url": ""
+          }
+        },
+        "column_with_icon_K88pdy": {
+          "type": "column_with_icon",
+          "settings": {
+            "icon": "none",
+            "icon_size": 64,
+            "title": "",
+            "text": "<p>This book helps answer those questions with practical psychological principles you can apply to real product decisions.</p><p>The book is explicitly focused on how design influences user choices, reduces friction, and improves conversion-related outcomes.</p>",
+            "link_text": "",
+            "link_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_with_icon_byhYEV",
+        "column_with_icon_K88pdy"
+      ],
+      "settings": {
+        "color_scheme": "default",
+        "container_size": "medium",
+        "section_spacing_top": 0,
+        "section_spacing_bottom": 90,
+        "desktop_layout": "grid",
+        "mobile_layout": "one-column-grid",
+        "title": "",
+        "text": "",
+        "heading_size": "h1",
+        "body_size": "body2",
+        "content_alignment": "center",
+        "column_heading_size": "h5",
+        "column_body_size": "body2",
+        "column_alignment": "left",
+        "desktop_columns": 2,
+        "desktop_space_between_cards": 0,
+        "desktop_content_spacing": 0,
+        "mobile_space_between_cards": 16,
+        "mobile_content_spacing": 24,
+        "show_column_background": false,
+        "show_navigation_on_hover": true,
+        "btn_text": "",
+        "btn_url": "",
+        "btn_style": "outline",
+        "autoplay_mode": "disabled",
+        "autoplay_interval": 3
+      }
+    },
+    "multicolumn_ymwWGd": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_with_icon_yGtUPH": {
+          "type": "column_with_icon",
+          "settings": {
+            "icon": "none",
+            "icon_size": 64,
+            "title": "",
+            "text": "<p>This book is a working guide for using psychology in product design so you can:</p><ul><li>understand what drives user decisions</li><li>apply persuasive patterns to real flows and interfaces</li><li>improve engagement and conversion rates</li><li>stand out in a crowded market</li><li>guide users ethically, without manipulation</li></ul>",
+            "link_text": "",
+            "link_url": ""
+          }
+        },
+        "column_with_icon_KqWybf": {
+          "type": "column_with_icon",
+          "settings": {
+            "icon": "none",
+            "icon_size": 64,
+            "title": "",
+            "text": "<p>The purpose of the book is to bridge psychological theory and design practice, helping you convert insight into actionable strategies that influence decisions in your products.</p>",
+            "link_text": "",
+            "link_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_with_icon_yGtUPH",
+        "column_with_icon_KqWybf"
+      ],
+      "settings": {
+        "color_scheme": "custom-3",
+        "container_size": "medium",
+        "section_spacing_top": 58,
+        "section_spacing_bottom": 90,
+        "desktop_layout": "grid",
+        "mobile_layout": "one-column-grid",
+        "title": "Turn behavioral science into better product decisions",
+        "text": "",
+        "heading_size": "h1",
+        "body_size": "body2",
+        "content_alignment": "center",
+        "column_heading_size": "h5",
+        "column_body_size": "body2",
+        "column_alignment": "left",
+        "desktop_columns": 2,
+        "desktop_space_between_cards": 0,
+        "desktop_content_spacing": 0,
+        "mobile_space_between_cards": 16,
+        "mobile_content_spacing": 24,
+        "show_column_background": false,
+        "show_navigation_on_hover": true,
+        "btn_text": "",
+        "btn_url": "",
+        "btn_style": "outline",
+        "autoplay_mode": "disabled",
+        "autoplay_interval": 3
+      }
+    },
+    "ecafa17c-b35b-4988-935e-8aa7ff542e8b": {
+      "type": "multicolumn",
+      "blocks": {
+        "e21dac96-0ca3-4460-ab4a-667e9251f332": {
+          "type": "column_with_icon",
+          "settings": {
+            "icon": "none",
+            "icon_size": 64,
+            "title": "The psychology behind decisions",
+            "text": "<p>Learn the cognitive biases, psychological effects, and persuasive techniques that shape what users do. </p>",
+            "link_text": "",
+            "link_url": ""
+          }
+        },
+        "221ce008-9748-4bfb-8b59-9ffec86aa9a2": {
+          "type": "column_with_icon",
+          "settings": {
+            "icon": "none",
+            "icon_size": 64,
+            "title": "Product Psychology",
+            "text": "<p>See how to use these ideas in practice through examples, pattern breakdowns, and implementation guidance. </p>",
+            "link_text": "",
+            "link_url": ""
+          }
+        },
+        "0da12eeb-32cb-4e5c-8984-b18308372abd": {
+          "type": "column_with_icon",
+          "settings": {
+            "icon": "none",
+            "icon_size": 64,
+            "title": "Design for conversion",
+            "text": "<p>The book is centered on decisions like signing up, purchasing, clicking calls to action, and completing key flows.</p>",
+            "link_text": "",
+            "link_url": ""
+          }
+        },
+        "819c0f7b-3c32-4406-86be-243c631766e3": {
+          "type": "column_with_icon",
+          "settings": {
+            "icon": "none",
+            "icon_size": 64,
+            "title": "From guesswork to make-it-work",
+            "text": "<p>A starter kit for psychology-informed design practice.</p>",
+            "link_text": "",
+            "link_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "e21dac96-0ca3-4460-ab4a-667e9251f332",
+        "221ce008-9748-4bfb-8b59-9ffec86aa9a2",
+        "0da12eeb-32cb-4e5c-8984-b18308372abd",
+        "819c0f7b-3c32-4406-86be-243c631766e3"
+      ],
+      "settings": {
+        "color_scheme": "default",
+        "container_size": "medium",
+        "section_spacing_top": 90,
+        "section_spacing_bottom": 90,
+        "desktop_layout": "grid",
+        "mobile_layout": "one-column-grid",
+        "title": "What you will learn inside Conversions & Decisions",
+        "text": "",
+        "heading_size": "h2",
+        "body_size": "body2",
+        "content_alignment": "center",
+        "column_heading_size": "h5",
+        "column_body_size": "body2",
+        "column_alignment": "center",
+        "desktop_columns": 2,
+        "desktop_space_between_cards": 0,
+        "desktop_content_spacing": 0,
+        "mobile_space_between_cards": 16,
+        "mobile_content_spacing": 24,
+        "show_column_background": false,
+        "show_navigation_on_hover": true,
+        "btn_text": "",
+        "btn_url": "",
+        "btn_style": "outline",
+        "autoplay_mode": "disabled",
+        "autoplay_interval": 3
+      }
+    },
+    "multicolumn_JPmMnR": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_with_icon_CEhdAD": {
+          "type": "column_with_icon",
+          "settings": {
+            "icon": "none",
+            "icon_size": 64,
+            "title": "This book is for people who design decisions into products:",
+            "text": "<p>Product designers<br/>UX designers<br/>UI designers<br/>Product managers<br/>Growth designers<br/>Founders building conversion-focused products<br/>Teams using the Persuasive Patterns card deck and wanting deeper guidance</p><p></p><p>The book is written as a companion to the card deck while also helping designers integrate psychological principles into existing UX tools and workflows. </p>",
+            "link_text": "",
+            "link_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_with_icon_CEhdAD"
+      ],
+      "settings": {
+        "color_scheme": "custom-3",
+        "container_size": "medium",
+        "section_spacing_top": 58,
+        "section_spacing_bottom": 60,
+        "desktop_layout": "grid",
+        "mobile_layout": "one-column-grid",
+        "title": "Who this is for",
+        "text": "",
+        "heading_size": "h2",
+        "body_size": "body2",
+        "content_alignment": "center",
+        "column_heading_size": "h5",
+        "column_body_size": "body2",
+        "column_alignment": "center",
+        "desktop_columns": 1,
+        "desktop_space_between_cards": 0,
+        "desktop_content_spacing": 0,
+        "mobile_space_between_cards": 16,
+        "mobile_content_spacing": 24,
+        "show_column_background": false,
+        "show_navigation_on_hover": true,
+        "btn_text": "",
+        "btn_url": "",
+        "btn_style": "outline",
+        "autoplay_mode": "disabled",
+        "autoplay_interval": 3
+      }
+    },
+    "multicolumn_pPekeA": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_with_icon_ANRezM": {
+          "type": "column_with_icon",
+          "settings": {
+            "icon": "none",
+            "icon_size": 64,
+            "title": "This book is for you even if…",
+            "text": "",
+            "link_text": "",
+            "link_url": ""
+          }
+        },
+        "column_with_icon_KnJaeb": {
+          "type": "column_with_icon",
+          "settings": {
+            "icon": "none",
+            "icon_size": 64,
+            "title": "",
+            "text": "<p><strong>“I already know UX.”</strong><br/>This book is designed to build on the UX tools and frameworks you already use, not replace them.</p><p><strong>“I do not want manipulative tactics.”</strong><br/>Good. The book helps you apply these principles ethically with full transparency, and respect for user autonomy.</p><p><strong>“I need practical guidance, not theory alone.”</strong><br/>The book is practical from the start: actionable steps, examples, best practices, and implementation guidance. </p><p><strong>“I want measurable impact.”</strong><br/>The book connects psychological principles with improved engagement, conversion rates, and business performance.</p>",
+            "link_text": "",
+            "link_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_with_icon_ANRezM",
+        "column_with_icon_KnJaeb"
+      ],
+      "settings": {
+        "color_scheme": "default",
+        "container_size": "medium",
+        "section_spacing_top": 57,
+        "section_spacing_bottom": 59,
+        "desktop_layout": "grid",
+        "mobile_layout": "one-column-grid",
+        "title": "",
+        "text": "",
+        "heading_size": "h2",
+        "body_size": "body2",
+        "content_alignment": "center",
+        "column_heading_size": "h5",
+        "column_body_size": "body3",
+        "column_alignment": "left",
+        "desktop_columns": 2,
+        "desktop_space_between_cards": 0,
+        "desktop_content_spacing": 0,
+        "mobile_space_between_cards": 16,
+        "mobile_content_spacing": 24,
+        "show_column_background": false,
+        "show_navigation_on_hover": true,
+        "btn_text": "",
+        "btn_url": "",
+        "btn_style": "outline",
+        "autoplay_mode": "disabled",
+        "autoplay_interval": 3
+      }
+    },
+    "b211c279-71dd-44ae-b816-3d6f3d551fac": {
+      "type": "faq",
+      "blocks": {
+        "template--15386400456738__b211c279-71dd-44ae-b816-3d6f3d551fac-question-2": {
+          "type": "question",
+          "settings": {
+            "title": "Do you do discounts for educational institutions, students, or non profits?",
+            "icon": "none",
+            "text": "<p>We do! Get in touch at <a href=\"mailto:info@ui-patterns.com\">info@learningloop.io</a> with your credentials (non-profit status or student ID) and we will arrange a discount for you.</p>",
+            "page": "",
+            "image_width": 100
+          }
+        },
+        "f8ac65b5-fb9d-403b-afe7-b5bb1d280a63": {
+          "type": "question",
+          "settings": {
+            "title": "Who is this book for?",
+            "icon": "none",
+            "text": "<p>This book is intended for product designers, product managers, founders, and anyone interested in applying behavioral design to create impactful user experiences.</p>",
+            "page": "",
+            "image_width": 100
+          }
+        },
+        "question_Rw4Ux3": {
+          "type": "question",
+          "settings": {
+            "title": "What is this book about?",
+            "icon": "none",
+            "text": "<p>It is a guide to applying cognitive biases, psychological effects, and persuasive techniques to product design, with a focus on conversions and decisions.</p>",
+            "page": "",
+            "image_width": 100
+          }
+        },
+        "question_cUgAzR": {
+          "type": "question",
+          "settings": {
+            "title": "Does it work with the Persuasive Patterns card deck?",
+            "icon": "none",
+            "text": "<p>Yes. The book is described as a deeper companion to the deck.</p>",
+            "page": "",
+            "image_width": 100
+          }
+        },
+        "e894c4ce-c535-4c63-bd7b-7cd72862261e": {
+          "type": "question",
+          "settings": {
+            "title": "Is this book suitable for beginners?",
+            "icon": "none",
+            "text": "<p>Yes – that too. It is designed to guide designers and product people at all levels craft compelling and effective user experiences.</p>",
+            "page": "",
+            "image_width": 100
+          }
+        },
+        "8427391b-c706-4556-aa68-28bc1cc13edc": {
+          "type": "question",
+          "settings": {
+            "title": "Do I need the Persuasive Patterns card deck to use this book?",
+            "icon": "none",
+            "text": "<p>While the book stands alone as a valuable resource, having the card deck will enhance your experience as you apply the principles with your team.</p>",
+            "page": "",
+            "image_width": 100
+          }
+        },
+        "bdf6c27b-c691-4825-b828-2c4f508f0f86": {
+          "type": "question",
+          "settings": {
+            "title": "How will this book help me in my role?",
+            "icon": "none",
+            "text": "<p>This book will enhance your knowledge about product psychology and provide you with a range of theoretical and practical frameworks for applying it to your product.</p>",
+            "page": "",
+            "image_width": 100
+          }
+        },
+        "question_jJUCmh": {
+          "type": "question",
+          "settings": {
+            "title": "The book is in its BETA phase. What does that mean?",
+            "icon": "none",
+            "text": "<p>The current version of the book is a draft version of the forthcoming final publication. As a work in progress, this draft may contain inaccuracies, incomplete information, or flawed explanations. Readers are advised to use this version with the understanding that revisions and updates will follow.</p><p>Your feedback is crucial to refining and enhancing the content of this book. Should you have any comments, suggestions, or find any errors, please report them to anders@learningloop.io. We greatly appreciate your contributions and<br/>insights, which play a vital role in the development process of this publication.</p>",
+            "page": "",
+            "image_width": 100
+          }
+        },
+        "template--15386400456738__b211c279-71dd-44ae-b816-3d6f3d551fac-question-3": {
+          "type": "question",
+          "settings": {
+            "title": "When and how do I receive my digital book?",
+            "icon": "none",
+            "text": "<p>The digital PDF book is emailed to you immediately after your checkout. If it does not show up, then please check your spam folder.</p><p>You can also download the book by logging into your account. If you forgot your password, you can set a new one by using the email address you bought the card deck with.</p>",
+            "page": "",
+            "image_width": 100
+          }
+        },
+        "81c52cd1-d4dc-46c1-bdc6-c19bed22766b": {
+          "type": "question",
+          "settings": {
+            "title": "What format will my digital copy be in?",
+            "icon": "none",
+            "text": "<p>The digital copy of the book is a PDF book.</p>",
+            "page": "",
+            "image_width": 100
+          }
+        },
+        "3a377a13-d071-41bf-aea2-689ec6378cf1": {
+          "type": "question",
+          "settings": {
+            "title": "Can you send an invoice?",
+            "icon": "none",
+            "text": "<p>Of course. We will automatically email you an invoice after making a purchase. Watch your spam folder as the PDF file attached have a tendency to get stuck there.</p>",
+            "page": "",
+            "image_width": 100
+          }
+        }
+      },
+      "block_order": [
+        "template--15386400456738__b211c279-71dd-44ae-b816-3d6f3d551fac-question-2",
+        "f8ac65b5-fb9d-403b-afe7-b5bb1d280a63",
+        "question_Rw4Ux3",
+        "question_cUgAzR",
+        "e894c4ce-c535-4c63-bd7b-7cd72862261e",
+        "8427391b-c706-4556-aa68-28bc1cc13edc",
+        "bdf6c27b-c691-4825-b828-2c4f508f0f86",
+        "question_jJUCmh",
+        "template--15386400456738__b211c279-71dd-44ae-b816-3d6f3d551fac-question-3",
+        "81c52cd1-d4dc-46c1-bdc6-c19bed22766b",
+        "3a377a13-d071-41bf-aea2-689ec6378cf1"
+      ],
+      "settings": {
+        "color_scheme": "custom-3",
+        "enable_background_around_container": false,
+        "color_tabs": "none",
+        "container_size": "medium",
+        "section_spacing_top": 52,
+        "section_spacing_bottom": 80,
+        "section_layout": "bottom-tabs",
+        "expand_first_tab": true,
+        "title": "Frequently Asked Questions",
+        "text": "",
+        "heading_size": "h5",
+        "body_size": "body3",
+        "btn_text": "",
+        "btn_url": "",
+        "btn_style": "solid"
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "color_scheme": "default",
+        "container_size": "medium",
+        "section_spacing_top": 48,
+        "section_spacing_bottom": 48,
+        "desktop_layout": "carousel",
+        "mobile_layout": "carousel",
+        "title": "You may also like",
+        "heading_size": "h4",
+        "alignment": "center",
+        "product_recommendations_type": "auto",
+        "featured_collection": "",
+        "featured_products": [],
+        "img_ratio": "square",
+        "product_card_align": "center",
+        "cards_to_show": 18,
+        "desktop_columns": 3,
+        "desktop_space_between_cards": 20,
+        "mobile_space_between_cards": 20,
+        "show_navigation_on_hover": true,
+        "autoplay_mode": "disabled",
+        "autoplay_interval": 3
+      }
+    }
+  },
+  "order": [
+    "ff03a7f7-70a4-4aa2-8e65-56be8e7dbefc",
+    "main",
+    "rich_text_pJmR3A",
+    "e9a610fc-df4d-4a04-ac16-4f00035ff7b4",
+    "b45a2952-cb96-4679-a8dc-d0d9045bd086",
+    "dde7c692-d8b4-4a40-9d3a-c048f605740f",
+    "multicolumn_jJeRJz",
+    "multicolumn_ymwWGd",
+    "ecafa17c-b35b-4988-935e-8aa7ff542e8b",
+    "multicolumn_JPmMnR",
+    "multicolumn_pPekeA",
+    "b211c279-71dd-44ae-b816-3d6f3d551fac",
+    "product-recommendations"
+  ]
+}
