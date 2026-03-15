@@ -269,7 +269,7 @@
         "desktop_content_background": "none",
         "mobile_content_background": "none",
         "btn_text": "",
-        "btn_url": "",
+        "btn_url": "shopify://products/business-model-patterns",
         "btn_style": "solid",
         "extra_btn_text": "",
         "extra_btn_url": "",
