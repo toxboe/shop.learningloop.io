@@ -216,7 +216,7 @@
       "name": "Just launched!",
       "settings": {
         "color_scheme": "custom-3",
-        "container_size": "large",
+        "container_size": "medium",
         "section_spacing_top": 48,
         "section_spacing_bottom": 48,
         "content_position": "left",
@@ -231,7 +231,7 @@
         "link_url": "shopify://products/psychology-of-pricing-book",
         "img_ratio": "default",
         "product_card_align": "left",
-        "cards_to_show": 2,
+        "cards_to_show": 3,
         "desktop_columns": 3,
         "desktop_space_between_cards": 16,
         "mobile_space_between_cards": 16,
