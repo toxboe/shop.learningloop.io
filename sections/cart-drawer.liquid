@@ -118,9 +118,9 @@
                                       data-carousel-container
                                     >
                                       {%- for recommendation in recommendations.products -%}
-                                        {%- comment %}<locksmith:6234>{% endcomment -%}
+                                        {%- comment %}<locksmith:b943>{% endcomment -%}
                                           {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: recommendation, subject_parent: recommendations, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% else %}{% continue %}{% endif -%}
-                                        {%- comment %}</locksmith:6234>{% endcomment -%}
+                                        {%- comment %}</locksmith:b943>{% endcomment -%}
                                         <div class='card-carousel__slide cart-drawer__on-side-related-products-slide'>
                                           {% render 'vertical-product-card',
                                             product: recommendation,
@@ -183,9 +183,9 @@
                                     data-carousel-container
                                   >
                                     {%- for product in manually_recommendation_products -%}
-                                      {%- comment %}<locksmith:2135>{% endcomment -%}
+                                      {%- comment %}<locksmith:e0c2>{% endcomment -%}
                                         {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: product, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% else %}{% continue %}{% endif -%}
-                                      {%- comment %}</locksmith:2135>{% endcomment -%}
+                                      {%- comment %}</locksmith:e0c2>{% endcomment -%}
                                       <div class='card-carousel__slide cart-drawer__on-side-related-products-slide'>
                                         {% render 'vertical-product-card',
                                           product: product,
@@ -340,9 +340,9 @@
                                           >
                                             <div class='card-carousel__container' data-carousel-container>
                                               {%- for product in recommendations.products -%}
-                                                {%- comment %}<locksmith:367b>{% endcomment -%}
+                                                {%- comment %}<locksmith:0a6d>{% endcomment -%}
                                                   {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: product, subject_parent: recommendations, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% else %}{% continue %}{% endif -%}
-                                                {%- comment %}</locksmith:367b>{% endcomment -%}
+                                                {%- comment %}</locksmith:0a6d>{% endcomment -%}
                                                 {% if block.settings.in_cart_related_layout
                                                     == 'carousel-with-vertical-cards'
                                                 %}
@@ -396,9 +396,9 @@
                                         {% if block.settings.in_cart_related_layout contains 'vertical' %}
                                           <div class='cart-drawer-products-block__grid  cart-drawer-products-block__grid--vertical'>
                                             {% for recommendation in recommendations.products %}
-                                              {%- comment %}<locksmith:be46>{% endcomment -%}
+                                              {%- comment %}<locksmith:35c3>{% endcomment -%}
                                                 {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: recommendation, subject_parent: recommendations, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% else %}{% continue %}{% endif -%}
-                                              {%- comment %}</locksmith:be46>{% endcomment -%}
+                                              {%- comment %}</locksmith:35c3>{% endcomment -%}
                                               {% render 'vertical-product-card',
                                                 product: recommendation,
                                                 img_ratio: img_ratio,
@@ -409,9 +409,9 @@
                                         {% else %}
                                           <div class='cart-drawer-products-block__grid cart-drawer-products-block__grid--horizontal'>
                                             {% for recommendation in recommendations.products %}
-                                              {%- comment %}<locksmith:3ccc>{% endcomment -%}
+                                              {%- comment %}<locksmith:aaec>{% endcomment -%}
                                                 {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: recommendation, subject_parent: recommendations, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% else %}{% continue %}{% endif -%}
-                                              {%- comment %}</locksmith:3ccc>{% endcomment -%}
+                                              {%- comment %}</locksmith:aaec>{% endcomment -%}
                                               {% render 'horizontal-product-card',
                                                 product: recommendation,
                                                 img_ratio: img_ratio,
@@ -554,6 +554,9 @@
                                           {% for product in manually_recommendation_products
                                             limit: block.settings.cards_to_show
                                           %}
+                                            {%- comment %}<locksmith:4d56>{% endcomment -%}
+                                              {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: product, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% else %}{% continue %}{% endif -%}
+                                            {%- comment %}</locksmith:4d56>{% endcomment -%}
                                             {% render 'vertical-product-card',
                                               product: product,
                                               img_ratio: img_ratio,
@@ -566,6 +569,9 @@
                                           {% for product in manually_recommendation_products
                                             limit: block.settings.cards_to_show
                                           %}
+                                            {%- comment %}<locksmith:a4ee>{% endcomment -%}
+                                              {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: product, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% else %}{% continue %}{% endif -%}
+                                            {%- comment %}</locksmith:a4ee>{% endcomment -%}
                                             {% render 'horizontal-product-card',
                                               product: product,
                                               img_ratio: img_ratio,
@@ -661,9 +667,9 @@
                                           >
                                             <div class='card-carousel__container' data-carousel-container>
                                               {%- for product in recommendations.products -%}
-                                                {%- comment %}<locksmith:0ff1>{% endcomment -%}
+                                                {%- comment %}<locksmith:e97c>{% endcomment -%}
                                                   {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: product, subject_parent: recommendations, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% else %}{% continue %}{% endif -%}
-                                                {%- comment %}</locksmith:0ff1>{% endcomment -%}
+                                                {%- comment %}</locksmith:e97c>{% endcomment -%}
                                                 {% if block.settings.in_cart_related_layout
                                                     == 'carousel-with-vertical-cards'
                                                 %}
@@ -717,9 +723,9 @@
                                         {% if block.settings.in_cart_related_layout contains 'vertical' %}
                                           <div class='cart-drawer-products-block__grid  cart-drawer-products-block__grid--vertical'>
                                             {% for recommendation in recommendations.products %}
-                                              {%- comment %}<locksmith:ad9c>{% endcomment -%}
+                                              {%- comment %}<locksmith:8519>{% endcomment -%}
                                                 {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: recommendation, subject_parent: recommendations, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% else %}{% continue %}{% endif -%}
-                                              {%- comment %}</locksmith:ad9c>{% endcomment -%}
+                                              {%- comment %}</locksmith:8519>{% endcomment -%}
                                               {% render 'vertical-product-card',
                                                 product: recommendation,
                                                 img_ratio: img_ratio,
@@ -730,9 +736,9 @@
                                         {% else %}
                                           <div class='cart-drawer-products-block__grid cart-drawer-products-block__grid--horizontal'>
                                             {% for recommendation in recommendations.products %}
-                                              {%- comment %}<locksmith:0843>{% endcomment -%}
+                                              {%- comment %}<locksmith:eaea>{% endcomment -%}
                                                 {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: recommendation, subject_parent: recommendations, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% else %}{% continue %}{% endif -%}
-                                              {%- comment %}</locksmith:0843>{% endcomment -%}
+                                              {%- comment %}</locksmith:eaea>{% endcomment -%}
                                               {% render 'horizontal-product-card',
                                                 product: recommendation,
                                                 img_ratio: img_ratio,
@@ -875,6 +881,9 @@
                                           {% for product in manually_recommendation_products
                                             limit: block.settings.cards_to_show
                                           %}
+                                            {%- comment %}<locksmith:6c56>{% endcomment -%}
+                                              {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: product, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% else %}{% continue %}{% endif -%}
+                                            {%- comment %}</locksmith:6c56>{% endcomment -%}
                                             {% render 'vertical-product-card',
                                               product: product,
                                               img_ratio: img_ratio,
@@ -887,6 +896,9 @@
                                           {% for product in manually_recommendation_products
                                             limit: block.settings.cards_to_show
                                           %}
+                                            {%- comment %}<locksmith:43d3>{% endcomment -%}
+                                              {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: product, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% else %}{% continue %}{% endif -%}
+                                            {%- comment %}</locksmith:43d3>{% endcomment -%}
                                             {% render 'horizontal-product-card',
                                               product: product,
                                               img_ratio: img_ratio,
