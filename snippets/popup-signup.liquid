@@ -241,7 +241,7 @@
             {% endif %}
             {% if with_timer %}
               <div class='popup__timer'>
-                {% render 'timer', timerId: 'popup-' | append block.id, block: block %}
+                {% render 'timer', timerId: 'popup-', block: block %}
               </div>
             {% endif %}
             <input
@@ -363,3 +363,13 @@
     {%- endform -%}
   </template>
 </popup-signup>
+{% comment %}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: "{% render 'timer', timerId: 'popup-' | append block.id, block: block %}"
+  to: "{% render 'timer', timerId: 'popup-', block: block %}"
+  position: 9245..9298
+{% endcomment %}

@@ -190,7 +190,7 @@
           {% endif %}
           {% if with_timer %}
             <div class='popup__timer'>
-              {% render 'timer', timerId: 'popup-' | append block.id, block: block %}
+              {% render 'timer', timerId: 'popup-', block: block %}
             </div>
           {% endif %}
           {% if has_btn %}
@@ -252,3 +252,13 @@
     </div>
   </template>
 </popup-promo>
+{% comment %}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: "{% render 'timer', timerId: 'popup-' | append block.id, block: block %}"
+  to: "{% render 'timer', timerId: 'popup-', block: block %}"
+  position: 7029..7082
+{% endcomment %}
